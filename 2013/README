@@ -1,0 +1,44 @@
+2013 Taxes
+
+Step 1:
+
+T4 and Releve 1 have to be submitted before February 28th 2014. All payroll accounts were paid in full and on time for 2013. 
+
+T4: 
+----
+Completed  on February 25th 4:20pm 2014 based on 
+* human_resources/payroll/PaySlip/Real_Pay_Sheet2012.ods
+Remitted payments based on 
+* Accounting/GnuCash/2013_firstaccount.gnucash
+
+Result file: 
+* Accounting/2013/T4_2013_submission_5509204.pdf
+
+Website where completed:
+* https://apps.cra-arc.gc.ca/ebci/leb0/webform/prot/wfT4bsSbmt.do
+* http://www.cra-arc.gc.ca/esrvc-srvce/rf/t4-wbfrms/menu-eng.html
+
+Information required:
+* Account number (Business number with the source deductions code) 838993681RP0001
+* WAC (Web access code, called to get a new one but from now on we should be able to use the same one) EH5399
+
+
+Releve 1:
+---------
+
+Completed  on February 25th 5:50pm 2014 based on 
+* human_resources/payroll/PaySlip/Real_Pay_Sheet2012.ods
+Remitted payments based on 
+* Accounting/GnuCash/2013_firstaccount.gnucash
+
+Result file: 
+* 
+
+Website where completed:
+* http://www.revenuquebec.ca/en/sepf/services/scr_releves1/default.aspx
+
+Information required:
+* ClickSecure username (for Employee1 Employee1, see info concatinser)
+
+
+paid total was 12983.71
