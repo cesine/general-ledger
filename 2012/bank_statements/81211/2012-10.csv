@@ -1,4 +1,4 @@
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/10/09,1,Cheque/no 10,"",2069.55,"","","","","",4582.29
-CD ST-HENRI VILLE-EMARD,81216,"EOP",2012/10/26,2,"Depot au GA / GAHS N-D-DE-LA-GARDE","","",3000,"","","","",7582.29
-CD ST-HENRI VILLE-EMARD,81216,"EOP",2012/10/30,3,"Depot au GA /CP PLACE DESJARDINS","","",6610.13,"","","","",14192.42
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/10/31,4,"Frais fixes d'utilisation","",4.95,"","","","","",14187.47
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/10/09,1,Cheque/no 10,"",2069.55,"","","","","",4582.29,ReconstructedFromPDF,Rent:QuoVadis
+CD ST-HENRI VILLE-EMARD,81216,"EOP",2012/10/26,2,"Depot au GA / GAHS N-D-DE-LA-GARDE","","",3000,"","","","",7582.29,ReconstructedFromPDF,Sales:TREMOVED,319
+CD ST-HENRI VILLE-EMARD,81216,"EOP",2012/10/30,3,"Depot au GA /CP PLACE DESJARDINS","","",6610.13,"","","","",14192.42,ReconstructedFromPDF,Sales:WSX,322,6610.13
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/10/31,4,"Frais fixes d'utilisation","",4.95,"","","","","",14187.47,ReconstructedFromPDF

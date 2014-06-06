@@ -1,8 +1,8 @@
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/08/01,1,"Virement - AccesD Internet","",1379.62,"","","","","",1038.86
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/08/01,2,"Virement - AccesD Internet","",“”,500,"","","","",1538.86
-CD ST-HENRI VILLE-EMARD,81212,"EOP",2012/08/01,3,"Remise gouvernementale /Retenue a la source Qc.","",997.72,"","","","","",541.14
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/08/01,4,"Remise gouvernementale /Retenue a la source fed.","",503.78,"","","","","",37.36
-CD ST-HENRI VILLE-EMARD,81216,"EOP",2012/08/07,5,"Depot au GA / CD ALLARD--SAINT-PAUL","","",750,"","","","",787.36
-CD ST-HENRI VILLE-EMARD,81216,"EOP",2012/08/15,6,"Depot au GA / CD ALLARD--SAINT-PAUL","","",2874.38,"","","","",3661.74
-CD ST-HENRI VILLE-EMARD,81216,"EOP",2012/08/28,7,"Depot au GA / PLACE DESJARDINS","","",750,"","","","",4411.74
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/08/31,8,"Frais fixes d'utilisation","",4.95,"","","","","",4406.79
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/08/01,1,"Virement - AccesD Internet","",1379.62,"","","","","",1038.86,ReconstructedFromPDF,Payroll:Employee8
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/08/01,2,"Virement - AccesD Internet","",“”,500,"","","","",1538.86,ReconstructedFromPDF,Shareholder:Employee1
+CD ST-HENRI VILLE-EMARD,81212,"EOP",2012/08/01,3,"Remise gouvernementale /Retenue a la source Qc.","",997.72,"","","","","",541.14,ReconstructedFromPDF
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/08/01,4,"Remise gouvernementale /Retenue a la source fed.","",503.78,"","","","","",37.36,ReconstructedFromPDF
+CD ST-HENRI VILLE-EMARD,81216,"EOP",2012/08/07,5,"Depot au GA / CD ALLARD--SAINT-PAUL","","",750,"","","","",787.36,ReconstructedFromPDF,Sales:CREMOVED,310
+CD ST-HENRI VILLE-EMARD,81216,"EOP",2012/08/15,6,"Depot au GA / CD ALLARD--SAINT-PAUL","","",2874.38,"","","","",3661.74,ReconstructedFromPDF,Sales:RREMOVED,318
+CD ST-HENRI VILLE-EMARD,81216,"EOP",2012/08/28,7,"Depot au GA / PLACE DESJARDINS","","",750,"","","","",4411.74,ReconstructedFromPDF,Sales:CREMOVED,311
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/08/31,8,"Frais fixes d'utilisation","",4.95,"","","","","",4406.79,ReconstructedFromPDF

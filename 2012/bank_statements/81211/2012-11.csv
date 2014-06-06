@@ -1,10 +1,10 @@
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/09,1,Paiement / D+H,"",145.62,"","","","","",14041.85
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/15,2,Cheque/no 1,"",4259.94,"","","","","",9781.91
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/15,3,Cheque/no 3,"",776.98,"","","","","",9004.93
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/15,4,Cheque/no 8,"",5000,"","","","","",4004.93
-CD ST-HENRI VILLE-EMARD,81216,"EOP",2012/11/19,5,"Depot au comptoir /CAISSE CENTRALE DESJ.     ","","",8965,"","","","",12969.93
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/30,6,"Remise gouvernementale TPS-TVQ /Paiement taxes TPS/TVQ","",596.97,"","","","","",12372.96
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/30,7,Cheque/no 5,"",1198.2,"","","","","",11174.76
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/30,8,Cheque/no 4,"",984.65,"","","","","",10190.11
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/30,9,"Frais d'utilisation","",1.25,"","","","","",10188.86
-CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/30,10,"Frais fixes d'utilisation","",4.95,"","","","","",10183.91
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/09,1,Paiement / D+H,"",145.62,"","","","","",14041.85,ReconstructedFromPDF,Bank
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/15,2,Cheque/no 1,"",4259.94,"","","","","",9781.91,ReconstructedFromPDF,Payroll:Employee1
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/15,3,Cheque/no 3,"",776.98,"","","","","",9004.93,ReconstructedFromPDF,Payroll:Employee11
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/15,4,Cheque/no 8,"",5000,"","","","","",4004.93,ReconstructedFromPDF,Services:Employee6
+CD ST-HENRI VILLE-EMARD,81216,"EOP",2012/11/19,5,"Depot au comptoir /CAISSE CENTRALE DESJ.     ","","",8965,"","","","",12969.93,ReconstructedFromPDF,Sales:WSX,323,8975
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/30,6,"Remise gouvernementale TPS-TVQ /Paiement taxes TPS/TVQ","",596.97,"","","","","",12372.96,ReconstructedFromPDF
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/30,7,Cheque/no 5,"",1198.2,"","","","","",11174.76,ReconstructedFromPDF,Payroll:Employee1
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/30,8,Cheque/no 4,"",984.65,"","","","","",10190.11,ReconstructedFromPDF,Payroll:Employee11
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/30,9,"Frais d'utilisation","",1.25,"","","","","",10188.86,ReconstructedFromPDF
+CD ST-HENRI VILLE-EMARD,81213,"EOP",2012/11/30,10,"Frais fixes d'utilisation","",4.95,"","","","","",10183.91,ReconstructedFromPDF
