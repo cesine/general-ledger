@@ -1,13 +1,13 @@
-CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/01,1,"Cheque",34,818.59,"","","","","",23602.39
-CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/01,2,"Cheque",35,728.62,"","","","","",22873.77
-CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/03,3,"Virement - AccesD Internet",“”,15000,"","","","","",7873.77
-CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/07,4,"Depot au comptoir /CAISSE CENTRALE DESJ.     ",“”,“”,11953.38,"","","","",19827.15
-CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/09,5,"Cheque",33,1195.76,"","","","","",18631.39
-CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/17,6,"Depot au GA /C.D.S. SAINT-PAUL",“”,“”,16463.27,"","","","",35094.66
-CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/22,7,"Cheque",36,1086.54,"","","","","",34008.12
-CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/23,8,"Cheque",37,1147.18,"","","","","",32860.94
-CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/31,9,"Cheque",38,924.21,"","","","","",31936.73
-CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/31,10,"Cheque",39,1063.07,"","","","","",30873.66
-CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/31,11,"Cheque",40,103.44,"","","","","",30770.22
-CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/31,11,"Frais d'utilisation","",1.25,"","","","","",30768.97
-CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/31,12,"Frais fixes d'utilisation","",4.95,"","","","","",30764.02
+CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/01,1,"Cheque",34,818.59,"","","","","",23602.39,ReconstructedFromPDF,Payroll:Employee11
+CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/01,2,"Cheque",35,728.62,"","","","","",22873.77,ReconstructedFromPDF,Payroll:Employee12
+CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/03,3,"Virement - AccesD Internet",“”,15000,"","","","","",7873.77,ReconstructedFromPDF,Shareholders:Employee3
+CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/07,4,"Depot au comptoir /CAISSE CENTRALE DESJ.     ",“”,“”,11953.38,"","","","",19827.15,ReconstructedFromPDF,Sales:IVS,331,10953,Payroll:HiringCredit
+CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/09,5,"Cheque",33,1195.76,"","","","","",18631.39,ReconstructedFromPDF,Payrolll:Employee1
+CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/17,6,"Depot au GA /C.D.S. SAINT-PAUL",“”,“”,16463.27,"","","","",35094.66,ReconstructedFromPDF,Sales:IVS,16463
+CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/22,7,"Cheque",36,1086.54,"","","","","",34008.12,ReconstructedFromPDF,Payroll:Employee12
+CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/23,8,"Cheque",37,1147.18,"","","","","",32860.94,ReconstructedFromPDF,Payroll:Employee11
+CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/31,9,"Cheque",38,924.21,"","","","","",31936.73,ReconstructedFromPDF,Payroll:Employee11
+CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/31,10,"Cheque",39,1063.07,"","","","","",30873.66,ReconstructedFromPDF,Payroll:Employee12
+CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/31,11,"Cheque",40,103.44,"","","","","",30770.22,ReconstructedFromPDF,Expenses:Equipment
+CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/31,11,"Frais d'utilisation","",1.25,"","","","","",30768.97,ReconstructedFromPDF
+CD ST-HENRI VILLE-EMARD,"281211","EOP",2013/05/31,12,"Frais fixes d'utilisation","",4.95,"","","","","",30764.02,ReconstructedFromPDF

@@ -1,6 +1,5 @@
-
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/10/07",00001,"Cheque",9,1092.41,"","","","","",596.80
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/10/21",00002,"Virement - AccesD Internet","","",2000.00,"","","","",2596.80
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/10/21",00003,"Cheque",10,1092.41,"","","","","",1504.39
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/10/07",00001,"Cheque",9,1092.41,"","","","","",596.80,,Payroll:Employee12
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/10/21",00002,"Virement - AccesD Internet","","",2000.00,"","","","",2596.80,Shareholder:Employee1
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/10/21",00003,"Cheque",10,1092.41,"","","","","",1504.39,,Payroll:Employee12
 CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/10/31",00004,"Frais fixes d'utilisation","",4.95,"","","","","",1499.44
 

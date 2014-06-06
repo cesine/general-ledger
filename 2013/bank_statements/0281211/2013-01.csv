@@ -1,8 +1,8 @@
-CD ST-HENRI VILLE-EMARD,81211,"EOP",2013/01/04,1,"Depot au GA / PLACE DESJARDINS",“”,“”,11121,"","","","",15613.85
-CD ST-HENRI VILLE-EMARD,81211,"EOP",2013/01/07,2,"Cheque",7,1198.2,"","","","","",14415.65
-CD ST-HENRI VILLE-EMARD,81211,"EOP",2013/01/09,3,"Cheque",9,1180.95,"","","","","",13234.7
-CD ST-HENRI VILLE-EMARD,81211,"EOP",2013/01/17,4,"Cheque",10,2069.55,"","","","","",11165.15
-CD ST-HENRI VILLE-EMARD,81211,"EOP",2013/01/18,5,"Depot au GA / PLACE DESJARDINS",“”,“”,1080.92,"","","","",12246.07
-CD ST-HENRI VILLE-EMARD,81211,"EOP",2013/01/18,6,"Depot au GA / PLACE DESJARDINS",“”,“”,577.7,"","","","",12823.77
-CD ST-HENRI VILLE-EMARD,81211,"EOP",2013/01/18,7,"Depot au GA / PLACE DESJARDINS",“”,“”,18973,"","","","",31796.77
-CD ST-HENRI VILLE-EMARD,81211,"EOP",2013/01/31,8,"Frais fixes d'utilisation","",4.95,"","","","","",31791.82
+CD ST-HENRI,81211,"EOP",2013/01/04,1,"Depot au GA / PLACE DESJARDINS",“”,“”,11121,"","","","",15613.85,ReconstructedFromPDF,Sales:WSX,324,11121
+CD ST-HENRI,81211,"EOP",2013/01/07,2,"Cheque",7,1198.2,"","","","","",14415.65,ReconstructedFromPDF,Payroll:Employee1
+CD ST-HENRI,81211,"EOP",2013/01/09,3,"Cheque",9,1180.95,"","","","","",13234.7,ReconstructedFromPDF,Payroll:Employee11
+CD ST-HENRI,81211,"EOP",2013/01/17,4,"Cheque",10,2069.55,"","","","","",11165.15,ReconstructedFromPDF,Rent:QuoVadis
+CD ST-HENRI,81211,"EOP",2013/01/18,5,"Depot au GA / PLACE DESJARDINS",“”,“”,1080.92,"","","","",12246.07,ReconstructedFromPDF,Taxes:TVQ
+CD ST-HENRI,81211,"EOP",2013/01/18,6,"Depot au GA / PLACE DESJARDINS",“”,“”,577.7,"","","","",12823.77,ReconstructedFromPDF,Taxes:TPS
+CD ST-HENRI,81211,"EOP",2013/01/18,7,"Depot au GA / PLACE DESJARDINS",“”,“”,18973,"","","","",31796.77,ReconstructedFromPDF,Sales:WSX,325,18973
+CD ST-HENRI,81211,"EOP",2013/01/31,8,"Frais fixes d'utilisation","",4.95,"","","","","",31791.82,ReconstructedFromPDF
