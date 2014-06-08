@@ -1,9 +1,8 @@
-
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/09/03",00001,"Cheque",5,777.48,"","","","","",4723.87
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/09/09",00002,"Cheque",7,1092.41,"","","","","",3631.46
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/09/09",00003,"Cheque",6,1092.41,"","","","","",2539.05
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/09/16",00004,"Depot au GA /C.D.S. SAINT-PAUL","","",3000.00,"","","","",5539.05
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/09/25",00005,"Cheque",8,1092.41,"","","","","",4446.64
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/09/03",00001,"Cheque",5,777.48,"","","","","",4723.87,,Payroll:Employee11
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/09/09",00002,"Cheque",7,1092.41,"","","","","",3631.46,,Payroll:Employee12
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/09/09",00003,"Cheque",6,1092.41,"","","","","",2539.05,,Payroll:Employee12
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/09/16",00004,"Depot au GA /C.D.S. SAINT-PAUL","","",3000.00,"","","","",5539.05,,Sales:IVS,332,8000
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/09/25",00005,"Cheque",8,1092.41,"","","","","",4446.64,,Payroll:Employee12
 CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/09/30",00006,"Remise gouvernementale /Retenue a la source Qc.","",0.04,"","","","","",4446.60
 CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/09/30",00007,"Remise gouvernementale /Retenue a la source fed.","",1.00,"","","","","",4445.60
 CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/09/30",00008,"Remise gouvernementale /Retenue a la source Qc.","",1851.05,"","","","","",2594.55

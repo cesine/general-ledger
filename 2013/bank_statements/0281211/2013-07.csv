@@ -1,6 +1,5 @@
-
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/07/05",00001,"Virement - AccesD Internet","",4493.85,"","","","","",11086.89
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/07/23",00002,"Paiement /D+H COMMANDE DE CHEQUES","",123.19,"","","","","",10963.70
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/07/05",00001,"Virement - AccesD Internet","",4493.85,"","","","","",11086.89,,Payroll:Employee11,1131.53,1139.35,Payroll:Employee12,1142.29,1080.68
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/07/23",00002,"Paiement /D+H COMMANDE DE CHEQUES","",123.19,"","","","","",10963.70,,Bank
 CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/07/31",00003,"Remise gouvernementale /Retenue a la source Qc.","",0.04,"","","","","",10963.66
 CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/07/31",00004,"Remise gouvernementale /Retenue a la source fed.","",1.00,"","","","","",10962.66
 CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/07/31",00005,"Remise gouvernementale /Retenue a la source Qc.","",2801.31,"","","","","",8161.35

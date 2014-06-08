@@ -1,8 +1,7 @@
-
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/08/02",00001,"Cheque",1,2184.82,"","","","","",4589.79
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/08/05",00002,"Cheque",2,2271.88,"","","","","",2317.91
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/08/27",00003,"Depot au GA /C.D.S. SAINT-PAUL","","",4281.00,"","","","",6598.91
-CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/08/30",00004,"Cheque",4,1092.41,"","","","","",5506.50
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/08/02",00001,"Cheque",1,2184.82,"","","","","",4589.79,,Payroll:Employee12
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/08/05",00002,"Cheque",2,2271.88,"","","","","",2317.91,,Payroll:Employee11
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/08/27",00003,"Depot au GA /C.D.S. SAINT-PAUL","","",4281.00,"","","","",6598.91,,Sales:HeritigeSoft,336
+CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/08/30",00004,"Cheque",4,1092.41,"","","","","",5506.50,,Payroll:Employee12
 CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/08/30",00005,"Frais fixes d'utilisation","",4.95,"","","","","",5501.55
 CD ST-HENRI VILLE-EMARD,"281211","EOP","2013/08/30",00006,"Frais - Contenu depot commercial","",0.20,"","","","","",5501.35
 
