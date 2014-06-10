@@ -1,15 +1,19 @@
-;des;Payor;Payee;Deposit;Splits;Withdrawal;Category;Withdrawal;Todate;Memo Field;Classification;Retained Copy-only notes;TPS;TVQ;
-1;2011-11-21;6010;CORPORATN/IC 3189345;;;200;Fees;200;-6725.53;Federal incorporation fees;;;;;
-0;2011-11-28;Employee1 Employee1;Cafe Myriade;;;4.72;Representation;4.72;-6925.53;Working Lunch;quick meeting with Employee2 after talk?;;0.21;0.37;
-1;2011-11-29;6010;NETSYM COMMUNICATION;;;39.87;Human Resources;39.87;-6930.25;Job post on AgentSolo.com ;;;;;
-0;2011-12-01;6010;McKibbin's;;;31.92;Representation;31.92;-6970.12;Business Lunch;Laurent job interview;;1.22;2.18;
-1;2011-12-02;2118 4549-947;Dr. Paradis – Barbara Vall;690;;;Sales;0;-7002.04;Bilingual Aphasia Test localization;;;;;
-0;2011-12-02;Employee1 Employee1;Cafe X;;;3.99;Representation;3.99;-6312.04;Working Lunch;cafe x waiting for Frank's talk;;0.18;0.31;
-1;2011-12-03;6010;Koodo;;;23.24;Communications;23.24;-3168.87;;;;;
-1;2011-12-05;377036;Syntenic;;;25;Rent;25;-6316.03;Rent;Desk rent 1 day;;;;
-0;2011-12-05;Employee2 Employee2;Thai Express;;;16.13;Representation;16.13;-6341.03;Working Lunch;Employee2 working lunch;;0.71;1.26;
-1;2011-12-11;377036;MITACS INC;;;3750;Human Resources;3750;-6357.16;Pay;Pay period Jan 12- March 31 for intern Employee5 Employee5;;;;
-1;2011-12-12;377036;PSREMOVED;1480;;;Sales;0;-10107.16;Android App - 1st installment;;;;;
-1;2011-12-16;6010;Telus;;;71.77;Communications;71.77;-3666.99;;;;;
-1;2011-12-19;6010;CUSEC;;;150;Publicity;150;-8627.16;CUSEC conference fees, professional rate;;;;;
-1;2011-12-29;377036;Employee2 Employee2;;;386.85;Human Resources;386.85;-8777.16;Pay;Pay period Dec 6-24;;;;
+1;2011-11-21;2011;11;2011-11Permits & licenses;6010;CORPORATN/IC 3189345;;200;;Cash;Permits & licenses;Fees;Federal incorporation fees;;;;
+0;2011-11-28;2011;11;2011-11Representation;Employee1 Employee1;Cafe Myriade;;4.72;;Cash;Meals;Representation;Working Lunch;quick meeting with Employee2 after talk?;;0.21;0.37
+1;2011-11-29;2011;11;2011-11Professional services;6010;NETSYM COMMUNICATION;;39.87;;Cash;Payroll fees;Human Resources;Job post on AgentSolo.com ;;;;
+1;2011-12-01;2011;12;2011-12Office rent & utilities;377036;Syntenic;;25;;Cash;Rent;Rent;Rent;Desk rent 1 day;;1.09;2.17
+0;2011-12-01;2011;12;2011-12Representation;6010;McKibbin's;;31.92;;Cash;Meals;Representation;Business Lunch;Laurent job interview;;1.22;2.18
+0;2011-12-02;2011;12;2011-12Representation;Employee1 Employee1;Cafe X;;3.99;;Cash;Meals;Representation;Working Lunch;cafe x waiting for Frank's talk;;0.18;0.31
+1;2011-12-05;2011;12;2011-12Office rent & utilities;377036;Syntenic;;25;;Cash;Rent;Rent;Rent;Desk rent 1 day;;1.09;2.17
+0;2011-12-05;2011;12;2011-12Representation;Employee2 Employee2;Thai Express;;16.13;;Cash;Meals;Representation;Working Lunch;Employee2 working lunch;;0.71;1.26
+;2011-12-06;2011;12;2011-12Telephone service;Employee1 Employee1;Koodo;;194.77;;;Utilities;;unknown koodo charge;;;8.47;16.9
+;2011-12-06;2011;12;2011-12Telephone service;Employee1 Employee1;Koodo;;23.73;;;Utilities;;unknown koodo charge;;;1.03;2.06
+;2011-12-08;2011;12;2011-12Telephone service;Employee1 Employee1;Koodo;;17.09;;;Utilities;;probably the phone case;;;0.74;1.48
+1;2011-12-11;2011;12;2011-12Salaries & wages;377036;MITACS INC;;3750;;Cash;Salaries;Human Resources;Pay;Pay period Jan 12- March 31 for intern Employee5 Employee5;;;
+1;2011-12-12;2011;12;2011-12Cash;377036;PSREMOVED;1480;;;;Sales;Sales;Android App - 1st installment;;;-64.36;-128.4
+;2011-12-15;2011;12;2011-12Publicity;Employee1 Employee1;Click Imprimerie;;22.7;;;Advertising;;;;;0.99;1.97
+1;2011-12-16;2010;12;2010-12Telephone service;6010;Telus;;71.77;;Cash;Utilities;Communications;;;;3.12;6.23
+;2011-12-16;2011;12;2011-12Telephone service;Employee1 Employee1;Telus;;71.77;;;Utilities;;;;;3.12;6.23
+1;2011-12-19;2011;12;2011-12Publicity;6010;CUSEC;;150;;Cash;Conventions;Publicity;CUSEC conference fees, professional rate;;;;
+;2011-12-22;2011;12;2011-12Permits & licenses;Employee1 Employee1;Quebec fee;;300;;;Permits & licenses;Fees;quebec incorporation fees;;;;
+1;2011-12-29;2011;12;2011-12Salaries & wages;377036;Employee2 Employee2;;386.85;;Cash;Salaries;Human Resources;Pay;Pay period Dec 6-24;;;
