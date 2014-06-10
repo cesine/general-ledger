@@ -1,0 +1,15 @@
+;des;Payor;Payee;Deposit;Splits;Withdrawal;Category;Withdrawal;Todate;Memo Field;Classification;Retained Copy-only notes;TPS;TVQ;
+1;2011-11-21;6010;CORPORATN/IC 3189345;;;200;Fees;200;-6725.53;Federal incorporation fees;;;;;
+0;2011-11-28;Employee1 Employee1;Cafe Myriade;;;4.72;Representation;4.72;-6925.53;Working Lunch;quick meeting with Employee2 after talk?;;0.21;0.37;
+1;2011-11-29;6010;NETSYM COMMUNICATION;;;39.87;Human Resources;39.87;-6930.25;Job post on AgentSolo.com ;;;;;
+0;2011-12-01;6010;McKibbin's;;;31.92;Representation;31.92;-6970.12;Business Lunch;Laurent job interview;;1.22;2.18;
+1;2011-12-02;2118 4549-947;Dr. Paradis – Barbara Vall;690;;;Sales;0;-7002.04;Bilingual Aphasia Test localization;;;;;
+0;2011-12-02;Employee1 Employee1;Cafe X;;;3.99;Representation;3.99;-6312.04;Working Lunch;cafe x waiting for Frank's talk;;0.18;0.31;
+1;2011-12-03;6010;Koodo;;;23.24;Communications;23.24;-3168.87;;;;;
+1;2011-12-05;377036;Syntenic;;;25;Rent;25;-6316.03;Rent;Desk rent 1 day;;;;
+0;2011-12-05;Employee2 Employee2;Thai Express;;;16.13;Representation;16.13;-6341.03;Working Lunch;Employee2 working lunch;;0.71;1.26;
+1;2011-12-11;377036;MITACS INC;;;3750;Human Resources;3750;-6357.16;Pay;Pay period Jan 12- March 31 for intern Employee5 Employee5;;;;
+1;2011-12-12;377036;PSREMOVED;1480;;;Sales;0;-10107.16;Android App - 1st installment;;;;;
+1;2011-12-16;6010;Telus;;;71.77;Communications;71.77;-3666.99;;;;;
+1;2011-12-19;6010;CUSEC;;;150;Publicity;150;-8627.16;CUSEC conference fees, professional rate;;;;;
+1;2011-12-29;377036;Employee2 Employee2;;;386.85;Human Resources;386.85;-8777.16;Pay;Pay period Dec 6-24;;;;

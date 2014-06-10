@@ -1,0 +1,30 @@
+;des;Payor;Payee;Deposit;Splits;Withdrawal;Category;Withdrawal;Todate;Memo Field;Classification;Retained Copy-only notes;TPS;TVQ
+1;2011-10-21;6010;Koodo;;;100;Equipment;100;-6466.57;Phone cost for Nexus S, or somethign else Koodo Airtime;;;;
+1;2011-05-05;3018;Best Buy;;;69.74;Equipment;69.74;-2037.17;Equipment;Router Dlink #2;;3.5;6.25
+1;2011-05-19;8926;Apple Store;;;39.87;Equipment;39.87;-2200.93;Equipment;Apple ecouteurs avec telecommande et micro;;1.75;3.12
+1;2011-08-01;3018;Future Shop;;;569.61;Equipment;569.61;-2443.01;Equipment;Motorola Xoom Android – Testing device;;25;44.62
+1;2011-10-15;3026;Apple Store;;;1422.87;Equipment;1422.87;-4783.56;Equipment;Laptop and scanner/copier/printer;;62.45;111.47
+1;2011-09-20;Employee1 Employee1;Hiskako Employee2;;;80;Salaries:Employee2;80;-4134.64;Pay;1 day of work in prep for the Wine and Cheese;;;
+1;2011-09-22;Employee1 Employee1;Dollarama;;;10.83;Office expenses;10.83;-4324.56;Office Supplies;Pens, postits and desk organizers;;0.48;85
+1;2011-07-13;6010;Click Imprimerie;;;11.39;Advertising ;11.39;-2359.85;Publicity;Business cards;;0.5;0.89
+1;2011-09-04;6010;Domains at cost;;;31.4;Advertising ;31.4;-3192.11;;;;;
+1;2011-09-11;Employee1 Employee1;PolyCopie;;;68.34;Advertising ;68.34;-3542.16;Publicity;ETAP poster for Prototype 1;;3;5.34
+1;2011-09-12;6022;Click Imprimerie;;;11.39;Advertising ;11.39;-3610.5;Publicity;Launch Party invitations;;0.5;0.89
+1;2011-09-18;6010;Loblaws;;;41.83;Advertising ;41.83;-3738.76;Launch Party 0.5;Cheese, pate, baggettes, juice;;0.4;0.71
+1;2011-09-18;6010;SAQ;;;308.73;Advertising ;308.73;-3780.59;Launch Party 0.5;Wine;30 bottles;13.55;24.19
+1;2011-09-18;Employee1 Employee1;Centre d'affaires Core;;;3.18;Advertising ;3.18;-4089.32;Publicity;PC time and print out of color proof of poster;;0.14;0.25
+1;2011-09-19;Employee1 Employee1;Centre d'affaires Core;;;1.37;Advertising ;1.37;-4092.5;Publicity;handouts for ETAP poster;;0.06;0.11
+1;2011-09-21;6022;Ikea;;;37.52;Advertising ;37.52;-4214.64;Launch Party 0.5;Wine glasses;;1.65;2.94
+1;2011-09-22;6010;Les Fromages du Paradis;;;35.97;Advertising ;35.97;-4252.16;Launch Party 0.5;Cheese;9 cheeses;0;0
+1;2011-09-22;6022;Metro;;;36.43;Advertising ;36.43;-4288.13;Launch Party 0.5;Cheese;5 cheeses;0;0
+1;2011-09-22;Employee1 Employee1;Click Imprimerie;;;20;Advertising ;20;-4335.39;Publicity;Launch Party game cards;;0.88;1.57
+1;2011-10-16;6010;PayPal -Academy of Aphasia;;;260.14;Advertising ;260.14;-6206.43;Conference registration ;Academy of Aphasia Anual meeting Oct 16-18 2011;;;
+1;2011-11-04;6010;Domains at cost;;;13.6;Advertising ;13.6;-6486.73;;;;;
+1;2011-11-04;6010;PayPal-Nels;;;140;Advertising ;140;-6500.33;Nels conference fees;;;;
+1;2011-11-17;6010;PAYPAL *JBRUN;;;31.74;Advertising ;31.74;-6663.57;Montreal Ouverte hackathon day with tee-shirt;;;;
+1;2011-09-09;377036;Syntenic;;;265.82;Rent;265.82;-3276.34;Rent;Desk 1 month (3 weeks);;;
+1;2011-10-05;377036;Syntenic;;;398.74;Rent;398.74;-4376.58;Rent;Desk 1 month;;;
+1;2011-10-28;6010;Budget;;;170.16;Travel;170.16;-6316.57;Vehicule for Nels Conference;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;4180.67;;;;;;;;

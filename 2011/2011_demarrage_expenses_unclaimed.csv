@@ -1,0 +1,32 @@
+;des;Payor;Payee;Deposit;Splits;Withdrawal;Category;Withdrawal;Todate;Memo Field;Classification;Retained Copy-only notes;TPS;TVQ
+1;2011-01-16;6010;Telus;;;71.77;Communications;71.77;-1750.09;;;;;
+1;2011-02-16;6010;Telus;;;71.77;Communications;71.77;-1821.86;;;;;
+1;2011-03-16;6010;Telus;;;71.77;Communications;71.77;-1893.63;;;;;
+1;2011-04-16;6010;Telus;;;71.77;Communications;71.77;-1965.4;;;;;
+1;2011-05-16;6010;Telus;;;71.77;Communications;71.77;-2106.91;;;;;
+1;2011-06-16;6010;Telus;;;71.77;Communications;71.77;-2288.08;;;;;
+1;2011-07-16;6010;Telus;;;71.77;Communications;71.77;-2371.24;;;;;
+1;2011-08-16;6010;Telus;;;71.77;Communications;71.77;-3097.1;;;;;
+1;2011-09-03;6010;Koodo;;;23.24;Communications;23.24;-3168.87;;;;;
+1;2011-09-16;6010;Telus;;;71.77;Communications;71.77;-3666.99;;;;;
+1;2011-11-05;6010;Koodo;;;23.24;Communications;23.24;-6640.33;;;;;
+0;2011-05-19;6010;HELM;;;22.25;Representation;22.25;-2178.68;Representation;SAJE happy hour with other group;;0.84;1.51
+0;2011-05-26;6010;The Salvation Army;;;40.5;Representation;40.5;-2240.8;Wardrobe;working clothes;;0;0
+0;2011-06-09;Employee1 Employee1;Cafe Republique;;;6.78;Representation;6.78;-2281.3;Representation;AILIA meeting;;0.3;0.53
+0;2011-08-01;Employee1 Employee1;Unknown;;;6.84;Representation;6.84;-3012.62;Unknown;;;0.3;0.54
+0;2011-08-03;3018;L3B;;;77.64;Representation;77.64;-3019.46;Beer;not sure when this was or with who. Maybe the defile de mode?;;3.01;5.38
+0;2011-09-08;6010;5000 Ans;;;52.83;Representation;52.83;-3223.51;Business Lunch;Laura potential collaboration lunch;;;
+0;2011-09-12;6022;La Bistrote;;;21.04;Representation;21.04;-3621.89;Business Lunch;Employee3 Working Lunch;;0.82;1.47
+0;2011-09-13;6010;Postes Canada;;;10.31;Representation;10.31;-3642.93;Publicity;Mail invitations to Launch party;;0.06;0.11
+0;2011-09-13;Employee1 Employee1;Thai Express;;;8.06;Representation;8.06;-3653.24;Working Lunch;food when testing users at concordia;;0.35;0.63
+0;2011-09-15;6010;Petro-Canada;;;5.69;Representation;5.69;-3661.3;Working Lunch;sandwich;;0.25;0.45
+0;2011-09-20;6010;La Bistrote;;;40.77;Representation;40.77;-4093.87;Business Lunch;Employee2 Job Interview;;1.57;2.8
+0;2011-10-01;Employee1 Employee1;La Gargote des antiquaires;;;21.19;Representation;21.19;-4355.39;Business Lunch;Employee3 Working Lunch;;0.93;1.66
+0;2011-10-06;6010;Koodo;;;8.24;Representation;8.24;-4775.32;what is this for?;;;;
+0;2011-11-18;Employee1 Employee1;Cafe Depot;;;2.59;Representation;2.59;-6695.31;Working Lunch;coffee on the way to lasik and working at concordia;;0.11;0.2
+0;2011-11-18;Employee1 Employee1;Altaib;;;7.31;Representation;7.31;-6697.9;Working Lunch;2 zatar working at concordia waiting for Employee4;;0.32;0.57
+0;2011-11-19;Employee1 Employee1;L3B;;;20.32;Representation;20.32;-6705.21;Representation;Hackathon happy hour Montreal Ouverte;;0.89;1.59
+1;2011-10-26;377036;UQAM ;250;;;Sales;0;-6566.57;Aphasia Reimboursement, check to see exact value, american or canadian dollars?;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;1044.77;;;;;;;;
