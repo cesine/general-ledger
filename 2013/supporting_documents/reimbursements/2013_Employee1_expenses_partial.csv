@@ -1,0 +1,12 @@
+,Date,Annee,Mois,Concateniser,Payor,Payee,Deposit,Withdrawal,General Leader Number,Debit,Credit,Category,Memo Field,Classification,Retained Copy-only notes,TPS 5%,TVQ 9.5%,0.9132420091,0.9523809524,,,
+,2013-01-04,2013,1,2013-1Cash,81211,PMT WSX Invoice #323,11121,,,,Cash,,,,,-483.63,-964.84,,,,,
+,2013-01-07,2013,1,2013-1,81211,PMT Employee1 Check,,1198.2,,,,,,,,,,,,,,
+,2013-01-07,2013,1,2013-1Representation Credit,Employee1 Employee1,Restaurant Mai Xiang Yuan,,20.66,,,Representation Credit,,,,,0.45,0.9,,,,,
+,2013-01-09,2013,1,2013-1,81211,PMT Employee1 Check,,1180.95,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,139.23,277.77,,-139.23,-277.77
+,,,,,,,,,,,,,,,,,,Note: All food and representation: The tax were cut by 50%.,,,,
+,,,,,,,,,,,,,,,,,,,Paid ,,,
+,,,,,,,,,,,,,,,,,,TPS Total 2012,527.19,-1809.95,-1282.76,
+,,,,,,,,,,,,,,,,,,TVQ total 2012,1051.41,-3610.84,-2559.43,
+,,,,,,,,,,,,,,,,,,Revenue tot 2012:,41619.71,5420.79,-3842.19,
+,,,,,,,,,,,,,,,,,,,,,,0
