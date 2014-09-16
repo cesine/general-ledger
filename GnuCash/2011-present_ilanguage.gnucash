@@ -149,7 +149,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">132</gnc:count-data>
-<gnc:count-data cd:type="transaction">304</gnc:count-data>
+<gnc:count-data cd:type="transaction">306</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">4</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">1</gnc:count-data>
@@ -1723,7 +1723,7 @@ Montreal QC REMOVED</slot:value>
     </slot>
     <slot>
       <slot:key>last-num</slot:key>
-      <slot:value type="string">10</slot:value>
+      <slot:value type="string">1</slot:value>
     </slot>
   </act:slots>
   <act:parent type="guid">adf77b8287284c7e5d5258e1cee9e3a8</act:parent>
@@ -5876,15 +5876,15 @@ Montreal QC REMOVED</slot:value>
     <trn:split>
       <split:id type="guid">55c72decf0e8b511f009cbfc51aba7ad</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>672936/100</split:value>
-      <split:quantity>672936/100</split:quantity>
+      <split:value>677807/100</split:value>
+      <split:quantity>677807/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">04ca99c4178fcc37d9798917fe49a909</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-672936/100</split:value>
-      <split:quantity>-672936/100</split:quantity>
+      <split:value>-677807/100</split:value>
+      <split:quantity>-677807/100</split:quantity>
       <split:account type="guid">55caf8099a7d374c1c2a2bd78c296112</split:account>
     </trn:split>
   </trn:splits>
@@ -5912,7 +5912,7 @@ Montreal QC REMOVED</slot:value>
     <trn:split>
       <split:id type="guid">5f11488321b8cdf0053e9291c91f6d62</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
       <split:value>104918/100</split:value>
       <split:quantity>104918/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -5967,6 +5967,163 @@ Montreal QC REMOVED</slot:value>
       <split:quantity>-50000/100</split:quantity>
       <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
       <split:lot type="guid">d1e68963a3adc00e9c1cb64c0bb649db</split:lot>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d68bc4e8fea13aae8e69eaa4122ac5cf</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-01-26 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-09-15 22:42:02 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Remise gouvernementale /Retenue a la source Qc.</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-01-26</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque/no 1, PMT 2011 Employee2 Seulement</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">9e62d5a333b46f852ec4d822611a9f6c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>400/100</split:value>
+      <split:quantity>400/100</split:quantity>
+      <split:account type="guid">637eb073d4189958d02e65922d25cfa7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">af6a2ce69d92530e1b3267b53df01b31</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>600/100</split:value>
+      <split:quantity>600/100</split:quantity>
+      <split:account type="guid">1e2b10c70b7c2864687954321bba2aac</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c76cf6e72388e1c509c19b187c1d1273</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>400/100</split:value>
+      <split:quantity>400/100</split:quantity>
+      <split:account type="guid">99cab29a3bfdfbb18d91c53b2739277d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">aad9f6b0454ef5bd3efb5c45cb212692</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>471/100</split:value>
+      <split:quantity>471/100</split:quantity>
+      <split:account type="guid">75330f59b5350e6cadb412e5b6c8d382</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ca1a128ee9a08ca5466206eb95e92f78</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">a78e91c19159439359b118759b4c856e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e9790d0f35012890bf3ce9f21726935e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">a19f4e045818ae512d1a2ce37700cb10</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">49003b07f324f837e4eb5ca4c31636b7</split:id>
+      <split:action>Transfer</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1871/100</split:value>
+      <split:quantity>-1871/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">15245744237a61deffc92be7c381eadc</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-01-27 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-09-15 22:35:59 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Remise gouvernementale /Retenue a la source fed.</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-01-27</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque/no 2, PMT 2011 Employee2 seulement</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">2e9197e0de75d53202cb8d80482880c7</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">26468186bd15e67c50699c6d89499a30</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b076c4429f46f98beae3113f76dca872</split:id>
+      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1000/100</split:value>
+      <split:quantity>1000/100</split:quantity>
+      <split:account type="guid">63cd5dac860e96892dd7f26833cbd72a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">cc33f03dddb793859e87ef1a721bd06c</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2000/100</split:value>
+      <split:quantity>2000/100</split:quantity>
+      <split:account type="guid">a834c47619ffbb633a7f67626639f2a1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">81600edd43f7145001a625aaa280876f</split:id>
+      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">0f75aa94d8be1a4ccadf0da6b57cda86</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">477b793552b3884997b774c8523dba29</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">6cd19ab4dd44eb343ccbc36e57c33bd4</split:id>
+      <split:action>Transfer</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-3000/100</split:value>
+      <split:quantity>-3000/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
