@@ -67,6 +67,10 @@
         <slot:value type="integer">3</slot:value>
       </slot>
       <slot>
+        <slot:key>gncInvoice</slot:key>
+        <slot:value type="integer">1</slot:value>
+      </slot>
+      <slot>
         <slot:key>gncVendor</slot:key>
         <slot:value type="integer">1</slot:value>
       </slot>
@@ -155,8 +159,8 @@ Montreal QC REMOVED</slot:value>
 <gnc:count-data cd:type="gnc:GncBillTerm">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncCustomer">11</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncEmployee">17</gnc:count-data>
-<gnc:count-data cd:type="gnc:GncEntry">81</gnc:count-data>
-<gnc:count-data cd:type="gnc:GncInvoice">43</gnc:count-data>
+<gnc:count-data cd:type="gnc:GncEntry">82</gnc:count-data>
+<gnc:count-data cd:type="gnc:GncInvoice">44</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncTaxTable">12</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncVendor">1</gnc:count-data>
 <gnc:commodity version="2.0.0">
@@ -34498,7 +34502,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <ts:date>2012-05-13 16:00:00 -0400</ts:date>
   </invoice:posted>
   <invoice:billing_id>3</invoice:billing_id>
-  <invoice:notes>"CREMOVED"</invoice:notes>
+  <invoice:notes>Fieldlinguistics Database – OpenSource Offline WebApp&#13;Development $1,304.63&#13;Initial Installment (50% of $2609.26)</invoice:notes>
   <invoice:active>1</invoice:active>
   <invoice:posttxn type="guid">bd95e8c875b6bd80ac040779d47e21e8</invoice:posttxn>
   <invoice:postlot type="guid">534acdc4e28ae6c5906e7ede0c9b88a1</invoice:postlot>
@@ -35125,6 +35129,28 @@ client's business use case of the app which he did not disclose at app conceptio
   </invoice:currency>
 </gnc:GncInvoice>
 <gnc:GncInvoice version="2.0.0">
+  <invoice:guid type="guid">9e6ae0294829db43a1821602a64a39b6</invoice:guid>
+  <invoice:id>000001</invoice:id>
+  <invoice:owner version="2.0.0">
+    <owner:type>gncCustomer</owner:type>
+    <owner:id type="guid">58b71c419dfb1c873d89d1004fdf80bf</owner:id>
+  </invoice:owner>
+  <invoice:opened>
+    <ts:date>2014-09-24 00:00:00 -0400</ts:date>
+  </invoice:opened>
+  <invoice:active>0</invoice:active>
+  <invoice:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </invoice:currency>
+  <invoice:slots>
+    <slot>
+      <slot:key>credit-note</slot:key>
+      <slot:value type="integer">0</slot:value>
+    </slot>
+  </invoice:slots>
+</gnc:GncInvoice>
+<gnc:GncInvoice version="2.0.0">
   <invoice:guid type="guid">a0663a3e182546b7724c3ef2cf3e0ce7</invoice:guid>
   <invoice:id>323</invoice:id>
   <invoice:owner version="2.0.0">
@@ -35519,7 +35545,7 @@ client's business use case of the app which he did not disclose at app conceptio
 <gnc:GncTaxTable version="2.0.0">
   <taxtable:guid type="guid">116db2cebeb10302a9bcf16f6ba99d31</taxtable:guid>
   <taxtable:name>TPS/TVQ</taxtable:name>
-  <taxtable:refcount>1</taxtable:refcount>
+  <taxtable:refcount>2</taxtable:refcount>
   <taxtable:invisible>0</taxtable:invisible>
   <taxtable:child type="guid">643b5e3ded8817a088d0a1e24267947d</taxtable:child>
   <taxtable:entries>
