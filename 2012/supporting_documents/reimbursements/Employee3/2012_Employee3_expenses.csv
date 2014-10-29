@@ -6,14 +6,14 @@ Date,Payor Account,Payee,Withdrawal,TPS 5%,TVQ 9.5%,Tips,Currency,Credit,Memo Fi
 2012-04-09,3034,IGA,28.65,0.15,0.29,,CAD,Office food,Coffee + food
 2012-06-12,3034,Montreal Poutine,36.16,1.72,3.42,4.71,CAD,Representation,"meeting with Alan Jessica Employee3, emmy and Employee2 after first demo 16.70 + 14.68 + 8.07 tip 5.50"
 2012-06-30,3034,Festival Int'l de Jazz,62.99,2.74,5.46,8.22,CAD,Representation,saq tent at jazz fesitval with vicky and stephane tip 8.22
-2012-07-14,3034,IGA,3.98,,,,,Office food,
+2012-07-14,3034,IGA,3.98,,,,CAD,Office food,
 2012-08-29,3034,Ailes,229.94,10,19.95,,CAD,clothes,suits for Employee3
-2012-09-18,3034,A&W,9.48,0.21,0.41,,,Representation,
-2012-11-07,3034,St-Huberts ,12.01,,,,CAD,Representation,
-2012-11-14,3034,Bistro Le balmoral,29.08,,,3.79,CAD,Representation,dunno
+2012-09-18,3034,A&W,9.48,0.21,0.41,,CAD,Representation,
+2012-11-07,3034,St-Huberts ,12.01,2.45,4.88775,,CAD,Representation,
+2012-11-14,3034,Bistro Le balmoral,29.08,1.454,2.90073,3.79,CAD,Representation,dunno
 2012-12-11,3034,Click Imprimerie,34.5,1.5,3,,CAD,Publicity,business cards for Employee3 and Employee11?
 2012-12-20,3034,SAQ,36,1.57,3.12,,CAD,Representation,rum
 2012-12-23,3034,Metro-North Railroad,36.75,,,,USD,Traveling Credit,Travel for interview / Partnership NYC
 2012-12-25,3034,Cumberland farms,15,,,,USD,Traveling Credit,Travel for interview / Partnership NYC
-2012-12-30,3034,STM,83,,,,CAD,transportation,
-2012-12-31,3034,Loblaws,5.97,,,,CAD,food,pasta in lasalle
+2012-12-30,3034,STM,83,4.15,8.27925,,CAD,transportation,
+2012-12-31,3034,Loblaws,5.97,0.2985,0.5955075,,CAD,food,pasta in lasalle
