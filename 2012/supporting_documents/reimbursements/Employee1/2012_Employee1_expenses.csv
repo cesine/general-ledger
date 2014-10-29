@@ -16,7 +16,6 @@ Date,Payor Account,Payee,Withdrawal,TPS 5%,TVQ 9.5%,Tips,Currency,Credit,Memo Fi
 2012-01-19,6010,Ye Olde Orchard Pub,18,0.61,1.21,4,CAD,Representation,"beer at cusec, 4 dollar tip"
 2012-01-27,6010,Click Imprimerie,11.35,0.5,0.85,,CAD,Publicity,Employee1 Business Card
 2012-01-31,Employee1 Employee1,Click Imprimerie,4.54,0.2,0.34,,CAD,Publicity,Copies
-2012-02-00,?,?,1980.54,86.13,171.54,,CAD,?,
 2012-02-01,6010,Koodo,57.42,2.5,4.98,,CAD,Telephone service,
 2012-02-02,Employee1 Employee1,STM,75.5,3.28,6.55,,CAD,transportation,STM Fevrier
 2012-02-07,Employee1 Employee1,Resto Basilic,21.74,0.95,1.89,,CAD,Representation,Avec employe
