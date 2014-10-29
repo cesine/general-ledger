@@ -1,300 +1,206 @@
-,Date,Payor Account,Payee,Deposit,Withdrawal,TPS 5%,TVQ 9.5%,Tips,Currency,Credit,Memo Field,Annee,Mois,Concateniser,,,
-,2012-01-01,Employee1 Employee1,Koodo,,57.42,2.5,4.98,,CAD,Telephone service,,2012,1,2012-1Telephone service,,,
-,2012-01-04,Employee1 Employee1,Restaurant Pho Bac,,13.99,0.61,1.1,,CAD,Representation,,,,,,,
-,2012-01-05,6010,STM,,75.5,auto,auto,,CAD,Traveling,monthly pass Jan 2012,,,,,,
-,2012-01-06,6010,IGA,,3.99,0,0,,CAD,Office food,coffee cream,,,,,,
-1,2012-01-06,6010,Koodo,,57.42,2.5,4.98,,CAD,Telephone service,,2012,1,2012-1Telephone service,,,
-,2012-01-09,Employee1 Employee1,Future Shop,,7.48,0.33,0.65,,CAD,Equipments – purchase,usb key to install the linux computer,2012,1,2012-1Equipments – purchase,,,
-1,2012-01-09,6010,Future Shop,,423.38,19.5,38.9,,CAD,Equipments – purchase,office computer,2012,1,2012-1Equipments – purchase,,,
-,2012-01-10,6010,L'ambroisie,,7.81,0.3,0.59,1,CAD,Representation,,,,,,,
-,2012-01-10,6010,L'ambroisie,,15.04,0.57,1.13,2,CAD,Representation,,,,,,,
-,2012-01-10,Employee1 Employee1,Salaire Employee2,,386.85,,,,CAD,Salaries & wages,PMT Employee2 pour decembre de 400$,2012,1,2012-1Salaries & wages,,,
-,2012-01-12,Mat,LTL Prints,,49,,,,USD,Publicity,Poster Lab Clouds,2012,1,2012-1Publicity,,,
-,2012-01-13,Employee1 Employee1,Dollarama,,10.93,0.48,0.95,,CAD,Office supplies,paper clips staples and notecards,,,,,,
-,2012-01-13,6010,Future Shop,,57.48,2.5,4.99,,CAD,Equipments – purchase,Dlink Wifi usb for office computer,,,,,,
-,2012-01-14,Employee1 Employee1,Telus,,71.77,3.12,6.23,,CAD,Telephone service,,2012,1,2012-1Telephone service,,,
-0,2012-01-19,6010,Subway,,5.18,0.23,0.45,,CAD,Representation,Working Lunch at CUSEC,2012,1,2012-1Representation,,,
-0,2012-01-19,8926,Grillades du cedres,,10.05,0.44,0.87,,CAD,Representation,Working Lunch at CUSEC,2012,1,2012-1Representation,,,
-0,2012-01-19,6010,Ye Olde Orchard Pub,,18,0.61,1.21,4,CAD,Representation,"beer at cusec, 4 dollar tip",2012,1,2012-1Representation,,,
-1,2012-01-21,3026,Ikea,,97.71,4.25,8.48,,CAD,Office supplies,Chair for the office,2012,1,2012-1Office supplies,,,
-1,2012-01-21,3026,Ikea,,155.12,6.75,13.46,,CAD,Office supplies,"Shelves for the office, and storage supplies",2012,1,2012-1Office supplies,,,
-,2012-01-27,6010,Click Imprimerie,,11.35,0.5,0.85,,CAD,Publicity,Business Card,2012,1,2012-1Publicity,,,
-,2012-01-31,Employee1 Employee1,Click Imprimerie,,4.54,0.2,0.34,,CAD,Publicity,Copies,2012,1,2012-1Publicity,,,
-,2012-02-00,?,?,,1980.54,86.13,171.54,,CAD,?,,,,,,,
-,2012-02-02,Employee1 Employee1,STM,,75.5,3.28,6.55,,CAD,Vehicle expenses,STM Fevrier,2012,2,2012-2Vehicle expenses,,,
-,2012-02-07,Employee1 Employee1,Resto Basilic,,21.74,0.95,1.89,,CAD,Representation,Avec employe,2012,2,2012-2Representation,,,
-,2012-02-08,Employee1 Employee1,Pho Bac,,8,0.35,0.69,,CAD,Representation,Diner,2012,2,2012-2Representation,,,
-,2012-02-16,Employee1 Employee1,Telus,,72.43,3.15,6.28,,CAD,Telephone service,,2012,2,2012-2Telephone service,,,
-,2012-02-21,Employee1 Employee1,Domains at cost,,45,,,,CAD,Internet connection & hosting,renewal of 3 domains,2012,2,2012-2Internet connection & hosting,,,
-,2012-02-22,Employee1 Employee1,Resto Mon-Nan,,28.15,1.27,2.49,,CAD,Representation,4 repas: employe,2012,2,2012-2Representation,,,
-,2012-02-29,Employee1 Employee1,1219 Cressent,,16,0.7,1.39,,CAD,Representation,Startup Drinks with Employee2,2012,2,2012-2Representation,,,
-,2012-03-06,Employee1 Employee1,Koodo,,37.3,1.62,3.24,,CAD,Telephone service,,2012,3,2012-3Telephone service,,,
-,2012-03-07,Employee1 Employee1,La legende' Patisserie,,2.3,0.1,0.2,,CAD,Representation,,,,,,,
-,2012-03-07,Employee1 Employee1,Taco House,,5.18,0.23,0.45,,CAD,Representation,Meeting with Android Montreal,2012,3,2012-3Representation,,,
-,2012-03-08,Employee1 Employee1,Poste Canada,,1.48,0.06,0.13,,CAD,,,2012,3,2012-3,,,
-,2012-03-12,Employee1 Employee1,L'ambroisie,,13.61,0.59,1.18,,CAD,Representation,Meeting with Javascript Montreal,2012,3,2012-3Representation,,,
-,2012-03-13,6010,IGA,,14.8,,,,CAD,Office food,,,,,,,
-,2012-03-13,6010,Super C,,69.14,0.22,0.44,,CAD,,,,,,,,
-,2012-03-15,6010,IGA,,34.32,1.49,2.98,,CAD,Office food,Coffee + food,2012,3,2012-3Office food,,,
-,2012-03-16,6010,Telus,,213.16,9.27,18.49,,,Telephone service,customer service for pierre stat,2012,3,2012-3Telephone service,,,
-,2012-03-22,Employee1 Employee1,Tim Hortons,,1.92,0.08,1.92,,CAD,Representation,,,,,,,
-,2012-03-26,Employee6 Employee6,Amtrack Train Ticket,,70,3.04,6.07,,USD,Traveling,From Ny to MTL Train,2012,3,2012-3Traveling,,,
-,2012-03-27,Employee1 Employee1,Epicerie Heng Heng,,3,0,0,,CAD,Office food,,,,,,,
-,2012-03-27,Employee1 Employee1,Cafe Republique,,12.54,0.55,1.09,,CAD,Representation,"ALIA, Association tech Languagiere.",2012,3,2012-3Representation,,,
-,2012-03-27,Employee1 Employee1,Resto Mon-Nan,,18,0.78,1.56,,CAD,Representation,Business Meeting with Philippe from Match FWD,2012,3,2012-3Representation,,,
-,2012-03-29,Employee1 Employee1,La Legende' Patisserie,,20,0.87,1.74,,CAD,Representation,With Employee7,2012,3,2012-3Representation,,,
-,2012-04-02,Employee1 Employee1,L2 Lounge,,7.09,0.31,0.62,,CAD,Representation,Bubble tea with chris,2012,4,2012-4Representation,,,
-,2012-04-02,Employee1 Employee1,Restaurant M.G.,,18.29,0.8,1.59,,CAD,Representation,,,,,,,
-,2012-04-06,Employee1 Employee1,Super C,,2.5,0,0,,CAD,Office food,,,,,,,
-,2012-04-06,6010,Koodo,,46.45,2.02,4.03,,,Telephone service,,2012,4,2012-4Telephone service,,,
-,2012-04-07,3034,Wal-mart,,31.93,1.39,2.77,,CAD,Office supplies,coffee machine,2012,4,2012-4Office supplies,,,
-,2012-04-09,3034,IGA,,28.65,0.15,0.29,,CAD,Office food,Coffee + food,2012,4,2012-4Office food,,,
-,2012-04-11,Employee1 Employee1,Premiere Moisson,,6.11,0.14,0.27,,CAD,Representation,With Bacteria Detector Droid,2012,4,2012-4Representation,,,
-,2012-04-14,Employee1 Employee1,Google chrome store developer registration,,5.08,,,,,Professional fees,,2012,4,2012-4Professional fees,,,
-,2012-04-14,Employee1 Employee1,Telus,,91.29,3.97,7.92,,,Telephone service,,2012,4,2012-4Telephone service,,,
-,2012-04-17,Employee1 Employee1,L2 Lounge,,3.55,0.16,0.31,,CAD,Representation,Bubble tea with chris,2012,4,2012-4Representation,,,
-,2012-04-18,Employee1 Employee1,La Legende' Patisserie,,16.61,0.72,1.44,,CAD,Representation,Interview Teressa,2012,4,2012-4Representation,,,
-,2012-04-23,Employee1 Employee1,IGA,,8.58,0.37,0.74,,CAD,Office food,Coffee Cream,2012,4,2012-4Office food,,,
-,2012-04-23,Mat,Investissement de Employee3,14000,,,,,,Investissement Employee3,Credite l'avoir des actionnaires,2012,4,2012-4Investissement Employee3,,,
-,2012-04-24,Employee1 Employee1,Google Play developer fee,,25.27,1.1,2.19,,USD,Professional fees,,2012,4,2012-4Professional fees,,,
-,2012-04-25,6010,IGA,,27.64,1.2,2.4,,,Office food Credit,"tea, hot chocolate and fruites for employees",2012,4,2012-4Office food Credit,,,
-,2012-04-26,Employee1 Employee1,Tim Hortons,,1.71,0.07,0.15,,CAD,Representation,,,,,,,
-,2012-04-27,Employee1 Employee1,Rotisserie Coco Rico,,11.44,0.5,0.99,,CAD,Representation,"Souper avec Emmy, futur Employe",2012,4,2012-4Representation,,,
-,2012-04-30,Employee1 Employee1,Domains at cost,,13.6,,,,,Internet connection & hosting,,2012,4,2012-4Internet connection & hosting,,,
-,2012-05-02,6010,Cafe Maurizio,,9.75,0.42,0.85,1.46,CAD,Representation Credit,Meeting with Android Montreal,2012,5,2012-5Representation Credit,,,
-,2012-05-04,6010,Click Imprimerie,,11.5,0.5,1,,CAD,Publicity Credit,Teressa Card,2012,5,2012-5Publicity Credit,,,
-,2012-05-04,6010,Mourelatos,,14.65,,,,CAD,Office food Credit,Office Food / Coffee,2012,5,2012-5Office food Credit,,,
-,2012-05-07,Employee1 Employee1,Copies Concordia,,6,0.26,0.52,,CAD,Publicity Credit,Brochure Acfas,2012,5,2012-5Publicity Credit,,,
-,2012-05-07,Employee1 Employee1,McGill University,,8.5,0.37,0.74,,CAD,Representation Credit,Lunch at conference Exploring the Interface,2012,5,2012-5Representation Credit,,,
-,2012-05-13,6010,Super C,,69.14,0.22,0.44,,CAD,Food,,,,,,,
-,2012-05-13,6010,Zellers,,90.76,3.95,7.87,,,Clothes,,,,,,,
-,2012-05-18,,AMT,,7,,,,CAD,Traveling Credit,Train ticket to Deux Montangues,2012,5,2012-5Traveling Credit,,,
-,2012-05-18,VISA,IGA,,25.94,0,0,,CAD,Office food,,,,,,,
-,2012-05-22,Employee1 Employee1,Restaurant M.G.,,9.48,0.41,0.82,,CAD,Representation Credit,Lunch at dumpling restaurant with emmy and yuliya,2012,5,2012-5Representation Credit,,,
-,2012-05-22,VISA,IGA,,10.08,,,,CAD,Office food,,,,,,,
-,2012-05-24,Employee1 Employee1,Kien Vihn Supermarket,,1.99,,,,CAD,Office food Credit,fruit for office employees,2012,5,2012-5Office food Credit,,,
-,2012-05-25,Employee1 Employee1,La Legende' Patisserie,,2.7,0,0,,CAD,Representation Credit,lunch at la legende ,2012,5,2012-5Representation Credit,,,
-,2012-05-25,Employee1 Employee1,Kien Vihn Supermarket,,21.44,0,0,,CAD,,,,,,,,
-,2012-05-30,,Transfert from credit to expenses,,7,,,,,Traveling,,2012,5,2012-5Traveling,,,
-,2012-05-30,,Transfert from credit to expenses,,17.5,,,,,Publicity,,2012,5,2012-5Publicity,,,
-,2012-05-30,,Transfert from credit to expenses,,44.28,,,,,Office food,,2012,5,2012-5Office food,,,
-,2012-05-30,Employee1 Employee1,Employee1 Traveling Credit card payment,7,,,,,,Owners' investment,,2012,5,2012-5Owners' investment,,,
-,2012-05-30,Employee1 Employee1,Employee1 Food Credit card payment,44.28,,,,,,Owners' investment,,2012,5,2012-5Owners' investment,,,
-,2012-05-30,Employee1 Employee1,Employee1 Publicity Credit card payment,17.5,,,,,,Owners' investment,,2012,5,2012-5Owners' investment,,,
-,2012-05-31,,Transfert from credit to expenses,,30.43,,,,,Representation,,2012,5,2012-5Representation,,,
-,2012-05-31,,Telephone on Credit card,,118.88,5.17,10.31,,,Telephone service Credit,,2012,5,2012-5Telephone service Credit,,,
-,2012-05-31,,Transfert from credit to expenses,,118.88,,,,,Telephone service,,2012,5,2012-5Telephone service,,,
-,2012-05-31,Employee1 Employee1,Employee1 Representation Credit card payment,30.43,,,,,,Owners' investment,,2012,5,2012-5Owners' investment,,,
-,2012-05-31,Employee1 Employee1,Employee1 Phone Credit card payment,118.88,,,,,,Owners' investment,,2012,5,2012-5Owners' investment,,,
-,2012-05-31,Employee1 Employee1,Investissement de Employee1,218.09,,,,,,Investissement Employee1,Calculé selon l'actif dans l'encaisse et le débit de chaque compte.,2012,5,2012-5Investissement Employee1,,,
-,2012-06-12,3034,Montreal Poutine,,36.16,1.72,3.42,4.71,CAD,Representation Credit,"meeting with Alan Jessica Employee3, emmy and Employee2 after first demo 16.70 + 14.68 + 8.07 tip 5.50",2012,6,2012-6Representation Credit,,,
-,2012-06-12,,La Vieille Europe,,49.64,2.16,4.31,,,Publicity Credit,Wine and Cheese iField Launch party for clients,2012,6,2012-6Publicity Credit,,,
-,2012-06-12,VISA,IGA,,52.52,0.65,1.29,,CAD,Office food,creme and tea,,,,,,
-,2012-06-14,,Jean Coutu,,22.97,1,1.99,,CAD,photos for citizenship or visa,,,,,,,
-,2012-06-14,6010,STM,,24,,,,CAD,transportation,,,,,,,
-,2012-06-15,,Kien Vihn Supermarket,,2.03,0.09,0.18,,CAD,Office food Credit,fruit for office employees,2012,6,2012-6Office food Credit,,,
-,2012-06-18,,Kien Vihn Supermarket,,5.27,0,0,,CAD,Office food,fruit for office employees,,,,,,
-,2012-06-19,,La Legende' Patisserie,,7.99,0.35,0.69,,,Representation Credit,dinner at la legende for meeting with either alex or Employee7,2012,6,2012-6Representation Credit,,,
-,2012-06-20,6010,L3B,,18.04,0.68,1.36,2.35,CAD,Representation Credit,meeting with prospective PostDoc Jonathan Howel and Emmy and Employee8 at 3 brasseures 2.35tip,2012,6,2012-6Representation Credit,,,
-,2012-06-21,6010,Super C,,7.99,,,,CAD,,,,,,,,
-,2012-06-26,6010,Mai Xiang Yuan Restaurant,,26.42,1,1.99,3.45,CAD,Representation Credit,Lunch at dumpling restaurant with emmy and yuliya,2012,6,2012-6Representation Credit,,,
-,2012-06-28,Mat,Investissement de Employee3,2000,,,,,,Investissement Employee3,,2012,6,2012-6Investissement Employee3,,,
-,2012-06-28,7913,McGill University – CREMOVED Invoice #309,1500,,-65.23,-130.14,,CAD,Sales,Invoice #309,2012,6,2012-6Cash,,,
-,2012-06-30,,Transfert from credit to expenses,,2.03,,,,,Office food,,2012,6,2012-6Office food,,,
-,2012-06-30,,Transfert from credit to expenses,,49.64,,,,,Publicity,,2012,6,2012-6Publicity,,,
-,2012-06-30,3034,Festival Int'l de Jazz,,62.99,2.74,5.46,8.22,CAD,Representation Credit,saq tent at jazz fesitval with vicky and stephane tip 8.22,2012,6,2012-6Representation Credit,,,
-,2012-06-30,,Telephone on Credit card,,118.88,5.17,10.31,,,Telephone service Credit,,2012,6,2012-6Telephone service Credit,,,
-,2012-06-30,,Transfert from credit to expenses,,118.88,,,,,Telephone service,,2012,6,2012-6Telephone service,,,
-,2012-06-30,,Transfert from credit to expenses,,151.6,,,,,Representation,,2012,6,2012-6Representation,,,
-,2012-06-30,Employee1 Employee1,Employee1 Food Credit card payment,2.03,,,,,,Owners' investment,,2012,6,2012-6Owners' investment,,,
-,2012-06-30,Employee1 Employee1,Employee1 Publicity Credit card payment,49.64,,,,,,Owners' investment,,2012,6,2012-6Owners' investment,,,
-,2012-06-30,Employee1 Employee1,Employee1 Representation Credit card payment,151.6,,,,,,Owners' investment,,2012,6,2012-6Owners' investment,,,
-,2012-06-30,Employee1 Employee1,Employee1 Phone Credit card payment,118.88,,,,,,Owners' investment,,2012,6,2012-6Owners' investment,,,
-,2012-06-30,Employee1 Employee1,Investissement de Employee1,322.15,,,,,,Investissement Employee1,Calculé selon l'actif dans l'encaisse et le débit de chaque compte.,2012,6,2012-6Investissement Employee1,,,
-,2012-07-03,6010,AMT,,7,,,,CAD,Traveling Credit,Train ticket to Deux Montangues,2012,7,2012-7Traveling Credit,,,
-,2012-07-03,Employee1 Employee1,Cafe Terrasse chex Catherine,,9.78,0.43,0.85,,CAD,Representation Credit,ice cream with emmy Employee8 yuliya and Employee2 in old port on yuliyas last day,2012,7,2012-7Representation Credit,,,
-,2012-07-03,6010,La Legende' Patisserie,,18,0.78,1.56,,,Representation Credit,cake for deux montangues,2012,7,2012-7Representation Credit,,,
-,2012-07-04,Employee1 Employee1,L2 Lounge,,3.55,0.16,0.31,,,Representation Credit,bubble tea with emmy and Employee8,2012,7,2012-7Representation Credit,,,
-,2012-07-06,6010,KOODO MOBILE PAC,,46.45,,,,,,,,,,,,
-,2012-07-14,3034,IGA,,3.98,,,,,,,,,,,,
-,2012-07-15,6010,TELUS MOBILITY PREAUTH,,72.43,,,,,,,,,,,,
-,2012-07-16,6010,SUPER C ATWATER #5952,,15.73,,,,,food,chicken,,,,,,
-,2012-07-16,Employee1 Employee1,Investissement de Employee1,500,,,,,,Investissement Employee1,,2012,7,2012-7Investissement Employee1,,,
-,2012-07-17,6010,IGA,,9.57,0.42,0.83,,CAD,Office food Credit,Orange juice and baggettes for employee mimosa party post iField launch,2012,7,2012-7Office food Credit,,,
-,2012-07-23,7913,Concordia University – BREMOVED Invoice #313 & #314,2250.01,,-97.85,-195.21,,,Sales,Invoices #313 and #314,2012,7,2012-7Cash,,,
-,2012-07-29,6010,Zellers,,36.5,1.59,3.17,,CAD,clothes,bathing suits,,,,,,
-,2012-07-30,Employee1 Employee1,Bagel Bar,,23.41,1.02,2.03,,CAD,Representation Credit,Breakfast at montreal airport with emmy,2012,7,2012-7Representation Credit,,,
-,2012-07-30,Employee1 Employee1,Las Tres Condesas,,27.63,,,,Guatemala 221,Representation Credit,"Dinner with clients in Antigua Guatemala Robert, Jessica, Lauren, Emmy, Gretchen ",2012,7,2012-7Representation Credit,,,
-,2012-07-30,,The Counter,,28.42,,,,USD,Representation Credit,Lunch at airport in Miami with iField clients Jessica and Emmy,2012,7,2012-7Representation Credit,,,
-,2012-07-31,,"Maite, Morjan Arduengo",,6.38,,,,Guatemala 51,Representation Credit,Working coffee with emmy while useing wifi to merge before demo,2012,7,2012-7Representation Credit,,,
-,2012-07-31,,Transfert from credit to expenses,,7,,,,,Traveling,,2012,7,2012-7Traveling,,,
-,2012-07-31,,Transfert from credit to expenses,,9.57,,,,,Office food,,2012,7,2012-7Office food,,,
-,2012-07-31,,La Fonda de la Calle Real,,19.18,,,,,Representation Credit,Lunch with emmy in Antigua Guatemala,2012,7,2012-7Representation Credit,,,
-,2012-07-31,,Telephone on Credit card,,118.88,5.17,10.31,,,Telephone service Credit,,2012,7,2012-7Telephone service Credit,,,
-,2012-07-31,,Transfert from credit to expenses,,118.88,,,,,Telephone service,,2012,7,2012-7Telephone service,,,
-,2012-07-31,,Transfert from credit to expenses,,136.34,,,,,Representation,,2012,7,2012-7Representation,,,
-,2012-07-31,Employee1 Employee1,Employee1 Traveling Credit card payment,7,,,,,,Owners' investment,,2012,7,2012-7Owners' investment,,,
-,2012-07-31,Employee1 Employee1,Employee1 Food Credit card payment,9.57,,,,,,Owners' investment,,2012,7,2012-7Owners' investment,,,
-,2012-07-31,Employee1 Employee1,Employee1 Representation Credit card payment,136.34,,,,,,Owners' investment,,2012,7,2012-7Owners' investment,,,
-,2012-07-31,Employee1 Employee1,Employee1 Phone Credit card payment,118.88,,,,,,Owners' investment,,2012,7,2012-7Owners' investment,,,
-,2012-07-31,Employee1 Employee1,Investissement de Employee1,271.79,,,,,,Investissement Employee1,,2012,7,2012-7Investissement Employee1,,,
-,2012-08-01,,Hostal Las Marias,,120,,,,Guatemala 960,Lodging,Lodiging in Antigua Guatemala on business trip with clients to demo iField,2012,8,2012-8Hotel Credit,,,
-,2012-08-01,Employee1 Employee1,Investissement de Employee1,500,,,,,,Investissement Employee1,,2012,8,2012-8Investissement Employee1,,,
-,2012-08-04,,Tiki Ming,,9.47,0.41,0.82,,CAD,Representation Credit,,2012,8,2012-8Representation Credit,,,
-,2012-08-04,6010,KOODO MOBILE PAC         EDMONTON     AB,,46.45,,,,,,,,,,,,
-,2012-08-06,,Pizza Hut Aeropuerto,,5.63,0.24,0.49,,Guatemala 45,Representation Credit,Lunch at airport in Guatemala city with iField clients,2012,8,2012-8Representation Credit,,,
-,2012-08-06,,Carlos & Carlos,,37.88,1.65,3.29,,,Representation Credit,"lunch at airport in guatemala city for emmy, jessica and robert",2012,8,2012-8Representation Credit,,,
-,2012-08-07,,Provigo,,33.07,,,,,food,milk coffee steak bagget cheese letuce,,,,,,
-,2012-08-07,,McGill University – CREMOVED Invoice #310,750,,-32.62,-65.07,,,Cash,Invoice #310,2012,8,2012-8Cash,,,
-,2012-08-09,6010,MOUNTAIN EQUIPMENT CO-OP MONTREAL     QC,,14.66,,,,,,,,,,,,
-,2012-08-14,6010,L'Ambroisie,,7.81,0.3,0.59,1,CAD,Representation Credit,Javascript montreal happy hour and networking 1.00 tip,2012,8,2012-8Representation Credit,,,
-,2012-08-15,,McGill University – RREMOVED Invoice #318,2874.38,,-125,-249.38,,,Cash,Invoice #318,2012,8,2012-8Cash,,,
-,2012-08-16,6010,Super C,,7.19,,,,CAD,food,,,,,,,
-,2012-08-16,,Restaurant Mon-Nan,,21,0.91,1.82,,CAD,Representation Credit,Lunch with Employee8 and Employee2,2012,8,2012-8Representation Credit,,,
-,2012-08-16,6010,TELUS MOBILITY PREAUTH,,72.43,,,,,,,,,,,,
-,2012-08-16,,Employee1 Representation Credit card payment,,,,,,,Owners' investment,,2012,8,2012-8Owners' investment,,,
-,2012-08-17,1762,Hot harry's fresh burgers,,17.03,,,,USD,Traveling,food on interstate,,,,,,
-,2012-08-17,7616,Schroon lake sunoco,,37.74,,,,USD,transportation,gas,,,,,,
-,2012-08-17,3229,Vineyards wine and liquor,,50.72,,,,USD,Representation,wine,,,,,,
-,2012-08-18,3229,Merchants NY,,10.31,,,1.6,USD,Representation,drinks in NYC,,,,,,
-,2012-08-18,7616,Rainbow,,12.99,,,,USD,shoes,while walking around in NYC with Employee3,,,,,,
-,2012-08-18,7616,Parking,,16,,,,USD,transportation,,,,,,,
-,2012-08-18,Employee1 Employee1,Transit Food Harry,,17.3,,,,,Traveling Credit,Food in transit,2012,8,2012-8Traveling Credit,,,
-,2012-08-18,Employee1 Employee1,Train,,49,,,,USD,transportation,Train ticket from bridge port to NYC with Employee3,2012,8,2012-8Traveling Credit,,,
-,2012-08-18,Employee1 Employee1,Employee1 Traveling Credit card payment,,56.51,,,,,Traveling,PMT Credit card,2012,8,2012-8Traveling,,,
-,2012-08-18,Employee1 Employee1,Transfert from credit to expenses,56.51,,,,,,Owners' investment,,2012,8,2012-8Owners' investment,,,
-,2012-08-19,7616,Stop and shop,,7.51,,,,USD,Traveling Credit,Food in transit,2012,8,2012-8Traveling Credit,,,
-,2012-08-23,Employee1 Employee1,Thai Express,,17.2,0.75,1.49,,CAD,Representation Credit,,2012,8,2012-8Representation Credit,,,
-,2012-08-23,3125,Business Card,,23,1,2,,CAD,Publicity Credit,paid by Employee2?,2012,8,2012-8Publicity Credit,,,
-,2012-08-24,Employee1 Employee1,Cafe Depot,,2.62,0.11,0.23,,CAD,Representation Credit,,2012,8,2012-8Representation Credit,,,
-,2012-08-24,6010,MOURELATOS GOURMET,,6.98,,,,,,,,,,,,
-,2012-08-28,7913,Invoice 311 or 314,750,,,,,CAD,Sales,maybe invoice #311 or 314,,,,,,
-,2012-08-29,3034,Ailes,,229.94,10,19.95,,CAD,clothes,suits for Employee3,,,,,,
-,2012-08-30,Employee1 Employee1,Presse CAFE,,2.88,0.13,0.25,,CAD,Representation Credit,,2012,8,2012-8Representation Credit,,,
-,2012-08-30,6010,My bicyclette inc,,18.98,,,,CAD,transportation,unknown bike supplies or repairs,,,,,,
-,2012-08-31,Employee1 Employee1,Business Card,,23,,,,,Publicity,,2012,8,2012-8Publicity,,,
-,2012-08-31,,Transfert from credit to expenses,,104.48,,,,,Representation,,2012,8,2012-8Representation,,,
-,2012-08-31,,Telephone on Credit card,,118.88,5.17,10.31,,,Telephone service Credit,,2012,8,2012-8Telephone service Credit,,,
-,2012-08-31,,Transfert from credit to expenses,,118.88,,,,,Telephone service,,2012,8,2012-8Telephone service,,,
-,2012-08-31,Employee1 Employee1,Employee1 Publicity Credit card payment,23,,,,,,Owners' investment,,2012,8,2012-8Owners' investment,,,
-,2012-08-31,Employee1 Employee1,Employee1 Representation Credit card payment,104.48,,,,,,Owners' investment,,2012,8,2012-8Owners' investment,,,
-,2012-08-31,Employee1 Employee1,Employee1 Phone Credit card payment,118.88,,,,,,Owners' investment,,2012,8,2012-8Owners' investment,TPS,TVQ,TPS + TVQ due
-,2012-08-31,Employee1 Employee1,Investissement de Employee1,223.36,,,,,,Investissement Employee1,,2012,8,2012-8Investissement Employee1,639.7881278539,#VALUE!,#VALUE!
-,2012-09-02,6010,IGA,,11.06,0.24,0.48,,CAD,Office food Credit,Lime and cream,2012,9,2012-9Office food Credit,,,
-,2012-09-06,6010,DOMAINSATCOST,,15.7,,,,,Internet connection & hosting credit,,,,,,,
-,2012-09-06,6010,DOMAINSATCOST,,31.4,,,,,Internet connection & hosting credit,,,,,,,
-,2012-09-06,6010,KOODO MOBILE PAC,,46.45,,,,,Telephone service,,,,,,,
-,2012-09-06,,Transfert from credit to expenses,,71.94,,,,,Internet connection & hosting,,2012,9,2012-9Internet connection & hosting,,,
-,2012-09-06,Employee1 Employee1,Employee1 Credit card payment,71.94,,,,,,Owners' investment,,2012,9,2012-9Owners' investment,,,
-,2012-09-07,Employee1 Employee1,Bambou Bol,,8.04,0.35,0.7,,CAD,Representation Credit,,2012,9,2012-9Representation Credit,,,
-,2012-09-07,7913,Invoice #315,1500,,,,,CAD,Sales,Invoice #315,,,,,,
-,2012-09-12,6010,Provigo,,16.01,0.35,0.69,,CAD,Office food Credit,Milk cream,2012,9,2012-9Office food Credit,,,
-,2012-09-12,Employee1 Employee1,Office food Credit,,27.07,,,,,Office food,,2012,9,2012-9Office food,,,
-,2012-09-13,Employee1 Employee1,Traiteur Satay Bros,,13.01,0.57,1.13,,CAD,Representation Credit,atwater market with Employee2,2012,9,2012-9Representation Credit,,,
-,2012-09-13,7913,Invoice #311?,750,,,,,CAD,Sales,maybe invoice #311 or 314,,,,,,
-,2012-09-16,6010,TELUS MOBILITY PREAUTH,,74.23,,,,,,,,,,,,
-,2012-09-17,6010,GOOGLE *Google Play google.com/chCA,,24.84,,,,,Professional fees,,,,,,,
-,2012-09-18,3034,A&W,,9.48,0.21,0.41,,,Representation Credit,,2012,9,2012-9Representation Credit,,,
-,2012-09-27,Employee1 Employee1,Noodle Factory,,7.5,0.16,0.33,,,Representation Credit,,2012,9,2012-9Representation Credit,,,
-,2012-09-30,6010,STM PL DES ARTS DIE101   MONTREAL     QC,,24,,,,,,,,,,,,
-,2012-09-30,Employee1 Employee1,Transfert from credit to expenses,,38.03,,,,,Representation,,2012,9,2012-9Representation,,,
-,2012-09-30,,Telephone on Credit card,,118.88,5.17,10.31,,,Telephone service Credit,,2012,9,2012-9Telephone service Credit,,,
-,2012-09-30,,Transfert from credit to expenses,,118.88,,,,,Telephone service,,2012,9,2012-9Telephone service,,,
-,2012-09-30,Employee1 Employee1,Employee1 Office Food Credit card payment,27.07,,,,,,Owners' investment,,2012,9,2012-9Owners' investment,,,
-,2012-09-30,Employee1 Employee1,Employee1 Representation Credit card payment,38.03,,,,,,Owners' investment,,2012,9,2012-9Owners' investment,,,
-,2012-09-30,Employee1 Employee1,Employee1 Phone Credit card payment,118.88,,,,,,Owners' investment,,2012,9,2012-9Owners' investment,,,
-,2012-10-02,6010,DOMAINSATCOST,,31.4,,,,,Internet connection & hosting,,,,,,,
-,2012-10-02,Employee1 Employee1,Employee1 Credit card payment,31.4,,,,,,Owners' investment,,2012,10,2012-10Owners' investment,,,
-,2012-10-06,6010,LOBLAWS #8316,,11.39,,,,,,,,,,,,
-,2012-10-06,6010,JEAN COUTU #106,,26.19,,,,,,,,,,,,
-,2012-10-06,6010,MAXI #8994,,106.54,,,,,,,,,,,,
-,2012-10-08,6010,KOODO MOBILE PAC,,55.85,,,,,,,,,,,,
-,2012-10-08,6010,Best Buy,,259.99,,,,CAD,Electronics,Nexus 7 tablet,,,,,,
-,2012-10-09,6010,L'Ambroisie,,6.81,0.3,0.59,1,CAD,Representation,Javascript montreal happy hour and networking 1.00 tip,,,,,,
-,2012-10-09,6010,L AMBROISIE,,7.81,,,,,,,,,,,,
-,2012-10-09,,Nexus 7 Tablet on Credit card,,300.82,13.08,26.1,,,Equipments – purchase credit,Buying the Tablet for Dev. BestBuy.ca #900,2012,10,2012-10Equipments – purchase credit,,,
-,2012-10-09,6010,BEST BUY.CA # 900,,300.82,,,,,,,,,,,,
-,2012-10-09,Employee1 Employee1,Employee1 Credit card payment,300.82,,,,,,Owners' investment,,2012,10,2012-10Owners' investment,,,
-,2012-10-17,6010,TELUS MOBILITY PREAUTH,,72.43,,,,,,,,,,,,
-,2012-10-18,Employee1 Employee1,Patisserie La Legende Pastry,,23.51,0.51,1.02,,CAD,Representation Credit,,2012,10,2012-10Representation Credit,,,
-,2012-10-19,Employee1 Employee1,Mongolian Hot Pot,,30.55,0.66,1.33,3.05,CAD,Representation Credit,hotpot for erins birthday?,2012,10,2012-10Representation Credit,,,
-,2012-10-23,Employee1 Employee1,Croissant plus N O,,9.53,0.21,0.41,,CAD,Representation Credit,,2012,10,2012-10Representation Credit,,,
-,2012-10-25,6010,PROVIGO #8698,,17.18,,,,,,,,,,,,
-,2012-10-26,7913,Invoice #319,3000,,,,,,Sales,TREMOVED invoice complete,,,,,,
-,2012-10-29,Employee1 Employee1,Restaurant M.C.,,9.48,0.41,0.82,,CAD,Representation Credit,,2012,10,2012-10Representation Credit,,,
-,2012-10-29,6010,DOMAINSATCOST,,13.6,,,,,,,,,,,,
-,2012-10-30,6010,Cordonnerie desjardins,,8.93,0.39,0.77,,CAD,office supplies,keys,,,,,,
-,2012-10-30,6010,IGA,,24.79,0.54,1.08,,,Office food Credit,,2012,10,2012-10Office food Credit,,,
-,2012-10-31,Employee1 Employee1,Office food Credit,,13.46,,,,,Office food,,2012,10,2012-10Office food,,,
-,2012-10-31,Employee1 Employee1,Office food Credit,,24.79,,,,,Office food,,2012,10,2012-10Office food,,,
-,2012-10-31,Employee1 Employee1,Transfert from credit to expenses,,73.07,,,,,Representation,,2012,10,2012-10Representation,,,
-,2012-10-31,,Telephone on Credit card,,120.68,5.25,10.47,,,Telephone service Credit,,2012,10,2012-10Telephone service Credit,,,
-,2012-10-31,,Transfert from credit to expenses,,120.68,,,,,Telephone service,,2012,10,2012-10Telephone service,,,
-,2012-10-31,Employee1 Employee1,Employee1 Office Food Credit card payment,24.79,,,,,,Owners' investment,,2012,10,2012-10Owners' investment,,,
-,2012-10-31,Employee1 Employee1,Employee1 Representation Credit card payment,73.07,,,,,,Owners' investment,,2012,10,2012-10Owners' investment,,,
-,2012-10-31,Employee1 Employee1,Employee1 Phone Credit card payment,120.68,,,,,,Owners' investment,,2012,10,2012-10Owners' investment,,,
-,2012-10-31,Employee1 Employee1,Employee1 Office Food Credit card payment,13.46,,,,,,Owners' investment,,2012,10,2012-10Owners' investment,,,
-,2012-11-02,6010,Tim Hortons,,12.01,0.52,1.04,,CAD,Traveling Credit,saq tent at jazz fesitval with vicky and stephane tip 8.22,,,,,,
-,2012-11-04,Employee1 Employee1,Tim Hortons,,1.45,0.06,0.13,,CAD,Traveling Credit,mt laurier,,,,,,
-,2012-11-06,6010,KOODO MOBILE PAC,,54.5,,,,,,,,,,,,
-,2012-11-06,6010,MAXI #8994       *,,177.46,,,,,,,,,,,,
-,2012-11-07,3034,St-Huberts ,,12.01,,,,CAD,Representation,,,,,,,
-,2012-11-07,6010,ESSO 3440 BOUL  ST-LAURENMONTREAL     QC,,19.59,0.8,1.6,,CAD,Representation,beer for android montreal ,,,,,,
-,2012-11-12,Employee1 Employee1,Provigo,,13.97,0.3,0.61,,CAD,Office food Credit,,2012,11,2012-11Office food Credit,,,
-,2012-11-12,4002,unknown transaction desjardins,4259.94,,,,,CAD,,duno,,,,,,
-,2012-11-14,Employee1 Employee1,L'Ambroisie,,6.81,0.3,0.59,1,CAD,Representation,Javascript montreal happy hour and networking 1.00 tip,,,,,,
-,2012-11-14,3034,Bistro Le balmoral,,29.08,,,3.79,CAD,Representation,dunno,,,,,,
-,2012-11-16,6010,TELUS MOBILITY PREAUTH   CALGARY      AB,,100.59,,,,,,,,,,,,
-,2012-11-22,Employee1 Employee1,Le vieux dublin,,8.25,0.36,0.72,,CAD,Representation Credit,after google tech talk (?),2012,11,2012-11Representation Credit,,,
-,2012-11-24,Employee1 Employee1,Bonnys cuisine vegetarianne,,18.45,0.4,0.8,2.41,CAD,Representation Credit,1748 notre dame (maybe after android montreal?),2012,11,2012-11Representation Credit,,,
-,2012-11-28,6010,MOUNTAIN EQUIPMENT CO-OP MONTREAL     QC,,32.77,,,,,,,,,,,,
-,2012-11-29,,STM,,24,,,,CAD,transportation,,,,,,,
-,2012-11-29,6010,Le chateau,,57.48,2.5,4.99,,CAD,clothes,pants,,,,,,
-,2012-11-30,Employee1 Employee1,Office food Credit,,13.97,,,,,Office food,,2012,11,2012-11Office food,,,
-,2012-11-30,Employee1 Employee1,Transfert Credit to expense,,26.7,,,,,Representation,,2012,11,2012-11Representation,,,
-,2012-11-30,,Telephone on Credit card,,128.28,5.58,11.13,,,Telephone service Credit,,2012,11,2012-11Telephone service Credit,,,
-,2012-11-30,,Transfert from credit to expenses,,128.28,,,,,Telephone service,,2012,11,2012-11Telephone service,,,
-,2012-11-30,Employee1 Employee1,Employee1 Office Food Credit card payment,13.97,,,,,,Owners' investment,,2012,11,2012-11Owners' investment,,,
-,2012-11-30,Employee1 Employee1,Employee1 Phone Credit card payment,128.28,,,,,,Owners' investment,,2012,11,2012-11Owners' investment,,,
-,2012-11-30,Employee1 Employee1,Employee1 Credit card payment,26.7,,,,,,Owners' investment,,2012,11,2012-11Owners' investment,,,
-,2012-12-00,6010,KOODO MOBILE PAC,,46.45,,,,,Telephone service,,,,,,,
-,2012-12-00,6010,TELUS MOBILITY PREAUTH,,72.43,,,,,,,,,,,,
-,2012-12-03,6010,Domainatcost,,13.6,0.59,1.18,,,Internet connection & hosting credit,Domainsatcost,2012,12,2012-12Internet connection & hosting credit,,,
-,2012-12-03,,Transfert from credit to expenses,,13.6,,,,,Internet connection & hosting,,2012,12,2012-12Internet connection & hosting,,,
-,2012-12-03,Employee1 Employee1,Employee1 Credit card payment,13.6,,,,,,Owners' investment,,2012,12,2012-12Owners' investment,,,
-,2012-12-03,Employee1 Employee1,Employee1 Credit card payment,255.85,,,,,,Owners' investment,,2012,12,2012-12Owners' investment,,,
-,2012-12-03,Employee1 Employee1,Employee1 Credit card payment,9.12,,,,,,Owners' investment,,2012,12,2012-12Owners' investment,,,
-,2012-12-06,Employee1 Employee1,Restaurant Pho Bac,,8,0.35,0.69,,CAD,Representation Credit,,2012,12,2012-12Representation Credit,,,
-,2012-12-07,,SAQ,,10.15,0.44,0.88,,CAD,Representation,,,,,,,
-,2012-12-11,Employee1 Employee1,Restaurant M.C.,,9.48,0.41,0.82,,CAD,Representation Credit,,2012,12,2012-12Representation Credit,,,
-,2012-12-11,3034,Click Imprimerie,,34.5,1.5,3,,CAD,Publicity,business cards for Employee3 and Employee11?,,,,,,
-,2012-12-12,Employee1 Employee1,Saint-Cinnamon,,2.37,0.05,0.1,,CAD,Representation Credit,,2012,12,2012-12Representation Credit,,,
-,2012-12-18,Employee1 Employee1,Restaurant M.C.,,5.18,0.23,0.45,,CAD,Representation Credit,,2012,12,2012-12Representation Credit,,,
-,2012-12-18,Employee1 Employee1,Restaurant M.C.,,9.48,0.41,0.82,,CAD,Representation Credit,,2012,12,2012-12Representation Credit,,,
-,2012-12-18,Employee1 Employee1,Restaurant M.C.,,18.98,0.83,1.65,,CAD,Representation Credit,,2012,12,2012-12Representation Credit,,,
-,2012-12-18,6010,STM,,24,1.04,2.08,,CAD,transportation,,2012,12,2012-12Traveling Credit,,,
-,2012-12-19,6010,IGA,,13.46,0.29,0.58,,CAD,Office food Credit,cream,2012,12,2012-12Office food Credit,,,
-,2012-12-20,Employee1 Employee1,IGA,,9.12,0,0,,CAD,Office food Credit,,2012,12,2012-12Office food Credit,,,
-,2012-12-20,3034,SAQ,,36,1.57,3.12,,CAD,Representation,rum,,,,,,
-,2012-12-22,7475,Shalimar Restaurent of Clifton,,17.1,,,,,Traveling Credit,Travel for interview / Partnership NYC,2012,12,2012-12Traveling Credit,,,
-,2012-12-22,7475,Sunoco,,30,,,,USD,Traveling Credit,Travel for interview / Partnership NYC,2012,12,2012-12Traveling Credit,,,
-,2012-12-23,Employee1 Employee1,Imperial parking cie ,,16,,,,USD,Traveling Credit,Travel for interview / Partnership NYC,2012,12,2012-12Traveling Credit,,,
-,2012-12-23,3034,Metro-North Railroad,,36.75,,,,USD,Traveling Credit,Travel for interview / Partnership NYC,2012,12,2012-12Traveling Credit,,,
-,2012-12-25,3034,Cumberland farms,,15,,,,USD,Traveling Credit,Travel for interview / Partnership NYC,2012,12,2012-12Traveling Credit,,,
-,2012-12-25,7475,Circle K Gaz,,34,,,,USD,Traveling Credit,Travel for interview / Partnership NYC,2012,12,2012-12Traveling Credit,,,
-,2012-12-28,Employee1 Employee1,Investissement de Employee1,8000,,,,,,Investissement Employee3,,2012,12,2012-12Investissement Employee3,,,
-,2012-12-28,Mat,Investissement de Employee3,9000,,,,,,Investissement Employee3,,2012,12,2012-12Investissement Employee3,,,
-,2012-12-30,Employee1 Employee1,Transfert Credit to expense,,9.12,,,,,Office food,,2012,12,2012-12Office food,,,
-,2012-12-30,,STM Carte Opus,,24,,,,CAD,Traveling Credit,,2012,12,2012-12Traveling Credit,,,
-,2012-12-30,3034,STM Carte Opus,,83,,,,CAD,transportation,,2012,12,2012-12Traveling Credit,,,
-,2012-12-30,Employee1 Employee1,Transfert Credit to expense,,255.85,,,,,Traveling,,2012,12,2012-12Traveling,,,
-,2012-12-30,Employee1 Employee1,Transfert Credit to expense,,5387.27,,,,,Representation,,2012,12,2012-12Representation,,,
-,2012-12-30,Employee1 Employee1,Employee1 Credit card payment,72.64,,,,,,Owners' investment,,2012,12,2012-12Owners' investment,,,
-,2012-12-31,3034,Loblaws,,5.97,,,,CAD,food,pasta in lasalle,,,,,,
-,2012-12-31,Employee1 Employee1,Transfert from Traveling credit to expenses,,24,,,,,Traveling,,2012,12,2012-12Traveling,,,
-,2012-12-31,Employee1 Employee1,Transfert from credit to expenses,,36.01,,,,,Representation,,2012,12,2012-12Representation,,,
-,2012-12-31,,Telephone on Credit card,,155.09,6.74,13.46,,,Telephone service Credit,,2012,12,2012-12Telephone service Credit,,,
-,2012-12-31,,Transfert from credit to expenses,,155.09,,,,,Telephone service,,2012,12,2012-12Telephone service,,,
-,2012-12-31,Employee1 Employee1,Employee1 Representation Credit card payment,36.01,,,,,,Owners' investment,,2012,12,2012-12Owners' investment,,,
-,2012-12-31,Employee1 Employee1,Employee1 Traveling Credit card payment,24,,,,,,Owners' investment,,2012,12,2012-12Owners' investment,,,
-,2012-12-31,Employee1 Employee1,Employee1 Phone Credit card payment,155.09,,,,,,Owners' investment,,2012,12,2012-12Owners' investment,,,
+Date,Payor Account,Payee,Deposit,Withdrawal,TPS 5%,TVQ 9.5%,Tips,Currency,Credit,Memo Field
+2012-01-04,Employee1 Employee1,Restaurant Pho Bac,,13.99,0.61,1.1,,CAD,Representation,
+2012-01-05,6010,STM,,75.5,0,0,,CAD,transportation,monthly pass Jan 2012
+2012-01-06,6010,IGA,,3.99,0,0,,CAD,Office food,coffee cream
+2012-01-06,6010,Koodo,,57.42,2.5,4.98,,CAD,Telephone service,
+2012-01-09,Employee1 Employee1,Future Shop,,7.48,0.33,0.65,,CAD,Electronics,usb key to install the linux computer
+2012-01-09,6010,Future Shop,,423.38,19.5,38.9,,CAD,Electronics,office computer
+2012-01-10,6010,L'ambroisie,,7.81,0.3,0.59,1,CAD,Representation,
+2012-01-10,6010,L'ambroisie,,15.04,0.57,1.13,2,CAD,Representation,
+2012-01-10,Employee1 Employee1,Salaire Employee2,,386.85,,,,CAD,Salaries & wages,PMT Employee2 pour decembre de 400$
+2012-01-12,Mat,LTL Prints,,49,,,,USD,Publicity,Poster Lab Clouds
+2012-01-13,Employee1 Employee1,Dollarama,,10.93,0.48,0.95,,CAD,Office supplies,paper clips staples and notecards
+2012-01-13,6010,Future Shop,,57.48,2.5,4.99,,CAD,Electronics,Dlink Wifi usb for office computer
+2012-01-14,6010,Telus,,71.77,3.12,6.23,,CAD,Telephone service,
+2012-01-19,6010,Subway,,5.18,0.23,0.45,,CAD,Representation,Working Lunch at CUSEC
+2012-01-19,8926,Grillades du cedres,,10.05,0.44,0.87,,CAD,Representation,Working Lunch at CUSEC
+2012-01-19,6010,Ye Olde Orchard Pub,,18,0.61,1.21,4,CAD,Representation,"beer at cusec, 4 dollar tip"
+2012-01-21,3026,Ikea,,97.71,4.25,8.48,,CAD,Office supplies,Chair for the office
+2012-01-21,3026,Ikea,,155.12,6.75,13.46,,CAD,Office supplies,"Shelves for the office, and storage supplies"
+2012-01-27,6010,Click Imprimerie,,11.35,0.5,0.85,,CAD,Publicity,Employee1 Business Card
+2012-01-31,Employee1 Employee1,Click Imprimerie,,4.54,0.2,0.34,,CAD,Publicity,Copies
+2012-02-00,?,?,,1980.54,86.13,171.54,,CAD,?,
+2012-02-01,6010,Koodo,,57.42,2.5,4.98,,CAD,Telephone service,
+2012-02-02,Employee1 Employee1,STM,,75.5,3.28,6.55,,CAD,transportation,STM Fevrier
+2012-02-07,Employee1 Employee1,Resto Basilic,,21.74,0.95,1.89,,CAD,Representation,Avec employe
+2012-02-08,Employee1 Employee1,Pho Bac,,8,0.35,0.69,,CAD,Representation,Diner
+2012-02-16,6010,Telus,,72.43,3.15,6.28,,CAD,Telephone service,
+2012-02-21,6010,DOMAINSATCOST,,45,,,,CAD,hosting,renewal of 3 domains
+2012-02-22,Employee1 Employee1,Resto Mon-Nan,,28.15,1.27,2.49,,CAD,Representation,4 repas: employe
+2012-02-29,Employee1 Employee1,1219 Cressent,,16,0.7,1.39,,CAD,Representation,Startup Drinks with Employee2
+2012-03-06,6010,Koodo,,37.3,1.62,3.24,,CAD,Telephone service,
+2012-03-07,Employee1 Employee1,La legende' Patisserie,,2.3,0.1,0.2,,CAD,Representation,
+2012-03-07,Employee1 Employee1,Taco House,,5.18,0.23,0.45,,CAD,Representation,Meeting with Android Montreal
+2012-03-08,Employee1 Employee1,Poste Canada,,1.48,0.06,0.13,,CAD,postage,citizenship app
+2012-03-12,Employee1 Employee1,L'ambroisie,,13.61,0.59,1.18,,CAD,Representation,Meeting with Javascript Montreal
+2012-03-13,6010,IGA,,14.8,,,,CAD,Office food,
+2012-03-15,6010,IGA,,34.32,1.49,2.98,,CAD,Office food,Coffee + food
+2012-03-16,6010,Telus,,213.16,9.27,18.49,,CAD,Telephone service,customer service for pierre stat
+2012-03-22,Employee1 Employee1,Tim Hortons,,1.92,0.08,1.92,,CAD,Representation,
+2012-03-26,Employee6 Employee6,Amtrack,,70,3.04,6.07,,USD,transportation,From Ny to MTL Train
+2012-03-27,Employee1 Employee1,Epicerie Heng Heng,,3,0,0,,CAD,Office food,
+2012-03-27,Employee1 Employee1,Cafe Republique,,12.54,0.55,1.09,,CAD,Representation,"ALIA, Association tech Languagiere."
+2012-03-27,Employee1 Employee1,Resto Mon-Nan,,18,0.78,1.56,,CAD,Representation,Business Meeting with Philippe from Match FWD
+2012-03-29,Employee1 Employee1,La Legende' Patisserie,,20,0.87,1.74,,CAD,Representation,With Employee7
+2012-04-02,Employee1 Employee1,L2 Lounge,,7.09,0.31,0.62,,CAD,Representation,Bubble tea with chris
+2012-04-02,Employee1 Employee1,Restaurant M.C.,,18.29,0.8,1.59,,CAD,Representation,
+2012-04-06,Employee1 Employee1,Super C,,2.5,0,0,,CAD,Office food,
+2012-04-06,6010,Koodo,,46.45,2.02,4.03,,,Telephone service,
+2012-04-07,3034,Wal-mart,,31.93,1.39,2.77,,CAD,Office supplies,coffee machine
+2012-04-09,3034,IGA,,28.65,0.15,0.29,,CAD,Office food,Coffee + food
+2012-04-11,Employee1 Employee1,Premiere Moisson,,6.11,0.14,0.27,,CAD,Representation,With Bacteria Detector Droid
+2012-04-14,Employee1 Employee1,Google chrome store developer registration,,5.08,,,,,Professional fees,Employee1 or Lab chrome developer fee
+2012-04-14,6010,Telus,,91.29,3.97,7.92,,CAD,Telephone service,
+2012-04-17,Employee1 Employee1,L2 Lounge,,3.55,0.16,0.31,,CAD,Representation,Bubble tea with chris
+2012-04-18,Employee1 Employee1,La Legende' Patisserie,,16.61,0.72,1.44,,CAD,Representation,Interview Teressa
+2012-04-23,Employee1 Employee1,IGA,,8.58,0.37,0.74,,CAD,Office food,Coffee Cream
+2012-04-24,Employee1 Employee1,Google Play developer fee,,25.27,1.1,2.19,,USD,Professional fees,Employee1 android developer fee
+2012-04-25,6010,IGA,,27.64,1.2,2.4,,,Office food,"tea, hot chocolate and fruites for employees"
+2012-04-26,Employee1 Employee1,Tim Hortons,,1.71,0.07,0.15,,CAD,Representation,
+2012-04-27,Employee1 Employee1,Rotisserie Coco Rico,,11.44,0.5,0.99,,CAD,Representation,"Souper avec Emmy, futur Employe"
+2012-04-30,6010,DOMAINSATCOST,,13.6,,,,,hosting,
+2012-05-02,6010,Cafe Maurizio,,9.75,0.42,0.85,1.46,CAD,Representation,Meeting with Android Montreal
+2012-05-04,6010,Click Imprimerie,,11.5,0.5,1,,CAD,Publicity,Teressa Card
+2012-05-04,6010,MOURELATOS GOURMET,,14.65,,,,CAD,Office food,Office Food / Coffee
+2012-05-07,Employee1 Employee1,Copies Concordia,,6,0.26,0.52,,CAD,Publicity,Brochure Acfas
+2012-05-07,Employee1 Employee1,McGill University,,8.5,0.37,0.74,,CAD,Representation,Lunch at conference Exploring the Interface
+2012-05-13,6010,Super C,,69.14,0.22,0.44,,CAD,food,
+2012-05-13,6010,Zellers,,90.76,3.95,7.87,,CAD,Clothes,
+2012-05-18,,AMT,,7,,,,CAD,transportation,Train ticket to Deux Montangues
+2012-05-18,VISA,IGA,,25.94,0,0,,CAD,Office food,
+2012-05-22,Employee1 Employee1,Restaurant M.C.,,9.48,0.41,0.82,,CAD,Representation,Lunch at dumpling restaurant with emmy and yuliya
+2012-05-22,VISA,IGA,,10.08,,,,CAD,Office food,
+2012-05-24,Employee1 Employee1,Kien Vihn Supermarket,,1.99,,,,CAD,Office food,fruit for office employees
+2012-05-25,Employee1 Employee1,La Legende' Patisserie,,2.7,0,0,,CAD,Representation,lunch at la legende 
+2012-05-25,Employee1 Employee1,Kien Vihn Supermarket,,21.44,0,0,,CAD,Office food,
+2012-06-12,3034,Montreal Poutine,,36.16,1.72,3.42,4.71,CAD,Representation,"meeting with Alan Jessica Employee3, emmy and Employee2 after first demo 16.70 + 14.68 + 8.07 tip 5.50"
+2012-06-12,,La Vieille Europe,,49.64,2.16,4.31,,,Publicity,Wine and Cheese iField Launch party for clients
+2012-06-12,VISA,IGA,,52.52,0.65,1.29,,CAD,Office food,creme and tea
+2012-06-14,,JEAN COUTU,,22.97,1,1.99,,CAD,Publicity,photo for visa or citizenship
+2012-06-14,6010,STM,,24,,,,CAD,transportation,
+2012-06-15,Employee1 Employee1,Kien Vihn Supermarket,,2.03,0.09,0.18,,CAD,Office food,fruit for office employees
+2012-06-18,Employee1 Employee1,Kien Vihn Supermarket,,5.27,0,0,,CAD,Office food,fruit for office employees
+2012-06-19,,La Legende' Patisserie,,7.99,0.35,0.69,,,Representation,dinner at la legende for meeting with either alex or Employee7
+2012-06-20,6010,L3B,,18.04,0.68,1.36,2.35,CAD,Representation,meeting with prospective PostDoc Jonathan Howel and Emmy and Employee8 at 3 brasseures 2.35tip
+2012-06-21,6010,Super C,,7.99,,,,CAD,food,
+2012-06-26,6010,Mai Xiang Yuan Restaurant,,26.42,1,1.99,3.45,CAD,Representation,Lunch at dumpling restaurant with emmy and yuliya
+2012-06-28,7913,McGill University – CREMOVED Invoice #309,1500,,-65.23,-130.14,,CAD,Sales,Invoice #309
+2012-06-30,3034,Festival Int'l de Jazz,,62.99,2.74,5.46,8.22,CAD,Representation,saq tent at jazz fesitval with vicky and stephane tip 8.22
+2012-07-03,6010,AMT,,7,,,,CAD,transportation,Train ticket to Deux Montangues
+2012-07-03,Employee1 Employee1,Cafe Terrasse chex Catherine,,9.78,0.43,0.85,,CAD,Representation,ice cream with emmy Employee8 yuliya and Employee2 in old port on yuliyas last day
+2012-07-03,6010,La Legende' Patisserie,,18,0.78,1.56,,,Representation,cake for deux montangues
+2012-07-04,Employee1 Employee1,L2 Lounge,,3.55,0.16,0.31,,,Representation,bubble tea with emmy and Employee8
+2012-07-06,6010,Koodo,,46.45,,,,,Telephone service,
+2012-07-14,3034,IGA,,3.98,,,,,Office food,
+2012-07-15,6010,Telus,,72.43,,,,CAD,Telephone service,
+2012-07-16,6010,Super C,,15.73,,,,,food,chicken
+2012-07-17,6010,IGA,,9.57,0.42,0.83,,CAD,Office food,Orange juice and baggettes for employee mimosa party post iField launch
+2012-07-23,7913,Concordia University – BREMOVED Invoice #313 & #314,2250.01,,-97.85,-195.21,,,Sales,Invoices #313 and #314
+2012-07-29,6010,Zellers,,36.5,1.59,3.17,,CAD,clothes,bathing suits
+2012-07-30,Employee1 Employee1,Bagel Bar,,23.41,1.02,2.03,,CAD,Representation,Breakfast at montreal airport with emmy
+2012-07-30,Employee1 Employee1,Las Tres Condesas,,27.63,,,,Guatemala 221,Representation,"Dinner with clients in Antigua Guatemala Robert, Jessica, Lauren, Emmy, Gretchen "
+2012-07-30,,The Counter,,28.42,,,,USD,Representation,Lunch at airport in Miami with iField clients Jessica and Emmy
+2012-07-31,,"Maite, Morjan Arduengo",,6.38,,,,Guatemala 51,Representation,Working coffee with emmy while useing wifi to merge before demo
+2012-07-31,,La Fonda de la Calle Real,,19.18,,,,,Representation,Lunch with emmy in Antigua Guatemala
+2012-08-01,,Hostal Las Marias,,120,,,,Guatemala 960,Lodging,Lodiging in Antigua Guatemala on business trip with clients to demo iField
+2012-08-04,,Tiki Ming,,9.47,0.41,0.82,,CAD,Representation,
+2012-08-04,6010,Koodo,,46.45,,,,,Telephone service,
+2012-08-06,,Pizza Hut Aeropuerto,,5.63,0.24,0.49,,Guatemala 45,Representation,Lunch at airport in Guatemala city with iField clients
+2012-08-06,,Carlos & Carlos,,37.88,1.65,3.29,,,Representation,"lunch at airport in guatemala city for emmy, jessica and robert"
+2012-08-07,,Provigo,,33.07,,,,,food,milk coffee steak bagget cheese letuce
+2012-08-07,7913,McGill University – CREMOVED Invoice #310,750,,-32.62,-65.07,,,Cash,Invoice #310
+2012-08-09,6010,MOUNTAIN EQUIPMENT CO-OP MONTREAL     QC,,14.66,,,,,transportation,
+2012-08-14,6010,L'Ambroisie,,7.81,0.3,0.59,1,CAD,Representation,Javascript montreal happy hour and networking 1.00 tip
+2012-08-15,7913,McGill University – RREMOVED Invoice #318,2874.38,,-125,-249.38,,,Cash,Invoice #318
+2012-08-16,6010,Super C,,7.19,,,,CAD,food,
+2012-08-16,,Restaurant Mon-Nan,,21,0.91,1.82,,CAD,Representation,Lunch with Employee8 and Employee2
+2012-08-16,6010,Telus,,72.43,,,,CAD,Telephone service,
+2012-08-17,1762,Hot harry's fresh burgers,,17.03,,,,USD,Traveling,food on interstate
+2012-08-17,7616,Schroon lake sunoco,,37.74,,,,USD,transportation,gas
+2012-08-17,3229,Vineyards wine and liquor,,50.72,,,,USD,Representation,wine
+2012-08-18,3229,Merchants NY,,10.31,,,1.6,USD,Representation,drinks in NYC
+2012-08-18,7616,Rainbow,,12.99,,,,USD,shoes,while walking around in NYC with Employee3
+2012-08-18,7616,Parking,,16,,,,USD,transportation,
+2012-08-18,Employee1 Employee1,Transit Food Harry,,17.3,,,,USD,Traveling Credit,Food in transit
+2012-08-18,Employee1 Employee1,Metro-North Railroad,,49,,,,USD,transportation,Train ticket from bridge port to NYC with Employee3
+2012-08-19,7616,Stop and shop,,7.51,,,,USD,Traveling Credit,Food in transit
+2012-08-23,Employee1 Employee1,Thai Express,,17.2,0.75,1.49,,CAD,Representation,
+2012-08-23,3125,Click Imprimerie,,23,1,2,,CAD,Publicity,paid by Employee2?
+2012-08-24,Employee1 Employee1,Cafe Depot,,2.62,0.11,0.23,,CAD,Representation,
+2012-08-24,6010,MOURELATOS GOURMET,,6.98,,,,,Office food,
+2012-08-28,7913,Invoice 311 or 314,750,,,,,CAD,Sales,maybe invoice #311 or 314
+2012-08-29,3034,Ailes,,229.94,10,19.95,,CAD,clothes,suits for Employee3
+2012-08-30,Employee1 Employee1,Presse CAFE,,2.88,0.13,0.25,,CAD,Representation,
+2012-08-30,6010,My bicyclette inc,,18.98,,,,CAD,transportation,unknown bike supplies or repairs
+2012-09-02,6010,IGA,,11.06,0.24,0.48,,CAD,Office food,Lime and cream
+2012-09-06,6010,DOMAINSATCOST,,15.7,,,,,hosting,
+2012-09-06,6010,DOMAINSATCOST,,31.4,,,,,hosting,
+2012-09-06,6010,Koodo,,46.45,,,,,Telephone service,
+2012-09-07,Employee1 Employee1,Bambou Bol,,8.04,0.35,0.7,,CAD,Representation,
+2012-09-07,7913,Invoice #315,1500,,,,,CAD,Sales,Invoice #315
+2012-09-12,6010,Provigo,,16.01,0.35,0.69,,CAD,Office food,Milk cream
+2012-09-13,Employee1 Employee1,Traiteur Satay Bros,,13.01,0.57,1.13,,CAD,Representation,atwater market with Employee2
+2012-09-13,7913,Invoice #311?,750,,,,,CAD,Sales,maybe invoice #311 or 314
+2012-09-16,6010,Telus,,74.23,,,,CAD,Telephone service,
+2012-09-17,6010,GOOGLE *Google Play google.com/chCA,,24.84,,,,,Professional fees,Lab developer fee
+2012-09-18,3034,A&W,,9.48,0.21,0.41,,,Representation,
+2012-09-27,Employee1 Employee1,Noodle Factory,,7.5,0.16,0.33,,,Representation,
+2012-09-30,6010,STM,,24,,,,,transportation,
+2012-10-02,6010,DOMAINSATCOST,,31.4,,,,,hosting,
+2012-10-06,6010,Loblaws,,11.39,,,,,food,
+2012-10-06,6010,JEAN COUTU,,26.19,,,,,Office supplies,
+2012-10-06,6010,MAXI,,106.54,,,,,food,
+2012-10-08,6010,Koodo,,55.85,,,,,Telephone service,
+2012-10-08,6010,Best Buy,,300.82,15.041,30.006795,,CAD,Electronics,Buying the Tablet for Dev. BestBuy.ca #900
+2012-10-09,6010,L'Ambroisie,,6.81,0.3,0.59,1,CAD,Representation,Javascript montreal happy hour and networking 1.00 tip
+2012-10-09,6010,L'Ambroisie,,7.81,,,1,CAD,Representation,Javascript montreal happy hour and networking 1.00 tip
+2012-10-17,6010,Telus,,72.43,,,,CAD,Telephone service,
+2012-10-18,Employee1 Employee1,Patisserie La Legende Pastry,,23.51,0.51,1.02,,CAD,Representation,
+2012-10-19,Employee1 Employee1,Mongolian Hot Pot,,30.55,0.66,1.33,3.05,CAD,Representation,hotpot for erins birthday?
+2012-10-23,Employee1 Employee1,Croissant plus N O,,9.53,0.21,0.41,,CAD,Representation,
+2012-10-25,6010,Provigo,,17.18,,,,,food,
+2012-10-26,7913,Invoice #319,3000,,,,,,Sales,TREMOVED invoice complete
+2012-10-29,Employee1 Employee1,Restaurant M.C.,,9.48,0.41,0.82,,CAD,Representation,
+2012-10-29,6010,DOMAINSATCOST,,13.6,,,,,hosting,
+2012-10-30,6010,Cordonnerie desjardins,,8.93,0.39,0.77,,CAD,office supplies,keys
+2012-10-30,6010,IGA,,24.79,0.54,1.08,,,Office food,
+2012-11-02,6010,Tim Hortons,,12.01,0.52,1.04,,CAD,Traveling Credit,saq tent at jazz fesitval with vicky and stephane tip 8.22
+2012-11-04,Employee1 Employee1,Tim Hortons,,1.45,0.06,0.13,,CAD,Traveling Credit,mt laurier
+2012-11-06,6010,Koodo,,54.5,,,,,Telephone service,
+2012-11-06,6010,MAXI,,177.46,,,,,food,
+2012-11-07,3034,St-Huberts ,,12.01,,,,CAD,Traveling Credit,
+2012-11-07,6010,ESSO,,19.59,0.8,1.6,,CAD,Representation,beer for android montreal 
+2012-11-12,Employee1 Employee1,Provigo,,13.97,0.3,0.61,,CAD,Office food,
+2012-11-12,4002,unknown transaction desjardins,4259.94,,,,,CAD,,duno
+2012-11-14,Employee1 Employee1,L'Ambroisie,,6.81,0.3,0.59,1,CAD,Representation,Javascript montreal happy hour and networking 1.00 tip
+2012-11-14,3034,Bistro Le balmoral,,29.08,,,3.79,CAD,Representation,dunno
+2012-11-16,6010,Telus,,100.59,,,,CAD,Telephone service,
+2012-11-22,Employee1 Employee1,Le vieux dublin,,8.25,0.36,0.72,,CAD,Representation,after google tech talk (?)
+2012-11-24,Employee1 Employee1,Bonnys cuisine vegetarianne,,18.45,0.4,0.8,2.41,CAD,Representation,1748 notre dame (maybe after android montreal?)
+2012-11-28,6010,MOUNTAIN EQUIPMENT CO-OP MONTREAL     QC,,32.77,,,,,transportation,
+2012-11-29,,STM,,24,,,,CAD,transportation,
+2012-11-29,6010,Le chateau,,57.48,2.5,4.99,,CAD,clothes,pants
+2012-12-00,6010,Koodo,,46.45,,,,,Telephone service,
+2012-12-00,6010,Telus,,72.43,,,,CAD,Telephone service,
+2012-12-03,6010,DOMAINSATCOST,,13.6,0.59,1.18,,,hosting,Domainsatcost
+2012-12-06,Employee1 Employee1,Restaurant Pho Bac,,8,0.35,0.69,,CAD,Representation,
+2012-12-07,,SAQ,,10.15,0.44,0.88,,CAD,Representation,
+2012-12-11,Employee1 Employee1,Restaurant M.C.,,9.48,0.41,0.82,,CAD,Representation,
+2012-12-11,3034,Click Imprimerie,,34.5,1.5,3,,CAD,Publicity,business cards for Employee3 and Employee11?
+2012-12-12,Employee1 Employee1,Saint-Cinnamon,,2.37,0.05,0.1,,CAD,Representation,
+2012-12-18,Employee1 Employee1,Restaurant M.C.,,5.18,0.23,0.45,,CAD,Representation,
+2012-12-18,Employee1 Employee1,Restaurant M.C.,,9.48,0.41,0.82,,CAD,Representation,
+2012-12-18,Employee1 Employee1,Restaurant M.C.,,18.98,0.83,1.65,,CAD,Representation,
+2012-12-18,6010,STM,,24,1.04,2.08,,CAD,transportation,
+2012-12-19,6010,IGA,,13.46,0.29,0.58,,CAD,Office food,cream
+2012-12-20,Employee1 Employee1,IGA,,9.12,0,0,,CAD,Office food,
+2012-12-20,3034,SAQ,,36,1.57,3.12,,CAD,Representation,rum
+2012-12-22,7475,Shalimar Restaurent of Clifton,,17.1,,,,USD,Traveling Credit,Travel for interview / Partnership NYC
+2012-12-22,7475,Sunoco,,30,,,,USD,Traveling Credit,Travel for interview / Partnership NYC
+2012-12-23,Employee1 Employee1,Imperial parking cie ,,16,,,,USD,Traveling Credit,Travel for interview / Partnership NYC
+2012-12-23,3034,Metro-North Railroad,,36.75,,,,USD,Traveling Credit,Travel for interview / Partnership NYC
+2012-12-25,3034,Cumberland farms,,15,,,,USD,Traveling Credit,Travel for interview / Partnership NYC
+2012-12-25,7475,Circle K Gaz,,34,,,,USD,Traveling Credit,Travel for interview / Partnership NYC
+2012-12-30,,STM,,24,,,,CAD,transportation,
+2012-12-30,3034,STM,,83,,,,CAD,transportation,
+2012-12-31,3034,Loblaws,,5.97,,,,CAD,food,pasta in lasalle
