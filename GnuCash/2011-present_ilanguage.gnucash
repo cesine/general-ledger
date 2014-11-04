@@ -153,7 +153,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">134</gnc:count-data>
-<gnc:count-data cd:type="transaction">310</gnc:count-data>
+<gnc:count-data cd:type="transaction">311</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">4</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">1</gnc:count-data>
@@ -4295,6 +4295,96 @@ Montreal QC REMOVED</slot:value>
     <slot>
       <slot:key>color</slot:key>
       <slot:value type="string">Not Set</slot:value>
+    </slot>
+    <slot>
+      <slot:key>import-map-bayes</slot:key>
+      <slot:value type="frame">
+        <slot>
+          <slot:key>Bac</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Advertising:Meals and entertainment:Meals</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Friday</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Office expenses</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Other expenses:Utilities:Cell Phone</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>IGA</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Office expenses</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Koodo</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Utilities:Cell Phone</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Pho</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Advertising:Meals and entertainment:Meals</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Restaurant</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Advertising:Meals and entertainment:Meals</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>STM</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Travel</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Thursday</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Travel</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Wednesday</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Advertising:Meals and entertainment:Meals</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+      </slot:value>
     </slot>
   </act:slots>
   <act:parent type="guid">dfb94424a26f238aff23a0928a2932ba</act:parent>
@@ -29505,6 +29595,66 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>-651/100</split:value>
       <split:quantity>-651/100</split:quantity>
       <split:account type="guid">99cab29a3bfdfbb18d91c53b2739277d</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">7e220b5d18c2871ecc301a4c4c5d68da</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>Employee1 Employee1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-01-04 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Restaurant Pho Bac</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-01-04</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Representation</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">75706753262fdb38a66d8622808b4fca</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1228/100</split:value>
+      <split:quantity>1228/100</split:quantity>
+      <split:account type="guid">98270fc89c885d8eeb6ba9196b54a90e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ddd4529271f1cb41a10825956458ab03</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>61/100</split:value>
+      <split:quantity>61/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">4379df7a683edd8b4cee7f9c3a2ff3cd</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>110/100</split:value>
+      <split:quantity>110/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">95ccdf8b29968d46a18e91636caaac88</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-1399/100</split:value>
+      <split:quantity>-1399/100</split:quantity>
+      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
