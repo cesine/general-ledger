@@ -13,7 +13,7 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-01-14,6010,Telus,71.77,7177,6242,62.42,312,3.12,623,6.23,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
 2012-01-19,6010,Subway,5.18,518,450,4.5,23,0.23,45,0.45,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Working Lunch at CUSEC
 2012-01-19,8926,Grillades du cedres,10.05,1005,874,8.74,44,0.44,87,0.87,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Working Lunch at CUSEC
-2012-01-19,6010,Ye Olde Orchard Pub,18,1800,1218,12.18,61,0.61,121,1.21,400,4,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,"beer at cusec, 4 dollar tip"
+2012-01-19,6010,Ye Olde Orchard Pub,18,1800,1218,12.18,61,0.61,121,1.21,400,4,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,beer at cusec 4 dollar tip
 2012-01-27,6010,Click Imprimerie,11.35,1135,1000,10,50,0.5,85,0.85,0,,CAD,Printing and Reproduction,d6c5279359bbf1c7cd598d738bfe37c2,Employee1 Business Card
 2012-01-31,Employee1 Employee1,Click Imprimerie,4.54,454,400,4,20,0.2,34,0.34,0,,CAD,Printing and Reproduction,d6c5279359bbf1c7cd598d738bfe37c2,Copies
 2012-02-01,6010,Koodo,57.42,5742,4994,49.94,250,2.5,498,4.98,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
@@ -35,7 +35,7 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-03-22,Employee1 Employee1,Tim Hortons,1.92,192,-8,-0.08,8,0.08,192,1.92,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
 2012-03-26,Employee6 Employee6,Amtrack,70,7000,6089,60.89,304,3.04,607,6.07,0,,USD,Travel,2b90b480916be10e12b085956be5ccc2,From Ny to MTL Train
 2012-03-27,Employee1 Employee1,Epicerie Heng Heng,3,300,300,3,0,0,0,0,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,
-2012-03-27,Employee1 Employee1,Cafe Republique,12.54,1254,1090,10.9,55,0.55,109,1.09,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,"ALIA, Association tech Languagiere."
+2012-03-27,Employee1 Employee1,Cafe Republique,12.54,1254,1090,10.9,55,0.55,109,1.09,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,ALIA Association tech Languagiere.
 2012-03-27,Employee1 Employee1,Resto Mon-Nan,18,1800,1566,15.66,78,0.78,156,1.56,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Business Meeting with Philippe from Match FWD
 2012-03-29,Employee1 Employee1,La Legende' Patisserie,20,2000,1739,17.39,87,0.87,174,1.74,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,With Employee7
 2012-04-02,Employee1 Employee1,L2 Lounge,7.09,709,616,6.16,31,0.31,62,0.62,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Bubble tea with chris
@@ -49,9 +49,9 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-04-18,Employee1 Employee1,La Legende' Patisserie,16.61,1661,1445,14.45,72,0.72,144,1.44,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Interview Teressa
 2012-04-23,Employee1 Employee1,IGA,8.58,858,747,7.47,37,0.37,74,0.74,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,Coffee Cream
 2012-04-24,Employee1 Employee1,Google Play developer fee,25.27,2527,2198,21.98,110,1.1,219,2.19,0,,USD,Professional fees,068e98c79c46f2d3be565d24c074a325,Employee1 android developer fee
-2012-04-25,6010,IGA,27.64,2764,2404,24.04,120,1.2,240,2.4,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,"tea, hot chocolate and fruites for employees"
+2012-04-25,6010,IGA,27.64,2764,2404,24.04,120,1.2,240,2.4,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,tea hot chocolate and fruites for employees
 2012-04-26,Employee1 Employee1,Tim Hortons,1.71,171,149,1.49,7,0.07,15,0.15,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
-2012-04-27,Employee1 Employee1,Rotisserie Coco Rico,11.44,1144,995,9.95,50,0.5,99,0.99,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,"Souper avec Emmy, futur Employe"
+2012-04-27,Employee1 Employee1,Rotisserie Coco Rico,11.44,1144,995,9.95,50,0.5,99,0.99,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Souper avec Emmy futur Employe
 2012-04-30,6010,DOMAINSATCOST,13.6,1360,1156,11.5634,68,0.68,136,1.3566,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,
 2012-05-02,6010,Cafe Maurizio,9.75,975,702,7.02,42,0.42,85,0.85,146,1.46,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Meeting with Android Montreal
 2012-05-04,6010,Click Imprimerie,11.5,1150,1000,10,50,0.5,100,1,0,,CAD,Printing and Reproduction,d6c5279359bbf1c7cd598d738bfe37c2,Teressa Card
@@ -87,15 +87,15 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-07-17,6010,IGA,9.57,957,832,8.32,42,0.42,83,0.83,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,Orange juice and baggettes for employee mimosa party post iField launch
 2012-07-29,6010,Zellers,36.5,3650,3174,31.74,159,1.59,317,3.17,0,,CAD,Clothes,Clothes,bathing suits
 2012-07-30,Employee1 Employee1,Bagel Bar,23.41,2341,2036,20.36,102,1.02,203,2.03,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Breakfast at montreal airport with emmy
-2012-07-30,Employee1 Employee1,Las Tres Condesas,27.63,2763,2763,27.63,0,,0,,0,,Guatemala 221,Meals,98270fc89c885d8eeb6ba9196b54a90e,"Dinner with clients in Antigua Guatemala Robert, Jessica, Lauren, Emmy, Gretchen "
+2012-07-30,Employee1 Employee1,Las Tres Condesas,27.63,2763,2763,27.63,0,,0,,0,,Guatemala 221,Meals,98270fc89c885d8eeb6ba9196b54a90e,Dinner with clients in Antigua Guatemala Robert Jessica Lauren Emmy Gretchen 
 2012-07-30,Employee1 Employee1,The Counter,28.42,2842,2842,28.42,0,,0,,0,,USD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Lunch at airport in Miami with iField clients Jessica and Emmy
-2012-07-31,Employee1 Employee1,"Maite, Morjan Arduengo",6.38,638,638,6.38,0,,0,,0,,Guatemala 51,Meals,98270fc89c885d8eeb6ba9196b54a90e,Working coffee with emmy while useing wifi to merge before demo
+2012-07-31,Employee1 Employee1,Maite Morjan Arduengo,6.38,638,638,6.38,0,,0,,0,,Guatemala 51,Meals,98270fc89c885d8eeb6ba9196b54a90e,Working coffee with emmy while useing wifi to merge before demo
 2012-07-31,Employee1 Employee1,La Fonda de la Calle Real,19.18,1918,1918,19.18,0,,0,,0,,Guatemala,Meals,98270fc89c885d8eeb6ba9196b54a90e,Lunch with emmy in Antigua Guatemala
 2012-08-01,Employee1 Employee1,Hostal Las Marias,120,12000,12000,120,0,,0,,0,,Guatemala 960,Travel,2b90b480916be10e12b085956be5ccc2,Lodiging in Antigua Guatemala on business trip with clients to demo iField
 2012-08-04,,Tiki Ming,9.47,947,824,8.24,41,0.41,82,0.82,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
 2012-08-04,6010,Koodo,46.45,4645,3949,39.4941125,232,2.3225,463,4.6333875,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
 2012-08-06,Employee1 Employee1,Pizza Hut Aeropuerto,5.63,563,490,4.9,24,0.24,49,0.49,0,,Guatemala 45,Meals,98270fc89c885d8eeb6ba9196b54a90e,Lunch at airport in Guatemala city with iField clients
-2012-08-06,Employee1 Employee1,Carlos & Carlos,37.88,3788,3294,32.94,165,1.65,329,3.29,0,,Guatemala,Meals,98270fc89c885d8eeb6ba9196b54a90e,"lunch at airport in guatemala city for emmy, jessica and robert"
+2012-08-06,Employee1 Employee1,Carlos & Carlos,37.88,3788,3294,32.94,165,1.65,329,3.29,0,,Guatemala,Meals,98270fc89c885d8eeb6ba9196b54a90e,lunch at airport in guatemala city for emmy jessica and robert
 2012-08-07,,Provigo,33.07,3307,3307,33.07,0,,0,,0,,CAD,food,food,milk coffee steak bagget cheese letuce
 2012-08-09,6010,MOUNTAIN EQUIPMENT CO-OP MONTREAL     QC,14.66,1466,1246,12.464665,73,0.733,146,1.462335,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,
 2012-08-14,6010,L'Ambroisie,7.81,781,592,5.92,30,0.3,59,0.59,100,1,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Javascript montreal happy hour and networking 1.00 tip
@@ -184,4 +184,4 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
-487,,,,,,,,,,,,,,,,
+474,,,,,,,,,,,,,,,,
