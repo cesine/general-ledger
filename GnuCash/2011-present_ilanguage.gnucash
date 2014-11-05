@@ -152,7 +152,7 @@ Montreal QC REMOVED</slot:value>
   </slot>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
-<gnc:count-data cd:type="account">135</gnc:count-data>
+<gnc:count-data cd:type="account">136</gnc:count-data>
 <gnc:count-data cd:type="transaction">311</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">4</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
@@ -5264,6 +5264,25 @@ Montreal QC REMOVED</slot:value>
     </slot>
   </act:slots>
   <act:parent type="guid">edda61a9f23d17cdbd2b6969afdab19d</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Support</act:name>
+  <act:id type="guid">81771fff8f02baa0f45c511fe4163886</act:id>
+  <act:type>EXPENSE</act:type>
+  <act:commodity>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:code>supportsalaries</act:code>
+  <act:description>Salaries which are not linked to projects but to general tasks or support</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>color</slot:key>
+      <slot:value type="string">Not Set</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">b93068f7d0e3c69c6a85d0000c06ab7c</act:parent>
 </gnc:account>
 <gnc:account version="2.0.0">
   <act:name>Advertising</act:name>
