@@ -152,7 +152,7 @@ Montreal QC REMOVED</slot:value>
   </slot>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
-<gnc:count-data cd:type="account">134</gnc:count-data>
+<gnc:count-data cd:type="account">135</gnc:count-data>
 <gnc:count-data cd:type="transaction">311</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">4</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
@@ -5858,6 +5858,25 @@ Montreal QC REMOVED</slot:value>
     </slot>
   </act:slots>
   <act:parent type="guid">08f614886cd8a5b96e595f90e7811c80</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Gratuities/Tips</act:name>
+  <act:id type="guid">98d1ac9cc9d9522656ed76083bf1cc58</act:id>
+  <act:type>EXPENSE</act:type>
+  <act:commodity>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:code>tips</act:code>
+  <act:description>Tips and/org gratuities paid for services</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>color</slot:key>
+      <slot:value type="string">Not Set</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">7412037bf1a68b7672f778dacf4ca71d</act:parent>
 </gnc:account>
 <gnc:account version="2.0.0">
   <act:name>Equity</act:name>
