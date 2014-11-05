@@ -1,13 +1,13 @@
 Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnucash6,TPS,TVQGnucash7,TVQ,TipsGnucash8,Tips,Currency,Category,Category9,Memo Field
 2012-01-04,Employee1 Employee1,Restaurant Pho Bac,12.28,1228,1057,10.57,61,0.61,110,1.1,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
-2012-01-05,6010,STM,75.5,7550,6455.25,64.5525,377.5,3.775,717.25,7.1725,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,monthly pass Jan 2012
+2012-01-05,6010,STM,75.5,7550,6455,64.5525,378,3.775,717,7.1725,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,monthly pass Jan 2012
 2012-01-06,6010,IGA,3.99,399,399,3.99,0,0,0,0,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,coffee cream
 2012-01-06,6010,Koodo,57.42,5742,4994,49.94,250,2.5,498,4.98,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
 2012-01-09,Employee1 Employee1,Future Shop,7.48,748,650,6.5,33,0.33,65,0.65,0,,CAD,Computers&Monitors,458f4e504aa04d2749917b564570c66b,usb key to install the linux computer
 2012-01-09,6010,Future Shop,423.38,42338,36498,364.98,1950,19.5,3890,38.9,0,,CAD,Computers&Monitors,458f4e504aa04d2749917b564570c66b,office computer
 2012-01-10,6010,L'ambroisie,7.81,781,592,5.92,30,0.3,59,0.59,100,1,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
 2012-01-10,6010,L'ambroisie,15.04,1504,1134,11.34,57,0.57,113,1.13,200,2,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
-2012-01-10,Employee1 Employee1,Salaire Employee2,386.85,38685,38685,386.85,0,0,0,0,0,,CAD,,Salaries & wages,PMT Employee2 pour decembre de 400$
+2012-01-10,Employee1 Employee1,Salaire Employee2,386.85,38685,38685,386.85,0,0,0,0,0,,CAD,Salaries & wages,Salaries & wages,PMT Employee2 pour decembre de 400$
 2012-01-13,Employee1 Employee1,Dollarama,10.93,1093,950,9.5,48,0.48,95,0.95,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,paper clips staples and notecards
 2012-01-13,6010,Future Shop,57.48,5748,4999,49.99,250,2.5,499,4.99,0,,CAD,Computers&Monitors,458f4e504aa04d2749917b564570c66b,Dlink Wifi usb for office computer
 2012-01-14,6010,Telus,71.77,7177,6242,62.42,312,3.12,623,6.23,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
@@ -21,7 +21,7 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-02-07,Employee1 Employee1,Resto Basilic,21.74,2174,1890,18.9,95,0.95,189,1.89,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Avec employe
 2012-02-08,Employee1 Employee1,Pho Bac,8,800,696,6.96,35,0.35,69,0.69,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Diner
 2012-02-16,6010,Telus,72.43,7243,6300,63,315,3.15,628,6.28,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
-2012-02-21,6010,DOMAINSATCOST,45,4500,3826.125,38.26125,225,2.25,448.875,4.48875,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,renewal of 3 domains
+2012-02-21,6010,DOMAINSATCOST,45,4500,3826,38.26125,225,2.25,449,4.48875,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,renewal of 3 domains
 2012-02-22,Employee1 Employee1,Resto Mon-Nan,28.15,2815,2439,24.39,127,1.27,249,2.49,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,4 repas: employe
 2012-02-29,Employee1 Employee1,1219 Cressent,16,1600,1391,13.91,70,0.7,139,1.39,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Startup Drinks with Employee2
 2012-03-06,6010,Koodo,37.3,3730,3244,32.44,162,1.62,324,3.24,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
@@ -52,15 +52,15 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-04-25,6010,IGA,27.64,2764,2404,24.04,120,1.2,240,2.4,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,"tea, hot chocolate and fruites for employees"
 2012-04-26,Employee1 Employee1,Tim Hortons,1.71,171,149,1.49,7,0.07,15,0.15,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
 2012-04-27,Employee1 Employee1,Rotisserie Coco Rico,11.44,1144,995,9.95,50,0.5,99,0.99,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,"Souper avec Emmy, futur Employe"
-2012-04-30,6010,DOMAINSATCOST,13.6,1360,1156.34,11.5634,68,0.68,135.66,1.3566,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,
+2012-04-30,6010,DOMAINSATCOST,13.6,1360,1156,11.5634,68,0.68,136,1.3566,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,
 2012-05-02,6010,Cafe Maurizio,9.75,975,702,7.02,42,0.42,85,0.85,146,1.46,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Meeting with Android Montreal
 2012-05-04,6010,Click Imprimerie,11.5,1150,1000,10,50,0.5,100,1,0,,CAD,Printing and Reproduction,d6c5279359bbf1c7cd598d738bfe37c2,Teressa Card
 2012-05-04,6010,MOURELATOS GOURMET,14.65,1465,1465,14.65,0,,0,,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,Office Food / Coffee
 2012-05-07,Employee1 Employee1,Copies Concordia,6,600,522,5.22,26,0.26,52,0.52,0,,CAD,Printing and Reproduction,d6c5279359bbf1c7cd598d738bfe37c2,Brochure Acfas
 2012-05-07,Employee1 Employee1,McGill University,8.5,850,739,7.39,37,0.37,74,0.74,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Lunch at conference Exploring the Interface
-2012-05-13,6010,Super C,69.14,6914,6848,68.48,22,0.22,44,0.44,0,,CAD,,food,
-2012-05-13,6010,Zellers,90.76,9076,7894,78.94,395,3.95,787,7.87,0,,CAD,,Clothes,
-2012-05-18,,AMT,7,700,595.175,5.95175,35,0.35,69.825,0.69825,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,Train ticket to Deux Montangues
+2012-05-13,6010,Super C,69.14,6914,6848,68.48,22,0.22,44,0.44,0,,CAD,food,food,
+2012-05-13,6010,Zellers,90.76,9076,7894,78.94,395,3.95,787,7.87,0,,CAD,Clothes,Clothes,
+2012-05-18,,AMT,7,700,595,5.95175,35,0.35,70,0.69825,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,Train ticket to Deux Montangues
 2012-05-18,6010,IGA,25.94,2594,2594,25.94,0,0,0,0,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,
 2012-05-22,Employee1 Employee1,Restaurant M.C.,9.48,948,825,8.25,41,0.41,82,0.82,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Lunch at dumpling restaurant with emmy and yuliya
 2012-05-22,6010,IGA,10.08,1008,1008,10.08,0,,0,,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,
@@ -70,22 +70,22 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-06-12,Employee1 Employee1,La Vieille Europe,49.64,4964,4317,43.17,216,2.16,431,4.31,0,,CAD,Printing and Reproduction,d6c5279359bbf1c7cd598d738bfe37c2,Wine and Cheese iField Launch party for clients
 2012-06-12,6010,IGA,52.52,5252,5058,50.58,65,0.65,129,1.29,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,creme and tea
 2012-06-14,,JEAN COUTU,22.97,2297,1998,19.98,100,1,199,1.99,0,,CAD,Printing and Reproduction,d6c5279359bbf1c7cd598d738bfe37c2,photo for visa or citizenship
-2012-06-14,6010,STM,24,2400,2040.6,20.406,120,1.2,239.4,2.394,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,
+2012-06-14,6010,STM,24,2400,2041,20.406,120,1.2,239,2.394,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,
 2012-06-15,Employee1 Employee1,Kien Vihn Supermarket,2.03,203,176,1.76,9,0.09,18,0.18,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,fruit for office employees
 2012-06-18,Employee1 Employee1,Kien Vihn Supermarket,5.27,527,527,5.27,0,0,0,0,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,fruit for office employees
 2012-06-19,Employee1 Employee1,La Legende' Patisserie,7.99,799,695,6.95,35,0.35,69,0.69,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,dinner at la legende for meeting with either alex or Employee7
 2012-06-20,6010,L3B,18.04,1804,1365,13.65,68,0.68,136,1.36,235,2.35,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,meeting with prospective PostDoc Jonathan Howel and Emmy and Employee8 at 3 brasseures 2.35tip
-2012-06-21,6010,Super C,7.99,799,799,7.99,0,,0,,0,,CAD,,food,
+2012-06-21,6010,Super C,7.99,799,799,7.99,0,,0,,0,,CAD,food,food,
 2012-06-26,6010,Mai Xiang Yuan Restaurant,26.42,2642,1998,19.98,100,1,199,1.99,345,3.45,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Lunch at dumpling restaurant with emmy and yuliya
-2012-07-03,6010,AMT,7,700,595.175,5.95175,35,0.35,69.825,0.69825,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,Train ticket to Deux Montangues
+2012-07-03,6010,AMT,7,700,595,5.95175,35,0.35,70,0.69825,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,Train ticket to Deux Montangues
 2012-07-03,Employee1 Employee1,Cafe Terrasse chex Catherine,9.78,978,850,8.5,43,0.43,85,0.85,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,ice cream with emmy Employee8 yuliya and Employee2 in old port on yuliyas last day
 2012-07-03,6010,La Legende' Patisserie,18,1800,1566,15.66,78,0.78,156,1.56,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,cake for deux montangues
 2012-07-04,Employee1 Employee1,L2 Lounge,3.55,355,308,3.08,16,0.16,31,0.31,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,bubble tea with emmy and Employee8
-2012-07-06,6010,Koodo,46.45,4645,3949.41125,39.4941125,232.25,2.3225,463.33875,4.6333875,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
-2012-07-15,6010,Telus,72.43,7243,6158.36075,61.5836075,362.15,3.6215,722.48925,7.2248925,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
-2012-07-16,6010,Super C,15.73,1573,1573,15.73,0,,0,,0,,CAD,,food,chicken
+2012-07-06,6010,Koodo,46.45,4645,3949,39.4941125,232,2.3225,463,4.6333875,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
+2012-07-15,6010,Telus,72.43,7243,6158,61.5836075,362,3.6215,722,7.2248925,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
+2012-07-16,6010,Super C,15.73,1573,1573,15.73,0,,0,,0,,CAD,food,food,chicken
 2012-07-17,6010,IGA,9.57,957,832,8.32,42,0.42,83,0.83,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,Orange juice and baggettes for employee mimosa party post iField launch
-2012-07-29,6010,Zellers,36.5,3650,3174,31.74,159,1.59,317,3.17,0,,CAD,,Clothes,bathing suits
+2012-07-29,6010,Zellers,36.5,3650,3174,31.74,159,1.59,317,3.17,0,,CAD,Clothes,Clothes,bathing suits
 2012-07-30,Employee1 Employee1,Bagel Bar,23.41,2341,2036,20.36,102,1.02,203,2.03,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Breakfast at montreal airport with emmy
 2012-07-30,Employee1 Employee1,Las Tres Condesas,27.63,2763,2763,27.63,0,,0,,0,,Guatemala 221,Meals,98270fc89c885d8eeb6ba9196b54a90e,"Dinner with clients in Antigua Guatemala Robert, Jessica, Lauren, Emmy, Gretchen "
 2012-07-30,Employee1 Employee1,The Counter,28.42,2842,2842,28.42,0,,0,,0,,USD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Lunch at airport in Miami with iField clients Jessica and Emmy
@@ -93,20 +93,20 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-07-31,Employee1 Employee1,La Fonda de la Calle Real,19.18,1918,1918,19.18,0,,0,,0,,Guatemala,Meals,98270fc89c885d8eeb6ba9196b54a90e,Lunch with emmy in Antigua Guatemala
 2012-08-01,Employee1 Employee1,Hostal Las Marias,120,12000,12000,120,0,,0,,0,,Guatemala 960,Travel,2b90b480916be10e12b085956be5ccc2,Lodiging in Antigua Guatemala on business trip with clients to demo iField
 2012-08-04,,Tiki Ming,9.47,947,824,8.24,41,0.41,82,0.82,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
-2012-08-04,6010,Koodo,46.45,4645,3949.41125,39.4941125,232.25,2.3225,463.33875,4.6333875,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
+2012-08-04,6010,Koodo,46.45,4645,3949,39.4941125,232,2.3225,463,4.6333875,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
 2012-08-06,Employee1 Employee1,Pizza Hut Aeropuerto,5.63,563,490,4.9,24,0.24,49,0.49,0,,Guatemala 45,Meals,98270fc89c885d8eeb6ba9196b54a90e,Lunch at airport in Guatemala city with iField clients
 2012-08-06,Employee1 Employee1,Carlos & Carlos,37.88,3788,3294,32.94,165,1.65,329,3.29,0,,Guatemala,Meals,98270fc89c885d8eeb6ba9196b54a90e,"lunch at airport in guatemala city for emmy, jessica and robert"
-2012-08-07,,Provigo,33.07,3307,3307,33.07,0,,0,,0,,CAD,,food,milk coffee steak bagget cheese letuce
-2012-08-09,6010,MOUNTAIN EQUIPMENT CO-OP MONTREAL     QC,14.66,1466,1246.4665,12.464665,73.3,0.733,146.2335,1.462335,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,
+2012-08-07,,Provigo,33.07,3307,3307,33.07,0,,0,,0,,CAD,food,food,milk coffee steak bagget cheese letuce
+2012-08-09,6010,MOUNTAIN EQUIPMENT CO-OP MONTREAL     QC,14.66,1466,1246,12.464665,73,0.733,146,1.462335,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,
 2012-08-14,6010,L'Ambroisie,7.81,781,592,5.92,30,0.3,59,0.59,100,1,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Javascript montreal happy hour and networking 1.00 tip
-2012-08-16,6010,Super C,7.19,719,719,7.19,0,,0,,0,,CAD,,food,
+2012-08-16,6010,Super C,7.19,719,719,7.19,0,,0,,0,,CAD,food,food,
 2012-08-16,Employee1 Employee1,Restaurant Mon-Nan,21,2100,1827,18.27,91,0.91,182,1.82,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Lunch with Employee8 and Employee2
-2012-08-16,6010,Telus,72.43,7243,6158.36075,61.5836075,362.15,3.6215,722.48925,7.2248925,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
+2012-08-16,6010,Telus,72.43,7243,6158,61.5836075,362,3.6215,722,7.2248925,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
 2012-08-17,1762,Hot harry's fresh burgers,17.03,1703,1703,17.03,0,,0,,0,,USD,Meals,98270fc89c885d8eeb6ba9196b54a90e,food on interstate
 2012-08-17,7616,Schroon lake sunoco,37.74,3774,3774,37.74,0,,0,,0,,USD,Travel,2b90b480916be10e12b085956be5ccc2,gas
 2012-08-17,3229,Vineyards wine and liquor,50.72,5072,5072,50.72,0,,0,,0,,USD,Meals,98270fc89c885d8eeb6ba9196b54a90e,wine
 2012-08-18,3229,Merchants NY,10.31,1031,871,8.71,0,,0,,160,1.6,USD,Meals,98270fc89c885d8eeb6ba9196b54a90e,drinks in NYC
-2012-08-18,7616,Rainbow,12.99,1299,1299,12.99,0,,0,,0,,USD,,Clothes,while walking around in NYC with Employee3
+2012-08-18,7616,Rainbow,12.99,1299,1299,12.99,0,,0,,0,,USD,Clothes,Clothes,while walking around in NYC with Employee3
 2012-08-18,7616,Parking,16,1600,1600,16,0,,0,,0,,USD,Travel,2b90b480916be10e12b085956be5ccc2,
 2012-08-18,Employee1 Employee1,Transit Food Harry,17.3,1730,1730,17.3,0,,0,,0,,USD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Food in transit
 2012-08-18,Employee1 Employee1,Metro-North Railroad,49,4900,4900,49,0,,0,,0,,USD,Travel,2b90b480916be10e12b085956be5ccc2,Train ticket from bridge port to NYC with Employee3
@@ -116,55 +116,55 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-08-24,Employee1 Employee1,Cafe Depot,2.62,262,228,2.28,11,0.11,23,0.23,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
 2012-08-24,6010,MOURELATOS GOURMET,6.98,698,698,6.98,0,,0,,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,
 2012-08-30,Employee1 Employee1,Presse CAFE,2.88,288,250,2.5,13,0.13,25,0.25,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
-2012-08-30,6010,My bicyclette inc,18.98,1898,1613.7745,16.137745,94.9,0.949,189.3255,1.893255,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,unknown bike supplies or repairs
+2012-08-30,6010,My bicyclette inc,18.98,1898,1614,16.137745,95,0.949,189,1.893255,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,unknown bike supplies or repairs
 2012-09-02,6010,IGA,11.06,1106,1034,10.34,24,0.24,48,0.48,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,Lime and cream
-2012-09-06,6010,DOMAINSATCOST,15.7,1570,1334.8925,13.348925,78.5,0.785,156.6075,1.566075,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,
-2012-09-06,6010,DOMAINSATCOST,31.4,3140,2669.785,26.69785,157,1.57,313.215,3.13215,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,
-2012-09-06,6010,Koodo,46.45,4645,3949.41125,39.4941125,232.25,2.3225,463.33875,4.6333875,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
+2012-09-06,6010,DOMAINSATCOST,15.7,1570,1335,13.348925,79,0.785,157,1.566075,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,
+2012-09-06,6010,DOMAINSATCOST,31.4,3140,2670,26.69785,157,1.57,313,3.13215,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,
+2012-09-06,6010,Koodo,46.45,4645,3949,39.4941125,232,2.3225,463,4.6333875,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
 2012-09-07,Employee1 Employee1,Bambou Bol,8.04,804,699,6.99,35,0.35,70,0.7,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
 2012-09-12,6010,Provigo,16.01,1601,1497,14.97,35,0.35,69,0.69,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,Milk cream
 2012-09-13,Employee1 Employee1,Traiteur Satay Bros,13.01,1301,1131,11.31,57,0.57,113,1.13,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,atwater market with Employee2
-2012-09-16,6010,Telus,74.23,7423,6311.40575,63.1140575,371.15,3.7115,740.44425,7.4044425,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
+2012-09-16,6010,Telus,74.23,7423,6311,63.1140575,371,3.7115,740,7.4044425,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
 2012-09-17,6010,GOOGLE *Google Play google.com/chCA,24.84,2484,2484,24.84,0,,0,,0,,CAD,Professional fees,068e98c79c46f2d3be565d24c074a325,Lab developer fee
 2012-09-27,Employee1 Employee1,Noodle Factory,7.5,750,701,7.01,16,0.16,33,0.33,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
-2012-09-30,6010,STM,24,2400,2040.6,20.406,120,1.2,239.4,2.394,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,
-2012-10-02,6010,DOMAINSATCOST,31.4,3140,2669.785,26.69785,157,1.57,313.215,3.13215,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,
-2012-10-06,6010,Loblaws,11.39,1139,1139,11.39,0,,0,,0,,CAD,,food,
-2012-10-06,6010,JEAN COUTU,26.19,2619,2226.80475,22.2680475,130.95,1.3095,261.24525,2.6124525,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,
-2012-10-06,6010,MAXI,106.54,10654,10654,106.54,0,,0,,0,,CAD,,food,
-2012-10-08,6010,Koodo,55.85,5585,4748.64625,47.4864625,279.25,2.7925,557.10375,5.5710375,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
-2012-10-08,6010,Best Buy,300.82,30082,25577.2205,255.772205,1504.1,15.041,3000.6795,30.006795,0,,CAD,Computers&Monitors,458f4e504aa04d2749917b564570c66b,Buying the Tablet for Dev. BestBuy.ca #900
+2012-09-30,6010,STM,24,2400,2041,20.406,120,1.2,239,2.394,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,
+2012-10-02,6010,DOMAINSATCOST,31.4,3140,2670,26.69785,157,1.57,313,3.13215,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,
+2012-10-06,6010,Loblaws,11.39,1139,1139,11.39,0,,0,,0,,CAD,food,food,
+2012-10-06,6010,JEAN COUTU,26.19,2619,2227,22.2680475,131,1.3095,261,2.6124525,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,
+2012-10-06,6010,MAXI,106.54,10654,10654,106.54,0,,0,,0,,CAD,food,food,
+2012-10-08,6010,Koodo,55.85,5585,4749,47.4864625,279,2.7925,557,5.5710375,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
+2012-10-08,6010,Best Buy,300.82,30082,25577,255.772205,1504,15.041,3001,30.006795,0,,CAD,Computers&Monitors,458f4e504aa04d2749917b564570c66b,Buying the Tablet for Dev. BestBuy.ca #900
 2012-10-09,6010,L'Ambroisie,6.81,681,492,4.92,30,0.3,59,0.59,100,1,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Javascript montreal happy hour and networking 1.00 tip
 2012-10-09,6010,L'Ambroisie,7.81,781,681,6.81,0,,0,,100,1,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Javascript montreal happy hour and networking 1.00 tip
-2012-10-17,6010,Telus,72.43,7243,6158.36075,61.5836075,362.15,3.6215,722.48925,7.2248925,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
+2012-10-17,6010,Telus,72.43,7243,6158,61.5836075,362,3.6215,722,7.2248925,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
 2012-10-18,Employee1 Employee1,Patisserie La Legende Pastry,23.51,2351,2198,21.98,51,0.51,102,1.02,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
 2012-10-19,Employee1 Employee1,Mongolian Hot Pot,30.55,3055,2551,25.51,66,0.66,133,1.33,305,3.05,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,hotpot for erins birthday?
 2012-10-23,Employee1 Employee1,Croissant plus N O,9.53,953,891,8.91,21,0.21,41,0.41,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
-2012-10-25,6010,Provigo,17.18,1718,1718,17.18,0,,0,,0,,CAD,,food,
+2012-10-25,6010,Provigo,17.18,1718,1718,17.18,0,,0,,0,,CAD,food,food,
 2012-10-29,Employee1 Employee1,Restaurant M.C.,9.48,948,825,8.25,41,0.41,82,0.82,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
-2012-10-29,6010,DOMAINSATCOST,13.6,1360,1156.34,11.5634,68,0.68,135.66,1.3566,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,
+2012-10-29,6010,DOMAINSATCOST,13.6,1360,1156,11.5634,68,0.68,136,1.3566,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,
 2012-10-30,6010,Cordonnerie desjardins,8.93,893,777,7.77,39,0.39,77,0.77,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,keys
 2012-10-30,6010,IGA,24.79,2479,2317,23.17,54,0.54,108,1.08,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,
 2012-11-02,6010,Tim Hortons,12.01,1201,1045,10.45,52,0.52,104,1.04,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,saq tent at jazz fesitval with vicky and stephane tip 8.22
 2012-11-04,Employee1 Employee1,Tim Hortons,1.45,145,126,1.26,6,0.06,13,0.13,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,mt laurier
-2012-11-06,6010,Koodo,54.5,5450,4633.8625,46.338625,272.5,2.725,543.6375,5.436375,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
-2012-11-06,6010,MAXI,177.46,17746,17746,177.46,0,,0,,0,,CAD,,food,
+2012-11-06,6010,Koodo,54.5,5450,4634,46.338625,273,2.725,544,5.436375,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
+2012-11-06,6010,MAXI,177.46,17746,17746,177.46,0,,0,,0,,CAD,food,food,
 2012-11-07,6010,ESSO,19.59,1959,1719,17.19,80,0.8,160,1.6,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,beer for android montreal 
 2012-11-12,Employee1 Employee1,Provigo,13.97,1397,1306,13.06,30,0.3,61,0.61,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,
 2012-11-14,Employee1 Employee1,L'Ambroisie,6.81,681,492,4.92,30,0.3,59,0.59,100,1,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Javascript montreal happy hour and networking 1.00 tip
-2012-11-16,6010,Telus,100.59,10059,8552.66475,85.5266475,502.95,5.0295,1003.38525,10.0338525,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
+2012-11-16,6010,Telus,100.59,10059,8553,85.5266475,503,5.0295,1003,10.0338525,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
 2012-11-22,Employee1 Employee1,Le vieux dublin,8.25,825,717,7.17,36,0.36,72,0.72,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,after google tech talk (?)
 2012-11-24,Employee1 Employee1,Bonnys cuisine vegetarianne,18.45,1845,1484,14.84,40,0.4,80,0.8,241,2.41,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,1748 notre dame (maybe after android montreal?)
-2012-11-28,6010,MOUNTAIN EQUIPMENT CO-OP MONTREAL     QC,32.77,3277,2786.26925,27.8626925,163.85,1.6385,326.88075,3.2688075,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,
-2012-11-29,,STM,24,2400,2040.6,20.406,120,1.2,239.4,2.394,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,
-2012-11-29,6010,Le chateau,57.48,5748,4999,49.99,250,2.5,499,4.99,0,,CAD,,Clothes,pants
+2012-11-28,6010,MOUNTAIN EQUIPMENT CO-OP MONTREAL     QC,32.77,3277,2786,27.8626925,164,1.6385,327,3.2688075,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,
+2012-11-29,,STM,24,2400,2041,20.406,120,1.2,239,2.394,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,
+2012-11-29,6010,Le chateau,57.48,5748,4999,49.99,250,2.5,499,4.99,0,,CAD,Clothes,Clothes,pants
 2012-12-03,6010,DOMAINSATCOST,13.6,1360,1183,11.83,59,0.59,118,1.18,0,,CAD,Advertising,5add7dd99382de8f166cb7e89b744062,Domainsatcost
 2012-12-06,Employee1 Employee1,Restaurant Pho Bac,8,800,696,6.96,35,0.35,69,0.69,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
 2012-12-07,,SAQ,10.15,1015,883,8.83,44,0.44,88,0.88,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
-2012-12-08,6010,Koodo,46.45,4645,3949.41125,39.4941125,232.25,2.3225,463.33875,4.6333875,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
+2012-12-08,6010,Koodo,46.45,4645,3949,39.4941125,232,2.3225,463,4.6333875,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
 2012-12-11,Employee1 Employee1,Restaurant M.C.,9.48,948,825,8.25,41,0.41,82,0.82,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
 2012-12-12,Employee1 Employee1,Saint-Cinnamon,2.37,237,222,2.22,5,0.05,10,0.1,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
-2012-12-16,6010,Telus,72.43,7243,6158.36075,61.5836075,362.15,3.6215,722.48925,7.2248925,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
+2012-12-16,6010,Telus,72.43,7243,6158,61.5836075,362,3.6215,722,7.2248925,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
 2012-12-18,Employee1 Employee1,Restaurant M.C.,5.18,518,450,4.5,23,0.23,45,0.45,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
 2012-12-18,Employee1 Employee1,Restaurant M.C.,9.48,948,825,8.25,41,0.41,82,0.82,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
 2012-12-18,Employee1 Employee1,Restaurant M.C.,18.98,1898,1650,16.5,83,0.83,165,1.65,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
@@ -175,4 +175,4 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-12-22,7475,Sunoco,30,3000,3000,30,0,,0,,0,,USD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Travel for interview / Partnership NYC
 2012-12-23,Employee1 Employee1,Imperial parking cie ,16,1600,1600,16,0,,0,,0,,USD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Travel for interview / Partnership NYC
 2012-12-25,7475,Circle K Gaz,34,3400,3400,34,0,,0,,0,,USD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Travel for interview / Partnership NYC
-2012-12-30,,STM,24,2400,2040.6,20.406,120,1.2,239.4,2.394,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,
+2012-12-30,,STM,24,2400,2041,20.406,120,1.2,239,2.394,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,
