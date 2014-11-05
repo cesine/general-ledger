@@ -1,0 +1,70 @@
+^([^,]*),([^,]*),([^,]*),[^,]*,([^,]*),([^,]*),[^,]*,([^,]*),[^,]*,([^,]*),[^,]*,([^,]*),[^,]*,[^,]*,[^,]*,([^,]*),[^,]*$
+\1 \2 \3 \4 \5 \6 \7 \8 \9
+
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">:::TRANSACTIONGUID:::</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>\1 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>\3</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>\1</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">\2</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">:::SPLIT1GUID:::</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>\5/100</split:value>
+      <split:quantity>\5/100</split:quantity>
+      <split:account type="guid">\9</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">:::SPLIT2GUID:::</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>\6/100</split:value>
+      <split:quantity>\6/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">:::SPLIT3GUID:::</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>\7/100</split:value>
+      <split:quantity>\7/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">:::SPLIT4GUID:::</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>\8/100</split:value>
+      <split:quantity>\8/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">:::SPLIT5GUID:::</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-\4/100</split:value>
+      <split:quantity>-\4/100</split:quantity>
+      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
