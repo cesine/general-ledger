@@ -6041,7 +6041,7 @@
   <trn:date-entered>
     <ts:date>2014-11-03 19:13:44 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Carlos & Carlos</trn:description>
+  <trn:description>Carlos and Carlos</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
