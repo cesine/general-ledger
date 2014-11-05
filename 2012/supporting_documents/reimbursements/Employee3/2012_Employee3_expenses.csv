@@ -1,19 +1,19 @@
 Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnucash6,TPS,TVQGnucash7,TVQ,TipsGnucash8,Tips,Currency,Category,Category9,Memo Field
-2012-01-12,Mat,LTL Prints,49,,,,,,,,,,USD,Publicity,,Poster Lab Clouds
-2012-01-21,3026,Ikea,97.71,,,,,4.25,,8.48,,,CAD,Office supplies,,Chair for the office
-2012-01-21,3026,Ikea,155.12,,,,,6.75,,13.46,,,CAD,Office supplies,,Shelves for the office and storage supplies
-2012-04-07,3034,Wal-mart,31.93,,,,,1.39,,2.77,,,CAD,Office supplies,,coffee machine
-2012-04-09,3034,IGA,28.65,,,,,0.15,,0.29,,,CAD,Office food,,Coffee + food
-2012-06-12,3034,Montreal Poutine,36.16,,,,,1.72,,3.42,,4.71,CAD,Representation,,meeting with Alan Jessica Employee3 emmy and Employee2 after first demo 16.70 + 14.68 + 8.07 tip 5.50
-2012-06-30,3034,Festival Int'l de Jazz,62.99,,,,,2.74,,5.46,,8.22,CAD,Representation,,saq tent at jazz fesitval with vicky and stephane tip 8.22
-2012-07-14,3034,IGA,3.98,,,,,,,,,,CAD,Office food,,
-2012-08-29,3034,Ailes,229.94,,,,,10,,19.95,,,CAD,clothes,,suits for Employee3
-2012-09-18,3034,AandW,9.48,,,,,0.21,,0.41,,,CAD,Representation,,
-2012-11-07,3034,St-Huberts ,12.01,,,,,2.45,,4.88775,,,CAD,Representation,,
-2012-11-14,3034,Bistro Le balmoral,29.08,,,,,1.454,,2.90073,,3.79,CAD,Representation,,dunno
-2012-12-11,3034,Click Imprimerie,34.5,,,,,1.5,,3,,,CAD,Publicity,,business cards for Employee3 and Employee11?
-2012-12-20,3034,SAQ,36,,,,,1.57,,3.12,,,CAD,Representation,,rum
-2012-12-23,3034,Metro-North Railroad,36.75,,,,,,,,,,USD,Traveling Credit,,Travel for interview / Partnership NYC
-2012-12-25,3034,Cumberland farms,15,,,,,,,,,,USD,Traveling Credit,,Travel for interview / Partnership NYC
-2012-12-30,3034,STM,83,,,,,4.15,,8.27925,,,CAD,transportation,,
-2012-12-31,3034,Loblaws,5.97,,,,,0.2985,,0.5955075,,,CAD,food,,pasta in lasalle
+2012-01-12,Mat,LTL Prints,49,4900,4900,49,0,,0,,0,,USD,Printing and Reproduction,d6c5279359bbf1c7cd598d738bfe37c2,Poster Lab Clouds
+2012-01-21,3026,Ikea,97.71,9771,8498,84.98,425,4.25,848,8.48,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,Chair for the office
+2012-01-21,3026,Ikea,155.12,15512,13491,134.91,675,6.75,1346,13.46,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,Shelves for the office and storage supplies
+2012-04-07,3034,Wal-mart,31.93,3193,2777,27.77,139,1.39,277,2.77,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,coffee machine
+2012-04-09,3034,IGA,28.65,2865,2821,28.21,15,0.15,29,0.29,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,Coffee + food
+2012-06-12,3034,Montreal Poutine,36.16,3616,2631,26.31,172,1.72,342,3.42,471,4.71,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,meeting with Alan Jessica Employee3 emmy and Employee2 after first demo 16.70 + 14.68 + 8.07 tip 5.50
+2012-06-30,3034,Festival Int'l de Jazz,62.99,6299,4657,46.57,274,2.74,546,5.46,822,8.22,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,saq tent at jazz fesitval with vicky and stephane tip 8.22
+2012-07-14,3034,IGA,3.98,398,398,3.98,0,,0,,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,
+2012-08-29,3034,Ailes,229.94,22994,19999,199.99,1000,10,1995,19.95,0,,CAD,Clothes,,suits for Employee3
+2012-09-18,3034,AandW,9.48,948,886,8.86,21,0.21,41,0.41,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
+2012-11-07,3034,St-Huberts ,12.01,1201,467,4.67225,245,2.45,489,4.88775,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
+2012-11-14,3034,Bistro Le balmoral,29.08,2908,2094,20.93527,145,1.454,290,2.90073,379,3.79,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,dunno
+2012-12-11,3034,Click Imprimerie,34.5,3450,3000,30,150,1.5,300,3,0,,CAD,Printing and Reproduction,d6c5279359bbf1c7cd598d738bfe37c2,business cards for Employee3 and Employee11?
+2012-12-20,3034,SAQ,36,3600,3131,31.31,157,1.57,312,3.12,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,rum
+2012-12-23,3034,Metro-North Railroad,36.75,3675,3675,36.75,0,,0,,0,,USD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Travel for interview / Partnership NYC
+2012-12-25,3034,Cumberland farms,15,1500,1500,15,0,,0,,0,,USD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Travel for interview / Partnership NYC
+2012-12-30,3034,STM,83,8300,7057,70.57075,415,4.15,828,8.27925,0,,CAD,transportation,2b90b480916be10e12b085956be5ccc2,
+2012-12-31,3034,Loblaws,5.97,597,508,5.0759925,30,0.2985,60,0.5955075,0,,CAD,food,,pasta in lasalle
