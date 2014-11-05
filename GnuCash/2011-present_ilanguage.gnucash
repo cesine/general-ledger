@@ -153,7 +153,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">136</gnc:count-data>
-<gnc:count-data cd:type="transaction">474</gnc:count-data>
+<gnc:count-data cd:type="transaction">490</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">4</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">1</gnc:count-data>
@@ -40621,6 +40621,1078 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>-2400/100</split:value>
       <split:quantity>-2400/100</split:quantity>
       <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">5032E960651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-01-12 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>LTL Prints</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-01-12</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Mat</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">5032F054651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>4900/100</split:value>
+      <split:quantity>4900/100</split:quantity>
+      <split:account type="guid">d6c5279359bbf1c7cd598d738bfe37c2</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5032F22A651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5032F3F6651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5032F5B8651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5032F784651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-4900/100</split:value>
+      <split:quantity>-4900/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">5032FAE0651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-01-21 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Ikea</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-01-21</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3026</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">50330148651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8498/100</split:value>
+      <split:quantity>8498/100</split:quantity>
+      <split:account type="guid">f0842cba7da5607b20367b9b60093bc1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50330300651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>425/100</split:value>
+      <split:quantity>425/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">503304AE651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>848/100</split:value>
+      <split:quantity>848/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50330666651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033081E651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-9771/100</split:value>
+      <split:quantity>-9771/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">50330AF8651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-01-21 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Ikea</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-01-21</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3026</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">50331160651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>13491/100</split:value>
+      <split:quantity>13491/100</split:quantity>
+      <split:account type="guid">f0842cba7da5607b20367b9b60093bc1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033132C651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>675/100</split:value>
+      <split:quantity>675/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">503314EE651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1346/100</split:value>
+      <split:quantity>1346/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">503316BA651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50331890651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-15512/100</split:value>
+      <split:quantity>-15512/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">50331BD8651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-04-07 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Wal-mart</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-04-07</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">503329F2651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2777/100</split:value>
+      <split:quantity>2777/100</split:quantity>
+      <split:account type="guid">f0842cba7da5607b20367b9b60093bc1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50332CCC651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>139/100</split:value>
+      <split:quantity>139/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50332F10651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>277/100</split:value>
+      <split:quantity>277/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">503331C2651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033337A651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-3193/100</split:value>
+      <split:quantity>-3193/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">5033365E651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-04-09 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>IGA</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-04-09</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">50333CC6651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2821/100</split:value>
+      <split:quantity>2821/100</split:quantity>
+      <split:account type="guid">f0842cba7da5607b20367b9b60093bc1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50333E7E651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>15/100</split:value>
+      <split:quantity>15/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50334036651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>29/100</split:value>
+      <split:quantity>29/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">503341EE651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033439C651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-2865/100</split:value>
+      <split:quantity>-2865/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">50334680651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-06-12 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Montreal Poutine</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-06-12</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">50334CF2651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2631/100</split:value>
+      <split:quantity>2631/100</split:quantity>
+      <split:account type="guid">98270fc89c885d8eeb6ba9196b54a90e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50334EAA651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>172/100</split:value>
+      <split:quantity>172/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50335062651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>342/100</split:value>
+      <split:quantity>342/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50335210651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>471/100</split:value>
+      <split:quantity>471/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">503353BE651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-3616/100</split:value>
+      <split:quantity>-3616/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">503356A2651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-06-30 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Festival Int'l de Jazz</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-06-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">50335D0A651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>4657/100</split:value>
+      <split:quantity>4657/100</split:quantity>
+      <split:account type="guid">98270fc89c885d8eeb6ba9196b54a90e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50335FBC651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>274/100</split:value>
+      <split:quantity>274/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50336174651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>546/100</split:value>
+      <split:quantity>546/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50336372651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>822/100</split:value>
+      <split:quantity>822/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50336520651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-6299/100</split:value>
+      <split:quantity>-6299/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">50336804651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-07-14 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>IGA</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-07-14</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">50336E6C651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>398/100</split:value>
+      <split:quantity>398/100</split:quantity>
+      <split:account type="guid">f0842cba7da5607b20367b9b60093bc1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50337024651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">503371D2651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50337380651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033752E651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-398/100</split:value>
+      <split:quantity>-398/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">50337812651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-09-18 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>AandW</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-09-18</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">50337E66651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>886/100</split:value>
+      <split:quantity>886/100</split:quantity>
+      <split:account type="guid">98270fc89c885d8eeb6ba9196b54a90e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033801E651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>21/100</split:value>
+      <split:quantity>21/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">503381CC651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>41/100</split:value>
+      <split:quantity>41/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033837A651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50338528651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-948/100</split:value>
+      <split:quantity>-948/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">50338802651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-11-07 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>St-Huberts </trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-11-07</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">50338E60651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>467/100</split:value>
+      <split:quantity>467/100</split:quantity>
+      <split:account type="guid">98270fc89c885d8eeb6ba9196b54a90e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50339090651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>245/100</split:value>
+      <split:quantity>245/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50339252651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>489/100</split:value>
+      <split:quantity>489/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">503394E6651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033969E651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-1201/100</split:value>
+      <split:quantity>-1201/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">503399AA651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-11-14 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Bistro Le balmoral</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-11-14</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">5033A008651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2094/100</split:value>
+      <split:quantity>2094/100</split:quantity>
+      <split:account type="guid">98270fc89c885d8eeb6ba9196b54a90e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033A1C0651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>145/100</split:value>
+      <split:quantity>145/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033A36E651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>290/100</split:value>
+      <split:quantity>290/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033A526651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>379/100</split:value>
+      <split:quantity>379/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033A6D4651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-2908/100</split:value>
+      <split:quantity>-2908/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">5033A9AE651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-12-11 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Click Imprimerie</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-12-11</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">5033B00C651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>3000/100</split:value>
+      <split:quantity>3000/100</split:quantity>
+      <split:account type="guid">d6c5279359bbf1c7cd598d738bfe37c2</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033B1BA651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>150/100</split:value>
+      <split:quantity>150/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033B372651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>300/100</split:value>
+      <split:quantity>300/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033B520651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033B6CE651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-3450/100</split:value>
+      <split:quantity>-3450/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">5033B9B2651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-12-20 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>SAQ</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-12-20</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">5033C010651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>3131/100</split:value>
+      <split:quantity>3131/100</split:quantity>
+      <split:account type="guid">98270fc89c885d8eeb6ba9196b54a90e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033C1BE651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>157/100</split:value>
+      <split:quantity>157/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033C3B2651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>312/100</split:value>
+      <split:quantity>312/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033C56A651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033C790651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-3600/100</split:value>
+      <split:quantity>-3600/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">5033CA74651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-12-23 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Metro-North Railroad</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-12-23</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">5033D10E651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>3675/100</split:value>
+      <split:quantity>3675/100</split:quantity>
+      <split:account type="guid">98270fc89c885d8eeb6ba9196b54a90e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033D2C6651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033D474651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033D62C651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033D7DA651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-3675/100</split:value>
+      <split:quantity>-3675/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">5033DAB4651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-12-25 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Cumberland farms</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-12-25</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">5033E112651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1500/100</split:value>
+      <split:quantity>1500/100</split:quantity>
+      <split:account type="guid">98270fc89c885d8eeb6ba9196b54a90e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033E2CA651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033E478651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033E630651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033E7DE651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-1500/100</split:value>
+      <split:quantity>-1500/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">5033EAC2651A11E4BF93A1D1E053727D</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-12-30 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>STM</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-12-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">5033F12A651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>7057/100</split:value>
+      <split:quantity>7057/100</split:quantity>
+      <split:account type="guid">2b90b480916be10e12b085956be5ccc2</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033F2D8651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>415/100</split:value>
+      <split:quantity>415/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033F486651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>828/100</split:value>
+      <split:quantity>828/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033F63E651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033F7EC651A11E4BF93A1D1E053727D</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-8300/100</split:value>
+      <split:quantity>-8300/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
