@@ -1,8 +1,8 @@
 Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnucash6,TPS,TVQGnucash7,TVQ,TipsGnucash8,Tips,Currency,Category,Category9,Memo Field
 2012-01-12,Mat,LTL Prints,49,4900,4900,49,0,,0,,0,,USD,Printing and Reproduction,d6c5279359bbf1c7cd598d738bfe37c2,Poster Lab Clouds
-2012-01-21,3026,Ikea,97.71,9771,8498,84.98,425,4.25,848,8.48,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,Chair for the office
-2012-01-21,3026,Ikea,155.12,15512,13491,134.91,675,6.75,1346,13.46,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,Shelves for the office and storage supplies
-2012-04-07,3034,Wal-mart,31.93,3193,2777,27.77,139,1.39,277,2.77,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,coffee machine
+2012-01-21,3026,Ikea,97.71,9771,8498,84.98,425,4.25,848,8.48,0,,CAD,Office expenses,,Chair for the office
+2012-01-21,3026,Ikea,155.12,15512,13491,134.91,675,6.75,1346,13.46,0,,CAD,Office expenses,,Shelves for the office and storage supplies
+2012-04-07,3034,Wal-mart,31.93,3193,2777,27.77,139,1.39,277,2.77,0,,CAD,Office expenses,,coffee machine
 2012-04-09,3034,IGA,28.65,2865,2821,28.21,15,0.15,29,0.29,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,Coffee + food
 2012-06-12,3034,Montreal Poutine,36.16,3616,2631,26.31,172,1.72,342,3.42,471,4.71,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,meeting with Alan Jessica Employee3 emmy and Employee2 after first demo 16.70 + 14.68 + 8.07 tip 5.50
 2012-06-30,3034,Festival Int'l de Jazz,62.99,6299,4657,46.57,274,2.74,546,5.46,822,8.22,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,saq tent at jazz fesitval with vicky and stephane tip 8.22

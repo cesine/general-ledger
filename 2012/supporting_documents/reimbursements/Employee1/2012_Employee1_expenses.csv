@@ -3,13 +3,13 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-01-05,6010,STM,75.5,7550,6455,64.5525,378,3.775,717,7.1725,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,monthly pass Jan 2012
 2012-01-06,6010,IGA,3.99,399,399,3.99,0,0,0,0,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,coffee cream
 2012-01-06,6010,Koodo,57.42,5742,4994,49.94,250,2.5,498,4.98,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
-2012-01-09,Employee1 Employee1,Future Shop,7.48,748,650,6.5,33,0.33,65,0.65,0,,CAD,ComputersAndMonitors,458f4e504aa04d2749917b564570c66b,usb key to install the linux computer
+2012-01-09,Employee1 Employee1,Future Shop,7.48,748,650,6.5,33,0.33,65,0.65,0,,CAD,ComputersAndMonitors,,usb key to install the linux computer
 2012-01-09,6010,Future Shop,423.38,42338,36498,364.98,1950,19.5,3890,38.9,0,,CAD,ComputersAndMonitors,458f4e504aa04d2749917b564570c66b,office computer
 2012-01-10,6010,L'ambroisie,7.81,781,592,5.92,30,0.3,59,0.59,100,1,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
 2012-01-10,6010,L'ambroisie,15.04,1504,1134,11.34,57,0.57,113,1.13,200,2,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,
 2012-01-10,Employee1 Employee1,Salaire Employee2,386.85,38685,38685,386.85,0,0,0,0,0,,CAD,SalariesAndWages,81771fff8f02baa0f45c511fe4163886,PMT Employee2 pour decembre de 400$
 2012-01-13,Employee1 Employee1,Dollarama,10.93,1093,950,9.5,48,0.48,95,0.95,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,paper clips staples and notecards
-2012-01-13,6010,Future Shop,57.48,5748,4999,49.99,250,2.5,499,4.99,0,,CAD,ComputersAndMonitors,458f4e504aa04d2749917b564570c66b,Dlink Wifi usb for office computer
+2012-01-13,6010,Future Shop,57.48,5748,4999,49.99,250,2.5,499,4.99,0,,CAD,ComputersAndMonitors,,Dlink Wifi usb for office computer
 2012-01-14,6010,Telus,71.77,7177,6242,62.42,312,3.12,623,6.23,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
 2012-01-19,6010,Subway,5.18,518,450,4.5,23,0.23,45,0.45,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Working Lunch at CUSEC
 2012-01-19,8926,Grillades du cedres,10.05,1005,874,8.74,44,0.44,87,0.87,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Working Lunch at CUSEC
@@ -133,7 +133,7 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-10-06,6010,JEAN COUTU,26.19,2619,2227,22.2680475,131,1.3095,261,2.6124525,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,
 2012-10-06,6010,MAXI,106.54,10654,10654,106.54,0,,0,,0,,CAD,food,food,
 2012-10-08,6010,Koodo,55.85,5585,4749,47.4864625,279,2.7925,557,5.5710375,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
-2012-10-08,6010,Best Buy,300.82,30082,25577,255.772205,1504,15.041,3001,30.006795,0,,CAD,ComputersAndMonitors,458f4e504aa04d2749917b564570c66b,Buying the Tablet for Dev. BestBuy.ca #900
+2012-10-08,6010,Best Buy,300.82,30082,25577,255.772205,1504,15.041,3001,30.006795,0,,CAD,ComputersAndMonitors,,Buying the Tablet for Dev. BestBuy.ca #900
 2012-10-09,6010,L'Ambroisie,6.81,681,492,4.92,30,0.3,59,0.59,100,1,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Javascript montreal happy hour and networking 1.00 tip
 2012-10-09,6010,L'Ambroisie,7.81,781,681,6.81,0,,0,,100,1,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Javascript montreal happy hour and networking 1.00 tip
 2012-10-17,6010,Telus,72.43,7243,6158,61.5836075,362,3.6215,722,7.2248925,0,,CAD,Cell Phone,2863412684380ac80952ad9c5e8f963a,
