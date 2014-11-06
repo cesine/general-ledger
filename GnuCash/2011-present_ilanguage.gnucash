@@ -152,8 +152,8 @@ Montreal QC REMOVED</slot:value>
   </slot>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
-<gnc:count-data cd:type="account">136</gnc:count-data>
-<gnc:count-data cd:type="transaction">489</gnc:count-data>
+<gnc:count-data cd:type="account">135</gnc:count-data>
+<gnc:count-data cd:type="transaction">488</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">4</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">1</gnc:count-data>
@@ -2018,22 +2018,18 @@ Montreal QC REMOVED</slot:value>
         </slot>
       </slot:value>
     </slot>
-  </act:slots>
-  <act:parent type="guid">adf77b8287284c7e5d5258e1cee9e3a8</act:parent>
-</gnc:account>
-<gnc:account version="2.0.0">
-  <act:name>Owner Investments</act:name>
-  <act:id type="guid">82bf3df8fd6b9119f8a7acd83cde1cbb</act:id>
-  <act:type>ASSET</act:type>
-  <act:commodity>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </act:commodity>
-  <act:commodity-scu>100</act:commodity-scu>
-  <act:slots>
     <slot>
-      <slot:key>color</slot:key>
-      <slot:value type="string">Not Set</slot:value>
+      <slot:key>reconcile-info</slot:key>
+      <slot:value type="frame">
+        <slot>
+          <slot:key>include-children</slot:key>
+          <slot:value type="integer">0</slot:value>
+        </slot>
+        <slot>
+          <slot:key>last-date</slot:key>
+          <slot:value type="integer">1357016399</slot:value>
+        </slot>
+      </slot:value>
     </slot>
   </act:slots>
   <act:parent type="guid">adf77b8287284c7e5d5258e1cee9e3a8</act:parent>
@@ -3768,6 +3764,21 @@ Montreal QC REMOVED</slot:value>
   </act:commodity>
   <act:commodity-scu>100</act:commodity-scu>
   <act:description>Accounts Payable</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>reconcile-info</slot:key>
+      <slot:value type="frame">
+        <slot>
+          <slot:key>include-children</slot:key>
+          <slot:value type="integer">0</slot:value>
+        </slot>
+        <slot>
+          <slot:key>last-date</slot:key>
+          <slot:value type="integer">1357016399</slot:value>
+        </slot>
+      </slot:value>
+    </slot>
+  </act:slots>
   <act:parent type="guid">dfb94424a26f238aff23a0928a2932ba</act:parent>
   <act:lots>
     <gnc:lot version="2.0.0">
@@ -3843,24 +3854,6 @@ Montreal QC REMOVED</slot:value>
       </lot:slots>
     </gnc:lot>
     <gnc:lot version="2.0.0">
-      <lot:id type="guid">451f50f75cb20d1d1cecc848e89b34a1</lot:id>
-      <lot:slots>
-        <slot>
-          <slot:key>gncInvoice</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>invoice-guid</slot:key>
-              <slot:value type="guid">a227d8ec9cf1882e4eb8f7995b05125d</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-        <slot>
-          <slot:key>title</slot:key>
-          <slot:value type="string">Bill 000004</slot:value>
-        </slot>
-      </lot:slots>
-    </gnc:lot>
-    <gnc:lot version="2.0.0">
       <lot:id type="guid">46b118b661469b410540ef91cac3154b</lot:id>
       <lot:slots>
         <slot>
@@ -3911,6 +3904,24 @@ Montreal QC REMOVED</slot:value>
         <slot>
           <slot:key>title</slot:key>
           <slot:value type="string">Bill 000003</slot:value>
+        </slot>
+      </lot:slots>
+    </gnc:lot>
+    <gnc:lot version="2.0.0">
+      <lot:id type="guid">7e0711a9ade681470380a9e5eb809ed7</lot:id>
+      <lot:slots>
+        <slot>
+          <slot:key>gncOwner</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>owner-guid</slot:key>
+              <slot:value type="guid">4abeff7e8a372ad2b0a9c98dd83b33d5</slot:value>
+            </slot>
+            <slot>
+              <slot:key>owner-type</slot:key>
+              <slot:value type="integer">4</slot:value>
+            </slot>
+          </slot:value>
         </slot>
       </lot:slots>
     </gnc:lot>
@@ -3987,25 +3998,25 @@ Montreal QC REMOVED</slot:value>
       </lot:slots>
     </gnc:lot>
     <gnc:lot version="2.0.0">
-      <lot:id type="guid">e9f5d62f5d5fd5b7250a2b20969f89c0</lot:id>
+      <lot:id type="guid">e89663d693efd8589204760484d3e155</lot:id>
       <lot:slots>
         <slot>
-          <slot:key>gncOwner</slot:key>
+          <slot:key>gncInvoice</slot:key>
           <slot:value type="frame">
             <slot>
-              <slot:key>owner-guid</slot:key>
-              <slot:value type="guid">4abeff7e8a372ad2b0a9c98dd83b33d5</slot:value>
-            </slot>
-            <slot>
-              <slot:key>owner-type</slot:key>
-              <slot:value type="integer">4</slot:value>
+              <slot:key>invoice-guid</slot:key>
+              <slot:value type="guid">a227d8ec9cf1882e4eb8f7995b05125d</slot:value>
             </slot>
           </slot:value>
+        </slot>
+        <slot>
+          <slot:key>title</slot:key>
+          <slot:value type="string">Bill 000004</slot:value>
         </slot>
       </lot:slots>
     </gnc:lot>
     <gnc:lot version="2.0.0">
-      <lot:id type="guid">f530b6036fd9f953be862d7b6798128a</lot:id>
+      <lot:id type="guid">e9f5d62f5d5fd5b7250a2b20969f89c0</lot:id>
       <lot:slots>
         <slot>
           <slot:key>gncOwner</slot:key>
@@ -6117,6 +6128,19 @@ Montreal QC REMOVED</slot:value>
       <slot:key>color</slot:key>
       <slot:value type="string">Not Set</slot:value>
     </slot>
+    <slot>
+      <slot:key>reconcile-info</slot:key>
+      <slot:value type="frame">
+        <slot>
+          <slot:key>include-children</slot:key>
+          <slot:value type="integer">0</slot:value>
+        </slot>
+        <slot>
+          <slot:key>last-date</slot:key>
+          <slot:value type="integer">1356929999</slot:value>
+        </slot>
+      </slot:value>
+    </slot>
   </act:slots>
   <act:parent type="guid">4cbf97ac12b6a5e72da87879c472b4aa</act:parent>
 </gnc:account>
@@ -6927,7 +6951,10 @@ PMT Employee1 Seulement MARS
       <split:id type="guid">390a835a55cdde900e1b17f32b4d7e75</split:id>
       <split:memo>Cheque/no 3</split:memo>
       <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>206955/100</split:value>
       <split:quantity>206955/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -7080,7 +7107,10 @@ PMT Employee1 Seulement MARS
     </trn:split>
     <trn:split>
       <split:id type="guid">a6b5ad74a801a1fd93ed6fa3c05cab87</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-30 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-1400000/100</split:value>
       <split:quantity>-1400000/100</split:quantity>
       <split:account type="guid">55caf8099a7d374c1c2a2bd78c296112</split:account>
@@ -8695,7 +8725,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">32f675164b9cb4d5a69426f502595a60</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-30 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-200000/100</split:value>
       <split:quantity>-200000/100</split:quantity>
       <split:account type="guid">55caf8099a7d374c1c2a2bd78c296112</split:account>
@@ -8829,7 +8862,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">7f99bfd56fcab39732f07632611b50e5</split:id>
       <split:memo>Cheque/no 9</split:memo>
       <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>206955/100</split:value>
       <split:quantity>206955/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -10382,7 +10418,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">628ffc8f290a39b0006157845562e3bc</split:id>
       <split:memo>Cheque/no 10</split:memo>
       <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>206955/100</split:value>
       <split:quantity>206955/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -12006,10 +12045,20 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">da6122f8ee8a41ea9b1f6db97eaace38</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-1700000/100</split:value>
-      <split:quantity>-1700000/100</split:quantity>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-30 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-900000/100</split:value>
+      <split:quantity>-900000/100</split:quantity>
       <split:account type="guid">55caf8099a7d374c1c2a2bd78c296112</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">1bf254441ec1c658fec00541acd5afa2</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-800000/100</split:value>
+      <split:quantity>-800000/100</split:quantity>
+      <split:account type="guid">a9b6ff610561f64722e02e5ced1a0c4b</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -24109,9 +24158,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">d963a320dabb894c9fa3530f970042e2</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 16:31:37 -0400</ts:date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>69000/100</split:value>
       <split:quantity>69000/100</split:quantity>
@@ -24168,9 +24217,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">ed1f2f60b5c47fdb833690dc2f148dcd</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 16:31:37 -0400</ts:date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-2500/100</split:value>
       <split:quantity>-2500/100</split:quantity>
@@ -24214,9 +24263,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">fc14c48d217ab72dae5eed47975c2b76</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 16:31:37 -0400</ts:date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-375000/100</split:value>
       <split:quantity>-375000/100</split:quantity>
@@ -24258,7 +24307,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">e839b660ed56d2c2e9606bc385a6864f</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>148000/100</split:value>
       <split:quantity>148000/100</split:quantity>
       <split:account type="guid">7d2b6c4fb4f0546f8dea6895bb5b7a33</split:account>
@@ -24345,9 +24397,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">56b3976715346afbb8039011218f3756</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 16:31:37 -0400</ts:date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-38685/100</split:value>
       <split:quantity>-38685/100</split:quantity>
@@ -24421,7 +24473,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">fa81f8f31a1684859c63f111a590a748</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>199185/100</split:value>
       <split:quantity>199185/100</split:quantity>
       <split:account type="guid">7d2b6c4fb4f0546f8dea6895bb5b7a33</split:account>
@@ -24462,18 +24517,25 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:slots>
   <trn:splits>
     <trn:split>
-      <split:id type="guid">c9101efe0854fad012e6168fe2c66298</split:id>
+      <split:id type="guid">3131cc1dd15786c34c837cff2afbce78</split:id>
+      <split:memo>Quo Vadis</split:memo>
       <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>198054/100</split:value>
       <split:quantity>198054/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
-      <split:lot type="guid">f530b6036fd9f953be862d7b6798128a</split:lot>
+      <split:lot type="guid">7e0711a9ade681470380a9e5eb809ed7</split:lot>
     </trn:split>
     <trn:split>
       <split:id type="guid">854cfb297909ca0c3d6c4ccb48b526eb</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-198054/100</split:value>
       <split:quantity>-198054/100</split:quantity>
       <split:account type="guid">7d2b6c4fb4f0546f8dea6895bb5b7a33</split:account>
@@ -24503,7 +24565,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">7db7177e33f38592c66bc4f78146017e</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>3000/100</split:value>
       <split:quantity>3000/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -24512,7 +24577,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">858bafa63a118be4ef0d0bb36351ec8b</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-3000/100</split:value>
       <split:quantity>-3000/100</split:quantity>
       <split:account type="guid">7d2b6c4fb4f0546f8dea6895bb5b7a33</split:account>
@@ -24520,7 +24588,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">779a263765a9e89d4abaa42bd866bf1e</trn:id>
+  <trn:id type="guid">293bdce6f51ae2e7300784e698e9414d</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
@@ -24529,32 +24597,34 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <ts:date>2012-12-31 00:00:00 -0500</ts:date>
   </trn:date-posted>
   <trn:date-entered>
-    <ts:date>2014-09-08 22:02:39 -0400</ts:date>
+    <ts:date>2014-11-05 22:50:27 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Employee1 Employee1</trn:description>
+  <trn:description>2012 year end transfer of losses as paid by owner</trn:description>
   <trn:slots>
     <slot>
-      <slot:key>trans-txn-type</slot:key>
-      <slot:value type="string">P</slot:value>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-12-31</gdate>
+      </slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
     <trn:split>
-      <split:id type="guid">fb63b787a1f62478b3f783acd8e15e90</split:id>
-      <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>106007/100</split:value>
-      <split:quantity>106007/100</split:quantity>
-      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
-      <split:lot type="guid">b08cf80f34b1c87925f75aff696f4a68</split:lot>
+      <split:id type="guid">6457636602dde7b73941ea6fc253e6d6</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>201054/100</split:value>
+      <split:quantity>201054/100</split:quantity>
+      <split:account type="guid">7d2b6c4fb4f0546f8dea6895bb5b7a33</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">f1361175e29ef712d85b9b4d1387cafb</split:id>
-      <split:action>Payment</split:action>
+      <split:id type="guid">617f042d34e42b0a2422de0eda37bf34</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-106007/100</split:value>
-      <split:quantity>-106007/100</split:quantity>
-      <split:account type="guid">82bf3df8fd6b9119f8a7acd83cde1cbb</split:account>
+      <split:value>-201054/100</split:value>
+      <split:quantity>-201054/100</split:quantity>
+      <split:account type="guid">3a74e0b8f045c2bc05b110c87161c399</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -27960,9 +28030,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">823993f6e284b86080f01332d9d7a9f7</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-10 06:32:20 -0400</ts:date>
+        <ts:date>2012-12-30 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-60951/100</split:value>
       <split:quantity>-60951/100</split:quantity>
@@ -28055,77 +28125,13 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">7fe04dd768024e7c62f26dd650052cd3</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-30 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-142287/100</split:value>
       <split:quantity>-142287/100</split:quantity>
       <split:account type="guid">55caf8099a7d374c1c2a2bd78c296112</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">16f711f0650e11e49e24ce4e545c3ac5</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:num>1</trn:num>
-  <trn:date-posted>
-    <ts:date>2012-01-09 00:00:00 -0500</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
-  </trn:date-entered>
-  <trn:description>Future Shop</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2012-01-09</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string">Employee1 Employee1</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">16f719b6650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>650/100</split:value>
-      <split:quantity>650/100</split:quantity>
-      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f71b82650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>33/100</split:value>
-      <split:quantity>33/100</split:quantity>
-      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f71d3a650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>65/100</split:value>
-      <split:quantity>65/100</split:quantity>
-      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f71ef2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f720aa650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>y</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
-      </split:reconcile-date>
-      <split:value>-748/100</split:value>
-      <split:quantity>-748/100</split:quantity>
-      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -28197,140 +28203,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">16f77622650e11e49e24ce4e545c3ac5</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:num>1</trn:num>
-  <trn:date-posted>
-    <ts:date>2012-01-13 00:00:00 -0500</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
-  </trn:date-entered>
-  <trn:description>Future Shop</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2012-01-13</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string">6010</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">16f77c6c650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>4999/100</split:value>
-      <split:quantity>4999/100</split:quantity>
-      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f77e1a650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>250/100</split:value>
-      <split:quantity>250/100</split:quantity>
-      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f77fc8650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>499/100</split:value>
-      <split:quantity>499/100</split:quantity>
-      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f781d0650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f7837e650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>y</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
-      </split:reconcile-date>
-      <split:value>-5748/100</split:value>
-      <split:quantity>-5748/100</split:quantity>
-      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">16fed890650e11e49e24ce4e545c3ac5</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:num>1</trn:num>
-  <trn:date-posted>
-    <ts:date>2012-10-08 01:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
-  </trn:date-entered>
-  <trn:description>Best Buy</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2012-10-08</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string">6010</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">16fededa650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>25577/100</split:value>
-      <split:quantity>25577/100</split:quantity>
-      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fee088650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>1504/100</split:value>
-      <split:quantity>1504/100</split:quantity>
-      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fee236650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>3001/100</split:value>
-      <split:quantity>3001/100</split:quantity>
-      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fee3e4650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fee592650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>y</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
-      </split:reconcile-date>
-      <split:value>-30082/100</split:value>
-      <split:quantity>-30082/100</split:quantity>
-      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
   <trn:id type="guid">f1626ca5d1627a9f362cc24c442bd906</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -28369,7 +28241,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">01a68debd9c2677b8f33433ce97af438</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-30 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-6974/100</split:value>
       <split:quantity>-6974/100</split:quantity>
       <split:account type="guid">55caf8099a7d374c1c2a2bd78c296112</split:account>
@@ -28449,6 +28324,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">e3c25b79bb9b6fb7df67a2e4302a365a</split:id>
+      <split:memo>Motorola XOOM</split:memo>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
         <ts:date>2014-06-09 15:50:18 -0400</ts:date>
@@ -28495,6 +28371,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">58035e1dd9293d8e47899310040b5751</split:id>
+      <split:memo>Nexus S</split:memo>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
         <ts:date>2014-06-09 15:50:18 -0400</ts:date>
@@ -28509,6 +28386,73 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>-10000/100</split:value>
       <split:quantity>-10000/100</split:quantity>
       <split:account type="guid">a9b6ff610561f64722e02e5ced1a0c4b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">16fed890650e11e49e24ce4e545c3ac5</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-10-08 01:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Best Buy</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-10-08</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">6010</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">16fededa650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>25577/100</split:value>
+      <split:quantity>25577/100</split:quantity>
+      <split:account type="guid">c75953b26e4343611a770d806bb1b554</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">16fee088650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1504/100</split:value>
+      <split:quantity>1504/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">16fee236650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>3001/100</split:value>
+      <split:quantity>3001/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">16fee3e4650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">16fee592650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-30082/100</split:value>
+      <split:quantity>-30082/100</split:quantity>
+      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -28555,6 +28499,140 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>-3987/100</split:value>
       <split:quantity>-3987/100</split:quantity>
       <split:account type="guid">a9b6ff610561f64722e02e5ced1a0c4b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">16f711f0650e11e49e24ce4e545c3ac5</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-01-09 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Future Shop</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-01-09</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Employee1 Employee1</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">16f719b6650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>650/100</split:value>
+      <split:quantity>650/100</split:quantity>
+      <split:account type="guid">b399fff5b6b10355f27b8687b29ec724</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">16f71b82650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>33/100</split:value>
+      <split:quantity>33/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">16f71d3a650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>65/100</split:value>
+      <split:quantity>65/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">16f71ef2650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">16f720aa650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-748/100</split:value>
+      <split:quantity>-748/100</split:quantity>
+      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">16f77622650e11e49e24ce4e545c3ac5</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-01-13 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Future Shop</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-01-13</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">6010</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">16f77c6c650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>4999/100</split:value>
+      <split:quantity>4999/100</split:quantity>
+      <split:account type="guid">b399fff5b6b10355f27b8687b29ec724</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">16f77e1a650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>250/100</split:value>
+      <split:quantity>250/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">16f77fc8650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>499/100</split:value>
+      <split:quantity>499/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">16f781d0650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">16f7837e650e11e49e24ce4e545c3ac5</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-5748/100</split:value>
+      <split:quantity>-5748/100</split:quantity>
+      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -28651,6 +28729,213 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
+  <trn:id type="guid">5032fae0651a11e4bf93a1d1e053727d</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-01-21 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Ikea</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-01-21</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3026</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">50330148651a11e4bf93a1d1e053727d</split:id>
+      <split:memo>Chair for the office
+chairs</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8498/100</split:value>
+      <split:quantity>8498/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50330300651a11e4bf93a1d1e053727d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>425/100</split:value>
+      <split:quantity>425/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">503304ae651a11e4bf93a1d1e053727d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>848/100</split:value>
+      <split:quantity>848/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50330666651a11e4bf93a1d1e053727d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033081e651a11e4bf93a1d1e053727d</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-9771/100</split:value>
+      <split:quantity>-9771/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">50330af8651a11e4bf93a1d1e053727d</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-01-21 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Ikea</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-01-21</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3026</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">50331160651a11e4bf93a1d1e053727d</split:id>
+      <split:memo>Shelves for the office and storage supplies
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>13491/100</split:value>
+      <split:quantity>13491/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033132c651a11e4bf93a1d1e053727d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>675/100</split:value>
+      <split:quantity>675/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">503314ee651a11e4bf93a1d1e053727d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1346/100</split:value>
+      <split:quantity>1346/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">503316ba651a11e4bf93a1d1e053727d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50331890651a11e4bf93a1d1e053727d</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-15512/100</split:value>
+      <split:quantity>-15512/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">50331bd8651a11e4bf93a1d1e053727d</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-04-07 01:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Wal-mart</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-04-07</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">3034</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">503329f2651a11e4bf93a1d1e053727d</split:id>
+      <split:memo>coffee machine
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2777/100</split:value>
+      <split:quantity>2777/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50332ccc651a11e4bf93a1d1e053727d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>139/100</split:value>
+      <split:quantity>139/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50332f10651a11e4bf93a1d1e053727d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>277/100</split:value>
+      <split:quantity>277/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">503331c2651a11e4bf93a1d1e053727d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5033337a651a11e4bf93a1d1e053727d</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-3193/100</split:value>
+      <split:quantity>-3193/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
   <trn:id type="guid">cb469a912343796b547cf692d9fb6615</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -28701,7 +28986,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">e107d1a983d63c2772bffecca7466818</split:id>
       <split:action>Expense</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-1613/100</split:value>
       <split:quantity>-1613/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -28800,7 +29088,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">f07e6b540d1a50fcc7b0b3ce1bce3502</split:id>
       <split:action>Expense</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-106007/100</split:value>
       <split:quantity>-106007/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -28832,7 +29123,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">ca76c659f5a6dd012eceefd744305c4f</split:id>
       <split:memo>Internal link between invoice and payment lots</split:memo>
       <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>1613/100</split:value>
       <split:quantity>1613/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -28842,7 +29136,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">bfcbaf557b17aebf64d6cf0b55e76d3e</split:id>
       <split:memo>Internal link between invoice and payment lots</split:memo>
       <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-1613/100</split:value>
       <split:quantity>-1613/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -28873,7 +29170,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">1988cd6956c6c7d7855385cd514cc3dc</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>1613/100</split:value>
       <split:quantity>1613/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -28885,6 +29185,54 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-1613/100</split:value>
       <split:quantity>-1613/100</split:quantity>
+      <split:account type="guid">a9b6ff610561f64722e02e5ced1a0c4b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">779a263765a9e89d4abaa42bd866bf1e</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-01-01 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-09-08 22:02:39 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee1 Employee1</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-01-01</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-txn-type</slot:key>
+      <slot:value type="string">P</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">fb63b787a1f62478b3f783acd8e15e90</split:id>
+      <split:action>Payment</split:action>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>106007/100</split:value>
+      <split:quantity>106007/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+      <split:lot type="guid">b08cf80f34b1c87925f75aff696f4a68</split:lot>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f1361175e29ef712d85b9b4d1387cafb</split:id>
+      <split:action>Payment</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-106007/100</split:value>
+      <split:quantity>-106007/100</split:quantity>
       <split:account type="guid">a9b6ff610561f64722e02e5ced1a0c4b</split:account>
     </trn:split>
   </trn:splits>
@@ -28913,7 +29261,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">92a859af01d87dc86c113829be5127a6</split:id>
       <split:memo>Internal link between invoice and payment lots</split:memo>
       <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>3000/100</split:value>
       <split:quantity>3000/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -28923,7 +29274,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">54b361730b71ef45dad4303b23dea113</split:id>
       <split:memo>Internal link between invoice and payment lots</split:memo>
       <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-3000/100</split:value>
       <split:quantity>-3000/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -28932,7 +29286,55 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">2ba8dfa9f27b82bc0de7fa0cf0dc51a1</trn:id>
+  <trn:id type="guid">ad2ef909d01f5dc2e7adad4d5b2c0245</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-01-04 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2014-11-05 23:00:33 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Quo Vadis</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>trans-txn-type</slot:key>
+      <slot:value type="string">L</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">4ddbcd475fd038422ba31da2709d96de</split:id>
+      <split:memo>Internal link between invoice and payment lots</split:memo>
+      <split:action>Lot Link</split:action>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>198054/100</split:value>
+      <split:quantity>198054/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+      <split:lot type="guid">e89663d693efd8589204760484d3e155</split:lot>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">1f4bf781e891627c68cf7d8d26419bda</split:id>
+      <split:memo>Internal link between invoice and payment lots</split:memo>
+      <split:action>Lot Link</split:action>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-198054/100</split:value>
+      <split:quantity>-198054/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+      <split:lot type="guid">7e0711a9ade681470380a9e5eb809ed7</split:lot>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">1289d360602adc93563b927665a6a95d</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
@@ -28942,7 +29344,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <ts:date>2012-01-04 00:00:00 -0500</ts:date>
   </trn:date-posted>
   <trn:date-entered>
-    <ts:date>2014-09-15 23:28:27 -0400</ts:date>
+    <ts:date>2014-11-05 22:59:37 -0500</ts:date>
   </trn:date-entered>
   <trn:description>Quo Vadis</trn:description>
   <trn:slots>
@@ -28972,7 +29374,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:slots>
   <trn:splits>
     <trn:split>
-      <split:id type="guid">a212b19548bfcaca299c004a81e58e63</split:id>
+      <split:id type="guid">b0e6cf694c72865b1c0fee2b63b83986</split:id>
       <split:action>Bill</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>17183/100</split:value>
@@ -28980,7 +29382,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">e75134c738ec634ea4c418bae6e88ae5</split:id>
+      <split:id type="guid">17c107f5ec909812724f13ee44f98f40</split:id>
       <split:action>Bill</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>8613/100</split:value>
@@ -28988,7 +29390,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">66a1cd8734de06e9e239d386441835f7</split:id>
+      <split:id type="guid">359e3718821866d34d8d106c38550805</split:id>
       <split:action>Bill</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>172258/100</split:value>
@@ -28996,13 +29398,16 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:account type="guid">fff63efd30a8eac8b771c4243b6d6376</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">61b07bb877cd96554827d0ffcaad7bd1</split:id>
+      <split:id type="guid">bd0670b4a6d6b2380b19b499519333a4</split:id>
       <split:action>Bill</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-198054/100</split:value>
       <split:quantity>-198054/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
-      <split:lot type="guid">451f50f75cb20d1d1cecc848e89b34a1</split:lot>
+      <split:lot type="guid">e89663d693efd8589204760484d3e155</split:lot>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -29057,7 +29462,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">f2df1256ef493b255d12bb02922d8d78</split:id>
       <split:action>Bill</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-3000/100</split:value>
       <split:quantity>-3000/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -29089,7 +29497,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">9c8fb34d5d31ca0ffd0cb3bfcd5c858e</split:id>
       <split:memo>Internal link between invoice and payment lots</split:memo>
       <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>206955/100</split:value>
       <split:quantity>206955/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -29099,7 +29510,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">c0290306283c9ba1d5af1e61e8597107</split:id>
       <split:memo>Internal link between invoice and payment lots</split:memo>
       <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-206955/100</split:value>
       <split:quantity>-206955/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -29174,7 +29588,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">13ab077ad848d5630b7291ac13b76c3d</split:id>
       <split:action>Bill</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-206955/100</split:value>
       <split:quantity>-206955/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -29249,7 +29666,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">c1430fa1301c6cfa905a82285a8ef524</split:id>
       <split:action>Bill</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-206955/100</split:value>
       <split:quantity>-206955/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -29281,7 +29701,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">d50e9a954ec5ca8c0d7a153fff4a14d9</split:id>
       <split:memo>Internal link between invoice and payment lots</split:memo>
       <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>206955/100</split:value>
       <split:quantity>206955/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -29291,7 +29714,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">dce88994ca9db92c0d1b046948fb4199</split:id>
       <split:memo>Internal link between invoice and payment lots</split:memo>
       <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-206955/100</split:value>
       <split:quantity>-206955/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -29366,7 +29792,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">ef1c25c93f5b6dfaf82623fb087ad3b9</split:id>
       <split:action>Bill</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-206955/100</split:value>
       <split:quantity>-206955/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -29398,7 +29827,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">cbf2e5af92f9592d411613baca06e95e</split:id>
       <split:memo>Internal link between invoice and payment lots</split:memo>
       <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>206955/100</split:value>
       <split:quantity>206955/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
@@ -29408,53 +29840,14 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">94493ada235fc165fdb609904e9090c6</split:id>
       <split:memo>Internal link between invoice and payment lots</split:memo>
       <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-206955/100</split:value>
       <split:quantity>-206955/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
       <split:lot type="guid">30f2388a4fd6b2222a83d4d164f83f11</split:lot>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">3eb7e4f17fd991446851b52201e884f7</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:date-posted>
-    <ts:date>2012-12-31 00:00:00 -0500</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2014-09-08 22:02:39 -0400</ts:date>
-  </trn:date-entered>
-  <trn:description>Employee1 Employee1</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>trans-txn-type</slot:key>
-      <slot:value type="string">L</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">c94f4a5ca79505a60c74200ec340ad87</split:id>
-      <split:memo>Internal link between invoice and payment lots</split:memo>
-      <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>106007/100</split:value>
-      <split:quantity>106007/100</split:quantity>
-      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
-      <split:lot type="guid">1d46a2fe997cb69425b96a7343134835</split:lot>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">8a11704e3fe69916e13c8eaf43bc832e</split:id>
-      <split:memo>Internal link between invoice and payment lots</split:memo>
-      <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-106007/100</split:value>
-      <split:quantity>-106007/100</split:quantity>
-      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
-      <split:lot type="guid">b08cf80f34b1c87925f75aff696f4a68</split:lot>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -30099,48 +30492,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>-651/100</split:value>
       <split:quantity>-651/100</split:quantity>
       <split:account type="guid">99cab29a3bfdfbb18d91c53b2739277d</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">e06228d3da3fca353bf30087c9a7a139</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:date-posted>
-    <ts:date>2014-09-15 00:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2014-09-15 23:28:39 -0400</ts:date>
-  </trn:date-entered>
-  <trn:description>Quo Vadis</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>trans-txn-type</slot:key>
-      <slot:value type="string">L</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">d3ad2b7b09bd902c4ebb4a272270ab4e</split:id>
-      <split:memo>Internal link between invoice and payment lots</split:memo>
-      <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>198054/100</split:value>
-      <split:quantity>198054/100</split:quantity>
-      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
-      <split:lot type="guid">451f50f75cb20d1d1cecc848e89b34a1</split:lot>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">eedd3666701eced403132eb94a668e3f</split:id>
-      <split:memo>Internal link between invoice and payment lots</split:memo>
-      <split:action>Lot Link</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-198054/100</split:value>
-      <split:quantity>-198054/100</split:quantity>
-      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
-      <split:lot type="guid">f530b6036fd9f953be862d7b6798128a</split:lot>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -30864,73 +31215,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">16f75688650e11e49e24ce4e545c3ac5</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:num>1</trn:num>
-  <trn:date-posted>
-    <ts:date>2012-01-10 00:00:00 -0500</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
-  </trn:date-entered>
-  <trn:description>Salaire Employee2</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2012-01-10</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string">Employee1 Employee1</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">16f75cd2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>38685/100</split:value>
-      <split:quantity>38685/100</split:quantity>
-      <split:account type="guid">81771fff8f02baa0f45c511fe4163886</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f75e80650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f7602e650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f761dc650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f76380650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>y</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
-      </split:reconcile-date>
-      <split:value>-38685/100</split:value>
-      <split:quantity>-38685/100</split:quantity>
-      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
   <trn:id type="guid">5032e960651a11e4bf93a1d1e053727d</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -31329,140 +31613,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>-1800/100</split:value>
       <split:quantity>-1800/100</split:quantity>
       <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">5032fae0651a11e4bf93a1d1e053727d</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:num>1</trn:num>
-  <trn:date-posted>
-    <ts:date>2012-01-21 00:00:00 -0500</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
-  </trn:date-entered>
-  <trn:description>Ikea</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2012-01-21</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string">3026</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">50330148651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>8498/100</split:value>
-      <split:quantity>8498/100</split:quantity>
-      <split:account type="guid">f0842cba7da5607b20367b9b60093bc1</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">50330300651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>425/100</split:value>
-      <split:quantity>425/100</split:quantity>
-      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">503304ae651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>848/100</split:value>
-      <split:quantity>848/100</split:quantity>
-      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">50330666651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">5033081e651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>y</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
-      </split:reconcile-date>
-      <split:value>-9771/100</split:value>
-      <split:quantity>-9771/100</split:quantity>
-      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">50330af8651a11e4bf93a1d1e053727d</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:num>1</trn:num>
-  <trn:date-posted>
-    <ts:date>2012-01-21 00:00:00 -0500</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
-  </trn:date-entered>
-  <trn:description>Ikea</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2012-01-21</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string">3026</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">50331160651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>13491/100</split:value>
-      <split:quantity>13491/100</split:quantity>
-      <split:account type="guid">f0842cba7da5607b20367b9b60093bc1</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">5033132c651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>675/100</split:value>
-      <split:quantity>675/100</split:quantity>
-      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">503314ee651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>1346/100</split:value>
-      <split:quantity>1346/100</split:quantity>
-      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">503316ba651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">50331890651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>y</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
-      </split:reconcile-date>
-      <split:value>-15512/100</split:value>
-      <split:quantity>-15512/100</split:quantity>
-      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -33339,73 +33489,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>-250/100</split:value>
       <split:quantity>-250/100</split:quantity>
       <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">50331bd8651a11e4bf93a1d1e053727d</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:num>1</trn:num>
-  <trn:date-posted>
-    <ts:date>2012-04-07 01:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2014-11-03 19:13:44 -0500</ts:date>
-  </trn:date-entered>
-  <trn:description>Wal-mart</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2012-04-07</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string">3034</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">503329f2651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>2777/100</split:value>
-      <split:quantity>2777/100</split:quantity>
-      <split:account type="guid">f0842cba7da5607b20367b9b60093bc1</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">50332ccc651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>139/100</split:value>
-      <split:quantity>139/100</split:quantity>
-      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">50332f10651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>277/100</split:value>
-      <split:quantity>277/100</split:quantity>
-      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">503331c2651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">5033337a651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>y</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
-      </split:reconcile-date>
-      <split:value>-3193/100</split:value>
-      <split:quantity>-3193/100</split:quantity>
-      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -48021,8 +48104,8 @@ For more information, Contact us or see the Redmine log.</invoice:notes>
   </invoice:posted>
   <invoice:notes>Rent Jan (522), Feb (600), March (600) 2012 </invoice:notes>
   <invoice:active>1</invoice:active>
-  <invoice:posttxn type="guid">2ba8dfa9f27b82bc0de7fa0cf0dc51a1</invoice:posttxn>
-  <invoice:postlot type="guid">451f50f75cb20d1d1cecc848e89b34a1</invoice:postlot>
+  <invoice:posttxn type="guid">1289d360602adc93563b927665a6a95d</invoice:posttxn>
+  <invoice:postlot type="guid">e89663d693efd8589204760484d3e155</invoice:postlot>
   <invoice:postacc type="guid">6077a8766832848b1f621f21edefcac3</invoice:postacc>
   <invoice:currency>
     <cmdty:space>ISO4217</cmdty:space>
