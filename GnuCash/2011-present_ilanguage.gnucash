@@ -7569,9 +7569,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">04f01bbaa0d139105eca8ac8428a1d0d</split:id>
+      <split:memo>PMT 2012-04-19</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>160001/100</split:value>
-      <split:quantity>160001/100</split:quantity>
+      <split:value>80000/100</split:value>
+      <split:quantity>80000/100</split:quantity>
       <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
     </trn:split>
     <trn:split>
@@ -7618,6 +7619,14 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">75330f59b5350e6cadb412e5b6c8d382</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">4438154b1fc3d2c945957292934a6feb</split:id>
+      <split:memo>PMT 2012-05-03</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>80001/100</split:value>
+      <split:quantity>80001/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">7da3256eb679a8336fa5b8905eac33ee</split:id>
@@ -8272,9 +8281,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">7e5ba9313fa267ea3a51b8e241c5df5b</split:id>
+      <split:memo>PMT 2012-05-17</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>160001/100</split:value>
-      <split:quantity>160001/100</split:quantity>
+      <split:value>80000/100</split:value>
+      <split:quantity>80000/100</split:quantity>
       <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
     </trn:split>
     <trn:split>
@@ -8321,6 +8331,14 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">75330f59b5350e6cadb412e5b6c8d382</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a8bebd7d4c5614960898539b98e5b7fc</split:id>
+      <split:memo>PMT 2012-05-31</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>80001/100</split:value>
+      <split:quantity>80001/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">df5cc10b6de15cd04320022e6c6ba945</split:id>
@@ -8434,6 +8452,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">d42a7b57f2592837dff61aa1b8da6b76</split:id>
+      <split:memo>PMT 2012-06-14</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>80000/100</split:value>
       <split:quantity>80000/100</split:quantity>
@@ -9289,6 +9308,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">6ebd8b86dee314eeedea8561661ff9a8</split:id>
+      <split:memo>PMT 2012-06-28</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>80000/100</split:value>
       <split:quantity>80000/100</split:quantity>
@@ -10700,9 +10720,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">4c3b7f1801405a43f5393200831965a7</split:id>
+      <split:memo>Pay week 2012-10-13</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>600000/100</split:value>
-      <split:quantity>600000/100</split:quantity>
+      <split:value>160000/100</split:value>
+      <split:quantity>160000/100</split:quantity>
       <split:account type="guid">9cd5c1049145d38790acc73a0009f60e</split:account>
     </trn:split>
     <trn:split>
@@ -10749,6 +10770,30 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">75330f59b5350e6cadb412e5b6c8d382</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f17f62d57926406f62e4158446055af6</split:id>
+      <split:memo>Pay week 2012-10-27</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>160000/100</split:value>
+      <split:quantity>160000/100</split:quantity>
+      <split:account type="guid">9cd5c1049145d38790acc73a0009f60e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">1030a943a5402bd60c09b4feb1ad9bf7</split:id>
+      <split:memo>Pay week 2012-11-10</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>160000/100</split:value>
+      <split:quantity>160000/100</split:quantity>
+      <split:account type="guid">9cd5c1049145d38790acc73a0009f60e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">419dade7644004291c6c405427ed7f8a</split:id>
+      <split:memo>unknown pay week</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>120000/100</split:value>
+      <split:quantity>120000/100</split:quantity>
+      <split:account type="guid">9cd5c1049145d38790acc73a0009f60e</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">17862d16689de09a799774411f314eeb</split:id>
@@ -11169,6 +11214,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">ad38dd1ddfe01751d6faa63eef014d01</split:id>
+      <split:memo>Pay week 2012-11-24</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>160000/100</split:value>
       <split:quantity>160000/100</split:quantity>
@@ -12303,10 +12349,11 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">09e9896d49522b69d01578bac8083e8e</split:id>
+      <split:memo>Payweek R&amp;D 2012-07-07</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>1400000/100</split:value>
-      <split:quantity>1400000/100</split:quantity>
-      <split:account type="guid">9cd5c1049145d38790acc73a0009f60e</split:account>
+      <split:value>160000/100</split:value>
+      <split:quantity>160000/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">c4d5129419396f399fe4e33650b8e61a</split:id>
@@ -12352,6 +12399,70 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">75330f59b5350e6cadb412e5b6c8d382</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">9c8cb1ab312e1cedfcd504d8ae7b5e15</split:id>
+      <split:memo>Payweek R&amp;D 2012-07-21</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>160000/100</split:value>
+      <split:quantity>160000/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d6b22e01fd17aa1356c53956ee4fafa3</split:id>
+      <split:memo>Payweek R&amp;D 2012-08-04</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>160000/100</split:value>
+      <split:quantity>160000/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">fac5f98ba1ca7d8705261d956f2ec0fc</split:id>
+      <split:memo>Payweek R&amp;D 2012-08-18</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>160000/100</split:value>
+      <split:quantity>160000/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f9f1a0180de3183748aec7b0b42e11fa</split:id>
+      <split:memo>Payweek R&amp;D 2012-09-01</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>160000/100</split:value>
+      <split:quantity>160000/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a42d22696d2ca1bb0ef8ca250fc914bd</split:id>
+      <split:memo>Payweek R&amp;D 2012-09-15</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>160000/100</split:value>
+      <split:quantity>160000/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">12b18a7ab6bcd0be180cfcc8f83b4473</split:id>
+      <split:memo>Payweek R&amp;D 2012-09-29</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>160000/100</split:value>
+      <split:quantity>160000/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">bb25a6fc382940006f338316b2ac60af</split:id>
+      <split:memo>Payweek REMOVED 2012-12-22?</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>160000/100</split:value>
+      <split:quantity>160000/100</split:quantity>
+      <split:account type="guid">9cd5c1049145d38790acc73a0009f60e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">7de9c61a10fe2ca9e07a99e58d85a3be</split:id>
+      <split:memo>unknown pay week</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>120000/100</split:value>
+      <split:quantity>120000/100</split:quantity>
+      <split:account type="guid">9cd5c1049145d38790acc73a0009f60e</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">e803a25ad73b858c0f0b97a3b961979e</split:id>
@@ -12555,6 +12666,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">5f9a1e4d4eab9558e6b77e0589254b86</split:id>
+      <split:memo>Payweek 2012-12-08?</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>160000/100</split:value>
       <split:quantity>160000/100</split:quantity>
