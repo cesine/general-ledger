@@ -152,9 +152,9 @@ Montreal QC REMOVED</slot:value>
   </slot>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
-<gnc:count-data cd:type="account">135</gnc:count-data>
-<gnc:count-data cd:type="transaction">488</gnc:count-data>
-<gnc:count-data cd:type="schedxaction">4</gnc:count-data>
+<gnc:count-data cd:type="account">136</gnc:count-data>
+<gnc:count-data cd:type="transaction">486</gnc:count-data>
+<gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncCustomer">11</gnc:count-data>
@@ -4365,7 +4365,20 @@ Montreal QC REMOVED</slot:value>
         </slot>
         <slot>
           <slot:key>last-date</slot:key>
-          <slot:value type="integer">1357016399</slot:value>
+          <slot:value type="integer">1359694799</slot:value>
+        </slot>
+        <slot>
+          <slot:key>last-interval</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>days</slot:key>
+              <slot:value type="integer">0</slot:value>
+            </slot>
+            <slot>
+              <slot:key>months</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
         </slot>
       </slot:value>
     </slot>
@@ -4488,6 +4501,19 @@ Montreal QC REMOVED</slot:value>
         <slot>
           <slot:key>last-date</slot:key>
           <slot:value type="integer">1357016399</slot:value>
+        </slot>
+        <slot>
+          <slot:key>last-interval</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>days</slot:key>
+              <slot:value type="integer">0</slot:value>
+            </slot>
+            <slot>
+              <slot:key>months</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
         </slot>
       </slot:value>
     </slot>
@@ -6145,6 +6171,25 @@ Montreal QC REMOVED</slot:value>
   <act:parent type="guid">4cbf97ac12b6a5e72da87879c472b4aa</act:parent>
 </gnc:account>
 <gnc:account version="2.0.0">
+  <act:name>Employee1/Employee3</act:name>
+  <act:id type="guid">31054bcaa4818a48bc92a63c62f6d0ec</act:id>
+  <act:type>EQUITY</act:type>
+  <act:commodity>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:code>Employee1Employee3</act:code>
+  <act:description>Investments from Employee1 and Employee3</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>color</slot:key>
+      <slot:value type="string">Not Set</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">4cbf97ac12b6a5e72da87879c472b4aa</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
   <act:name>Imbalance-CAD</act:name>
   <act:id type="guid">a59a705399d4e5de0da29f43fdbe5f77</act:id>
   <act:type>BANK</act:type>
@@ -6203,7 +6248,7 @@ Montreal QC REMOVED</slot:value>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-302723/100</split:value>
       <split:quantity>-302723/100</split:quantity>
-      <split:account type="guid">4cbf97ac12b6a5e72da87879c472b4aa</split:account>
+      <split:account type="guid">31054bcaa4818a48bc92a63c62f6d0ec</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -6709,7 +6754,7 @@ Montreal QC REMOVED</slot:value>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-375084/100</split:value>
       <split:quantity>-375084/100</split:quantity>
-      <split:account type="guid">3a74e0b8f045c2bc05b110c87161c399</split:account>
+      <split:account type="guid">31054bcaa4818a48bc92a63c62f6d0ec</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -24486,7 +24531,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-199185/100</split:value>
       <split:quantity>-199185/100</split:quantity>
-      <split:account type="guid">a9b6ff610561f64722e02e5ced1a0c4b</split:account>
+      <split:account type="guid">31054bcaa4818a48bc92a63c62f6d0ec</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -24599,7 +24644,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2014-11-05 22:50:27 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>2012 year end transfer of losses as paid by owner</trn:description>
+  <trn:description>2012 year end transfer of expenses as paid by owner</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -24624,7 +24669,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-201054/100</split:value>
       <split:quantity>-201054/100</split:quantity>
-      <split:account type="guid">3a74e0b8f045c2bc05b110c87161c399</split:account>
+      <split:account type="guid">31054bcaa4818a48bc92a63c62f6d0ec</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -33658,7 +33703,7 @@ chairs</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>508/100</split:value>
       <split:quantity>508/100</split:quantity>
-      <split:account type="guid">068e98c79c46f2d3be565d24c074a325</split:account>
+      <split:account type="guid">cc0adcd4a9a3ef3f8e575313c1a05d92</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f9cc56650e11e49e24ce4e545c3ac5</split:id>
@@ -33993,7 +34038,7 @@ chairs</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>2198/100</split:value>
       <split:quantity>2198/100</split:quantity>
-      <split:account type="guid">068e98c79c46f2d3be565d24c074a325</split:account>
+      <split:account type="guid">cc0adcd4a9a3ef3f8e575313c1a05d92</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fa1eea650e11e49e24ce4e545c3ac5</split:id>
@@ -34008,13 +34053,6 @@ chairs</split:memo>
       <split:value>219/100</split:value>
       <split:quantity>219/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fa2264650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fa241c650e11e49e24ce4e545c3ac5</split:id>
@@ -38817,7 +38855,7 @@ chairs</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>2484/100</split:value>
       <split:quantity>2484/100</split:quantity>
-      <split:account type="guid">068e98c79c46f2d3be565d24c074a325</split:account>
+      <split:account type="guid">cc0adcd4a9a3ef3f8e575313c1a05d92</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fe8070650e11e49e24ce4e545c3ac5</split:id>
@@ -42365,15 +42403,15 @@ chairs</split:memo>
     <trn:split>
       <split:id type="guid">df2c2698a9dd3893ed8289f0c6d3419d</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>33908/100</split:value>
-      <split:quantity>33908/100</split:quantity>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
       <split:account type="guid">26468186bd15e67c50699c6d89499a30</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">58f08930b950bc04e0ff43e7c42d7634</split:id>
       <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
 </split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
@@ -42409,7 +42447,7 @@ chairs</split:memo>
       <split:id type="guid">a9484e733fdb8dbb0ddd6d1c1b6328a5</split:id>
       <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
 </split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
@@ -42445,7 +42483,7 @@ chairs</split:memo>
       <split:id type="guid">248b6bac4a52cdb689d04f9a275ec8b4</split:id>
       <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
 </split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
@@ -42479,7 +42517,7 @@ chairs</split:memo>
     </trn:split>
     <trn:split>
       <split:id type="guid">100ac31738ed528df98b5ea254cb32ce</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
@@ -42514,376 +42552,8 @@ chairs</split:memo>
     <trn:split>
       <split:id type="guid">7ce1f8c2cce142c8d3536e64e1a78f5c</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-33908/100</split:value>
-      <split:quantity>-33908/100</split:quantity>
-      <split:account type="guid">a59a705399d4e5de0da29f43fdbe5f77</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">7e27863edfb29a75535f5b789f6f596b</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:date-posted>
-    <ts:date>2014-06-08 16:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2014-06-09 08:19:29 -0400</ts:date>
-  </trn:date-entered>
-  <trn:description>Remise gouvernementale /Retenue a la source fed.</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2014-06-09</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">df2c2698a9dd3893ed8289f0c6d3419d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>33908/100</split:value>
-      <split:quantity>33908/100</split:quantity>
-      <split:account type="guid">26468186bd15e67c50699c6d89499a30</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">58f08930b950bc04e0ff43e7c42d7634</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">63cd5dac860e96892dd7f26833cbd72a</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">a9484e733fdb8dbb0ddd6d1c1b6328a5</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">a834c47619ffbb633a7f67626639f2a1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">248b6bac4a52cdb689d04f9a275ec8b4</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">ac96b9cd33cf637f96144e32c3d72b07</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">100ac31738ed528df98b5ea254cb32ce</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">008127df6cb9ded0885fd0493367e0f5</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string">3</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">3/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">7ce1f8c2cce142c8d3536e64e1a78f5c</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-33908/100</split:value>
-      <split:quantity>-33908/100</split:quantity>
-      <split:account type="guid">a59a705399d4e5de0da29f43fdbe5f77</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">7e27863edfb29a75535f5b789f6f596b</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:date-posted>
-    <ts:date>2014-06-08 16:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2014-06-09 08:19:29 -0400</ts:date>
-  </trn:date-entered>
-  <trn:description>Remise gouvernementale /Retenue a la source fed.</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2014-06-09</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">df2c2698a9dd3893ed8289f0c6d3419d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>33908/100</split:value>
-      <split:quantity>33908/100</split:quantity>
-      <split:account type="guid">26468186bd15e67c50699c6d89499a30</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">58f08930b950bc04e0ff43e7c42d7634</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">63cd5dac860e96892dd7f26833cbd72a</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">a9484e733fdb8dbb0ddd6d1c1b6328a5</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">a834c47619ffbb633a7f67626639f2a1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">248b6bac4a52cdb689d04f9a275ec8b4</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">ac96b9cd33cf637f96144e32c3d72b07</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">100ac31738ed528df98b5ea254cb32ce</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">008127df6cb9ded0885fd0493367e0f5</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string">3</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">3/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">7ce1f8c2cce142c8d3536e64e1a78f5c</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-33908/100</split:value>
-      <split:quantity>-33908/100</split:quantity>
       <split:account type="guid">a59a705399d4e5de0da29f43fdbe5f77</split:account>
     </trn:split>
   </trn:splits>
@@ -43101,15 +42771,15 @@ chairs</split:memo>
     <trn:split>
       <split:id type="guid">9d868f1633e841b77795856a7530172d</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>41803/100</split:value>
-      <split:quantity>41803/100</split:quantity>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
       <split:account type="guid">637eb073d4189958d02e65922d25cfa7</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">8ac260abf8861f42c78a9d778d7f9c21</split:id>
       <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
 </split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
@@ -43145,7 +42815,7 @@ chairs</split:memo>
       <split:id type="guid">600b6a3f9b0749ff038396024c77d1d9</split:id>
       <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
 </split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
@@ -43181,7 +42851,7 @@ chairs</split:memo>
       <split:id type="guid">4b68f257c03e7b03595d5c9665411318</split:id>
       <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
 </split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
@@ -43218,7 +42888,7 @@ chairs</split:memo>
       <split:memo>Employee Régie des rentes du Québec/Quebec Pension Plan QPP
 Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
 </split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
@@ -43254,7 +42924,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">bc43885e2fbfe17ef73d76ed5613a87e</split:id>
       <split:memo>Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
 </split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
@@ -43289,7 +42959,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">2c2955fe80cd861e5ec9167e616048d9</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
@@ -43324,8 +42994,8 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">9ca4488f256676d8e79e15f9300bbd80</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-41803/100</split:value>
-      <split:quantity>-41803/100</split:quantity>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
       <split:account type="guid">a59a705399d4e5de0da29f43fdbe5f77</split:account>
     </trn:split>
   </trn:splits>
@@ -43589,518 +43259,84 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">20593eebd509546c6ae58844fac4303d</trn:id>
+  <trn:id type="guid">eb395e3aeb225aa4c13efb477a4d9fa0</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </trn:currency>
   <trn:date-posted>
-    <ts:date>2014-06-08 16:00:00 -0400</ts:date>
+    <ts:date>2012-12-31 00:00:00 -0500</ts:date>
   </trn:date-posted>
   <trn:date-entered>
-    <ts:date>2014-06-09 08:21:48 -0400</ts:date>
+    <ts:date>2014-11-06 12:35:43 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Remise gouvernementale /Retenue a la source Qc.</trn:description>
+  <trn:description>Transfer expenses as shareholder equity 2012</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
       <slot:value type="gdate">
-        <gdate>2014-06-09</gdate>
+        <gdate>2012-12-31</gdate>
       </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
     <trn:split>
-      <split:id type="guid">9d868f1633e841b77795856a7530172d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>41803/100</split:value>
-      <split:quantity>41803/100</split:quantity>
-      <split:account type="guid">637eb073d4189958d02e65922d25cfa7</split:account>
+      <split:id type="guid">01bc5f2cb5d557bbdb77ba78efc2085f</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2013-01-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>72136/100</split:value>
+      <split:quantity>72136/100</split:quantity>
+      <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">8ac260abf8861f42c78a9d778d7f9c21</split:id>
-      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
-</split:memo>
+      <split:id type="guid">cd1f3106e9dcbf5974a916aab8962c78</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">1e2b10c70b7c2864687954321bba2aac</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">600b6a3f9b0749ff038396024c77d1d9</split:id>
-      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">99cab29a3bfdfbb18d91c53b2739277d</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">4b68f257c03e7b03595d5c9665411318</split:id>
-      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">75330f59b5350e6cadb412e5b6c8d382</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">4d28d45e4e6662564676034ad54f38f7</split:id>
-      <split:memo>Employee Régie des rentes du Québec/Quebec Pension Plan QPP
-Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">a78e91c19159439359b118759b4c856e</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">bc43885e2fbfe17ef73d76ed5613a87e</split:id>
-      <split:memo>Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">a19f4e045818ae512d1a2ce37700cb10</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">2c2955fe80cd861e5ec9167e616048d9</split:id>
-      <split:action>Transfer</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">008127df6cb9ded0885fd0493367e0f5</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string">5</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">5/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">9ca4488f256676d8e79e15f9300bbd80</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-41803/100</split:value>
-      <split:quantity>-41803/100</split:quantity>
-      <split:account type="guid">a59a705399d4e5de0da29f43fdbe5f77</split:account>
+      <split:value>-72136/100</split:value>
+      <split:quantity>-72136/100</split:quantity>
+      <split:account type="guid">55caf8099a7d374c1c2a2bd78c296112</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">20593eebd509546c6ae58844fac4303d</trn:id>
+  <trn:id type="guid">0450faa3df019dc005bf70c7742ade5f</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </trn:currency>
   <trn:date-posted>
-    <ts:date>2014-06-08 16:00:00 -0400</ts:date>
+    <ts:date>2012-12-31 00:00:00 -0500</ts:date>
   </trn:date-posted>
   <trn:date-entered>
-    <ts:date>2014-06-09 08:21:48 -0400</ts:date>
+    <ts:date>2014-11-06 12:33:48 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Remise gouvernementale /Retenue a la source Qc.</trn:description>
+  <trn:description>Transfer expenses as sharholder  equity 2012</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
       <slot:value type="gdate">
-        <gdate>2014-06-09</gdate>
+        <gdate>2012-12-31</gdate>
       </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
     <trn:split>
-      <split:id type="guid">9d868f1633e841b77795856a7530172d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>41803/100</split:value>
-      <split:quantity>41803/100</split:quantity>
-      <split:account type="guid">637eb073d4189958d02e65922d25cfa7</split:account>
+      <split:id type="guid">5f1d4cf29a0ba850845a7794bac604e7</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2012-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>462341/100</split:value>
+      <split:quantity>462341/100</split:quantity>
+      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">8ac260abf8861f42c78a9d778d7f9c21</split:id>
-      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
-</split:memo>
+      <split:id type="guid">d3f39f3c0d77ad37bbe6d1f95fbb7eb6</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">1e2b10c70b7c2864687954321bba2aac</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">600b6a3f9b0749ff038396024c77d1d9</split:id>
-      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">99cab29a3bfdfbb18d91c53b2739277d</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">4b68f257c03e7b03595d5c9665411318</split:id>
-      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">75330f59b5350e6cadb412e5b6c8d382</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">4d28d45e4e6662564676034ad54f38f7</split:id>
-      <split:memo>Employee Régie des rentes du Québec/Quebec Pension Plan QPP
-Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">a78e91c19159439359b118759b4c856e</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">bc43885e2fbfe17ef73d76ed5613a87e</split:id>
-      <split:memo>Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">a19f4e045818ae512d1a2ce37700cb10</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">2c2955fe80cd861e5ec9167e616048d9</split:id>
-      <split:action>Transfer</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">008127df6cb9ded0885fd0493367e0f5</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string">5</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">5/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">9ca4488f256676d8e79e15f9300bbd80</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-41803/100</split:value>
-      <split:quantity>-41803/100</split:quantity>
-      <split:account type="guid">a59a705399d4e5de0da29f43fdbe5f77</split:account>
+      <split:value>-462341/100</split:value>
+      <split:quantity>-462341/100</split:quantity>
+      <split:account type="guid">a9b6ff610561f64722e02e5ced1a0c4b</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -44722,68 +43958,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
   </trn:splits>
 </gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">59958d42c9a18ff197275ea6f238e51d</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:date-posted>
-    <ts:date>2014-06-08 16:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2014-06-09 08:24:08 -0400</ts:date>
-  </trn:date-entered>
-  <trn:description>Remise gouvernementale TPS-TVQ /Paiement taxes TPS/TVQ</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2014-06-09</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">1752550c6812bc02e64630af24cbd986</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/1</split:quantity>
-      <split:account type="guid">44b2e3899cbbd382520b2b3707f82d19</split:account>
-      <split:slots>
-        <slot>
-          <slot:key>sched-xaction</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>account</slot:key>
-              <slot:value type="guid">008127df6cb9ded0885fd0493367e0f5</slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-formula</slot:key>
-              <slot:value type="string"></slot:value>
-            </slot>
-            <slot>
-              <slot:key>credit-numeric</slot:key>
-              <slot:value type="numeric">0/1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-formula</slot:key>
-              <slot:value type="string">1</slot:value>
-            </slot>
-            <slot>
-              <slot:key>debit-numeric</slot:key>
-              <slot:value type="numeric">1/1</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </split:slots>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
 </gnc:template-transactions>
 <gnc:schedxaction version="2.0.0">
   <sx:id type="guid">ae155d26ad8ff19207f69200dc3b9972</sx:id>
@@ -44810,84 +43984,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <recurrence:period_type>month</recurrence:period_type>
       <recurrence:start>
         <gdate>2014-06-26</gdate>
-      </recurrence:start>
-    </gnc:recurrence>
-  </sx:schedule>
-</gnc:schedxaction>
-<gnc:schedxaction version="2.0.0">
-  <sx:id type="guid">77223dd9700c83806f26d382d9889dfc</sx:id>
-  <sx:name>Federal Source Deductions</sx:name>
-  <sx:enabled>n</sx:enabled>
-  <sx:autoCreate>n</sx:autoCreate>
-  <sx:autoCreateNotify>n</sx:autoCreateNotify>
-  <sx:advanceCreateDays>0</sx:advanceCreateDays>
-  <sx:advanceRemindDays>0</sx:advanceRemindDays>
-  <sx:instanceCount>3</sx:instanceCount>
-  <sx:start>
-    <gdate>2014-01-01</gdate>
-  </sx:start>
-  <sx:last>
-    <gdate>2014-04-14</gdate>
-  </sx:last>
-  <sx:templ-acct type="guid">873c2960df6911a3481c7e4bfadd108e</sx:templ-acct>
-  <sx:schedule>
-    <gnc:recurrence version="1.0.0">
-      <recurrence:mult>3</recurrence:mult>
-      <recurrence:period_type>month</recurrence:period_type>
-      <recurrence:start>
-        <gdate>2014-01-14</gdate>
-      </recurrence:start>
-    </gnc:recurrence>
-  </sx:schedule>
-</gnc:schedxaction>
-<gnc:schedxaction version="2.0.0">
-  <sx:id type="guid">5e363f44a90c35c861989611bb70bc48</sx:id>
-  <sx:name>Quebec Source Deductions</sx:name>
-  <sx:enabled>n</sx:enabled>
-  <sx:autoCreate>n</sx:autoCreate>
-  <sx:autoCreateNotify>n</sx:autoCreateNotify>
-  <sx:advanceCreateDays>0</sx:advanceCreateDays>
-  <sx:advanceRemindDays>0</sx:advanceRemindDays>
-  <sx:instanceCount>3</sx:instanceCount>
-  <sx:start>
-    <gdate>2014-01-01</gdate>
-  </sx:start>
-  <sx:last>
-    <gdate>2014-04-14</gdate>
-  </sx:last>
-  <sx:templ-acct type="guid">450d146ff30d566470c2142214be0f14</sx:templ-acct>
-  <sx:schedule>
-    <gnc:recurrence version="1.0.0">
-      <recurrence:mult>3</recurrence:mult>
-      <recurrence:period_type>month</recurrence:period_type>
-      <recurrence:start>
-        <gdate>2014-01-14</gdate>
-      </recurrence:start>
-    </gnc:recurrence>
-  </sx:schedule>
-</gnc:schedxaction>
-<gnc:schedxaction version="2.0.0">
-  <sx:id type="guid">5525c89f47d910bb8b4239bd33c21f92</sx:id>
-  <sx:name>Remittance TPS/TVQ</sx:name>
-  <sx:enabled>n</sx:enabled>
-  <sx:autoCreate>n</sx:autoCreate>
-  <sx:autoCreateNotify>n</sx:autoCreateNotify>
-  <sx:advanceCreateDays>0</sx:advanceCreateDays>
-  <sx:advanceRemindDays>0</sx:advanceRemindDays>
-  <sx:instanceCount>3</sx:instanceCount>
-  <sx:start>
-    <gdate>2014-01-01</gdate>
-  </sx:start>
-  <sx:last>
-    <gdate>2014-04-14</gdate>
-  </sx:last>
-  <sx:templ-acct type="guid">44b2e3899cbbd382520b2b3707f82d19</sx:templ-acct>
-  <sx:schedule>
-    <gnc:recurrence version="1.0.0">
-      <recurrence:mult>3</recurrence:mult>
-      <recurrence:period_type>month</recurrence:period_type>
-      <recurrence:start>
-        <gdate>2014-01-14</gdate>
       </recurrence:start>
     </gnc:recurrence>
   </sx:schedule>
