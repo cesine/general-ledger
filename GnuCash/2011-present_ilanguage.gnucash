@@ -25436,7 +25436,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-01-19 08:34:06 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Cheque</trn:description>
+  <trn:description>Cheque 22</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
