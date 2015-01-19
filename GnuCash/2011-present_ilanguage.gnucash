@@ -153,7 +153,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">136</gnc:count-data>
-<gnc:count-data cd:type="transaction">496</gnc:count-data>
+<gnc:count-data cd:type="transaction">529</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
@@ -242,6 +242,10 @@ Montreal QC REMOVED</slot:value>
           <slot:key>-</slot:key>
           <slot:value type="frame">
             <slot>
+              <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
               <slot:key>Assets:Deprecateable Assets:Computers</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
@@ -258,12 +262,20 @@ Montreal QC REMOVED</slot:value>
               <slot:value type="integer">6</slot:value>
             </slot>
             <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Other expenses:Travel</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+            <slot>
               <slot:key>Expenses:Salaries</slot:key>
               <slot:value type="integer">11</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">2</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
@@ -310,10 +322,19 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>/CD</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Accounts Receivable</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
@@ -331,6 +352,10 @@ Montreal QC REMOVED</slot:value>
           <slot:key>/Federal</slot:key>
           <slot:value type="frame">
             <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
@@ -341,7 +366,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">2</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -350,7 +375,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">2</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -367,7 +392,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">5</slot:value>
+              <slot:value type="integer">7</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -376,6 +401,15 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>/REVENU</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
@@ -814,15 +848,28 @@ Montreal QC REMOVED</slot:value>
               <slot:value type="integer">6</slot:value>
             </slot>
             <slot>
+              <slot:key>Expenses:Other expenses:Travel</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
               <slot:key>Expenses:Salaries</slot:key>
               <slot:value type="integer">11</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">2</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Bill</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
@@ -841,7 +888,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
@@ -854,6 +901,15 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Charges</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
@@ -867,7 +923,15 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Salaries</slot:key>
-              <slot:value type="integer">37</slot:value>
+              <slot:value type="integer">38</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Salaries:PhoPhlo</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Salaries:iField</slot:key>
+              <slot:value type="integer">7</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ:TVQ</slot:key>
@@ -901,6 +965,24 @@ Montreal QC REMOVED</slot:value>
           </slot:value>
         </slot>
         <slot>
+          <slot:key>Commercial</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Contenu</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
           <slot:key>D+H</slot:key>
           <slot:value type="frame">
             <slot>
@@ -914,7 +996,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">2</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -923,7 +1005,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
@@ -953,11 +1035,29 @@ Montreal QC REMOVED</slot:value>
           </slot:value>
         </slot>
         <slot>
+          <slot:key>Debit</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Deposit</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
           <slot:key>Depot</slot:key>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">26</slot:value>
+              <slot:value type="integer">27</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ:TPS</slot:key>
@@ -974,11 +1074,24 @@ Montreal QC REMOVED</slot:value>
           </slot:value>
         </slot>
         <slot>
+          <slot:key>Fixed</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">8</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
           <slot:key>Frais</slot:key>
           <slot:value type="frame">
             <slot>
               <slot:key>Expenses:Bank Service Charge</slot:key>
               <slot:value type="integer">8</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">7</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -989,6 +1102,22 @@ Montreal QC REMOVED</slot:value>
               <slot:key>Expenses:Bank Service Charge</slot:key>
               <slot:value type="integer">2</slot:value>
             </slot>
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">10</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Other expenses:Travel</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Salaries:iField</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
           </slot:value>
         </slot>
         <slot>
@@ -996,7 +1125,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">24</slot:value>
+              <slot:value type="integer">25</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ:TPS</slot:key>
@@ -1022,6 +1151,15 @@ Montreal QC REMOVED</slot:value>
           </slot:value>
         </slot>
         <slot>
+          <slot:key>Government</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
           <slot:key>Internet</slot:key>
           <slot:value type="frame">
             <slot>
@@ -1041,12 +1179,16 @@ Montreal QC REMOVED</slot:value>
               <slot:value type="integer">6</slot:value>
             </slot>
             <slot>
+              <slot:key>Expenses:Other expenses:Travel</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
               <slot:key>Expenses:Salaries</slot:key>
               <slot:value type="integer">11</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">2</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
@@ -1064,11 +1206,38 @@ Montreal QC REMOVED</slot:value>
           </slot:value>
         </slot>
         <slot>
+          <slot:key>LATIN</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>MTL</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Miscellaneous</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
           <slot:key>Monday</slot:key>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">8</slot:value>
+              <slot:value type="integer">9</slot:value>
             </slot>
             <slot>
               <slot:key>Equity:Owners Contributions:Employee1</slot:key>
@@ -1077,6 +1246,10 @@ Montreal QC REMOVED</slot:value>
             <slot>
               <slot:key>Expenses:Bank Service Charge</slot:key>
               <slot:value type="integer">7</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">2</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Rent</slot:key>
@@ -1093,6 +1266,10 @@ Montreal QC REMOVED</slot:value>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
               <slot:value type="integer">4</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
+              <slot:value type="integer">1</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
@@ -1139,6 +1316,24 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>QUARTIER</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>QUBEC</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
@@ -1189,7 +1384,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">6</slot:value>
+              <slot:value type="integer">9</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1199,6 +1394,15 @@ Montreal QC REMOVED</slot:value>
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
               <slot:value type="integer">4</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Service</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">2</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1264,7 +1468,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">6</slot:value>
+              <slot:value type="integer">9</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1281,7 +1485,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">5</slot:value>
+              <slot:value type="integer">7</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1290,7 +1494,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">6</slot:value>
+              <slot:value type="integer">7</slot:value>
             </slot>
             <slot>
               <slot:key>Equity:Shareholders Contributions:Employee3</slot:key>
@@ -1301,8 +1505,16 @@ Montreal QC REMOVED</slot:value>
               <slot:value type="integer">1</slot:value>
             </slot>
             <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">3</slot:value>
+            </slot>
+            <slot>
               <slot:key>Expenses:Salaries</slot:key>
               <slot:value type="integer">11</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Salaries:iField</slot:key>
+              <slot:value type="integer">1</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Taxes:TPS/TVQ</slot:key>
@@ -1335,6 +1547,15 @@ Montreal QC REMOVED</slot:value>
           </slot:value>
         </slot>
         <slot>
+          <slot:key>Transfer</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Travel</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
           <slot:key>Tuesday</slot:key>
           <slot:value type="frame">
             <slot>
@@ -1358,12 +1579,24 @@ Montreal QC REMOVED</slot:value>
               <slot:value type="integer">1</slot:value>
             </slot>
             <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
               <slot:key>Expenses:Rent</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Salaries</slot:key>
               <slot:value type="integer">13</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Salaries:PhoPhlo</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Salaries:iField</slot:key>
+              <slot:value type="integer">3</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Taxes:Impôt Federal</slot:key>
@@ -1383,11 +1616,11 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
-              <slot:value type="integer">4</slot:value>
+              <slot:value type="integer">5</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ:TVQ</slot:key>
@@ -1433,11 +1666,15 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">5</slot:value>
+              <slot:value type="integer">7</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Licenses and Permits</slot:key>
               <slot:value type="integer">2</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">3</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Outside Services</slot:key>
@@ -1449,7 +1686,11 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Salaries</slot:key>
-              <slot:value type="integer">11</slot:value>
+              <slot:value type="integer">12</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Salaries:iField</slot:key>
+              <slot:value type="integer">2</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Taxes:Impôt Federal</slot:key>
@@ -1466,6 +1707,10 @@ Montreal QC REMOVED</slot:value>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
               <slot:value type="integer">2</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
+              <slot:value type="integer">1</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ:TPS</slot:key>
@@ -1506,6 +1751,10 @@ Montreal QC REMOVED</slot:value>
           <slot:key>at</slot:key>
           <slot:value type="frame">
             <slot>
+              <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+            <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
@@ -1516,7 +1765,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">26</slot:value>
+              <slot:value type="integer">27</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ:TPS</slot:key>
@@ -1529,6 +1778,24 @@ Montreal QC REMOVED</slot:value>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
               <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>charges</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">10</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>commercial</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1546,17 +1813,38 @@ Montreal QC REMOVED</slot:value>
           </slot:value>
         </slot>
         <slot>
+          <slot:key>counter</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
           <slot:key>d'utilisation</slot:key>
           <slot:value type="frame">
             <slot>
               <slot:key>Expenses:Bank Service Charge</slot:key>
               <slot:value type="integer">8</slot:value>
             </slot>
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">6</slot:value>
+            </slot>
           </slot:value>
         </slot>
         <slot>
           <slot:key>deductions</slot:key>
           <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
               <slot:value type="integer">1</slot:value>
@@ -1568,11 +1856,29 @@ Montreal QC REMOVED</slot:value>
           </slot:value>
         </slot>
         <slot>
+          <slot:key>deposit</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>depot</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
           <slot:key>facture</slot:key>
           <slot:value type="frame">
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">2</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1599,6 +1905,10 @@ Montreal QC REMOVED</slot:value>
             <slot>
               <slot:key>Expenses:Bank Service Charge</slot:key>
               <slot:value type="integer">8</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">6</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1635,7 +1945,16 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">6</slot:value>
+              <slot:value type="integer">9</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>item</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1665,7 +1984,7 @@ Montreal QC REMOVED</slot:value>
           </slot:value>
         </slot>
         <slot>
-          <slot:key>payments</slot:key>
+          <slot:key>payment</slot:key>
           <slot:value type="frame">
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
@@ -1674,8 +1993,39 @@ Montreal QC REMOVED</slot:value>
           </slot:value>
         </slot>
         <slot>
+          <slot:key>payments</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>remittance</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>service</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">8</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
           <slot:key>source</slot:key>
           <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
             <slot>
               <slot:key>Expenses:Taxes:Impôt Federal</slot:key>
               <slot:value type="integer">6</slot:value>
@@ -1703,7 +2053,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">2</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1720,7 +2070,16 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">5</slot:value>
+              <slot:value type="integer">7</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>the</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">2</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -23984,7 +24343,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">13f6c7dc7a6fadde465382223c870df0</split:id>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 07:10:55 -0400</ts:date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -24026,7 +24385,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">75a28aea31107fbd6545fe9803dca355</split:id>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 07:10:55 -0400</ts:date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-2/100</split:value>
       <split:quantity>-2/100</split:quantity>
@@ -24068,7 +24427,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">a1ed48c74874d35b69618afbe3393be0</split:id>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 07:10:55 -0400</ts:date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-31975/100</split:value>
       <split:quantity>-31975/100</split:quantity>
@@ -24110,7 +24469,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">5057191015da584e9f5394d430661f38</split:id>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 07:10:55 -0400</ts:date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-2/100</split:value>
       <split:quantity>-2/100</split:quantity>
@@ -24152,7 +24511,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">596fd6682f81d2cc96c78c70bb947f61</split:id>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 07:10:55 -0400</ts:date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -24194,7 +24553,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">7555d156846667f378cf877b408779d0</split:id>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 07:10:55 -0400</ts:date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-2/100</split:value>
       <split:quantity>-2/100</split:quantity>
@@ -24236,7 +24595,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">d24fc0afc7c8b2fd8bb8dc32da1287e3</split:id>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 07:10:55 -0400</ts:date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -24276,7 +24635,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:action>Payment</split:action>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 07:10:55 -0400</ts:date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
       </split:reconcile-date>
       <split:value>862313/100</split:value>
       <split:quantity>862313/100</split:quantity>
@@ -24328,7 +24687,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">b84b947fc7db39889763b6b9db4e709c</split:id>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 07:10:55 -0400</ts:date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -24370,10 +24729,56 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">0bc88d9b41813dfe343abd75208bbb32</split:id>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 07:10:55 -0400</ts:date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">eecb5b358f041a6a84b138b48d3dd161</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-06-06 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Government remittance /Qc. deductions at source</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-06-06</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">35f4845e8d7864982b28d7af318222b8</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1/100</split:value>
+      <split:quantity>1/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">64730613aa6490f2a936057d325c68ff</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-1/100</split:value>
+      <split:quantity>-1/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
   </trn:splits>
@@ -24386,17 +24791,17 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:currency>
   <trn:num>2</trn:num>
   <trn:date-posted>
-    <ts:date>2014-05-29 16:00:00 -0400</ts:date>
+    <ts:date>2014-06-06 00:00:00 -0400</ts:date>
   </trn:date-posted>
   <trn:date-entered>
     <ts:date>2014-06-09 07:10:55 -0400</ts:date>
   </trn:date-entered>
-  <trn:description>Frais - Contenu depot commercial</trn:description>
+  <trn:description>Government remittance /Federal source deductions</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
       <slot:value type="gdate">
-        <gdate>2014-05-30</gdate>
+        <gdate>2014-06-06</gdate>
       </slot:value>
     </slot>
   </trn:slots>
@@ -24404,18 +24809,1490 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">a24c9aa8536e4460b7afd1f429f823ce</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>20/100</split:value>
-      <split:quantity>20/100</split:quantity>
+      <split:value>100/100</split:value>
+      <split:quantity>100/100</split:quantity>
       <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">4984171dc87f56027e685e4f0e26efcd</split:id>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 07:10:55 -0400</ts:date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-100/100</split:value>
+      <split:quantity>-100/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">91b46797d5de53f0f940dbf5cdec7815</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-06-30 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-06-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">aee43f4d77b98465e6ff3bcacadff065</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e7e683ed0bf10efb35525673d27fd20e</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">721181cbdde8ae295d4a17d0964f015b</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-07-04 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Deposit on ATM /C.D.S. SAINT-PAUL</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-07-04</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">c0b25991e6281ed0be095ba28acc937c</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>799996/100</split:value>
+      <split:quantity>799996/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">9afcfef9bbddfbe768012f3d1471b4e4</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-799996/100</split:value>
+      <split:quantity>-799996/100</split:quantity>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">36ecb510fab291b669da6ca048792136</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-07-09 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Debit - Miscellaneous item</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-07-09</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">77bcb2d0424f55c00c98a8103da5f6e6</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>799996/100</split:value>
+      <split:quantity>799996/100</split:quantity>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b07d1f588a38ac2a14498d9eb1435a52</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-799996/100</split:value>
+      <split:quantity>-799996/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">b96bf77068197aae730db5e6c17987ca</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-07-10 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Deposit at the counter /CAISSE CENTRALE DESJ.</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-07-10</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">248ed9fff87f2475fbc355294b9ace02</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>1200000/100</split:value>
+      <split:quantity>1200000/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">8c7a2e1a78a138bff66f684f58495932</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1200000/100</split:value>
+      <split:quantity>-1200000/100</split:quantity>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">131219e420f76c34a7e3247833622b81</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>4</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-07-11 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>GST-QST Government remittance /GST/QST tax payments</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-07-11</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">8567c09b7dc63b1f808975fb505c8695</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>112313/100</split:value>
+      <split:quantity>112313/100</split:quantity>
+      <split:account type="guid">8fefddb1076d81c8369b6474529b52dd</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">7a3a3db4bd3bc392a6b735c72bef74d6</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-112313/100</split:value>
+      <split:quantity>-112313/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">baf6ba3250f9158205357fa5d869ae70</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>5</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-07-11 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Government remittance /Qc. deductions at source</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-07-11</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">ec215312cc1bf6e91defe07d21b3926a</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>17936/100</split:value>
+      <split:quantity>17936/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">792a41f3d7216409400164cda970ebdd</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-17936/100</split:value>
+      <split:quantity>-17936/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">328d8bdee6e34610b3c307e2a8053e9e</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>6</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-07-11 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Government remittance /Federal source deductions</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-07-11</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">26f46e1405877f080ebb10e943ae3471</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>6114/100</split:value>
+      <split:quantity>6114/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">cf889f254462622f790337ccdf9685d2</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-6114/100</split:value>
+      <split:quantity>-6114/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">36b29c55522dc479b528a0fc0f6ce343</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>7</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-07-16 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Deposit at the counter /CAISSE CENTRALE DESJ.</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-07-16</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">dd40f0e2998599cfeb585197d11038bf</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>799996/100</split:value>
+      <split:quantity>799996/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">36ffa7897365bc8e49f1415d3ba11645</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-799996/100</split:value>
+      <split:quantity>-799996/100</split:quantity>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d7fb658c6da0e8c5ec9ae7c69493f3fe</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>8</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-07-24 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Cheque</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-07-24</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">9ff1b85b58ce300582e50194da266713</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">24f7a7a1ad7441edde8028b303f66444</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">a67f360c394635f0b79c9f0b8ced80ac</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>9</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-07-29 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Cheque</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-07-29</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">734a00083fc142263b1b8e54e3f6fe09</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">369986746b4e724858186143a8cf15f1</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">9023e9e2236f99f010eea4d2420b1b62</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>10</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-07-31 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-07-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">0599134bcb513e1a54f6ab58d0cc7695</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>250/100</split:value>
+      <split:quantity>250/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a73183e94af0a3f6b03d30cc1c347072</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-250/100</split:value>
+      <split:quantity>-250/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d0a6b33348033374f6da50cda359cb77</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>11</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-07-31 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-07-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">a5f646d7f67d94ac3f1418295220c6e3</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">7529b5f2b4b4d5d38596225213d02501</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">0a07c78882639056c643e59a9a42bcdd</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>12</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-07-31 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Charges - Commercial deposit</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-07-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">8e60507edb436918b88481e2a5dcb08c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>20/100</split:value>
+      <split:quantity>20/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">07227ec5bcf2549a7a1700dc5e022ff5</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-20/100</split:value>
       <split:quantity>-20/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">fa79c047dbc50f68514803649713802f</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-08-12 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Cheque</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-08-12</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">a0992f279667694c36f0aaea8c14ab3d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>100000/100</split:value>
+      <split:quantity>100000/100</split:quantity>
+      <split:account type="guid">4c97809b8f7821d28ded0f1bad9ffe5d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">fd3efeecf257dd91c6a42a3e62e0fdf8</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-100000/100</split:value>
+      <split:quantity>-100000/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">a0d2dfad97d63667c180bb490ad64e7d</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-08-13 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Cheque</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-08-13</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">6a1e779e947db4ce1cef1aa421875897</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">817ea31e8fa10805de1927a9b5acced2</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">9794c129f88df4d456566498e8616c9f</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-08-19 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Bill payment counter /REVENU QUBEC</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-08-19</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">14459f7e7535d62c5cdadea808fa9b1d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>121367/100</split:value>
+      <split:quantity>121367/100</split:quantity>
+      <split:account type="guid">8fefddb1076d81c8369b6474529b52dd</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">194d898c9327a7769e4e9ef62bb08e68</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-121367/100</split:value>
+      <split:quantity>-121367/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">e6fb975b34b6da81304d83c4f15766cc</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>4</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-08-29 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-08-29</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">139d2c1dbbce41515a67e0a00e42cf8b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">36fc017342a59c99ead7c884ad468bf6</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">fd7da615913cae0f1bcb582d172c1f5b</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-09-12 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Cheque</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-09-12</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">8e836cc22104657de6dfa1cf719783ee</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ad9f284eda13447f6b7f55ae52183c1e</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">cf87c0023de453596b6e633420c5a3f9</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-09-30 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-09-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">725972c96f96b72a5ec195c9fe6d87b9</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">978404e9348a84f4be3f7ab7d37bd948</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">2b32d9b8efb43fdd176ef8a6d770cf3b</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-10-01 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Cheque</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-10-01</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">0e2f89333e2eab92b7e6f0c777dec1cb</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b8308c7762b4b73c3ea043bdf893d713</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">12d81401006b511dd091c4bdcbda80d3</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-10-15 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Government remittance /Qc. deductions at source</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-10-15</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">9b7ca5163074998b0f0c45a412a56113</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>22804/100</split:value>
+      <split:quantity>22804/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">79ca196e47bca3bdcdf361f95908263b</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-22804/100</split:value>
+      <split:quantity>-22804/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d9be806667beab5b004bfc4794fff349</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-10-15 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>GST-QST Government remittance /GST/QST tax payments</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-10-15</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">125d8e67289512bafca97aa8c2c9870b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2/100</split:value>
+      <split:quantity>2/100</split:quantity>
+      <split:account type="guid">8fefddb1076d81c8369b6474529b52dd</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">168d97a50481928ed1b8fec78478d83a</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-2/100</split:value>
+      <split:quantity>-2/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">2f0cd399eac02473efa27c8b7260c14b</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>4</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-10-15 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Government remittance /Federal source deductions</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-10-15</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">59ba478a5cda8a72c5cee9704cdf96d1</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>12200/100</split:value>
+      <split:quantity>12200/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">fe53736d232730061ebf8399791b6798</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-12200/100</split:value>
+      <split:quantity>-12200/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">efc13d1902ceef920e6180cabbdae8ed</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-10-31 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-10-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">ce967163ab6a632caf693f56dc0e85a6</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">9e6ff39ad54b28e89b9ec573fcb379f0</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">a68152b5388dd3c38894801bbdc4f6c9</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>5</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-10-31 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-10-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">a6a48e2ac81c22c211fe628be5d61432</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e6604aed8d4c310abc473ca412d60730</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">66a52e8f57fcc9755bf910b068b24c02</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-11-04 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Cheque</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-11-04</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">d46f5c8dbbfec140f815fd895994a6c2</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">8004c95203c139a4839735bf188e4c4b</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">0549664b17928923b5b9077375144b49</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-11-28 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-11-28</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">97aecdbda123c43daf75b01ef1f2555f</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">8b5cf6c70eb209f66657e4585c4d872a</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">3f2f0d4f4d576a376a7c8f8bc187c93f</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-12-02 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Cheque</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-12-02</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">dc4fbed16282888886d6c42f4485be16</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b002158be7a153de97f8440db2f993c6</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">45c720d8b8c8a843e69f9419de3623a2</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-12-05 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Transfer - AccesD - Internet</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-12-05</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">607898ac627fdd1e78e4d9dda8ca38db</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>263990/100</split:value>
+      <split:quantity>263990/100</split:quantity>
+      <split:account type="guid">2b90b480916be10e12b085956be5ccc2</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3ffa64c4dd604d273c2b69ea1bcab064</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-263990/100</split:value>
+      <split:quantity>-263990/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">e29ce8f81784506bfebcccd2af483625</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-12-31 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Deposit at the counter/CAISSE CENTRALE DESJ.</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-12-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">c2fb36cb0cec5165e2f43abbccad56e0</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>231084/100</split:value>
+      <split:quantity>231084/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f2088cace7cdc536c81ddd9891087db4</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-231084/100</split:value>
+      <split:quantity>-231084/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">516db9d3390b51f4248b0acf88306750</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>4</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-12-31 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-12-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">4f222d8cc229be9a62f5f242b5861c37</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>125/100</split:value>
+      <split:quantity>125/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ce5731925d563339091fba1b9d265570</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-125/100</split:value>
+      <split:quantity>-125/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">f941a90bc0b605889e8642d9ce68abbd</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>5</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-12-31 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-12-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CD ST-HENRI VILLE-EMARD</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">43697f1b2bc2ae3bdd7c8dd59b0dea38</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">33720f44e2625da5fc426b89902a793b</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-01-19 08:34:06 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
   </trn:splits>
@@ -45717,7 +47594,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <cust:slots>
     <slot>
       <slot:key>export-pdf-directory</slot:key>
-      <slot:value type="string">/Users/Employee1/Downloads</slot:value>
+      <slot:value type="string">/Users/Employee1/Documents/Lab_admin/clients/REMOVED88-Oct12</slot:value>
     </slot>
     <slot>
       <slot:key>last-posted-to-acct</slot:key>
