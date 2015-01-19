@@ -153,14 +153,14 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">136</gnc:count-data>
-<gnc:count-data cd:type="transaction">495</gnc:count-data>
+<gnc:count-data cd:type="transaction">496</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncCustomer">11</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncEmployee">17</gnc:count-data>
-<gnc:count-data cd:type="gnc:GncEntry">99</gnc:count-data>
-<gnc:count-data cd:type="gnc:GncInvoice">45</gnc:count-data>
+<gnc:count-data cd:type="gnc:GncEntry">111</gnc:count-data>
+<gnc:count-data cd:type="gnc:GncInvoice">46</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncJob">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncTaxTable">12</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncVendor">1</gnc:count-data>
@@ -2184,6 +2184,24 @@ Montreal QC REMOVED</slot:value>
       </lot:slots>
     </gnc:lot>
     <gnc:lot version="2.0.0">
+      <lot:id type="guid">1f49b00735ba16ca8b5a5a4af30951f5</lot:id>
+      <lot:slots>
+        <slot>
+          <slot:key>gncInvoice</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>invoice-guid</slot:key>
+              <slot:value type="guid">76b9c1438574d79ed4bf07a25112de5c</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>title</slot:key>
+          <slot:value type="string">Invoice 408</slot:value>
+        </slot>
+      </lot:slots>
+    </gnc:lot>
+    <gnc:lot version="2.0.0">
       <lot:id type="guid">2552048c4377754035ecd48280b9a922</lot:id>
       <lot:slots>
         <slot>
@@ -2796,6 +2814,24 @@ Montreal QC REMOVED</slot:value>
       </lot:slots>
     </gnc:lot>
     <gnc:lot version="2.0.0">
+      <lot:id type="guid">92d1835dde0859e58693a6c14ad497ae</lot:id>
+      <lot:slots>
+        <slot>
+          <slot:key>gncInvoice</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>invoice-guid</slot:key>
+              <slot:value type="guid">ce0c0b187edcfbfac7f52ea80fa4d7fb</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>title</slot:key>
+          <slot:value type="string">Invoice 407</slot:value>
+        </slot>
+      </lot:slots>
+    </gnc:lot>
+    <gnc:lot version="2.0.0">
       <lot:id type="guid">97e40317fea6b6a43199629b147a1e46</lot:id>
       <lot:slots>
         <slot>
@@ -2936,24 +2972,6 @@ Montreal QC REMOVED</slot:value>
         <slot>
           <slot:key>title</slot:key>
           <slot:value type="string">Invoice 324</slot:value>
-        </slot>
-      </lot:slots>
-    </gnc:lot>
-    <gnc:lot version="2.0.0">
-      <lot:id type="guid">c9c3b809fd555af43dde9e2eadf7e7ac</lot:id>
-      <lot:slots>
-        <slot>
-          <slot:key>gncInvoice</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>invoice-guid</slot:key>
-              <slot:value type="guid">ce0c0b187edcfbfac7f52ea80fa4d7fb</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-        <slot>
-          <slot:key>title</slot:key>
-          <slot:value type="string">Invoice 407</slot:value>
         </slot>
       </lot:slots>
     </gnc:lot>
@@ -28273,7 +28291,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">dc81b78d7ce7affe85aed537da159401</trn:id>
+  <trn:id type="guid">177eb16c0999f0ebdf3884f2f2c14c83</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
@@ -28283,7 +28301,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <ts:date>2014-12-20 00:00:00 -0500</ts:date>
   </trn:date-posted>
   <trn:date-entered>
-    <ts:date>2014-12-20 07:51:58 -0500</ts:date>
+    <ts:date>2015-01-19 04:34:09 -0500</ts:date>
   </trn:date-entered>
   <trn:description>IVS</trn:description>
   <trn:slots>
@@ -28299,7 +28317,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <slot>
       <slot:key>trans-date-due</slot:key>
       <slot:value type="timespec">
-        <ts:date>2015-01-04 00:00:00 -0500</ts:date>
+        <ts:date>2015-01-19 00:00:00 -0500</ts:date>
       </slot:value>
     </slot>
     <slot>
@@ -28313,16 +28331,16 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:slots>
   <trn:splits>
     <trn:split>
-      <split:id type="guid">58e48db95816f613b7e357b980a396d1</split:id>
+      <split:id type="guid">1f322d4d4979417426a493edd5845756</split:id>
       <split:action>Invoice</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>231084/100</split:value>
       <split:quantity>231084/100</split:quantity>
       <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
-      <split:lot type="guid">c9c3b809fd555af43dde9e2eadf7e7ac</split:lot>
+      <split:lot type="guid">92d1835dde0859e58693a6c14ad497ae</split:lot>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16ebbd4b64dd6e66fc08ed7ff60e5af9</split:id>
+      <split:id type="guid">59e7230bed8279faebc3419255a23664</split:id>
       <split:action>Invoice</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-20048/100</split:value>
@@ -28330,7 +28348,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">35599ed47618f865360f79324eb83ae4</split:id>
+      <split:id type="guid">13f441835a482218d8ae62e05adb64ec</split:id>
       <split:action>Invoice</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-10052/100</split:value>
@@ -28338,11 +28356,86 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">1d52de88adb1b614923aaf9f24ca7f4e</split:id>
+      <split:id type="guid">c44f1ff8f5db5d96c3fb18518349c23b</split:id>
       <split:action>Invoice</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-200984/100</split:value>
       <split:quantity>-200984/100</split:quantity>
+      <split:account type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">06984a991a26843f375aed33182876dc</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>408</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-01-19 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-01-19 05:51:40 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>IVS</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>gncInvoice</slot:key>
+      <slot:value type="frame">
+        <slot>
+          <slot:key>invoice-guid</slot:key>
+          <slot:value type="guid">76b9c1438574d79ed4bf07a25112de5c</slot:value>
+        </slot>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-date-due</slot:key>
+      <slot:value type="timespec">
+        <ts:date>2015-01-19 00:00:00 -0500</ts:date>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-read-only</slot:key>
+      <slot:value type="string">Generated from an invoice. Try unposting the invoice.</slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-txn-type</slot:key>
+      <slot:value type="string">I</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">dc6da914ad8852e936b1f8945b60de5f</split:id>
+      <split:action>Invoice</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>359003/100</split:value>
+      <split:quantity>359003/100</split:quantity>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+      <split:lot type="guid">1f49b00735ba16ca8b5a5a4af30951f5</split:lot>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">9be28d368fd6693929dd006f6a46abc0</split:id>
+      <split:action>Invoice</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-31146/100</split:value>
+      <split:quantity>-31146/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ca5b365df443d8eb17da36bc044dce1a</split:id>
+      <split:action>Invoice</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-15614/100</split:value>
+      <split:quantity>-15614/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">4c852e2e0d04f02cbb67ba85976b36ec</split:id>
+      <split:action>Invoice</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-312243/100</split:value>
+      <split:quantity>-312243/100</split:quantity>
       <split:account type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</split:account>
     </trn:split>
   </trn:splits>
@@ -45475,12 +45568,12 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <sx:autoCreateNotify>y</sx:autoCreateNotify>
   <sx:advanceCreateDays>0</sx:advanceCreateDays>
   <sx:advanceRemindDays>0</sx:advanceRemindDays>
-  <sx:instanceCount>8</sx:instanceCount>
+  <sx:instanceCount>9</sx:instanceCount>
   <sx:start>
     <gdate>2014-06-26</gdate>
   </sx:start>
   <sx:last>
-    <gdate>2014-11-26</gdate>
+    <gdate>2014-12-26</gdate>
   </sx:last>
   <sx:end>
     <gdate>2015-05-26</gdate>
@@ -45624,7 +45717,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <cust:slots>
     <slot>
       <slot:key>export-pdf-directory</slot:key>
-      <slot:value type="string">/Users/Employee1/Documents/Lab_admin/clients/REMOVED88-Oct12</slot:value>
+      <slot:value type="string">/Users/Employee1/Downloads</slot:value>
     </slot>
     <slot>
       <slot:key>last-posted-to-acct</slot:key>
@@ -46292,6 +46385,28 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <entry:b-pay>CASH</entry:b-pay>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">04b3d9493943cc09327b532bd8b5c67b</entry:guid>
+  <entry:date>
+    <ts:date>2015-01-13 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-01-19 05:35:51 -0500</ts:date>
+  </entry:entered>
+  <entry:description>PROC-67 	ajouter un champs pour notre numéro de référence (android client
+</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>1000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:i-discount>3000000/1000000</entry:i-discount>
+  <entry:invoice type="guid">76b9c1438574d79ed4bf07a25112de5c</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">07141bd3bd3b5639a5b975659ba9459c</entry:guid>
   <entry:date>
     <ts:date>2012-11-04 12:00:00 -0500</ts:date>
@@ -46752,6 +46867,28 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <entry:i-taxtable type="guid">655329ceff6cd1028dfabd8edc62fb7a</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">3ea2f4676e0d7e748803c72620bad974</entry:guid>
+  <entry:date>
+    <ts:date>2015-01-07 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-01-19 05:30:50 -0500</ts:date>
+  </entry:entered>
+  <entry:description>PROC-59 	"Booking Price" in the COSTING tab on the android app (linked to PROC-45)
+</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>3000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:i-discount>3000000/1000000</entry:i-discount>
+  <entry:invoice type="guid">76b9c1438574d79ed4bf07a25112de5c</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">3f071eda75cc349256e22d4e1b9af95d</entry:guid>
   <entry:date>
     <ts:date>2014-03-11 04:00:00 -0400</ts:date>
@@ -47049,6 +47186,28 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">64f556fa9f6e836b56c64b31a361103c</entry:guid>
+  <entry:date>
+    <ts:date>2015-01-16 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-01-19 05:34:49 -0500</ts:date>
+  </entry:entered>
+  <entry:description>PROC-86 	Values are getting truncated on " in the product description tab (fine in the database and the listview)
+</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>4000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:i-discount>3000000/1000000</entry:i-discount>
+  <entry:invoice type="guid">76b9c1438574d79ed4bf07a25112de5c</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">65b64b174ab8e7c14a1c35ed59826d2c</entry:guid>
   <entry:date>
     <ts:date>2012-05-14 04:00:00 -0400</ts:date>
@@ -47209,6 +47368,28 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <entry:b-pay>CASH</entry:b-pay>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">71f8e6823e0fe010ae5ed2e69055c0b2</entry:guid>
+  <entry:date>
+    <ts:date>2015-01-17 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-01-19 05:37:48 -0500</ts:date>
+  </entry:entered>
+  <entry:description>PROC-87 	Images arent downloading from cpsourcing server (prod)
+</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>3500000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:i-discount>3000000/1000000</entry:i-discount>
+  <entry:invoice type="guid">76b9c1438574d79ed4bf07a25112de5c</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">76d2e8402c00f20f3c54763980ddee2c</entry:guid>
   <entry:date>
     <ts:date>2012-10-15 04:00:00 -0400</ts:date>
@@ -47331,6 +47512,50 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <entry:b-pay>CASH</entry:b-pay>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">8111ba9e1496d20e6935c2b624e27b6c</entry:guid>
+  <entry:date>
+    <ts:date>2015-01-07 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-01-19 05:36:12 -0500</ts:date>
+  </entry:entered>
+  <entry:description>PROC-63 	tend to get out of the android sourcing app too easily
+</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>3000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:i-discount>3000000/1000000</entry:i-discount>
+  <entry:invoice type="guid">76b9c1438574d79ed4bf07a25112de5c</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">818d8c8a00d4b47388b0951761b92f63</entry:guid>
+  <entry:date>
+    <ts:date>2014-12-24 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-01-19 05:35:26 -0500</ts:date>
+  </entry:entered>
+  <entry:description>PROC-57 	find all pending reviews in gerrit for sourcing android side
+</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>3000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:i-discount>3000000/1000000</entry:i-discount>
+  <entry:invoice type="guid">76b9c1438574d79ed4bf07a25112de5c</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">85202338cb08fbc45a9360b59d493c33</entry:guid>
   <entry:date>
     <ts:date>2011-09-04 04:00:00 -0400</ts:date>
@@ -47422,6 +47647,50 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <entry:i-disc-how>PRETAX</entry:i-disc-how>
   <entry:i-taxable>1</entry:i-taxable>
   <entry:i-taxincluded>1</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">8bef5e22f6af0af41265e4c863633341</entry:guid>
+  <entry:date>
+    <ts:date>2015-01-13 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-01-19 05:32:32 -0500</ts:date>
+  </entry:entered>
+  <entry:description>PROC-69 	change color from blue on black to something else (android client)
+</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>500000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:i-discount>3000000/1000000</entry:i-discount>
+  <entry:invoice type="guid">76b9c1438574d79ed4bf07a25112de5c</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">8dfd363e0fe0de7754ab91a2b1a144dd</entry:guid>
+  <entry:date>
+    <ts:date>2015-01-15 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-01-19 05:33:26 -0500</ts:date>
+  </entry:entered>
+  <entry:description>PROC-62 	No data on android sourcing app
+</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>7500000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:i-discount>3000000/1000000</entry:i-discount>
+  <entry:invoice type="guid">76b9c1438574d79ed4bf07a25112de5c</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
   <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
@@ -47809,6 +48078,28 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <entry:b-pay>CASH</entry:b-pay>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">c4f9be10b830746d47be3783a77e8f4e</entry:guid>
+  <entry:date>
+    <ts:date>2015-01-07 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-01-19 05:31:20 -0500</ts:date>
+  </entry:entered>
+  <entry:description>PROC-61 	should see new product right away after a save
+</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>3000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:i-discount>3000000/1000000</entry:i-discount>
+  <entry:invoice type="guid">76b9c1438574d79ed4bf07a25112de5c</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">cab40e2221681b8ec20803bd9cac7726</entry:guid>
   <entry:date>
     <ts:date>2011-11-04 04:00:00 -0400</ts:date>
@@ -48083,6 +48374,28 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <entry:i-taxincluded>0</entry:i-taxincluded>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">eac8c573e686864c2571bc0f162ab684</entry:guid>
+  <entry:date>
+    <ts:date>2015-01-14 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-01-19 05:32:01 -0500</ts:date>
+  </entry:entered>
+  <entry:description>PROC-70 	prompt apparait seulement s’il y a eu des changements (android)
+</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>7000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:i-discount>3000000/1000000</entry:i-discount>
+  <entry:invoice type="guid">76b9c1438574d79ed4bf07a25112de5c</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">ecd247661d10ecc4d65c252754dc3235</entry:guid>
   <entry:date>
     <ts:date>2014-11-14 12:00:00 -0500</ts:date>
@@ -48184,6 +48497,28 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <entry:b-pay>CASH</entry:b-pay>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">f87125651584138b20295e7ac4467f40</entry:guid>
+  <entry:date>
+    <ts:date>2015-01-08 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-01-19 05:37:21 -0500</ts:date>
+  </entry:entered>
+  <entry:description>PROC-66 	android sourcing app the photo icon is empty
+</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>4000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:i-discount>3000000/1000000</entry:i-discount>
+  <entry:invoice type="guid">76b9c1438574d79ed4bf07a25112de5c</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">fb31657c9b8b3ca89f35b94543e5e6cc</entry:guid>
   <entry:date>
     <ts:date>2014-12-03 12:00:00 -0500</ts:date>
@@ -48198,6 +48533,28 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <entry:i-price>74000000/1000000</entry:i-price>
   <entry:i-discount>3000000/1000000</entry:i-discount>
   <entry:invoice type="guid">ce0c0b187edcfbfac7f52ea80fa4d7fb</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">fc117b5d146894db596c0792db83ad58</entry:guid>
+  <entry:date>
+    <ts:date>2015-01-16 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-01-19 05:33:44 -0500</ts:date>
+  </entry:entered>
+  <entry:description>PROC-56 	Figure out the differences in the sourcing database
+</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>4000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:i-discount>3000000/1000000</entry:i-discount>
+  <entry:invoice type="guid">76b9c1438574d79ed4bf07a25112de5c</entry:invoice>
   <entry:i-disc-type>PERCENT</entry:i-disc-type>
   <entry:i-disc-how>PRETAX</entry:i-disc-how>
   <entry:i-taxable>1</entry:i-taxable>
@@ -48701,6 +49058,40 @@ client's business use case of the app which he did not disclose at app conceptio
   </invoice:currency>
 </gnc:GncInvoice>
 <gnc:GncInvoice version="2.0.0">
+  <invoice:guid type="guid">76b9c1438574d79ed4bf07a25112de5c</invoice:guid>
+  <invoice:id>408</invoice:id>
+  <invoice:owner version="2.0.0">
+    <owner:type>gncJob</owner:type>
+    <owner:id type="guid">34c528dea9e1a924510a18d52c58cff5</owner:id>
+  </invoice:owner>
+  <invoice:opened>
+    <ts:date>2015-01-19 00:00:00 -0500</ts:date>
+  </invoice:opened>
+  <invoice:posted>
+    <ts:date>2015-01-19 00:00:00 -0500</ts:date>
+  </invoice:posted>
+  <invoice:notes>Jan 07 - Jan 19 Work
+* Small user experience fixes on Sourcing App
+* Testing multiproject and Printemps 2016 import 
+
+Bill reduced by 3% if paid within 2 weeks, otherwise total is $3,701.04
+Conditions: If any bill is not paid within three weeks, all work will be stopped and incomplete until the payment is received.</invoice:notes>
+  <invoice:active>1</invoice:active>
+  <invoice:posttxn type="guid">06984a991a26843f375aed33182876dc</invoice:posttxn>
+  <invoice:postlot type="guid">1f49b00735ba16ca8b5a5a4af30951f5</invoice:postlot>
+  <invoice:postacc type="guid">5fa5d33589233e016705e03b94643fc3</invoice:postacc>
+  <invoice:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </invoice:currency>
+  <invoice:slots>
+    <slot>
+      <slot:key>credit-note</slot:key>
+      <slot:value type="integer">0</slot:value>
+    </slot>
+  </invoice:slots>
+</gnc:GncInvoice>
+<gnc:GncInvoice version="2.0.0">
   <invoice:guid type="guid">77867b1acbd39a3c289db6e9d2eaa7d7</invoice:guid>
   <invoice:id>334</invoice:id>
   <invoice:owner version="2.0.0">
@@ -49133,8 +49524,8 @@ For more information, Contact us or see the Redmine log.</invoice:notes>
 Bill reduced by 3% if paid within 2 weeks, otherwise total is $2,382.28
 Conditions: If any bill is not paid within three weeks, all work will be stopped and incomplete until the payment is received.</invoice:notes>
   <invoice:active>0</invoice:active>
-  <invoice:posttxn type="guid">dc81b78d7ce7affe85aed537da159401</invoice:posttxn>
-  <invoice:postlot type="guid">c9c3b809fd555af43dde9e2eadf7e7ac</invoice:postlot>
+  <invoice:posttxn type="guid">177eb16c0999f0ebdf3884f2f2c14c83</invoice:posttxn>
+  <invoice:postlot type="guid">92d1835dde0859e58693a6c14ad497ae</invoice:postlot>
   <invoice:postacc type="guid">5fa5d33589233e016705e03b94643fc3</invoice:postacc>
   <invoice:currency>
     <cmdty:space>ISO4217</cmdty:space>
