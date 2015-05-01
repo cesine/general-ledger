@@ -153,7 +153,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">136</gnc:count-data>
-<gnc:count-data cd:type="transaction">533</gnc:count-data>
+<gnc:count-data cd:type="transaction">548</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
@@ -275,7 +275,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
@@ -357,7 +357,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">2</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -857,7 +857,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
@@ -868,6 +868,10 @@ Montreal QC REMOVED</slot:value>
         <slot>
           <slot:key>Bill</slot:key>
           <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
               <slot:value type="integer">1</slot:value>
@@ -901,7 +905,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -932,6 +936,10 @@ Montreal QC REMOVED</slot:value>
             <slot>
               <slot:key>Expenses:Salaries:iField</slot:key>
               <slot:value type="integer">7</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Accounts Payable</slot:key>
+              <slot:value type="integer">4</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ:TVQ</slot:key>
@@ -1115,6 +1123,10 @@ Montreal QC REMOVED</slot:value>
               <slot:value type="integer">1</slot:value>
             </slot>
             <slot>
+              <slot:key>Liabilities:Accounts Payable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
@@ -1157,6 +1169,10 @@ Montreal QC REMOVED</slot:value>
               <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
           </slot:value>
         </slot>
         <slot>
@@ -1192,6 +1208,15 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Internet/MRQ</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
@@ -1261,7 +1286,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">3</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
@@ -1521,6 +1546,10 @@ Montreal QC REMOVED</slot:value>
               <slot:value type="integer">1</slot:value>
             </slot>
             <slot>
+              <slot:key>Liabilities:Accounts Payable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
@@ -1607,16 +1636,20 @@ Montreal QC REMOVED</slot:value>
               <slot:value type="integer">2</slot:value>
             </slot>
             <slot>
+              <slot:key>Liabilities:Accounts Payable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
               <slot:key>Liabilities:Taxes</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">4</slot:value>
+              <slot:value type="integer">5</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
-              <slot:value type="integer">5</slot:value>
+              <slot:value type="integer">6</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
@@ -1698,6 +1731,10 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Taxes:Impôt Quebec</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Accounts Payable</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
             <slot>
@@ -1847,7 +1884,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
@@ -1987,6 +2024,10 @@ Montreal QC REMOVED</slot:value>
           <slot:key>payment</slot:key>
           <slot:value type="frame">
             <slot>
+              <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
@@ -2006,6 +2047,19 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>remittance/Federal</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
@@ -2040,7 +2094,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">12</slot:value>
+              <slot:value type="integer">14</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
@@ -2088,6 +2142,10 @@ Montreal QC REMOVED</slot:value>
     <slot>
       <slot:key>last-num</slot:key>
       <slot:value type="string">1</slot:value>
+    </slot>
+    <slot>
+      <slot:key>online_id</slot:key>
+      <slot:value type="string">281211</slot:value>
     </slot>
     <slot>
       <slot:key>reconcile-info</slot:key>
@@ -26294,6 +26352,696 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">7edeb2ac1c10aa5d84f27743ff5a1390</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00001</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-01-01 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Cheque</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-01-01</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">24</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">f28b70d6de8985fbe3366d5e9af6557e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">51f34597d43931f6644399072366ec22</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">7a3499e251b1c106fd5906163d01a11f</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00002</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-01-19 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Government remittance /Qc. deductions at source</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-01-19</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">2fcd7de1f6da04cba6b0554a1e7dc9ac</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>25000/100</split:value>
+      <split:quantity>25000/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">45c20fa44fa8cffe4a89820a696c4bbd</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-25000/100</split:value>
+      <split:quantity>-25000/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">eb95c0564e601cd210e79bb75261bb10</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00003</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-01-19 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Government remittance /Federal source deductions</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-01-19</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">8a009e7a8cfa7eab7d0aac904a57de32</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>20000/100</split:value>
+      <split:quantity>20000/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b985ced5c5db2dddb8ef1f16a23d003a</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-20000/100</split:value>
+      <split:quantity>-20000/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">4db188014b3e50519eaa6a2bce9a6d4b</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00004</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-01-19 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>GST-QST Government remittance /GST/QST tax payments</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-01-19</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">222d353019188d0ab8d45ee1fd5857a4</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>30100/100</split:value>
+      <split:quantity>30100/100</split:quantity>
+      <split:account type="guid">8fefddb1076d81c8369b6474529b52dd</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">1f3d091ee43d45bdadf4e181b4c43ca3</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-30100/100</split:value>
+      <split:quantity>-30100/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">710159e407059f3be1c5f8ea7e72cb78</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00005</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-01-19 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>GST-QST Government remittance /GST/QST tax payments</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-01-19</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">74fc8e74f3baa4cd00613856750b7989</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2/100</split:value>
+      <split:quantity>2/100</split:quantity>
+      <split:account type="guid">8fefddb1076d81c8369b6474529b52dd</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b1efc38ec74148e2f2ba0a39fdce41d5</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-2/100</split:value>
+      <split:quantity>-2/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">6ce063cfa46acf669f44c427bcdb4995</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00006</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-01-30 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Cheque</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-01-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">25</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">14a1be3e788eff6a0fe7630da4ca3d0c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5c1a9f0f157d325f4188d050aee0e937</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d4fac950967bad2a33b99559e8f3363e</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00007</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-01-30 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-01-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">c1c6db0d4661844fe0b103bf6d09519b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">56ef750e6c5a158214c29905df612975</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">46f6810183cd1101604f236a6fd92d4e</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00001</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-02-09 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Deposit at the counter /CAISSE CENTRALE DESJ.</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-02-09</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">147e4a43ec9596e394c3c7c06d622423</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>359003/100</split:value>
+      <split:quantity>359003/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">fbaff764d3c31bddcf1b94e84fdf63e4</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-359003/100</split:value>
+      <split:quantity>-359003/100</split:quantity>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">9324365d3894db37ce788e8cea6166fd</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00002</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-02-27 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-02-27</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">4348b8721c63c516849d68014ccf0870</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>125/100</split:value>
+      <split:quantity>125/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3a9777bf2dbd8545d7616f49327f51b3</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-125/100</split:value>
+      <split:quantity>-125/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">0cff7fa830d2395e723abf82f3ae856f</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00003</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-02-27 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-02-27</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">104ccfdcac22f6b2d42d90709bd220d6</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">634bb031f11489c32c24292dbee87a3c</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">3c5fa3639faf2b5390f914abaa1b641e</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00001</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-03-03 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Bill payment - AccesD - Internet/MRQ CLICREVENU</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-03-03</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">d2518bfbd51042e57460388903297f33</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>129683/100</split:value>
+      <split:quantity>129683/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">58c1abd40c33c3d3ffdb8d6fd5068e56</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-129683/100</split:value>
+      <split:quantity>-129683/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">b55716e44fd2de66f64191f9cedba405</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00002</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-03-03 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Government remittance/Federal source deductions</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-03-03</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">3697b3b194f10dbec4383ec1c11cf1eb</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>39680/100</split:value>
+      <split:quantity>39680/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3841197648a8a090404a6be0af74cb2f</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-39680/100</split:value>
+      <split:quantity>-39680/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">f048deb73a9c387c71e3799760115065</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00003</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-03-03 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Cheque</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-03-03</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">26</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">ae2e3c2d9ee62107c5ebcf5a45afe623</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">4ccbffd28010c5a24d80d0a8c69c5d8d</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">8e43488b6b0a9ca27b3661b3332b79b5</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00004</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-03-31 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-03-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">109e831d1a2e638abf894ca541012206</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">7a364f5cb00ddac79e3ec70c6781b9c2</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">8165556d6b8b8f0141e443b16c9af1cf</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>00001</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-04-01 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Cheque</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-04-01</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">27</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">8f3e4cf91790b860df332360fd2fead5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ac7a3bc3a6bd82c109754c7cbec5b942</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-05-01 10:02:41 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
   </trn:splits>
