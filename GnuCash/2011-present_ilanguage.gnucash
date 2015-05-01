@@ -6894,7 +6894,7 @@ Montreal QC REMOVED</slot:value>
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">?</slot:value>
+      <slot:value type="string">This nearly matches the check of PSREMOVED installment 2 which was deposited in the Lab account on Feb 9th, this was because the checks were depositied in the personal account, and undone by the bank, but we had already transfered the funds to the company account</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -6937,7 +6937,7 @@ Montreal QC REMOVED</slot:value>
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">?</slot:value>
+      <slot:value type="string">This matches the SREMOVED check which was deposted in the Lab account on feb 9th</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -6980,7 +6980,7 @@ Montreal QC REMOVED</slot:value>
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">PSREMOVED check transfered to company</slot:value>
+      <slot:value type="string">PSREMOVED check installment 1 transfered to company</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -7274,7 +7274,7 @@ Montreal QC REMOVED</slot:value>
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">PSREMOVED or Employee1's paycheck?</slot:value>
+      <slot:value type="string">PSREMOVED and SREMOVED checks deposited together</slot:value>
     </slot>
     <slot>
       <slot:key>trans-txn-type</slot:key>
@@ -7330,7 +7330,7 @@ Montreal QC REMOVED</slot:value>
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Reversal of deposit of Employee1's paycheck?</slot:value>
+      <slot:value type="string">THis undones the transactions of Jan 26 where the value of the checks were thought to have been deposited in the personal account but was infact rejected and later deposited on  feb 9th in the company account.</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -7339,7 +7339,7 @@ Montreal QC REMOVED</slot:value>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>154916/100</split:value>
       <split:quantity>154916/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
+      <split:account type="guid">7d2b6c4fb4f0546f8dea6895bb5b7a33</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">d0b20ebbb385e71b22ddce96376a7d6f</split:id>
@@ -27619,7 +27619,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Android App - 1st installment</slot:value>
+      <slot:value type="string">Android App - 1st installment was paid to us before we had a bank account</slot:value>
     </slot>
     <slot>
       <slot:key>trans-txn-type</slot:key>
@@ -27946,15 +27946,15 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:reconcile-date>
         <ts:date>2013-01-01 11:59:59 -0500</ts:date>
       </split:reconcile-date>
-      <split:value>201054/100</split:value>
-      <split:quantity>201054/100</split:quantity>
+      <split:value>349054/100</split:value>
+      <split:quantity>349054/100</split:quantity>
       <split:account type="guid">7d2b6c4fb4f0546f8dea6895bb5b7a33</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">617f042d34e42b0a2422de0eda37bf34</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-201054/100</split:value>
-      <split:quantity>-201054/100</split:quantity>
+      <split:value>-349054/100</split:value>
+      <split:quantity>-349054/100</split:quantity>
       <split:account type="guid">31054bcaa4818a48bc92a63c62f6d0ec</split:account>
     </trn:split>
   </trn:splits>
