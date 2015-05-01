@@ -7745,7 +7745,7 @@ Montreal QC REMOVED</slot:value>
     <slot>
       <slot:key>notes</slot:key>
       <slot:value type="string">PMT Employee1 Seulement MARS
-PMT Employee1 Seulement MARS
+PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012-04-04
 </slot:value>
     </slot>
   </trn:slots>
@@ -8245,7 +8245,7 @@ PMT Employee1 Seulement MARS
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">PMT 20 au 25 Avril Teressa seulement
+      <slot:value type="string">PMT 20 au 25 Avril Teressa seulement - Reconciled with RS001 as Cotisation 2012-05-07
 </slot:value>
     </slot>
   </trn:slots>
@@ -8972,7 +8972,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">3 pay periods</slot:value>
+      <slot:value type="string">3 pay periods - Reconciled with RS0001 as Cotisation 2012-05-07</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -9848,7 +9848,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">2 pay periods</slot:value>
+      <slot:value type="string">2 pay periods - Reconciled with as Cotisation RS001 2012-07-11 </slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -10870,7 +10870,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">1 pay period (underpayment by 51.52, marked it as 43.61 out of 95.13 in the FSS)</slot:value>
+      <slot:value type="string">1 pay period (underpayment by 51.52, marked it as 43.61 out of 95.13 in the FSS) Reconciled with  RS001 as Cotisations 2012-08-03</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -12538,7 +12538,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Reconciled with RS001 as cotisation 2012-12-14</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -13095,7 +13095,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Reconciled with RS001 as cotisation 20123-01-13</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -17379,7 +17379,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Taxes:Unknown</slot:value>
+      <slot:value type="string">Credit excedentaire provenant de la cotisation for Periode 2012 (montant initial 1545.66) - Reconciled with RS0001 as Remboursement 2013-03-11</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -17398,7 +17398,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-148129/100</split:value>
       <split:quantity>-148129/100</split:quantity>
-      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
