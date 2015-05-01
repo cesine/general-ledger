@@ -153,7 +153,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">136</gnc:count-data>
-<gnc:count-data cd:type="transaction">559</gnc:count-data>
+<gnc:count-data cd:type="transaction">558</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
@@ -2445,20 +2445,7 @@ Montreal QC REMOVED</slot:value>
         </slot>
         <slot>
           <slot:key>last-date</slot:key>
-          <slot:value type="integer">1359694799</slot:value>
-        </slot>
-        <slot>
-          <slot:key>last-interval</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>days</slot:key>
-              <slot:value type="integer">0</slot:value>
-            </slot>
-            <slot>
-              <slot:key>months</slot:key>
-              <slot:value type="integer">1</slot:value>
-            </slot>
-          </slot:value>
+          <slot:value type="integer">1357016399</slot:value>
         </slot>
       </slot:value>
     </slot>
@@ -6907,7 +6894,7 @@ Montreal QC REMOVED</slot:value>
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">PSREMOVED check transfer to company (1049.18 bill, transfer was 1049.16)</slot:value>
+      <slot:value type="string">?</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -6920,10 +6907,7 @@ Montreal QC REMOVED</slot:value>
     </trn:split>
     <trn:split>
       <split:id type="guid">41ee0e85cdaa21672e20ac7788a8e5e0</split:id>
-      <split:reconciled-state>y</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2013-01-31 23:59:59 -0500</ts:date>
-      </split:reconcile-date>
+      <split:reconciled-state>n</split:reconciled-state>
       <split:value>-104916/100</split:value>
       <split:quantity>-104916/100</split:quantity>
       <split:account type="guid">7d2b6c4fb4f0546f8dea6895bb5b7a33</split:account>
@@ -6953,7 +6937,7 @@ Montreal QC REMOVED</slot:value>
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">SREMOVED check for 500 transfered to company account</slot:value>
+      <slot:value type="string">?</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -6966,10 +6950,7 @@ Montreal QC REMOVED</slot:value>
     </trn:split>
     <trn:split>
       <split:id type="guid">b2252693a89c7abead54fbb1eee41629</split:id>
-      <split:reconciled-state>y</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2013-01-31 23:59:59 -0500</ts:date>
-      </split:reconcile-date>
+      <split:reconciled-state>n</split:reconciled-state>
       <split:value>-50000/100</split:value>
       <split:quantity>-50000/100</split:quantity>
       <split:account type="guid">7d2b6c4fb4f0546f8dea6895bb5b7a33</split:account>
@@ -7015,10 +6996,7 @@ Montreal QC REMOVED</slot:value>
     </trn:split>
     <trn:split>
       <split:id type="guid">ae5c42caff08ff9308d5a9d3eaf1e450</split:id>
-      <split:reconciled-state>y</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2013-01-31 23:59:59 -0500</ts:date>
-      </split:reconcile-date>
+      <split:reconciled-state>n</split:reconciled-state>
       <split:value>-148000/100</split:value>
       <split:quantity>-148000/100</split:quantity>
       <split:account type="guid">7d2b6c4fb4f0546f8dea6895bb5b7a33</split:account>
@@ -27881,9 +27859,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">854cfb297909ca0c3d6c4ccb48b526eb</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2013-01-31 23:59:59 -0500</ts:date>
+        <ts:date>2013-01-01 11:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-198054/100</split:value>
       <split:quantity>-198054/100</split:quantity>
@@ -27941,54 +27919,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">7739f709fccba8349641fa1768996e0a</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:date-posted>
-    <ts:date>2012-01-09 00:00:00 -0500</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2015-05-01 15:37:29 -0400</ts:date>
-  </trn:date-entered>
-  <trn:description>PSREMOVED</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2012-01-09</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string">Android App - 2nd installment</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">5c668251df498fd179fa5b95f47853ad</split:id>
-      <split:action>Payment</split:action>
-      <split:reconciled-state>y</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2013-01-31 23:59:59 -0500</ts:date>
-      </split:reconcile-date>
-      <split:value>104918/100</split:value>
-      <split:quantity>104918/100</split:quantity>
-      <split:account type="guid">7d2b6c4fb4f0546f8dea6895bb5b7a33</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">853b21eff33e93fed2c1ade24cc980c9</split:id>
-      <split:memo>PSREMOVED</split:memo>
-      <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-104918/100</split:value>
-      <split:quantity>-104918/100</split:quantity>
-      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
   <trn:id type="guid">293bdce6f51ae2e7300784e698e9414d</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -28016,15 +27946,15 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:reconcile-date>
         <ts:date>2013-01-01 11:59:59 -0500</ts:date>
       </split:reconcile-date>
-      <split:value>399052/100</split:value>
-      <split:quantity>399052/100</split:quantity>
+      <split:value>201054/100</split:value>
+      <split:quantity>201054/100</split:quantity>
       <split:account type="guid">7d2b6c4fb4f0546f8dea6895bb5b7a33</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">617f042d34e42b0a2422de0eda37bf34</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-399052/100</split:value>
-      <split:quantity>-399052/100</split:quantity>
+      <split:value>-201054/100</split:value>
+      <split:quantity>-201054/100</split:quantity>
       <split:account type="guid">31054bcaa4818a48bc92a63c62f6d0ec</split:account>
     </trn:split>
   </trn:splits>
