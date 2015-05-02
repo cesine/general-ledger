@@ -153,7 +153,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">130</gnc:count-data>
-<gnc:count-data cd:type="transaction">558</gnc:count-data>
+<gnc:count-data cd:type="transaction">557</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
@@ -24212,7 +24212,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Reconciled with RS001 as Paiement 2014-06-09</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -24530,7 +24530,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Reconciled with RS001 as Paiement 2014-07-16</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -24658,7 +24658,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-01-19 20:34:06 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Cheque 16</trn:description>
+  <trn:description>Employee17 Employee17</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -24668,7 +24668,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Cheque 16</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -24704,7 +24704,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-01-19 20:34:06 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Cheque 17</trn:description>
+  <trn:description>Employee17 Employee17</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -24714,7 +24714,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Cheque 17</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -24888,7 +24888,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-01-19 20:34:06 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Cheque 22</trn:description>
+  <trn:description>Employee2 Employee2</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -24898,7 +24898,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Cheque 22</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -24907,7 +24907,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>100000/100</split:value>
       <split:quantity>100000/100</split:quantity>
-      <split:account type="guid">4c97809b8f7821d28ded0f1bad9ffe5d</split:account>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">fd3efeecf257dd91c6a42a3e62e0fdf8</split:id>
@@ -25072,7 +25072,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-01-19 20:34:06 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Cheque 23</trn:description>
+  <trn:description>Employee17 Employee17</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -25082,7 +25082,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Cheque 23</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -25165,7 +25165,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-01-19 20:34:06 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Cheque 19</trn:description>
+  <trn:description>Employee17 Employee17</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -25175,7 +25175,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Cheque 19</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -25221,7 +25221,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Reconciled with RS001 as Paiement 2014-010-17</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -25441,7 +25441,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-01-19 20:34:06 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Cheque 20</trn:description>
+  <trn:description>Employee17 Employee17</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -25451,7 +25451,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Cheque 20</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -25533,7 +25533,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-01-19 20:34:06 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Cheque 21</trn:description>
+  <trn:description>Employee17 Employee17</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -25543,7 +25543,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Cheque 21</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -25635,12 +25635,17 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">REMOVED88 Invoice 407</slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-txn-type</slot:key>
+      <slot:value type="string">P</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
     <trn:split>
       <split:id type="guid">c2fb36cb0cec5165e2f43abbccad56e0</split:id>
+      <split:action>Payment</split:action>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
         <ts:date>2015-01-19 20:34:06 -0500</ts:date>
@@ -25650,11 +25655,14 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">f2088cace7cdc536c81ddd9891087db4</split:id>
+      <split:id type="guid">91fccfd7417248639de8a0fc2e0359fa</split:id>
+      <split:memo>Deposit at the counter/CAISSE CENTRALE DESJ.</split:memo>
+      <split:action>Payment</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-231084/100</split:value>
       <split:quantity>-231084/100</split:quantity>
-      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+      <split:lot type="guid">92d1835dde0859e58693a6c14ad497ae</split:lot>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -25763,7 +25771,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-05-01 22:02:41 -0400</ts:date>
   </trn:date-entered>
-  <trn:description>Cheque 24</trn:description>
+  <trn:description>Employee17 Employee17</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -25773,7 +25781,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Cheque 24</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -25993,7 +26001,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-05-01 22:02:41 -0400</ts:date>
   </trn:date-entered>
-  <trn:description>Cheque 25</trn:description>
+  <trn:description>Employee17 Employee17</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -26003,7 +26011,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Cheque 25</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -26095,12 +26103,17 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">REMOVED88 Invoice 408</slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-txn-type</slot:key>
+      <slot:value type="string">P</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
     <trn:split>
       <split:id type="guid">147e4a43ec9596e394c3c7c06d622423</split:id>
+      <split:action>Payment</split:action>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
         <ts:date>2015-05-01 22:02:41 -0400</ts:date>
@@ -26110,11 +26123,14 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">fbaff764d3c31bddcf1b94e84fdf63e4</split:id>
+      <split:id type="guid">f80728a440394a1de449b950582b2f0b</split:id>
+      <split:memo>Deposit at the counter /CAISSE CENTRALE DESJ.</split:memo>
+      <split:action>Payment</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-359003/100</split:value>
       <split:quantity>-359003/100</split:quantity>
       <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+      <split:lot type="guid">1f49b00735ba16ca8b5a5a4af30951f5</split:lot>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -26315,7 +26331,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-05-01 22:02:41 -0400</ts:date>
   </trn:date-entered>
-  <trn:description>Cheque 26</trn:description>
+  <trn:description>Employee17 Employee17</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -26325,7 +26341,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Cheque 26</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -26407,7 +26423,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-05-01 22:02:41 -0400</ts:date>
   </trn:date-entered>
-  <trn:description>Cheque 27</trn:description>
+  <trn:description>Employee17 Employee17</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -26417,7 +26433,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Cheque 27</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -26436,37 +26452,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
-      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">9b0ff7ce4b4c89d5130db67a97240ebd</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:date-posted>
-    <ts:date>2015-05-01 00:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2015-05-02 02:32:29 -0400</ts:date>
-  </trn:date-entered>
-  <trn:description>testingg date change</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2015-05-01</gdate>
-      </slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">f34374cb7fddadab1fa0de41266cd36b</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
   </trn:splits>
