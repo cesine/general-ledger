@@ -7679,7 +7679,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
   <trn:date-entered>
     <ts:date>2014-06-08 16:13:58 -0400</ts:date>
   </trn:date-entered>
-  <trn:description>Remise gouvernementale TPS-TVQ /Paiement taxes TPS/TVQ</trn:description>
+  <trn:description>Remise gouvernementale TPS-TVQ /Paiement taxes TPS/TVQ (PSREMOVED Invoices #1, #2 #3, SREMOVED #308)</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -11684,6 +11684,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
   <trn:splits>
     <trn:split>
       <split:id type="guid">3aecf806104413a6fbdf420ae5c59f2b</split:id>
+      <split:memo>Reconciled with RT0001 statement for Period ending August 31 2012, which is what Quebec put, but not what it was intended for.</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>19931/100</split:value>
       <split:quantity>19931/100</split:quantity>
@@ -13573,8 +13574,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Retour de TPS de 2012-01 a 2012-06
-</slot:value>
+      <slot:value type="string">Retour de TPS de 2012-01 a 2012-06</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -13590,6 +13590,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">0216afac77538804b21f7c1d1d2d7cb3</split:id>
+      <split:memo>Reconciled with RT0001 statement for Period ending May 31 2012</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-57770/100</split:value>
       <split:quantity>-57770/100</split:quantity>
@@ -13722,6 +13723,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
   <trn:splits>
     <trn:split>
       <split:id type="guid">35fde0bed5ba0006c6ef6de5969e0c92</split:id>
+      <split:memo>Interim payment applied on March 18 2013 then reversed on Jan 9th 2014 then re-applied on  Jan 14 2014 for the period Nov 2012 (which is not what it was for, it was for feb 2013 i think)</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>221913/100</split:value>
       <split:quantity>221913/100</split:quantity>
@@ -16760,6 +16762,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">bc2c7faa97dd24d80531c3eccf3c9b5a</split:id>
+      <split:memo>Reconciled with RT0001 statement for Period ending Feb 28 2013 with this exact amount, used as both the assessemnt and the value</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>104217/100</split:value>
       <split:quantity>104217/100</split:quantity>
@@ -16867,6 +16870,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">d7731edef29a7e9493504e887adf8c3f</split:id>
+      <split:memo>Written as a revision of a montal initial of 1,545.66</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-154566/100</split:value>
       <split:quantity>-154566/100</split:quantity>
@@ -16897,7 +16901,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Taxes:TPS</slot:value>
+      <slot:value type="string">Taxes:TPS Refund for period Nov 30 3012 which SHOULD HAVE NEVER been sent to us. Origianal asssment was for 904.88, we paid 2,219.13 on another period, which was applied to this one, which meant minus penalty of 11.25 that 1303.00 was due as a reimbursement. until this one was reassessed to 2,287.14 on Jan 14 2014 (we dont know from where) </slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -18421,7 +18425,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">b76c074b5323966994d644677f6c039a</split:id>
-      <split:memo>Federal Hiring tax credit 2012 (applied against?)</split:memo>
+      <split:memo>Federal Hiring tax credit 2012 (applied against federal remise?)</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-100000/100</split:value>
       <split:quantity>-100000/100</split:quantity>
@@ -19600,6 +19604,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
   <trn:splits>
     <trn:split>
       <split:id type="guid">4bb325677ab3904fe5d1075a1cc99436</split:id>
+      <split:memo>Reconciled with RT0001 statement for Period ending May 31 2013 with this exact value. It was taken as the value we owe and the value we paid (no changes to reflect TPS we paid etc)</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>177039/100</split:value>
       <split:quantity>177039/100</split:quantity>
@@ -24027,6 +24032,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">14d53b6c4a2b70bb19c1d8ad782ccc1d</split:id>
+      <split:memo>Cant find on the RT0001 statement, except maybe as transfered to May 2014 and then back to Feb 2014?</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>1/100</split:value>
       <split:quantity>1/100</split:quantity>
@@ -24472,7 +24478,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">This REMOVED88 check later bounced</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -24518,7 +24524,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">REMOVED88 Check bounced</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -24564,7 +24570,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Transfer to pay part of the REMOVED88 invoices</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -24616,6 +24622,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">8567c09b7dc63b1f808975fb505c8695</split:id>
+      <split:memo>Reconciled with RT0001 statement for Period ending May 31 2014 (but originally inserted on Nov 20 2012</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>74813/100</split:value>
       <split:quantity>74813/100</split:quantity>
@@ -24756,7 +24763,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">REMOVED88 Check was re-transferd to us</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -25124,7 +25131,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Payement Augh 19 2014 applied on the period of Nov 30 2012 but the Period marked as stapled to is actually May 31 2014</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -25407,6 +25414,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">125d8e67289512bafca97aa8c2c9870b</split:id>
+      <split:memo>Interim payments applied Oct 31 2014 to period Aug 31 2014</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>1/100</split:value>
       <split:quantity>1/100</split:quantity>
@@ -25731,7 +25739,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Tickets to India for recruiting developers</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -51073,7 +51081,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <entry:i-disc-how>PRETAX</entry:i-disc-how>
   <entry:i-taxable>1</entry:i-taxable>
   <entry:i-taxincluded>1</entry:i-taxincluded>
-  <entry:i-taxtable type="guid">e0447fcf38fefb1b78c4758bf167980b</entry:i-taxtable>
+  <entry:i-taxtable type="guid">8553d5cdf52d14eef40b9cf3f9f71067</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">e343daa859edd49de0527c8d58a35d0e</entry:guid>
@@ -52637,7 +52645,7 @@ Conditions: If any bill is not paid within three weeks, all work will be stopped
 <gnc:GncTaxTable version="2.0.0">
   <taxtable:guid type="guid">8553d5cdf52d14eef40b9cf3f9f71067</taxtable:guid>
   <taxtable:name>TPS/TVQ2011</taxtable:name>
-  <taxtable:refcount>0</taxtable:refcount>
+  <taxtable:refcount>1</taxtable:refcount>
   <taxtable:invisible>0</taxtable:invisible>
   <taxtable:child type="guid">adeb6624bc3efca309e2432349247c0c</taxtable:child>
   <taxtable:entries>
@@ -52694,7 +52702,7 @@ Conditions: If any bill is not paid within three weeks, all work will be stopped
 <gnc:GncTaxTable version="2.0.0">
   <taxtable:guid type="guid">e0447fcf38fefb1b78c4758bf167980b</taxtable:guid>
   <taxtable:name>TPS/TVQ2011combined</taxtable:name>
-  <taxtable:refcount>1</taxtable:refcount>
+  <taxtable:refcount>0</taxtable:refcount>
   <taxtable:invisible>0</taxtable:invisible>
   <taxtable:entries>
     <gnc:GncTaxTableEntry>
