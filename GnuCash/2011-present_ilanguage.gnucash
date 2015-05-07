@@ -153,7 +153,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">130</gnc:count-data>
-<gnc:count-data cd:type="transaction">549</gnc:count-data>
+<gnc:count-data cd:type="transaction">544</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
@@ -2141,7 +2141,7 @@ Montreal QC REMOVED</slot:value>
     </slot>
     <slot>
       <slot:key>last-num</slot:key>
-      <slot:value type="string">1</slot:value>
+      <slot:value type="string">2</slot:value>
     </slot>
     <slot>
       <slot:key>online_id</slot:key>
@@ -2156,7 +2156,20 @@ Montreal QC REMOVED</slot:value>
         </slot>
         <slot>
           <slot:key>last-date</slot:key>
-          <slot:value type="integer">1357016399</slot:value>
+          <slot:value type="integer">1427947199</slot:value>
+        </slot>
+        <slot>
+          <slot:key>last-interval</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>days</slot:key>
+              <slot:value type="integer">0</slot:value>
+            </slot>
+            <slot>
+              <slot:key>months</slot:key>
+              <slot:value type="integer">28</slot:value>
+            </slot>
+          </slot:value>
         </slot>
       </slot:value>
     </slot>
@@ -2637,24 +2650,6 @@ Montreal QC REMOVED</slot:value>
       </lot:slots>
     </gnc:lot>
     <gnc:lot version="2.0.0">
-      <lot:id type="guid">302d03faa209da9e306fd1d941e94b66</lot:id>
-      <lot:slots>
-        <slot>
-          <slot:key>gncOwner</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>owner-guid</slot:key>
-              <slot:value type="guid">36fbaf29f0ab7114329aaee0e50e3437</slot:value>
-            </slot>
-            <slot>
-              <slot:key>owner-type</slot:key>
-              <slot:value type="integer">2</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </lot:slots>
-    </gnc:lot>
-    <gnc:lot version="2.0.0">
       <lot:id type="guid">3474fef889e5cafd1c5c6b91fc9ef6ba</lot:id>
       <lot:slots>
         <slot>
@@ -2723,24 +2718,6 @@ Montreal QC REMOVED</slot:value>
         <slot>
           <slot:key>title</slot:key>
           <slot:value type="string">Invoice 308</slot:value>
-        </slot>
-      </lot:slots>
-    </gnc:lot>
-    <gnc:lot version="2.0.0">
-      <lot:id type="guid">426ec118e879a4ad296d1ba4300c0318</lot:id>
-      <lot:slots>
-        <slot>
-          <slot:key>gncOwner</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>owner-guid</slot:key>
-              <slot:value type="guid">34fe36e18c808aa64916d2dac673032e</slot:value>
-            </slot>
-            <slot>
-              <slot:key>owner-type</slot:key>
-              <slot:value type="integer">2</slot:value>
-            </slot>
-          </slot:value>
         </slot>
       </lot:slots>
     </gnc:lot>
@@ -2817,24 +2794,6 @@ Montreal QC REMOVED</slot:value>
       </lot:slots>
     </gnc:lot>
     <gnc:lot version="2.0.0">
-      <lot:id type="guid">5b49cf08a1ed42307283bdd09e98d636</lot:id>
-      <lot:slots>
-        <slot>
-          <slot:key>gncOwner</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>owner-guid</slot:key>
-              <slot:value type="guid">36fbaf29f0ab7114329aaee0e50e3437</slot:value>
-            </slot>
-            <slot>
-              <slot:key>owner-type</slot:key>
-              <slot:value type="integer">2</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </lot:slots>
-    </gnc:lot>
-    <gnc:lot version="2.0.0">
       <lot:id type="guid">626f96b7cc726c9f33a4daeb9562a8d1</lot:id>
       <lot:slots>
         <slot>
@@ -2897,24 +2856,6 @@ Montreal QC REMOVED</slot:value>
             <slot>
               <slot:key>owner-guid</slot:key>
               <slot:value type="guid">c7e04eb81f9123c0661e49ee5cab4a94</slot:value>
-            </slot>
-            <slot>
-              <slot:key>owner-type</slot:key>
-              <slot:value type="integer">2</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-      </lot:slots>
-    </gnc:lot>
-    <gnc:lot version="2.0.0">
-      <lot:id type="guid">70cf91d08342a90a6a001f073926d8db</lot:id>
-      <lot:slots>
-        <slot>
-          <slot:key>gncOwner</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>owner-guid</slot:key>
-              <slot:value type="guid">36fbaf29f0ab7114329aaee0e50e3437</slot:value>
             </slot>
             <slot>
               <slot:key>owner-type</slot:key>
@@ -2993,24 +2934,6 @@ Montreal QC REMOVED</slot:value>
         <slot>
           <slot:key>title</slot:key>
           <slot:value type="string">Invoice 328</slot:value>
-        </slot>
-      </lot:slots>
-    </gnc:lot>
-    <gnc:lot version="2.0.0">
-      <lot:id type="guid">830fc20f56bd70be41ef70d38ad6972f</lot:id>
-      <lot:slots>
-        <slot>
-          <slot:key>gncOwner</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>owner-guid</slot:key>
-              <slot:value type="guid">36fbaf29f0ab7114329aaee0e50e3437</slot:value>
-            </slot>
-            <slot>
-              <slot:key>owner-type</slot:key>
-              <slot:value type="integer">2</slot:value>
-            </slot>
-          </slot:value>
         </slot>
       </lot:slots>
     </gnc:lot>
@@ -6455,7 +6378,10 @@ Montreal QC REMOVED</slot:value>
   <trn:splits>
     <trn:split>
       <split:id type="guid">43879dafda7488b8c0723307f1bc5141</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -6486,7 +6412,10 @@ Montreal QC REMOVED</slot:value>
   <trn:splits>
     <trn:split>
       <split:id type="guid">b5ac33e3a384e3267fcce1a2dca82c1f</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>3000/100</split:value>
       <split:quantity>3000/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -6535,7 +6464,10 @@ Montreal QC REMOVED</slot:value>
     </trn:split>
     <trn:split>
       <split:id type="guid">e10801333e79704d83794af7bd62255e</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-68/100</split:value>
       <split:quantity>-68/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -6578,7 +6510,10 @@ Montreal QC REMOVED</slot:value>
     </trn:split>
     <trn:split>
       <split:id type="guid">afc66980799f0ed67d7ac4c80a7d6ab5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-500/100</split:value>
       <split:quantity>-500/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -6617,7 +6552,10 @@ Montreal QC REMOVED</slot:value>
     </trn:split>
     <trn:split>
       <split:id type="guid">34ffbe6dd51de727a3921bc4b8c2937f</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-2500/100</split:value>
       <split:quantity>-2500/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -6653,7 +6591,10 @@ Montreal QC REMOVED</slot:value>
   <trn:splits>
     <trn:split>
       <split:id type="guid">90be0da0b371bf316bb1b0ff579db5c1</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>104916/100</split:value>
       <split:quantity>104916/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -6696,7 +6637,10 @@ Montreal QC REMOVED</slot:value>
   <trn:splits>
     <trn:split>
       <split:id type="guid">03907090cca99fa52491ab4b6ab2f009</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>50000/100</split:value>
       <split:quantity>50000/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -6911,7 +6855,10 @@ Montreal QC REMOVED</slot:value>
     </trn:split>
     <trn:split>
       <split:id type="guid">4c4d341bdfc2bc6b303fe5ae095726f8</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -7064,7 +7011,10 @@ Montreal QC REMOVED</slot:value>
     </trn:split>
     <trn:split>
       <split:id type="guid">d0b20ebbb385e71b22ddce96376a7d6f</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-154916/100</split:value>
       <split:quantity>-154916/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -12019,51 +11969,6 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">6a54bbc5bf3f207ce2f54e9045694246</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:date-posted>
-    <ts:date>2012-12-12 00:00:00 -0500</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2015-05-04 17:18:49 -0400</ts:date>
-  </trn:date-entered>
-  <trn:description>PSREMOVED</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2012-12-12</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>trans-txn-type</slot:key>
-      <slot:value type="string">P</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">13f47bd0987238df7c228f8fce96fea6</split:id>
-      <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>148000/100</split:value>
-      <split:quantity>148000/100</split:quantity>
-      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
-      <split:lot type="guid">426ec118e879a4ad296d1ba4300c0318</split:lot>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">69d390e440da520e2bd7f9b1b840f7db</split:id>
-      <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-148000/100</split:value>
-      <split:quantity>-148000/100</split:quantity>
-      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
   <trn:id type="guid">27e78fd22b2925201c3e87d6fde1abcb</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -12993,9 +12898,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">47e68b11174c12f6df6a8e6e88bbc6a4</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>1112100/100</split:value>
       <split:quantity>1112100/100</split:quantity>
@@ -13139,7 +13044,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">308f1e921e47f191460872602f885cb7</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-119820/100</split:value>
       <split:quantity>-119820/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -13298,7 +13206,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">901c6c4fb9ed0f8da2837ff01558c061</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-118095/100</split:value>
       <split:quantity>-118095/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -13368,9 +13279,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">3e67b74a6a86b7cacbee8e96d32ea6d0</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-206955/100</split:value>
       <split:quantity>-206955/100</split:quantity>
@@ -13407,21 +13318,13 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
   <trn:splits>
     <trn:split>
       <split:id type="guid">557c5bb9db460ab07b1532c078cdb94e</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
-      <split:value>117092/100</split:value>
-      <split:quantity>117092/100</split:quantity>
+      <split:value>108092/100</split:value>
+      <split:quantity>108092/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">7cc734b821d020d70fa22144c74d19e9</split:id>
-      <split:memo>Original note: Late Fine for not declaring TVS/TVQ quarterly, but the fine doesnt show in the statemnts of TQ0001 which were printed on 2014-11-27</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-9000/100</split:value>
-      <split:quantity>-9000/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">4ee9ba36048bd383dad739cde0f1f2f1</split:id>
@@ -13461,9 +13364,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
   <trn:splits>
     <trn:split>
       <split:id type="guid">a6313ac5f6fbeadeabce24f54a84bf83</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>57770/100</split:value>
       <split:quantity>57770/100</split:quantity>
@@ -13509,9 +13412,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">b479522a637e92703973fd514704cb6e</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>1897300/100</split:value>
       <split:quantity>1897300/100</split:quantity>
@@ -13565,9 +13468,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">19eec385b4a0cbd8566553eb54df52a1</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -13620,9 +13523,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">bf894f1888ffcb3c2aabb9ddd5593b3f</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-664631/100</split:value>
       <split:quantity>-664631/100</split:quantity>
@@ -13755,7 +13658,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">d2092d88bb3fbfe7a143b57c4d9a6b7d</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-119577/100</split:value>
       <split:quantity>-119577/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -13914,7 +13820,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">ff0ff6d7fcb281ebed8052078bb2dbaf</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-119577/100</split:value>
       <split:quantity>-119577/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -14073,7 +13982,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">b2f0990df36047197e6e18e91c85d5b6</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-119577/100</split:value>
       <split:quantity>-119577/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -14232,7 +14144,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">59f21ba027c670e473854831b8a38088</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-61902/100</split:value>
       <split:quantity>-61902/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -14391,7 +14306,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">e3a7dbf25a9ea77d82825b70c67d142a</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-58682/100</split:value>
       <split:quantity>-58682/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -14462,7 +14380,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">d522eee88bbdba08ffecd4b9523f6721</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-97423/100</split:value>
       <split:quantity>-97423/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -14506,7 +14427,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">c02ec4749810d95978059c59c2aa5200</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-47258/100</split:value>
       <split:quantity>-47258/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -14537,9 +14461,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">b8ee8dcf2e5f04541c05d9618ae26637</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>842307/100</split:value>
       <split:quantity>842307/100</split:quantity>
@@ -14682,7 +14606,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">b7c3a4d108564e8b1e2ab12812aa80d6</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-102821/100</split:value>
       <split:quantity>-102821/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -14740,9 +14667,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">6c85e28dee3ecd9c80d1a1215550c060</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>143719/100</split:value>
       <split:quantity>143719/100</split:quantity>
@@ -14885,7 +14812,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">6ae29cd05733b07afc66e1b284ad29a4</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-130264/100</split:value>
       <split:quantity>-130264/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -15044,7 +14974,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">9bb99a92b5b85e14115d0dbf2a2b1740</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-119576/100</split:value>
       <split:quantity>-119576/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -15203,7 +15136,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">acae0d3c695bcc1f52386ae9a335f0af</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-54761/100</split:value>
       <split:quantity>-54761/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -15362,7 +15298,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">42bcd62d5cdc509c9fab7d808aaef2c7</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-69336/100</split:value>
       <split:quantity>-69336/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -15521,7 +15460,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">e95d2b5d55a742e46b0d664556257459</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-14610/100</split:value>
       <split:quantity>-14610/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -15591,9 +15533,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">3ae6aaf65949e0c5877a770b5c5f04c5</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-500/100</split:value>
       <split:quantity>-500/100</split:quantity>
@@ -15637,9 +15579,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">2e61072f889aea6079d933efd14d8880</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -15684,7 +15626,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">6585d93dbcf0f3f490520ad14d0126a0</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-186512/100</split:value>
       <split:quantity>-186512/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -15755,7 +15700,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">4272623ad39fc9062f0805035721dc5d</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-86560/100</split:value>
       <split:quantity>-86560/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -15792,9 +15740,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">c1581a190bee5f8c4f8cc20dc612491d</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>884848/100</split:value>
       <split:quantity>884848/100</split:quantity>
@@ -15937,7 +15885,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">1566f969b90bacf0179fa7091be66645</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-72752/100</split:value>
       <split:quantity>-72752/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -16096,7 +16047,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">09e2d17ae5f57a6d86b757ff71bb7c9e</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-119576/100</split:value>
       <split:quantity>-119576/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -16255,7 +16209,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">28aa4f64481fa6dc68c0f9b5753e14a0</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-38001/100</split:value>
       <split:quantity>-38001/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -16414,7 +16371,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">e25c5db64860c5c18bfc856025f7f6f5</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-119576/100</split:value>
       <split:quantity>-119576/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -16573,7 +16533,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">9db902e5655d3c44b89ff0baa4bee5d2</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-66370/100</split:value>
       <split:quantity>-66370/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -16652,9 +16615,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">530f2f992d045ea9ba26eebcb681adaf</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-312129/100</split:value>
       <split:quantity>-312129/100</split:quantity>
@@ -16686,9 +16649,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">3fe4d7145b9ea09c5a1c7542ceaf0a8e</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>1383264/100</split:value>
       <split:quantity>1383264/100</split:quantity>
@@ -16735,9 +16698,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
   <trn:splits>
     <trn:split>
       <split:id type="guid">5068588c53d637e82b3377de8f15465a</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>148129/100</split:value>
       <split:quantity>148129/100</split:quantity>
@@ -16790,9 +16753,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
   <trn:splits>
     <trn:split>
       <split:id type="guid">20de285f208e95ddead589a451d31020</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>130300/100</split:value>
       <split:quantity>130300/100</split:quantity>
@@ -16843,9 +16806,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">9413a0e8e59e562b626ea7ca77b18273</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-100/100</split:value>
       <split:quantity>-100/100</split:quantity>
@@ -16889,9 +16852,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">9dd6b40edf7378ccffaad69122ea9247</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -16936,7 +16899,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">7045e0a67bd9f1e572b66b89470da80e</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-142051/100</split:value>
       <split:quantity>-142051/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -17007,7 +16973,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">57f372fd88a859176e4109e379ac5795</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-68101/100</split:value>
       <split:quantity>-68101/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -17050,9 +17019,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">e23149110369081cf497fef9594b0e52</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-164184/100</split:value>
       <split:quantity>-164184/100</split:quantity>
@@ -17096,9 +17065,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">522bc0d9854dab8df4e94593088ee7e4</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-400000/100</split:value>
       <split:quantity>-400000/100</split:quantity>
@@ -17150,9 +17119,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">61de64331dc8b9d53e6f91599017bb41</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-68978/100</split:value>
       <split:quantity>-68978/100</split:quantity>
@@ -17285,7 +17254,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">411e2f6548e28ce8d2492398a44959a9</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-106111/100</split:value>
       <split:quantity>-106111/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -17355,9 +17327,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">d95dc980389bcf0df33fc2fb7ce03c6d</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-206955/100</split:value>
       <split:quantity>-206955/100</split:quantity>
@@ -17490,7 +17462,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">ed32aa56d6c70fe3d01d27db85009636</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-99266/100</split:value>
       <split:quantity>-99266/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -17649,7 +17624,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">8af908be304f7adb9764839fa780c66e</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-61112/100</split:value>
       <split:quantity>-61112/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -17720,7 +17698,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">04e3af6740daf31a83134e285898f683</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-114207/100</split:value>
       <split:quantity>-114207/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -17791,7 +17772,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">396c50d10139d193cb8fc97eec1988d0</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-54930/100</split:value>
       <split:quantity>-54930/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -17834,9 +17818,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">75b4514552f9d692fea25ba24517094f</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-200/100</split:value>
       <split:quantity>-200/100</split:quantity>
@@ -17880,9 +17864,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">a7c40136d8ae75e8dfc9a906ca798032</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -18015,7 +17999,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">e51ecae35ecc0f21f82be83d409a4b23</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-81859/100</split:value>
       <split:quantity>-81859/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -18174,7 +18161,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">70e9965151170a43428124192033261e</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-72862/100</split:value>
       <split:quantity>-72862/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -18244,51 +18234,12 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">f3a9704c9a6358fa8d7060e85d654e2f</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-1500000/100</split:value>
       <split:quantity>-1500000/100</split:quantity>
-      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">f44ffc1c67211421cdebc7780b92d587</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:date-posted>
-    <ts:date>2013-05-07 00:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2015-05-04 22:40:14 -0400</ts:date>
-  </trn:date-entered>
-  <trn:description>IVS</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>trans-txn-type</slot:key>
-      <slot:value type="string">P</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">001fb3b7003d04c79f405c0f0f94da5d</split:id>
-      <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>1095338/100</split:value>
-      <split:quantity>1095338/100</split:quantity>
-      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
-      <split:lot type="guid">302d03faa209da9e306fd1d941e94b66</split:lot>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">0411031d3b13eb6136767a0f76f6bbcb</split:id>
-      <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-1095338/100</split:value>
-      <split:quantity>-1095338/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
   </trn:splits>
@@ -18327,9 +18278,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">19da7fe8e1bfcdb74cfde6b964217a5f</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>1195338/100</split:value>
       <split:quantity>1195338/100</split:quantity>
@@ -18479,7 +18430,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">6ed85627b9d527ebf01ff42430333d10</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-119576/100</split:value>
       <split:quantity>-119576/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -18541,9 +18495,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">9159323c6556c3b9c52216406da9ac16</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>1646327/100</split:value>
       <split:quantity>1646327/100</split:quantity>
@@ -18686,7 +18640,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">0e0d3c2bc45325cb9e432bf5c66d1c2b</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-108654/100</split:value>
       <split:quantity>-108654/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -18845,7 +18802,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">e5baf04bdd17aeb5ba38e4ac1a402438</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-114718/100</split:value>
       <split:quantity>-114718/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -19004,7 +18964,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">ad69e5713a9ebe7c27f54a24c880b028</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-92421/100</split:value>
       <split:quantity>-92421/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -19163,7 +19126,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">56ad9fed38d7cf723d104ee96a27a35c</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-106307/100</split:value>
       <split:quantity>-106307/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -19233,9 +19199,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">b866d3aecd1dc4f0fdec8e9b89a8db9b</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-10344/100</split:value>
       <split:quantity>-10344/100</split:quantity>
@@ -19279,9 +19245,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">6e20d253dbf4fac9271fc03256cbd51c</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-125/100</split:value>
       <split:quantity>-125/100</split:quantity>
@@ -19325,9 +19291,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">ef0a40eefde267e64644c91624a2cc54</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -19372,7 +19338,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">137bae8a3506b4e0d338b6e336de693e</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-126184/100</split:value>
       <split:quantity>-126184/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -19443,7 +19412,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">622dd45d1ed92f1f10f7f8e20d58763c</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-61417/100</split:value>
       <split:quantity>-61417/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -19487,9 +19459,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">1165db19f4ec2f748927857527110369</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-800000/100</split:value>
       <split:quantity>-800000/100</split:quantity>
@@ -19542,9 +19514,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">d371f52a3ec4a894e6216cf7e129da13</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-530232/100</split:value>
       <split:quantity>-530232/100</split:quantity>
@@ -19588,9 +19560,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">ace8b66bc7a66888922fbfc96ea27fe2</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -19767,7 +19739,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">083c350232201e6ab9e7de99ba3d2218</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque) Periods 12 &amp; 13 Employee12: 2,222.97 &amp; Employee11:2270.88</split:memo>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-449385/100</split:value>
       <split:quantity>-449385/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -19893,9 +19868,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">f43f5fb5cb218583419de8a6353d9589</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-12319/100</split:value>
       <split:quantity>-12319/100</split:quantity>
@@ -19940,7 +19915,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">5b23fc0435ffa23e79dc9a9a7341d40f</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-4/100</split:value>
       <split:quantity>-4/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -20011,7 +19989,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">ff7b6f8a55980b0d5912360f1c736982</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-100/100</split:value>
       <split:quantity>-100/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -20055,7 +20036,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">46a39a2c1e979b07165e49848d2986f5</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-280131/100</split:value>
       <split:quantity>-280131/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -20126,7 +20110,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">8cd4abbbc9170d9fc086d4ea9cbbb79b</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-138179/100</split:value>
       <split:quantity>-138179/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -20169,9 +20156,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">ee7c4a6c7aa344da8f1ba95438e2fa89</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -20304,7 +20291,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">dd362cbaf7e81cb89736dbf789ce567a</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque) Periods 14 &amp; 15</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-218482/100</split:value>
       <split:quantity>-218482/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -20463,7 +20453,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">01b9a73b262a4e69e461ddb0361db0f9</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-227188/100</split:value>
       <split:quantity>-227188/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -20521,7 +20514,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">de281eeb0652751b85ed6df911167712</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>428100/100</split:value>
       <split:quantity>428100/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -20670,7 +20666,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">ace9272e745a73ec66751e56d4688bb2</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-109241/100</split:value>
       <split:quantity>-109241/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -20740,9 +20739,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">faf28b383543757949389b0a88144c76</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -20786,9 +20785,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">ff3c15a6c3083f0c0533e419b3127a7a</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-20/100</split:value>
       <split:quantity>-20/100</split:quantity>
@@ -20921,7 +20920,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">0dc4e4d4612e839c891b65ea12e4f347</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-77748/100</split:value>
       <split:quantity>-77748/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -21082,7 +21084,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">d96fc5cfc592fac772655613b59f271f</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-109241/100</split:value>
       <split:quantity>-109241/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -21241,7 +21246,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">9c57a6c66ce3bbe6cf6cadcb832fd7e9</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-109241/100</split:value>
       <split:quantity>-109241/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -21298,9 +21306,9 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">046659c1421d627e4240d4b3f0e1607a</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>300000/100</split:value>
       <split:quantity>300000/100</split:quantity>
@@ -21443,7 +21451,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">55fcae4d5c0e63d0144a5b88c456c2f4</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-109241/100</split:value>
       <split:quantity>-109241/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -21560,7 +21571,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">bc5b34e04a65a1b15c005ecd80234b1f</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-4/100</split:value>
       <split:quantity>-4/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -21631,7 +21645,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">f638e245d903d656d2d12fc6039bdcfe</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-100/100</split:value>
       <split:quantity>-100/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -21721,7 +21738,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">66bcbb61a6de476459a3f18a9f248dc6</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-185105/100</split:value>
       <split:quantity>-185105/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -21792,7 +21812,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">e2d8a15a1e6647ecffd65bbdf480b106</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-90019/100</split:value>
       <split:quantity>-90019/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -21835,9 +21858,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">e5f4c00e46bf6e01c61e5f3f7ca63108</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -21881,9 +21904,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">50e667a31958739e021662abe36e2e4c</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:10 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-20/100</split:value>
       <split:quantity>-20/100</split:quantity>
@@ -22016,7 +22039,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">2c7be47d981a234d8ff0ce63c324a427</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-109241/100</split:value>
       <split:quantity>-109241/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -22079,9 +22105,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">165e96e2f6ce3cae9e4716206f242bbf</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:11 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>200000/100</split:value>
       <split:quantity>200000/100</split:quantity>
@@ -22221,7 +22247,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">9ed879d523cb2f4b2257ad486385696e</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-109241/100</split:value>
       <split:quantity>-109241/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -22291,9 +22320,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">9e08cfd26ee234204fa535b9503f5561</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:11 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -22330,9 +22359,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">400cd90952f1dd9ef6df1cd30a5fedd1</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:11 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>200000/100</split:value>
       <split:quantity>200000/100</split:quantity>
@@ -22472,7 +22501,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">9d9607a3d44cc363881cbdb51d6b810e</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-109241/100</split:value>
       <split:quantity>-109241/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -22535,9 +22567,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">43d79806e49692f1d8f204a728f34d16</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:11 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>11284/100</split:value>
       <split:quantity>11284/100</split:quantity>
@@ -22589,7 +22621,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">577aa2be248db4923573e5302aff8896</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-66540/100</split:value>
       <split:quantity>-66540/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -22660,7 +22695,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">c4b752adbfbfb6e791a62d4cb324a558</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-32450/100</split:value>
       <split:quantity>-32450/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -22792,7 +22830,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">c76989285d2b1a8327a273948eadc607</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-109241/100</split:value>
       <split:quantity>-109241/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -22862,9 +22903,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">ab64c608fe261408a61a24aa702b1255</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:11 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-125/100</split:value>
       <split:quantity>-125/100</split:quantity>
@@ -22908,9 +22949,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">939ce1f9a391f6274f2cd8b313eca379</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:11 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -22954,9 +22995,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">cecdf39ebdaaa13a6b7f3889f273fe7d</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:11 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-4250/100</split:value>
       <split:quantity>-4250/100</split:quantity>
@@ -22993,9 +23034,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">7bb0dfafc680c398764360752d28f6be</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:11 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>350000/100</split:value>
       <split:quantity>350000/100</split:quantity>
@@ -23135,7 +23176,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">638278667c14d556ffccb82bb7222693</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-109241/100</split:value>
       <split:quantity>-109241/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -23198,9 +23242,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">ddf3d6d41cace0395de1240addced518</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:11 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>43529/100</split:value>
       <split:quantity>43529/100</split:quantity>
@@ -23238,9 +23282,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">30a0cc5fa5ac5da9e1a1826998fffe4d</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:11 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>487500/100</split:value>
       <split:quantity>487500/100</split:quantity>
@@ -23383,7 +23427,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">1bb29901f9160a4d55fb9baf83993b49</split:id>
       <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
       <split:action>Check</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-109241/100</split:value>
       <split:quantity>-109241/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -23454,7 +23501,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">5b8fb587f02dcf23947b8a2f29e0987b</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-400/100</split:value>
       <split:quantity>-400/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -23525,7 +23575,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">73c46efc6d0e1c2be9ab8ccf1b502304</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-100/100</split:value>
       <split:quantity>-100/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -23569,7 +23622,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">f5bd60af72fa3b964fb3af83512c6850</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-99810/100</split:value>
       <split:quantity>-99810/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -23640,7 +23696,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">a8b4f291e8bd5818462bd7dd2b092dfa</split:id>
       <split:action>Transfer</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-48675/100</split:value>
       <split:quantity>-48675/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -23683,9 +23742,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">5cc78ccdf1903e85608cf73f9755e1a5</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:11 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-125/100</split:value>
       <split:quantity>-125/100</split:quantity>
@@ -23729,9 +23788,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">a1509c92e65899e36cd1ba44dda48e59</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:11 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -23775,9 +23834,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">d76a82dd39ab2dd7aa7467b9a1913194</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2014-06-09 13:39:11 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-20/100</split:value>
       <split:quantity>-20/100</split:quantity>
@@ -23817,9 +23876,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">13f6c7dc7a6fadde465382223c870df0</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -23871,9 +23930,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">75a28aea31107fbd6545fe9803dca355</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-2/100</split:value>
       <split:quantity>-2/100</split:quantity>
@@ -23917,9 +23976,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">a1ed48c74874d35b69618afbe3393be0</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-31975/100</split:value>
       <split:quantity>-31975/100</split:quantity>
@@ -23972,9 +24031,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">5057191015da584e9f5394d430661f38</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-2/100</split:value>
       <split:quantity>-2/100</split:quantity>
@@ -24014,9 +24073,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">596fd6682f81d2cc96c78c70bb947f61</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -24067,9 +24126,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">7555d156846667f378cf877b408779d0</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-2/100</split:value>
       <split:quantity>-2/100</split:quantity>
@@ -24109,9 +24168,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">d24fc0afc7c8b2fd8bb8dc32da1287e3</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -24141,6 +24200,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       </slot:value>
     </slot>
     <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">RREMOVED invoice 327</slot:value>
+    </slot>
+    <slot>
       <slot:key>trans-txn-type</slot:key>
       <slot:value type="string">P</slot:value>
     </slot>
@@ -24149,9 +24212,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">7991a36986968a6d1dbe0fc86f5e7855</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>862313/100</split:value>
       <split:quantity>862313/100</split:quantity>
@@ -24201,12 +24264,58 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">b84b947fc7db39889763b6b9db4e709c</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d8e1a792c85b1350febc250100a0788b</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-05-30 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-07 16:30:12 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Charges - Commercial deposit</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-05-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">2d3e9539530079fa66fcfbb7d4b75cfc</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>20/100</split:value>
+      <split:quantity>20/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">34d174866cfa4c125aeed4785f1fb5e6</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-20/100</split:value>
+      <split:quantity>-20/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
   </trn:splits>
@@ -24243,9 +24352,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">0bc88d9b41813dfe343abd75208bbb32</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -24289,9 +24398,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">64730613aa6490f2a936057d325c68ff</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-1/100</split:value>
       <split:quantity>-1/100</split:quantity>
@@ -24331,9 +24440,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">4984171dc87f56027e685e4f0e26efcd</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-100/100</split:value>
       <split:quantity>-100/100</split:quantity>
@@ -24377,9 +24486,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">e7e683ed0bf10efb35525673d27fd20e</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -24416,7 +24525,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">a6b7105181fe1c4b016ee6de380d9ece</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>799996/100</split:value>
       <split:quantity>799996/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -24466,9 +24578,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">b07d1f588a38ac2a14498d9eb1435a52</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-799996/100</split:value>
       <split:quantity>-799996/100</split:quantity>
@@ -24510,9 +24622,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">248ed9fff87f2475fbc355294b9ace02</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>1200000/100</split:value>
       <split:quantity>1200000/100</split:quantity>
@@ -24582,9 +24694,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">7a3a3db4bd3bc392a6b735c72bef74d6</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-112313/100</split:value>
       <split:quantity>-112313/100</split:quantity>
@@ -24628,9 +24740,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">792a41f3d7216409400164cda970ebdd</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-17936/100</split:value>
       <split:quantity>-17936/100</split:quantity>
@@ -24674,9 +24786,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">cf889f254462622f790337ccdf9685d2</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-6114/100</split:value>
       <split:quantity>-6114/100</split:quantity>
@@ -24718,9 +24830,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">dd40f0e2998599cfeb585197d11038bf</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>799996/100</split:value>
       <split:quantity>799996/100</split:quantity>
@@ -24774,9 +24886,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">24f7a7a1ad7441edde8028b303f66444</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -24820,9 +24932,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">369986746b4e724858186143a8cf15f1</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -24866,9 +24978,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">a73183e94af0a3f6b03d30cc1c347072</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-250/100</split:value>
       <split:quantity>-250/100</split:quantity>
@@ -24912,9 +25024,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">7529b5f2b4b4d5d38596225213d02501</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -24958,9 +25070,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">07227ec5bcf2549a7a1700dc5e022ff5</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-20/100</split:value>
       <split:quantity>-20/100</split:quantity>
@@ -25004,9 +25116,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">fd3efeecf257dd91c6a42a3e62e0fdf8</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-100000/100</split:value>
       <split:quantity>-100000/100</split:quantity>
@@ -25050,9 +25162,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">817ea31e8fa10805de1927a9b5acced2</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -25096,9 +25208,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">194d898c9327a7769e4e9ef62bb08e68</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-121367/100</split:value>
       <split:quantity>-121367/100</split:quantity>
@@ -25142,9 +25254,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">36fc017342a59c99ead7c884ad468bf6</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -25189,9 +25301,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">ad9f284eda13447f6b7f55ae52183c1e</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -25235,9 +25347,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">978404e9348a84f4be3f7ab7d37bd948</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -25281,9 +25393,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">b8308c7762b4b73c3ea043bdf893d713</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -25327,9 +25439,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">79ca196e47bca3bdcdf361f95908263b</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-22804/100</split:value>
       <split:quantity>-22804/100</split:quantity>
@@ -25382,9 +25494,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">168d97a50481928ed1b8fec78478d83a</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-2/100</split:value>
       <split:quantity>-2/100</split:quantity>
@@ -25428,9 +25540,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">fe53736d232730061ebf8399791b6798</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-12200/100</split:value>
       <split:quantity>-12200/100</split:quantity>
@@ -25474,55 +25586,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">9e6ff39ad54b28e89b9ec573fcb379f0</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
-      </split:reconcile-date>
-      <split:value>-495/100</split:value>
-      <split:quantity>-495/100</split:quantity>
-      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">a68152b5388dd3c38894801bbdc4f6c9</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:num>5</trn:num>
-  <trn:date-posted>
-    <ts:date>2014-10-31 12:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2015-01-19 20:34:06 -0500</ts:date>
-  </trn:date-entered>
-  <trn:description>Fixed service charges</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2014-10-31</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">a6a48e2ac81c22c211fe628be5d61432</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>495/100</split:value>
-      <split:quantity>495/100</split:quantity>
-      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">e6604aed8d4c310abc473ca412d60730</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -25566,9 +25632,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">8004c95203c139a4839735bf188e4c4b</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -25612,9 +25678,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">8b5cf6c70eb209f66657e4585c4d872a</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -25658,9 +25724,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">b002158be7a153de97f8440db2f993c6</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -25704,9 +25770,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">3ffa64c4dd604d273c2b69ea1bcab064</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-263990/100</split:value>
       <split:quantity>-263990/100</split:quantity>
@@ -25748,9 +25814,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">c2fb36cb0cec5165e2f43abbccad56e0</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>231084/100</split:value>
       <split:quantity>231084/100</split:quantity>
@@ -25804,9 +25870,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">ce5731925d563339091fba1b9d265570</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-125/100</split:value>
       <split:quantity>-125/100</split:quantity>
@@ -25850,9 +25916,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">33720f44e2625da5fc426b89902a793b</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-01-19 20:34:06 -0500</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -25896,9 +25962,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">51f34597d43931f6644399072366ec22</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -25942,9 +26008,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">45c20fa44fa8cffe4a89820a696c4bbd</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-25000/100</split:value>
       <split:quantity>-25000/100</split:quantity>
@@ -25988,9 +26054,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">b985ced5c5db2dddb8ef1f16a23d003a</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-20000/100</split:value>
       <split:quantity>-20000/100</split:quantity>
@@ -26034,9 +26100,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">1f3d091ee43d45bdadf4e181b4c43ca3</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-30100/100</split:value>
       <split:quantity>-30100/100</split:quantity>
@@ -26080,9 +26146,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">b1efc38ec74148e2f2ba0a39fdce41d5</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-2/100</split:value>
       <split:quantity>-2/100</split:quantity>
@@ -26126,9 +26192,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">5c1a9f0f157d325f4188d050aee0e937</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -26172,9 +26238,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">56ef750e6c5a158214c29905df612975</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -26216,9 +26282,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">147e4a43ec9596e394c3c7c06d622423</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>359003/100</split:value>
       <split:quantity>359003/100</split:quantity>
@@ -26272,9 +26338,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">3a9777bf2dbd8545d7616f49327f51b3</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-125/100</split:value>
       <split:quantity>-125/100</split:quantity>
@@ -26318,9 +26384,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">634bb031f11489c32c24292dbee87a3c</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -26364,9 +26430,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">58c1abd40c33c3d3ffdb8d6fd5068e56</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-129683/100</split:value>
       <split:quantity>-129683/100</split:quantity>
@@ -26410,9 +26476,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">3841197648a8a090404a6be0af74cb2f</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-39680/100</split:value>
       <split:quantity>-39680/100</split:quantity>
@@ -26456,9 +26522,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">4ccbffd28010c5a24d80d0a8c69c5d8d</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -26502,9 +26568,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">7a364f5cb00ddac79e3ec70c6781b9c2</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -26548,129 +26614,12 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">ac7a3bc3a6bd82c109754c7cbec5b942</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-05-01 22:02:41 -0400</ts:date>
+        <ts:date>2015-04-01 23:59:59 -0400</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
-      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">5fbcb0419c7f21237a55981c802ba0f7</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:date-posted>
-    <ts:date>2015-05-04 00:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2015-05-04 22:29:08 -0400</ts:date>
-  </trn:date-entered>
-  <trn:description>IVS</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>trans-txn-type</slot:key>
-      <slot:value type="string">P</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">aed04da2a659d19223618ed611f71949</split:id>
-      <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>884848/100</split:value>
-      <split:quantity>884848/100</split:quantity>
-      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
-      <split:lot type="guid">830fc20f56bd70be41ef70d38ad6972f</split:lot>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">2683e83a2a8a328bb79b1612b96bcba0</split:id>
-      <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-884848/100</split:value>
-      <split:quantity>-884848/100</split:quantity>
-      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">f4503d68f61134c71b1dc9617ed0824d</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:date-posted>
-    <ts:date>2015-05-04 00:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2015-05-04 22:30:34 -0400</ts:date>
-  </trn:date-entered>
-  <trn:description>IVS</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>trans-txn-type</slot:key>
-      <slot:value type="string">P</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">b5c59fb7c6fb7de72c686ed3f80512c0</split:id>
-      <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>1646327/100</split:value>
-      <split:quantity>1646327/100</split:quantity>
-      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
-      <split:lot type="guid">5b49cf08a1ed42307283bdd09e98d636</split:lot>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">1ce4d8fd2571ec718963fe9a1758e1ee</split:id>
-      <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-1646327/100</split:value>
-      <split:quantity>-1646327/100</split:quantity>
-      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">8e6cad6eb3c8f10fedbbca6a18a8d1d4</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:date-posted>
-    <ts:date>2015-05-04 00:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2015-05-04 22:39:21 -0400</ts:date>
-  </trn:date-entered>
-  <trn:description>IVS</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>trans-txn-type</slot:key>
-      <slot:value type="string">P</slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">1ef916e94792ee7b19116d48af4dd96f</split:id>
-      <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>1383264/100</split:value>
-      <split:quantity>1383264/100</split:quantity>
-      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
-      <split:lot type="guid">70cf91d08342a90a6a001f073926d8db</split:lot>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">7735ad52f0a7339fc9cf6b301bbdde00</split:id>
-      <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-1383264/100</split:value>
-      <split:quantity>-1383264/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
   </trn:splits>
