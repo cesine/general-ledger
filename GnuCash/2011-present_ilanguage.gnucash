@@ -152,8 +152,8 @@ Montreal QC REMOVED</slot:value>
   </slot>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
-<gnc:count-data cd:type="account">130</gnc:count-data>
-<gnc:count-data cd:type="transaction">543</gnc:count-data>
+<gnc:count-data cd:type="account">131</gnc:count-data>
+<gnc:count-data cd:type="transaction">544</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
@@ -6361,6 +6361,17 @@ Montreal QC REMOVED</slot:value>
   <act:commodity-scu>100</act:commodity-scu>
   <act:parent type="guid">3a3ab7b7dc70cd5be17b2ea40e2b9b63</act:parent>
 </gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Imbalance-CAD</act:name>
+  <act:id type="guid">17b3e95d857ddb053529def5587793b7</act:id>
+  <act:type>BANK</act:type>
+  <act:commodity>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:parent type="guid">3a3ab7b7dc70cd5be17b2ea40e2b9b63</act:parent>
+</gnc:account>
 <gnc:transaction version="2.0.0">
   <trn:id type="guid">f7158a5668d9a1da4967607092f57057</trn:id>
   <trn:currency>
@@ -6964,21 +6975,20 @@ Montreal QC REMOVED</slot:value>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">9478920ab973e9a96475fc6b4201021e</split:id>
-      <split:memo>Deposit au GA / PLACE DESJARDINS containing SREMOVED check</split:memo>
+      <split:id type="guid">d845ef086ef0607fb1fe47805c2a7f34</split:id>
+      <split:memo>Deposit au GA / PLACE DESJARDINS</split:memo>
       <split:action>Payment</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-50000/100</split:value>
-      <split:quantity>-50000/100</split:quantity>
-      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
-      <split:lot type="guid">4157941fefd5c11240f7228a733197f3</split:lot>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">249aa33962f8f23d6b85c004a1bcd8d7</split:id>
-      <split:memo>Deposit au GA / PLACE DESJARDINS containing PSREMOVED check</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-104918/100</split:value>
       <split:quantity>-104918/100</split:quantity>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+      <split:lot type="guid">282eaef0e24d3ab9611430065d8c92a1</split:lot>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">fe63e7985e97b7433b635d5bf64c473c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-50000/100</split:value>
+      <split:quantity>-50000/100</split:quantity>
       <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
     </trn:split>
   </trn:splits>
@@ -23281,6 +23291,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:description>ISV</trn:description>
   <trn:slots>
     <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CNRC Re-invoice resulted in payment of part of #333</slot:value>
+    </slot>
+    <slot>
       <slot:key>trans-txn-type</slot:key>
       <slot:value type="string">P</slot:value>
     </slot>
@@ -26148,9 +26162,16 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">74fc8e74f3baa4cd00613856750b7989</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>2/100</split:value>
-      <split:quantity>2/100</split:quantity>
-      <split:account type="guid">8fefddb1076d81c8369b6474529b52dd</split:account>
+      <split:value>1/100</split:value>
+      <split:quantity>1/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f3df499bd6fc1e15482ac5e40f4081b6</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:value>1/100</split:value>
+      <split:quantity>1/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">b1efc38ec74148e2f2ba0a39fdce41d5</split:id>
@@ -28851,44 +28872,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">46b72acac4ba5f6f15ba22b4a740f598</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:date-posted>
-    <ts:date>2012-11-08 00:00:00 -0500</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2015-05-07 18:09:56 -0400</ts:date>
-  </trn:date-entered>
-  <trn:description>Bill payment error #323 10.03 transferred as bad debt10</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2012-11-08</gdate>
-      </slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">6f8623a305dfd0f34b5d4d6b7b3b7ae6</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>979/100</split:value>
-      <split:quantity>979/100</split:quantity>
-      <split:account type="guid">843358e819a9462254955896b72f62f9</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">d036b958da1f4b35eb5fe8368836fae3</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-979/100</split:value>
-      <split:quantity>-979/100</split:quantity>
-      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
   <trn:id type="guid">1ca986165356b3d2fbdaea0024c60004</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -29251,6 +29234,44 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:quantity>-1897300/100</split:quantity>
       <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
       <split:lot type="guid">d6683f30ae474692fda931f238187126</split:lot>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">46b72acac4ba5f6f15ba22b4a740f598</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-01-19 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-07 18:09:56 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Bill payment error missing#323 10.03 with other mismatching payments due to rounded invoices from WSX, transfered as bad debt</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-01-19</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">6f8623a305dfd0f34b5d4d6b7b3b7ae6</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>977/100</split:value>
+      <split:quantity>977/100</split:quantity>
+      <split:account type="guid">843358e819a9462254955896b72f62f9</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d036b958da1f4b35eb5fe8368836fae3</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-977/100</split:value>
+      <split:quantity>-977/100</split:quantity>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -29665,7 +29686,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <slot>
       <slot:key>trans-date-due</slot:key>
       <slot:value type="timespec">
-        <ts:date>2014-06-12 00:00:00 -0400</ts:date>
+        <ts:date>2013-06-12 00:00:00 -0400</ts:date>
       </slot:value>
     </slot>
     <slot>
@@ -29977,6 +29998,44 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>-977535/100</split:value>
       <split:quantity>-977535/100</split:quantity>
       <split:account type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">e0dae20f1263cfb2921318355226af95</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-07-17 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-07 19:59:29 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>IVS account missmatch transfered as bad debt</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-07-17</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">19c3dad46328b9da593aca3de8229a02</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2/100</split:value>
+      <split:quantity>2/100</split:quantity>
+      <split:account type="guid">843358e819a9462254955896b72f62f9</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e4c5bb5d6b226b0d9b273130c1daffa2</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2/100</split:value>
+      <split:quantity>-2/100</split:quantity>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
