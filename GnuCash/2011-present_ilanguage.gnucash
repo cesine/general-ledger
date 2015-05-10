@@ -31385,25 +31385,19 @@ chairs</split:memo>
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">779a263765a9e89d4abaa42bd866bf1e</trn:id>
+  <trn:id type="guid">a013c7c5b092d32736276d4e26d4fb1b</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </trn:currency>
   <trn:date-posted>
-    <ts:date>2012-01-01 12:00:00 -0500</ts:date>
+    <ts:date>2012-01-01 00:00:00 -0500</ts:date>
   </trn:date-posted>
   <trn:date-entered>
-    <ts:date>2014-09-09 10:02:39 -0400</ts:date>
+    <ts:date>2015-05-07 20:05:04 -0400</ts:date>
   </trn:date-entered>
   <trn:description>Employee1 Employee1</trn:description>
   <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2012-01-01</gdate>
-      </slot:value>
-    </slot>
     <slot>
       <slot:key>trans-txn-type</slot:key>
       <slot:value type="string">P</slot:value>
@@ -31411,19 +31405,16 @@ chairs</split:memo>
   </trn:slots>
   <trn:splits>
     <trn:split>
-      <split:id type="guid">fb63b787a1f62478b3f783acd8e15e90</split:id>
+      <split:id type="guid">b7ee05333d84f5dc13be39bbb9a5317e</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>y</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2013-01-01 11:59:59 -0500</ts:date>
-      </split:reconcile-date>
+      <split:reconciled-state>n</split:reconciled-state>
       <split:value>106007/100</split:value>
       <split:quantity>106007/100</split:quantity>
       <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
       <split:lot type="guid">b08cf80f34b1c87925f75aff696f4a68</split:lot>
     </trn:split>
     <trn:split>
-      <split:id type="guid">f1361175e29ef712d85b9b4d1387cafb</split:id>
+      <split:id type="guid">94f05dbaa261593aa39c9bcb440e2ae9</split:id>
       <split:action>Payment</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-106007/100</split:value>
@@ -48065,7 +48056,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <slot:value type="frame">
         <slot>
           <slot:key>last_acct</slot:key>
-          <slot:value type="guid">82bf3df8fd6b9119f8a7acd83cde1cbb</slot:value>
+          <slot:value type="guid">a9b6ff610561f64722e02e5ced1a0c4b</slot:value>
         </slot>
       </slot:value>
     </slot>
