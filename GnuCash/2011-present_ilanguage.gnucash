@@ -7583,7 +7583,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
   <trn:date-entered>
     <ts:date>2014-06-08 16:23:15 -0400</ts:date>
   </trn:date-entered>
-  <trn:description>Work Permit  Dr. Employee6</trn:description>
+  <trn:description>Ministre des finaces du Quebec</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -7593,7 +7593,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Cheque/no 4</slot:value>
+      <slot:value type="string">Cheque/no 4 Work Permit  Dr. Employee6</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
