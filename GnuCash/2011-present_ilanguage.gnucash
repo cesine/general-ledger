@@ -6515,7 +6515,7 @@ Montreal QC REMOVED</slot:value>
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Transfered to savings account (for no reason)</slot:value>
+      <slot:value type="string">Transfered to savings account (by the bank, without our consent to have a smal bit of money in the savings account which we did not know we had)</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
