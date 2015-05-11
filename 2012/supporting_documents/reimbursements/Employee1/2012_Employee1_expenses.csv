@@ -67,6 +67,7 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-05-24,Employee1 Employee1,Kien Vihn Supermarket,1.99,199,199,1.99,0,,0,,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,fruit for office employees,Paper receipt
 2012-05-25,Employee1 Employee1,La Legende' Patisserie,2.7,270,270,2.7,0,0,0,0,0,,CAD,Meals,98270fc89c885d8eeb6ba9196b54a90e,lunch at la legende ,Paper receipt
 2012-05-25,Employee1 Employee1,Kien Vihn Supermarket,21.44,2144,2144,21.44,0,0,0,0,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,,Paper receipt
+2012-05-31,Credit,American Airlines,1731.3,,,1508.8,,75.44,,147.108,,,,Travel,,,Paper receipt
 2012-06-12,Employee1 Employee1,La Vieille Europe,49.64,4964,4317,43.17,216,2.16,431,4.31,0,,CAD,Printing and Reproduction,d6c5279359bbf1c7cd598d738bfe37c2,Wine and Cheese iField Launch party for clients,Paper receipt
 2012-06-12,6010,IGA,52.52,5252,5058,50.58,65,0.65,129,1.29,0,,CAD,Office expenses,f0842cba7da5607b20367b9b60093bc1,creme and tea,Paper receipt
 2012-06-14,,JEAN COUTU,22.97,2297,1998,19.98,100,1,199,1.99,0,,CAD,Printing and Reproduction,d6c5279359bbf1c7cd598d738bfe37c2,photo for visa or citizenship,Paper receipt
@@ -176,12 +177,3 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2012-12-23,Employee1 Employee1,Imperial parking cie ,16,1600,1600,16,0,,0,,0,,USD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Travel for interview / Partnership NYC,Paper receipt
 2012-12-25,7475,Circle K Gaz,34,3400,3400,34,0,,0,,0,,USD,Meals,98270fc89c885d8eeb6ba9196b54a90e,Travel for interview / Partnership NYC,Paper receipt
 2012-12-30,,STM,24,2400,2041,20.406,120,1.2,239,2.394,0,,CAD,Travel,2b90b480916be10e12b085956be5ccc2,,Paper receipt
-,,,,,,,,,,,,,,,,,
-2012-05-31,Credit,American Airlines,1731.3,,,1508.8,,75.44,,147.108,,,,Travel,,,Paper receipt
-,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
-474,,,,,,,,,,,,,,,,,
