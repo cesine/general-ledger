@@ -153,7 +153,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">131</gnc:count-data>
-<gnc:count-data cd:type="transaction">542</gnc:count-data>
+<gnc:count-data cd:type="transaction">546</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">5</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
@@ -26877,6 +26877,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
         <gdate>2011-12-29</gdate>
       </slot:value>
     </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque 12 Paie Dec 6-24 2011</slot:value>
+    </slot>
   </trn:slots>
   <trn:splits>
     <trn:split>
@@ -37487,6 +37491,69 @@ chairs</split:memo>
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
+  <trn:id type="guid">91d6c093a0697cc3067f19da2275dee4</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-05-05 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-11 13:53:09 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Koodo</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-05-05</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">6010</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">16e6b8e9410c0418b2817db95f772752</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>4040/100</split:value>
+      <split:quantity>4040/100</split:quantity>
+      <split:account type="guid">2863412684380ac80952ad9c5e8f963a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f13bdfee5fd381c200d8dc5ab8547c05</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>202/100</split:value>
+      <split:quantity>202/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">702dbbd83244e8441a104ef6cb4a92be</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>403/100</split:value>
+      <split:quantity>403/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">1ecaec7ac0e324b4ab2a8e4e0abb9efd</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a694e39dec216d8aa6acc39a2f4ea865</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-4645/100</split:value>
+      <split:quantity>-4645/100</split:quantity>
+      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
   <trn:id type="guid">16fa988e650e11e49e24ce4e545c3ac5</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -37616,6 +37683,69 @@ chairs</split:memo>
       </split:reconcile-date>
       <split:value>-850/100</split:value>
       <split:quantity>-850/100</split:quantity>
+      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">f7c910e37c30bf50045f99c06eb92655</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-05-16 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-11 13:56:19 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Telus</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-05-16</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">6010</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">6b0b8a5a0f0f74c4cb2bb5416f2f4bd7</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>6159/100</split:value>
+      <split:quantity>6159/100</split:quantity>
+      <split:account type="guid">2863412684380ac80952ad9c5e8f963a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">2e51f2212978ddd2d375f9d1a1ad9598</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>364/100</split:value>
+      <split:quantity>364/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">4250c8c32c84f933f58783e8df8c68fe</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>766/100</split:value>
+      <split:quantity>766/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">6ddba40a55a5146a38503f07543db68f</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">738a52762a7e88a4beb8ddaaf5140014</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-7289/100</split:value>
+      <split:quantity>-7289/100</split:quantity>
       <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
     </trn:split>
   </trn:splits>
@@ -38150,6 +38280,69 @@ chairs</split:memo>
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
+  <trn:id type="guid">cca01126e4b74b289bc76e80a220be59</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-06 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-11 13:53:29 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Koodo</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-06-06</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">6010</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">927188c1d9c093a7dd44c763f4fe4be8</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>4040/100</split:value>
+      <split:quantity>4040/100</split:quantity>
+      <split:account type="guid">2863412684380ac80952ad9c5e8f963a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">9b5a32fe9c6ba6a6224cc582bd976493</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>202/100</split:value>
+      <split:quantity>202/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f4fa49e9c7a29634af5811e4dbff7fd3</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>403/100</split:value>
+      <split:quantity>403/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">834a334502a62b4f99c19d129b953013</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">67d176713d8d1fa96bb5654c68c9d1d1</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-4645/100</split:value>
+      <split:quantity>-4645/100</split:quantity>
+      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
   <trn:id type="guid">16fb3a50650e11e49e24ce4e545c3ac5</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -38547,6 +38740,69 @@ chairs</split:memo>
       </split:reconcile-date>
       <split:value>-203/100</split:value>
       <split:quantity>-203/100</split:quantity>
+      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">59145a547046d646c69ef6b242a771bd</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-16 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-11 13:55:15 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Telus</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-06-16</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">6010</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">7b72516bdbab0567bba27f48518192e2</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>6159/100</split:value>
+      <split:quantity>6159/100</split:quantity>
+      <split:account type="guid">2863412684380ac80952ad9c5e8f963a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e0278634ae44c5c8c86006062d983806</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>362/100</split:value>
+      <split:quantity>362/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d766332f9b933a459062c27e00227d64</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>722/100</split:value>
+      <split:quantity>722/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">4521e09f8af3f331661816f80b29ee39</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">9a80b070ac4eb0e3f5ebd7f162df3a67</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-7243/100</split:value>
+      <split:quantity>-7243/100</split:quantity>
       <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
     </trn:split>
   </trn:splits>
@@ -46432,15 +46688,15 @@ chairs</split:memo>
       <split:reconcile-date>
         <ts:date>2013-01-01 11:59:59 -0500</ts:date>
       </split:reconcile-date>
-      <split:value>635471/100</split:value>
-      <split:quantity>635471/100</split:quantity>
+      <split:value>659293/100</split:value>
+      <split:quantity>659293/100</split:quantity>
       <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">d3f39f3c0d77ad37bbe6d1f95fbb7eb6</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-635471/100</split:value>
-      <split:quantity>-635471/100</split:quantity>
+      <split:value>-659293/100</split:value>
+      <split:quantity>-659293/100</split:quantity>
       <split:account type="guid">a9b6ff610561f64722e02e5ced1a0c4b</split:account>
     </trn:split>
   </trn:splits>
