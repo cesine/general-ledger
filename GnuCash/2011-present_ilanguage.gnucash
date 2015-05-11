@@ -18315,6 +18315,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </trn:split>
     <trn:split>
       <split:id type="guid">40784362e29a7d721f892ea5848a3736</split:id>
+      <split:memo>Depot au comptoir /CAISSE CENTRALE DESJ.</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-100000/100</split:value>
       <split:quantity>-100000/100</split:quantity>
@@ -19210,9 +19211,23 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">35fd1d97ad0e23dbb21d080affc5a4e2</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>10344/100</split:value>
-      <split:quantity>10344/100</split:quantity>
+      <split:value>8997/100</split:value>
+      <split:quantity>8997/100</split:quantity>
       <split:account type="guid">fc5bf64f1a519ee39c05e7d9a1a74924</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b2eac847f0c040602a42a0dc05ec9f92</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>450/100</split:value>
+      <split:quantity>450/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d586e14d3c25a1ef5a8db1ea9f7408b5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>897/100</split:value>
+      <split:quantity>897/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">b866d3aecd1dc4f0fdec8e9b89a8db9b</split:id>
