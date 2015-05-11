@@ -1,133 +1,133 @@
-Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnucash6,TPS,TVQGnucash7,TVQ,TipsGnucash8,Tips,Currency,Category,Category9,Memo Field
-2013-01-16,6010,BUREAU EN GROS #31,35.71,,,,,1.55,,3.1,,,CAD,Office expenses,,plastic film for whiteboards and white boad markers
-2013-01-16,6010,PAYPAL *TERRABALM,13.47,,,,,,,,,,,,,
-2013-01-16,6010,KOODO AIRTIME,91.10,,,,,,,,,,,,,
-2013-01-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,
-2013-01-24,6010,STM JOLICOEUR DIN101,24.50,,,,,,,,,,CAD,,,
-2013-02-06,6010,STM SAINT LAUREN DIN101  ,77.00,,,,,,,,,,CAD,Travel,,
-2013-02-07,6010,MARCHE LOUISE MENARD 8345,21.99,,,,,,,,,,,,,
-2013-02-10,6010,ESSO 3440 BOUL  ST-LAUREN,15.31,,,,,0.64,,1.28,,,CAD,Office expenses,,beer for android montreal 
-2013-02-13,6010,PGSS,6.60,,,,,0.29,,0.57,,,CAD,Meals,,"McGill Thompson house, hacking health meetup probably"
-2013-02-17,6010,TELUS MOBILITY PREAUTH,73.03,,,,,,,,,,,,,
-2013-02-21,6010,SAQ23174 COMPLEXE DESJ,44.45,,,,,1.98,,3.94,,,CAD,Office expenses,,Employee8's going away party
-2013-02-26,6010,DOMAINSATCOST,45.00,,,,,,,,,,,,,
-2013-03-03,6010,ERABLIERE CHALET DES ERAB ,29.89,,,,,,,,,,,,,
-2013-03-04,6010,LA SOURCE 5438           ,45.98,,,,,,,,,,,,,
-2013-03-05,6010,MARCHE LOUISE MENARD 8345 ,11.97,,,,,,,,,,,,,
-2013-03-05,6010,STM JOLICOEUR DIN101     ,77.00,,,,,,,,,,,,,
-2013-03-06,6010,Amazon Web Services      aws.amazon.co 37.74 US DOLLAR,39.69,,,,,,,,,,,,,
-2013-03-06,6010,KOODO MOBILE PAC,48.69,,,,,,,,,,,,,
-2013-03-12,6010,L AMBROISIE,22.35,,,,,,,,,,,,,
-2013-03-14,6010,JEAN COUTU #350,6.89,,,,,,,,,,,,,
-2013-03-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,
-2013-03-21,6010,MIKE CONSULAR VISA,531.42,,,,,,,,,,,,,
-2013-04-03,6010,Amazon Web Services      aws.amazon.com           47.68 US DOLLAR,49.26,,,,,,,,,,,,,
-2013-04-06,6010,SHANGRI-LA HOTEL SHENZHEN    ,47.05,,,,,,,,,,,,,
-2013-04-06,6010,KOODO MOBILE PAC         ,46.45,,,,,,,,,,,,,
-2013-04-11,6010,SHANGRI-LA HOTEL SHENZHEN    ,28.00,,,,,,,,,,,,,
-2013-04-12,6010,SHANGRI-LA HOTEL SHENZHEN    ,19.61,,,,,,,,,,,,,
-2013-04-13,6010,SHANGRI-LA HOTEL SHENZHEN    ,33.89,,,,,,,,,,,,,
-2013-04-15,6010,SHANGRI-LA HOTEL SHENZHEN    ,56.71,,,,,,,,,,,,,
-2013-04-16,6010,TELUS MOBILITY PREAUTH   ,74.27,,,,,,,,,,,,,
-2013-04-16,6010,SHANGRI-LA HOTEL SHENZHEN    ,61.98,,,,,,,,,,,,,
-2013-04-19,6010,7561679 CANADA INC       ,35.00,,,,,,,,,,,,,
-2013-04-29,6010,MARCHE LOUISE MENARD 8345,35.13,,,,,,,,,,,,,
-2013-04-29,6010,DOMAINSATCOST            ,13.60,,,,,,,,,,,,,
-2013-05-03,6010,Amazon Web Services      aws.amazon.com            0.26 US DOLLAR,0.26,,,,,,,,,,,,,
-2013-05-04,6010,Amazon Web Services      aws.amazon.com           46.24 US DOLLAR,47.70,,,,,,,,,,,,,
-2013-05-04,6010,KOODO MOBILE PAC         ,46.45,,,,,,,,,,,,,
-2013-05-07,6010,MARCHE LOUISE MENARD 8345,35.97,,,,,,,,,,,,,
-2013-05-14,6010,L AMBROISIE,8.52,,,,,,,,,,,,,
-2013-05-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,
-2013-05-20,6010,PROVIGO #8698,24.86,,,,,,,,,,,,,
-2013-06-03,6010,Amazon Web Services     aws.amazon.com       49.20 US DOLLAR,52.04,,,,,,,,,,,,,
-2013-06-06,6010,KOODO MOBILE PAC,66.03,,,,,,,,,,,,,
-2013-06-15,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,
-2013-06-25,6010,IGA LOUISE MENARD,25.08,,,,,,,,,,,,,
-2013-06-26,6010,MCKIBBINS IRISH PUB,16.17,,,,,,,,,,,,,
-2013-06-28,6010,LE BISTRO SANGUINET,16.10,,,,,,,,,,,,,
-2013-06-28,6010,PHARMAPRIX #0029,4.99,,,,,,,,,,,,,
-2013-07-05,6010,Amazon Web Services      aws.amazon.com           54.66 US DOLLAR,58.72,,,,,,,,,,,,,
-2013-07-06,6010,MOUNTAIN EQUIPMENT CO-OP ,21.56,,,,,,,,,,,,,
-2013-07-06,6010,KOODO MOBILE PAC,83.93,,,,,,,,,,,,,
-2013-07-09,6010,L AMBROISIE,25.79,,,,,,,,,,,,,
-2013-07-11,6010,MILLE GRAMMES,35.33,,,,,,,,,,,,,
-2013-07-11,6010,5000 ANS,40.96,,,,,,,,,,,,,
-2013-07-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,
-2013-07-23,6010,MAXI #8904       *,3.62,,,,,,,,,,,,,
-2013-07-23,6010,MCDONALD'S #10580  Q04   ,1.83,,,,,,,,,,,,,
-2013-07-24,6010,PETROCAN-317 RUE HOTEL,84.05,,,,,,,,,,,,,
-2013-07-24,6010,PETROCAN-317 RUE HOTEL,13.23,,,,,,,,,,,,,
-2013-07-27,6010,BIXI VELO/PUBLIC BIKE,8.75,,,,,,,,,,,,,
-2013-07-28,6010,MAGASIN ABBAYE OKA,19.18,,,,,,,,,,,,,
-2013-07-28,6010,SAQ23198 - ST-JOSEPH-DU-LST-JOSEPH-LAC,13.45,,,,,,,,,,,,,
-2013-07-30,6010,PHARMAPRIX #29           ,15.78,,,,,,,,,,,,,
-2013-08-02,6010,SAQ23207 STE MARTHE      ,8.65,,,,,,,,,,,,,
-2013-08-03,6010,Amazon Web Services      aws.amazon.co           56.05 US DOLLAR,59.78,,,,,,,,,,,,,
-2013-08-03,6010,KOODO MOBILE PAC,69.44,,,,,,,,,,,,,
-2013-08-12,6010,GREEN TRAITEUR ET CAFE,9.20,,,,,,,,,,,,,
-2013-08-13,6010,L AMBROISIE,8.00,,,,,,,,,,,,,
-2013-08-13,6010,L AMBROISIE,8.00,,,,,,,,,,,,,
-2013-08-13,6010,L AMBROISIE,8.00,,,,,,,,,,,,,
-2013-08-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,
-2013-08-17,6010,STM BEAUDRY DIN101,24.50,,,,,,,,,,,,,
-2013-08-20,6010,METRO STE CATHERINE,17.27,,,,,,,,,,,,,
-2013-08-21,6010,IGA LAMOUREUX,14.77,,,,,,,,,,,,,
-2013-08-22,6010,IGA LOUISE MENARD,12.96,,,,,,,,,,,,,
-2013-08-24,6010,SKI BROMONT.COM CAFETERIA ,20.34,,,,,,,,,,,,,
-2013-08-29,6010,BEDO #44                 ,86.06,,,,,,,,,,,,,
-2013-09-03,6010,DOMAINSATCOST            ,47.10,,,,,,,,,,,,,
-2013-09-04,6010,Amazon Web Services      aws.amazon.co 51.10 US DOLLAR,55.23,,,,,,,,,,,,,
-2013-09-06,6010,KOODO MOBILE PAC,69.44,,,,,,,,,,,,,
-2013-09-10,6010,L AMBROISIE,8.00,,,,,,,,,,,,,
-2013-09-10,6010,L AMBROISIE,8.00,,,,,,,,,,,,,
-2013-09-14,6010,TELUS MOBILITY PREAUTH,74.27,,,,,,,,,,,,,
-2013-09-18,6010,FOLIE EN VRAC,24.77,,,,,,,,,,,,,
-2013-09-23,6010,RESTO CAFE AVESTA,36.60,,,,,,,,,,,,,
-2013-10-01,6010,DOMAINSATCOST,31.40,,,,,,,,,,,,,
-2013-11-03,6010,Amazon Web Services      aws.amazon.co           11.56 US DOLLAR,12.39,,,,,,,,,,,,,
-2013-11-06,6010,Amazon Web Services      aws.amazon.co           15.84 US DOLLAR,16.99,,,,,,,,,,,,,
-2013-11-06,6010,KOODO MOBILE PAC         ,43.08,,,,,,,,,,,,,
-2013-11-16,6010,TELUS MOBILITY PREAUTH   ,72.43,,,,,,,,,,,,,
-2013-11-27,6010,DOMAINSATCOST/DOMAINSA   ,27.20,,,,,,,,,,,,,
-2013-12-03,6010,Amazon Web Services      aws.amazon.co            3.12 US DOLLAR,3.41,,,,,,,,,,,,,
-2013-12-04,6010,Amazon Web Services      aws.amazon.co           15.37 US DOLLAR,16.81,,,,,,,,,,,,,
-2013-12-04,6010,Amazon Web Services      aws.amazon.co           11.56 US DOLLAR,12.68,,,,,,,,,,,,,
-2013-12-06,6010,KOODO MOBILE PAC,52.20,,,,,,,,,,,,,
-2013-12-13,6010,STM BERRI UQAM DIS101,24.50,,,,,,,,,,,,,
-2013-12-14,6010,TELUS MOBILITY PREAUTH,82.55,,,,,,,,,,,,,
-2013-12-20,6010,TIM HORTONS #3191# QTH BOIS DESFILI0,5.24,,,,,,,,,,,,,
-2013-12-24,6010,CORPORATN/IC 4303401,20.00,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-2013-01-13,3034,STM,77.00,,,,,,,,,,,,,
-2013-01-26,6420,Capital traiteur Montreal,43.81,,,,,1.91,,3.8,,,CAD,Meals,,
-2013-01-24,Employee1 Employee1,Restaurant M.C.,33.29,,,,,1.45,,2.89,,,CAD,Meals,,
-2013-01-29,Employee1 Employee1,Restaurant M.C.,14.66,,,,,0.64,,1.27,,,CAD,Meals,,
-2013-01-28,7426,STM,24.50,,,,,,,,,,CAD,Travel,,
-2013-01-30,3034,Les Freres TOC,33.73,,,25.95,,1.3,,2.59,,3.89,CAD,Meals,,
-2013-01-30,3034,Four points By Sheraton Levis,19.50,,,15,,0.75,,1.5,,2.25,CAD,Meals,,
-2013-01-25,3024,Subway,6.33,,,5.5,,0.28,,0.55,,0,CAD,Meals,,
-2013-01-25,,SAQ,14.20,,,,,0.62,,1.23,,,CAD,Meals,,
-2013-01-29,8296,STM,77.00,,,,,,,,,,CAD,Travel,,
-2013-01-29,3034,STM,77.00,,,,,,,,,,CAD,Travel,,
-2013-01-07,Employee1 Employee1,Restaurant Yuan,20.50,,,,,0.9,,1.79,,,CAD,Meals,,
-,,,,,,,,,,,,,,,,
-2013-02-05,4090,STM,45.00,,,,,,,,,,CAD,Travel,,
-2013-02-19,3034,IGA LOUISE MENARD,10.57,,,9.97,,0.2,,0.4,,,CAD,Office expenses,,Hot chocolate & muffins for the office
-2013-02-01,3034,IGA LOUISE MENARD,22.22,,,22.22,,,,,,,CAD,Office expenses,,"honey, lemon and soup for office"
-2013-02-14,3034,Sushi Shop,21.97,,,19.1,,0.96,,1.91,,0,CAD,Meals,,
-2013-02-08,Employee1 Employee1,Sandwich Vietnamien Hoang Oanh,7.54,,,,,0.33,,0.65,,,CAD,Meals,,
-2013-02-15,Employee1 Employee1,Restaurant M.C.,9.48,,,,,0.41,,0.82,,,CAD,Meals,,
-2013-02-07,3034,Mai Xiang Yuan Restaurant,18.95,,,14.98,,0.75,,1.49,,1.72,CAD,Meals,,
-2013-02-08,3034,Eggspectation Desjardin,14.48,,,10.95,,0.55,,1.09,,1.89,CAD,Meals,,Employee3 and collegues at desjardins
-2013-02-10,3034,IGA LOUISE MENARD,8.58,,,7.98,,0.2,,0.4,,,CAD,Office expenses,,clementines and muffins for the office
-2013-02-06,3034,La Legende' Patisserie,19.11,,,,,0.72,,1.44,,,CAD,Meals,,
-2013-02-13,3034,IGA LOUISE MENARD,11.58,,,,,,,,,,CAD,Office expenses,,bagette and pate for office
-2013-02-26,3034,IGA LOUISE MENARD,4.59,,,3.99,,0.2,,0.4,,,CAD,Office expenses,,muffins for the office
-2013-02-22,3034,Tong Sing Monnan,24.15,,,18.27,,0.91,,1.82,,3.15,CAD,Meals,,Employee3 and collegues at desjardins
-2013-02-19,3034,IGA LOUISE MENARD,13.76,,,,,,,,,,CAD,Office expenses,,hot chocolate coffee cream bagget and humus for hte office
-2013-02-27,3034,STM,77.00,,,,,,,,,,CAD,Travel,,
-2013-02-28,3034,Les 3 Brasseurs,48.22,,,36.47,,1.82,,3.64,,6.29,CAD,Meals,,
-2013-02-28,Employee1 Employee1,Pizza Soleil,2.96,,,2.57,,0.13,,0.26,,,CAD,Meals,,
-2013-02-03,3034,Canadian Tire Lasalle,9.76,,,8.49,,0.42,,0.85,,,CAD,Travel,,spark plugs 
-2013-02-11,Employee1 Employee1,Kien Vihn Supermarket,4.69,,,,,,,,,,CAD,Office expenses,,fruit and veggetables for hte office
+Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnucash6,TPS,TVQGnucash7,TVQ,TipsGnucash8,Tips,Currency,Category,Category9,Memo Field,Reconciled from
+2013-01-16,6010,BUREAU EN GROS #31,35.71,,,,,1.55,,3.1,,,CAD,Office expenses,,plastic film for whiteboards and white boad markers,Credit card statement
+2013-01-16,6010,PAYPAL *TERRABALM,13.47,,,,,,,,,,,,,,Credit card statement
+2013-01-16,6010,KOODO AIRTIME,91.1,,,,,,,,,,,,,,Credit card statement
+2013-01-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,,Credit card statement
+2013-01-24,6010,STM JOLICOEUR DIN101,24.5,,,,,,,,,,CAD,,,,Credit card statement
+2013-02-06,6010,STM SAINT LAUREN DIN101  ,77,,,,,,,,,,CAD,Travel,,,Credit card statement
+2013-02-07,6010,MARCHE LOUISE MENARD 8345,21.99,,,,,,,,,,,,,,Credit card statement
+2013-02-10,6010,ESSO 3440 BOUL  ST-LAUREN,15.31,,,,,0.64,,1.28,,,CAD,Office expenses,,beer for android montreal ,Credit card statement
+2013-02-13,6010,PGSS,6.6,,,,,0.29,,0.57,,,CAD,Meals,,"McGill Thompson house, hacking health meetup probably",Credit card statement
+2013-02-17,6010,TELUS MOBILITY PREAUTH,73.03,,,,,,,,,,,,,,Credit card statement
+2013-02-21,6010,SAQ23174 COMPLEXE DESJ,44.45,,,,,1.98,,3.94,,,CAD,Office expenses,,Employee8's going away party,Credit card statement
+2013-02-26,6010,DOMAINSATCOST,45,,,,,,,,,,,,,,Credit card statement
+2013-03-03,6010,ERABLIERE CHALET DES ERAB ,29.89,,,,,,,,,,,,,,Credit card statement
+2013-03-04,6010,LA SOURCE 5438           ,45.98,,,,,,,,,,,,,,Credit card statement
+2013-03-05,6010,MARCHE LOUISE MENARD 8345 ,11.97,,,,,,,,,,,,,,Credit card statement
+2013-03-05,6010,STM JOLICOEUR DIN101     ,77,,,,,,,,,,,,,,Credit card statement
+2013-03-06,6010,Amazon Web Services      aws.amazon.co 37.74 US DOLLAR,39.69,,,,,,,,,,,,,,Credit card statement
+2013-03-06,6010,KOODO MOBILE PAC,48.69,,,,,,,,,,,,,,Credit card statement
+2013-03-12,6010,L AMBROISIE,22.35,,,,,,,,,,,,,,Credit card statement
+2013-03-14,6010,JEAN COUTU #350,6.89,,,,,,,,,,,,,,Credit card statement
+2013-03-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,,Credit card statement
+2013-03-21,6010,MIKE CONSULAR VISA,531.42,,,,,,,,,,,,,,Credit card statement
+2013-04-03,6010,Amazon Web Services      aws.amazon.com           47.68 US DOLLAR,49.26,,,,,,,,,,,,,,Credit card statement
+2013-04-06,6010,SHANGRI-LA HOTEL SHENZHEN    ,47.05,,,,,,,,,,,,,,Credit card statement
+2013-04-06,6010,KOODO MOBILE PAC         ,46.45,,,,,,,,,,,,,,Credit card statement
+2013-04-11,6010,SHANGRI-LA HOTEL SHENZHEN    ,28,,,,,,,,,,,,,,Credit card statement
+2013-04-12,6010,SHANGRI-LA HOTEL SHENZHEN    ,19.61,,,,,,,,,,,,,,Credit card statement
+2013-04-13,6010,SHANGRI-LA HOTEL SHENZHEN    ,33.89,,,,,,,,,,,,,,Credit card statement
+2013-04-15,6010,SHANGRI-LA HOTEL SHENZHEN    ,56.71,,,,,,,,,,,,,,Credit card statement
+2013-04-16,6010,TELUS MOBILITY PREAUTH   ,74.27,,,,,,,,,,,,,,Credit card statement
+2013-04-16,6010,SHANGRI-LA HOTEL SHENZHEN    ,61.98,,,,,,,,,,,,,,Credit card statement
+2013-04-19,6010,7561679 CANADA INC       ,35,,,,,,,,,,,,,,Credit card statement
+2013-04-29,6010,MARCHE LOUISE MENARD 8345,35.13,,,,,,,,,,,,,,Credit card statement
+2013-04-29,6010,DOMAINSATCOST            ,13.6,,,,,,,,,,,,,,Credit card statement
+2013-05-03,6010,Amazon Web Services      aws.amazon.com            0.26 US DOLLAR,0.26,,,,,,,,,,,,,,Credit card statement
+2013-05-04,6010,Amazon Web Services      aws.amazon.com           46.24 US DOLLAR,47.7,,,,,,,,,,,,,,Credit card statement
+2013-05-04,6010,KOODO MOBILE PAC         ,46.45,,,,,,,,,,,,,,Credit card statement
+2013-05-07,6010,MARCHE LOUISE MENARD 8345,35.97,,,,,,,,,,,,,,Credit card statement
+2013-05-14,6010,L AMBROISIE,8.52,,,,,,,,,,,,,,Credit card statement
+2013-05-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,,Credit card statement
+2013-05-20,6010,PROVIGO #8698,24.86,,,,,,,,,,,,,,Credit card statement
+2013-06-03,6010,Amazon Web Services     aws.amazon.com       49.20 US DOLLAR,52.04,,,,,,,,,,,,,,Credit card statement
+2013-06-06,6010,KOODO MOBILE PAC,66.03,,,,,,,,,,,,,,Credit card statement
+2013-06-15,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,,Credit card statement
+2013-06-25,6010,IGA LOUISE MENARD,25.08,,,,,,,,,,,,,,Credit card statement
+2013-06-26,6010,MCKIBBINS IRISH PUB,16.17,,,,,,,,,,,,,,Credit card statement
+2013-06-28,6010,LE BISTRO SANGUINET,16.1,,,,,,,,,,,,,,Credit card statement
+2013-06-28,6010,PHARMAPRIX #0029,4.99,,,,,,,,,,,,,,Credit card statement
+2013-07-05,6010,Amazon Web Services      aws.amazon.com           54.66 US DOLLAR,58.72,,,,,,,,,,,,,,Credit card statement
+2013-07-06,6010,MOUNTAIN EQUIPMENT CO-OP ,21.56,,,,,,,,,,,,,,Credit card statement
+2013-07-06,6010,KOODO MOBILE PAC,83.93,,,,,,,,,,,,,,Credit card statement
+2013-07-09,6010,L AMBROISIE,25.79,,,,,,,,,,,,,,Credit card statement
+2013-07-11,6010,MILLE GRAMMES,35.33,,,,,,,,,,,,,,Credit card statement
+2013-07-11,6010,5000 ANS,40.96,,,,,,,,,,,,,,Credit card statement
+2013-07-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,,Credit card statement
+2013-07-23,6010,MAXI #8904       *,3.62,,,,,,,,,,,,,,Credit card statement
+2013-07-23,6010,MCDONALD'S #10580  Q04   ,1.83,,,,,,,,,,,,,,Credit card statement
+2013-07-24,6010,PETROCAN-317 RUE HOTEL,84.05,,,,,,,,,,,,,,Credit card statement
+2013-07-24,6010,PETROCAN-317 RUE HOTEL,13.23,,,,,,,,,,,,,,Credit card statement
+2013-07-27,6010,BIXI VELO/PUBLIC BIKE,8.75,,,,,,,,,,,,,,Credit card statement
+2013-07-28,6010,MAGASIN ABBAYE OKA,19.18,,,,,,,,,,,,,,Credit card statement
+2013-07-28,6010,SAQ23198 - ST-JOSEPH-DU-LST-JOSEPH-LAC,13.45,,,,,,,,,,,,,,Credit card statement
+2013-07-30,6010,PHARMAPRIX #29           ,15.78,,,,,,,,,,,,,,Credit card statement
+2013-08-02,6010,SAQ23207 STE MARTHE      ,8.65,,,,,,,,,,,,,,Credit card statement
+2013-08-03,6010,Amazon Web Services      aws.amazon.co           56.05 US DOLLAR,59.78,,,,,,,,,,,,,,Credit card statement
+2013-08-03,6010,KOODO MOBILE PAC,69.44,,,,,,,,,,,,,,Credit card statement
+2013-08-12,6010,GREEN TRAITEUR ET CAFE,9.2,,,,,,,,,,,,,,Credit card statement
+2013-08-13,6010,L AMBROISIE,8,,,,,,,,,,,,,,Credit card statement
+2013-08-13,6010,L AMBROISIE,8,,,,,,,,,,,,,,Credit card statement
+2013-08-13,6010,L AMBROISIE,8,,,,,,,,,,,,,,Credit card statement
+2013-08-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,,Credit card statement
+2013-08-17,6010,STM BEAUDRY DIN101,24.5,,,,,,,,,,,,,,Credit card statement
+2013-08-20,6010,METRO STE CATHERINE,17.27,,,,,,,,,,,,,,Credit card statement
+2013-08-21,6010,IGA LAMOUREUX,14.77,,,,,,,,,,,,,,Credit card statement
+2013-08-22,6010,IGA LOUISE MENARD,12.96,,,,,,,,,,,,,,Credit card statement
+2013-08-24,6010,SKI BROMONT.COM CAFETERIA ,20.34,,,,,,,,,,,,,,Credit card statement
+2013-08-29,6010,BEDO #44                 ,86.06,,,,,,,,,,,,,,Credit card statement
+2013-09-03,6010,DOMAINSATCOST            ,47.1,,,,,,,,,,,,,,Credit card statement
+2013-09-04,6010,Amazon Web Services      aws.amazon.co 51.10 US DOLLAR,55.23,,,,,,,,,,,,,,Credit card statement
+2013-09-06,6010,KOODO MOBILE PAC,69.44,,,,,,,,,,,,,,Credit card statement
+2013-09-10,6010,L AMBROISIE,8,,,,,,,,,,,,,,Credit card statement
+2013-09-10,6010,L AMBROISIE,8,,,,,,,,,,,,,,Credit card statement
+2013-09-14,6010,TELUS MOBILITY PREAUTH,74.27,,,,,,,,,,,,,,Credit card statement
+2013-09-18,6010,FOLIE EN VRAC,24.77,,,,,,,,,,,,,,Credit card statement
+2013-09-23,6010,RESTO CAFE AVESTA,36.6,,,,,,,,,,,,,,Credit card statement
+2013-10-01,6010,DOMAINSATCOST,31.4,,,,,,,,,,,,,,Credit card statement
+2013-11-03,6010,Amazon Web Services      aws.amazon.co           11.56 US DOLLAR,12.39,,,,,,,,,,,,,,Credit card statement
+2013-11-06,6010,Amazon Web Services      aws.amazon.co           15.84 US DOLLAR,16.99,,,,,,,,,,,,,,Credit card statement
+2013-11-06,6010,KOODO MOBILE PAC         ,43.08,,,,,,,,,,,,,,Credit card statement
+2013-11-16,6010,TELUS MOBILITY PREAUTH   ,72.43,,,,,,,,,,,,,,Credit card statement
+2013-11-27,6010,DOMAINSATCOST/DOMAINSA   ,27.2,,,,,,,,,,,,,,Credit card statement
+2013-12-03,6010,Amazon Web Services      aws.amazon.co            3.12 US DOLLAR,3.41,,,,,,,,,,,,,,Credit card statement
+2013-12-04,6010,Amazon Web Services      aws.amazon.co           15.37 US DOLLAR,16.81,,,,,,,,,,,,,,Credit card statement
+2013-12-04,6010,Amazon Web Services      aws.amazon.co           11.56 US DOLLAR,12.68,,,,,,,,,,,,,,Credit card statement
+2013-12-06,6010,KOODO MOBILE PAC,52.2,,,,,,,,,,,,,,Credit card statement
+2013-12-13,6010,STM BERRI UQAM DIS101,24.5,,,,,,,,,,,,,,Credit card statement
+2013-12-14,6010,TELUS MOBILITY PREAUTH,82.55,,,,,,,,,,,,,,Credit card statement
+2013-12-20,6010,TIM HORTONS #3191# QTH BOIS DESFILI0,5.24,,,,,,,,,,,,,,Credit card statement
+2013-12-24,6010,CORPORATN/IC 4303401,20,,,,,,,,,,,,,,Credit card statement
+,,,,,,,,,,,,,,,,,
+2013-01-13,3034,STM,77,,,,,,,,,,,,,,Paper Receipt
+2013-01-26,6420,Capital traiteur Montreal,43.81,,,,,1.91,,3.8,,,CAD,Meals,,,Paper Receipt
+2013-01-24,Employee1 Employee1,Restaurant M.C.,33.29,,,,,1.45,,2.89,,,CAD,Meals,,,Paper Receipt
+2013-01-29,Employee1 Employee1,Restaurant M.C.,14.66,,,,,0.64,,1.27,,,CAD,Meals,,,Paper Receipt
+2013-01-28,7426,STM,24.5,,,,,,,,,,CAD,Travel,,,Paper Receipt
+2013-01-30,3034,Les Freres TOC,33.73,,,25.95,,1.3,,2.59,,3.89,CAD,Meals,,,Paper Receipt
+2013-01-30,3034,Four points By Sheraton Levis,19.5,,,15,,0.75,,1.5,,2.25,CAD,Meals,,,Paper Receipt
+2013-01-25,3024,Subway,6.33,,,5.5,,0.28,,0.55,,0,CAD,Meals,,,Paper Receipt
+2013-01-25,,SAQ,14.2,,,,,0.62,,1.23,,,CAD,Meals,,,Paper Receipt
+2013-01-29,8296,STM,77,,,,,,,,,,CAD,Travel,,,Paper Receipt
+2013-01-29,3034,STM,77,,,,,,,,,,CAD,Travel,,,Paper Receipt
+2013-01-07,Employee1 Employee1,Mai Xiang Yuan Restaurant,20.66,,,,,0.9,,1.79,,,CAD,Meals,,,Paper Receipt
+,,,,,,,,,,,,,,,,,Paper Receipt
+2013-02-05,4090,STM,45,,,,,,,,,,CAD,Travel,,,Paper Receipt
+2013-02-19,3034,IGA LOUISE MENARD,10.57,,,9.97,,0.2,,0.4,,,CAD,Office expenses,,Hot chocolate & muffins for the office,Paper Receipt
+2013-02-01,3034,IGA LOUISE MENARD,22.22,,,22.22,,,,,,,CAD,Office expenses,,"honey, lemon and soup for office",Paper Receipt
+2013-02-14,3034,Sushi Shop,21.97,,,19.1,,0.96,,1.91,,0,CAD,Meals,,,Paper Receipt
+2013-02-08,Employee1 Employee1,Sandwich Vietnamien Hoang Oanh,7.54,,,,,0.33,,0.65,,,CAD,Meals,,,Paper Receipt
+2013-02-15,Employee1 Employee1,Restaurant M.C.,9.48,,,,,0.41,,0.82,,,CAD,Meals,,,Paper Receipt
+2013-02-07,3034,Mai Xiang Yuan Restaurant,18.95,,,14.98,,0.75,,1.49,,1.72,CAD,Meals,,,Paper Receipt
+2013-02-08,3034,Eggspectation Desjardin,14.48,,,10.95,,0.55,,1.09,,1.89,CAD,Meals,,Employee3 and collegues at desjardins,Paper Receipt
+2013-02-10,3034,IGA LOUISE MENARD,8.58,,,7.98,,0.2,,0.4,,,CAD,Office expenses,,clementines and muffins for the office,Paper Receipt
+2013-02-06,3034,La Legende' Patisserie,19.11,,,,,0.72,,1.44,,,CAD,Meals,,,Paper Receipt
+2013-02-13,3034,IGA LOUISE MENARD,11.58,,,,,,,,,,CAD,Office expenses,,bagette and pate for office,Paper Receipt
+2013-02-26,3034,IGA LOUISE MENARD,4.59,,,3.99,,0.2,,0.4,,,CAD,Office expenses,,muffins for the office,Paper Receipt
+2013-02-22,3034,Tong Sing Monnan,24.15,,,18.27,,0.91,,1.82,,3.15,CAD,Meals,,Employee3 and collegues at desjardins,Paper Receipt
+2013-02-19,3034,IGA LOUISE MENARD,13.76,,,,,,,,,,CAD,Office expenses,,hot chocolate coffee cream bagget and humus for hte office,Paper Receipt
+2013-02-27,3034,STM,77,,,,,,,,,,CAD,Travel,,,Paper Receipt
+2013-02-28,3034,Les 3 Brasseurs,48.22,,,36.47,,1.82,,3.64,,6.29,CAD,Meals,,,Paper Receipt
+2013-02-28,Employee1 Employee1,Pizza Soleil,2.96,,,2.57,,0.13,,0.26,,,CAD,Meals,,,Paper Receipt
+2013-02-03,3034,Canadian Tire Lasalle,9.76,,,8.49,,0.42,,0.85,,,CAD,Travel,,spark plugs ,Paper Receipt
+2013-02-11,Employee1 Employee1,Kien Vihn Supermarket,4.69,,,,,,,,,,CAD,Office expenses,,fruit and veggetables for hte office,Paper Receipt
