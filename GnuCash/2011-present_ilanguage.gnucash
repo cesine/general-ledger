@@ -153,7 +153,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">131</gnc:count-data>
-<gnc:count-data cd:type="transaction">546</gnc:count-data>
+<gnc:count-data cd:type="transaction">547</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">5</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
@@ -7583,7 +7583,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
   <trn:date-entered>
     <ts:date>2014-06-08 16:23:15 -0400</ts:date>
   </trn:date-entered>
-  <trn:description>Employee6 Employee6</trn:description>
+  <trn:description>Work Permit  Dr. Employee6</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -7593,7 +7593,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Cheque/no 4, Permits:Employee6</slot:value>
+      <slot:value type="string">Cheque/no 4</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -36639,7 +36639,7 @@ chairs</split:memo>
   <trn:date-entered>
     <ts:date>2014-11-04 07:13:44 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Google chrome store developer registration</trn:description>
+  <trn:description>GOOGLE Chrome Store Developer registration</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -36649,7 +36649,7 @@ chairs</split:memo>
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Employee1 Employee1</slot:value>
+      <slot:value type="string">Lab LTD</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -36673,13 +36673,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f9cfd0650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f9d188650e11e49e24ce4e545c3ac5</split:id>
@@ -36974,7 +36967,7 @@ chairs</split:memo>
   <trn:date-entered>
     <ts:date>2014-11-04 07:13:44 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>Google Play developer fee</trn:description>
+  <trn:description>GOOGLE *Google Play google.com/chCA</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -36991,22 +36984,22 @@ chairs</split:memo>
     <trn:split>
       <split:id type="guid">16fa1d32650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>2198/100</split:value>
-      <split:quantity>2198/100</split:quantity>
+      <split:value>2527/100</split:value>
+      <split:quantity>2527/100</split:quantity>
       <split:account type="guid">cc0adcd4a9a3ef3f8e575313c1a05d92</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fa1eea650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>110/100</split:value>
-      <split:quantity>110/100</split:quantity>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
       <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fa20ac650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>219/100</split:value>
-      <split:quantity>219/100</split:quantity>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
@@ -42113,7 +42106,7 @@ chairs</split:memo>
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">6010</slot:value>
+      <slot:value type="string">Lab LTD</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -42488,6 +42481,62 @@ chairs</split:memo>
       </split:reconcile-date>
       <split:value>-2619/100</split:value>
       <split:quantity>-2619/100</split:quantity>
+      <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">9379bcda5c18f0facc608d5bd2e72ca8</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-10-08 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-05-11 15:14:12 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>GOOGLE Chrome Store Developer registration</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-10-08</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">LingSync.org (reconstruted from first publication date)</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">1a4f98dc31d285760704586d57d358c9</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>500/100</split:value>
+      <split:quantity>500/100</split:quantity>
+      <split:account type="guid">cc0adcd4a9a3ef3f8e575313c1a05d92</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">21725edf77d18b25e8dc47faae181aa1</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5c295b8c5363ad95ec0c0a728ad80503</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">7d94351bc05979ee50ff25c29b0daa94</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-500/100</split:value>
+      <split:quantity>-500/100</split:quantity>
       <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
     </trn:split>
   </trn:splits>
@@ -46688,15 +46737,15 @@ chairs</split:memo>
       <split:reconcile-date>
         <ts:date>2013-01-01 11:59:59 -0500</ts:date>
       </split:reconcile-date>
-      <split:value>659293/100</split:value>
-      <split:quantity>659293/100</split:quantity>
+      <split:value>659793/100</split:value>
+      <split:quantity>659793/100</split:quantity>
       <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">d3f39f3c0d77ad37bbe6d1f95fbb7eb6</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-659293/100</split:value>
-      <split:quantity>-659293/100</split:quantity>
+      <split:value>-659793/100</split:value>
+      <split:quantity>-659793/100</split:quantity>
       <split:account type="guid">a9b6ff610561f64722e02e5ced1a0c4b</split:account>
     </trn:split>
   </trn:splits>
