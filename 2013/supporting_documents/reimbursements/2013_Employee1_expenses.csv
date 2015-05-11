@@ -42,26 +42,55 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2013-02-27,3034,STM,77,,,,,,,,,,CAD,Travel,,,Paper Receipt
 2013-02-28,3034,Les 3 Brasseurs,48.22,,,36.47,,1.82,,3.64,,6.29,CAD,Meals,,,Paper Receipt
 2013-02-28,Employee1 Employee1,Pizza Soleil,2.96,,,2.57,,0.13,,0.26,,,CAD,Meals,,,Paper Receipt
-2013-03-03,6010,ERABLIERE CHALET DES ERAB ,29.89,,,,,,,,,,,,,,Credit card statement
-2013-03-04,6010,LA SOURCE 5438           ,45.98,,,,,,,,,,,,,,Credit card statement
-2013-03-05,6010,MARCHE LOUISE MENARD 8345 ,11.97,,,,,,,,,,,,,,Credit card statement
-2013-03-05,6010,STM JOLICOEUR DIN101     ,77,,,,,,,,,,,,,,Credit card statement
+2013-03-03,6010,ERABLIERE CHALET DES ERAB ,29.89,,,,,1.3,,2.59,,,CAD,Meals,,Cabane a sucre ANRAD(?),"Paper Receipt, Credit card statement"
+2013-03-03,3034,Esso Station la verendrye,45,,,,,1.96,,3.9,,,CAD,Travel,,,Paper Receipt
+2013-03-04,6010,LA SOURCE 5438           ,45.98,,,39.99,,2,,3.99,,,CAD,Small Electronics,,Samsung Galaxy tab charger,"Paper Receipt, Credit card statement"
+2013-03-04,3034,La Legende' Patisserie,18.54,,,13.95,,0.7,,1.39,,6.68,CAD,Meals,,,Paper Receipt
+2013-03-05,6010,MARCHE LOUISE MENARD 8345 ,11.97,,,11.97,,0,,0,,,CAD,Office expenses,,Cream for office,"Paper Receipt, Credit card statement"
+2013-03-05,3034,STM JOLICOEUR DIN101     ,45,,,,,,,,,,,,,,Paper Receipt
+2013-03-05,6010,STM JOLICOEUR DIN101     ,77,,,,,,,,,,,,,,"Paper Receipt, Credit card statement"
+2013-03-05,3034,Les 3 Brasseurs,50.55,,,38.24,,1.91,,3.81,,6.59,CAD,Meals,,,Paper Receipt
 2013-03-06,6010,Amazon Web Services      aws.amazon.co 37.74 US DOLLAR,39.69,,,,,,,,,,,,,,Credit card statement
 2013-03-06,6010,KOODO MOBILE PAC,48.69,,,,,,,,,,,,,,Credit card statement
-2013-03-12,6010,L AMBROISIE,22.35,,,,,,,,,,,,,,Credit card statement
+2013-03-07,Employee1 Employee1,Kien Vihn Supermarket,11.98,,,11.98,,0,,0,,,CAD,Office expenses,,Employee1ies for the office,Paper Receipt
+2013-03-07,3034,IGA,9.56,,,8.96,,0.2,,0.4,,,CAD,Office expenses,,Employee1ies for the office,Paper Receipt
+2013-03-08,3034,Restaurant O Thym,33.05,,,,,,,,,4.31,CAD,Meals,,,Paper Receipt
+2013-03-08,3034,Wrapcity Gourmet,7.99,,,,,,,,,,CAD,Meals,,Employee3 and collegues at desjardins,Paper Receipt
+2013-03-08,3034,Wrapcity Gourmet,10.4,,,,,,,,,,CAD,Meals,,Employee3 and collegues at desjardins,Paper Receipt
+2013-03-12,6010,L AMBROISIE,22.35,,,,,,,,,3,CAD,Meals,,Javascript montreal,"Paper Receipt, Credit card statement"
+2013-03-14,3034,Mikes,19.83,,,14.99,,0.75,,1.5,,2.59,CAD,Meals,,Employee3 and collegues at desjardins,Paper Receipt
+2013-03-14,Employee1 Employee1,Restaurant Sai Swan,9.15,,,7.95,,0.4,,0.8,,0,CAD,Meals,,,Paper Receipt
 2013-03-14,6010,JEAN COUTU #350,6.89,,,,,,,,,,,,,,Credit card statement
 2013-03-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,,Credit card statement
-2013-03-21,6010,MIKE CONSULAR VISA,531.42,,,,,,,,,,,,,,Credit card statement
+2013-03-17,Employee1 Employee1,Cafe depot complexe desjardins,4.44,,,3.86,,0.19,,0.39,,0,CAD,Meals,,,Paper Receipt
+2013-03-17,Employee1 Employee1,Restaurant Mai Xian Yuan,21.81,,,18.97,,0.95,,1.89,,,CAD,Meals,,,Paper Receipt
+2013-03-20,Employee1 Employee1,Restaurant M.C.,39.21,,,,,1.71,,3.4,,,CAD,Meals,,,Paper Receipt
+2013-03-20,3034,La Caverne Greque,94.24,,,72.4,,3.62,,7.22,,11,CAD,Meals,,,Paper Receipt
+2013-03-18,3034,Element 14,104.95,,,0,,0,,,,,CAD,Small Electronics,,"Raspberry PI MODB-512M, Adafruit case (taxes and final total unknown)",Paper Receipt
+2013-03-21,6010,MIKE CONSULAR VISA,531.42,,,,,,,,,,,,,Visa for Employee1 for China,Credit card statement
+2013-03-20,3034,Juliette et Chocolat,14.02,,,12.19,,0.53,,1.06,,1.83,CAD,Meals,,,Paper Receipt
+2013-03-22,3034,Google Play,487.24,,,425.99,,61.25,,0,,0,CAD,Androids,,Nexus 10 tablet,Paper Receipt
+2013-03-26,3034,La Legende' Patisserie,18,,,15.46,,0.62,,1.34,,0.58,CAD,Meals,,,Paper Receipt
+2013-03-27,3034,St-Hubert Desjardins,14.03,,,12.2,,0.61,,.1.22,,0,CAD,Meals,,Employee3 and collegues at desjardins,Paper Receipt
+2013-03-27,Employee1 Employee1,Pub Victoria,9.5,,,7.39,,0.37,,0.74,,1,CAD,Meals,,,Paper Receipt
+2013-04-01,3034,Future Shop Centreville,209.53,,,182.24,,9.11,,18.18,,,CAD,Small Electronics,,HP 23BW ,Paper Receipt
 2013-04-03,6010,Amazon Web Services      aws.amazon.com           47.68 US DOLLAR,49.26,,,,,,,,,,,,,,Credit card statement
-2013-04-06,6010,SHANGRI-LA HOTEL SHENZHEN    ,47.05,,,,,,,,,,,,,,Credit card statement
-2013-04-06,6010,KOODO MOBILE PAC         ,46.45,,,,,,,,,,,,,,Credit card statement
-2013-04-11,6010,SHANGRI-LA HOTEL SHENZHEN    ,28,,,,,,,,,,,,,,Credit card statement
-2013-04-12,6010,SHANGRI-LA HOTEL SHENZHEN    ,19.61,,,,,,,,,,,,,,Credit card statement
-2013-04-13,6010,SHANGRI-LA HOTEL SHENZHEN    ,33.89,,,,,,,,,,,,,,Credit card statement
-2013-04-15,6010,SHANGRI-LA HOTEL SHENZHEN    ,56.71,,,,,,,,,,,,,,Credit card statement
-2013-04-16,6010,TELUS MOBILITY PREAUTH   ,74.27,,,,,,,,,,,,,,Credit card statement
-2013-04-16,6010,SHANGRI-LA HOTEL SHENZHEN    ,61.98,,,,,,,,,,,,,,Credit card statement
+2013-04-06,6010,SHANGRI-LA HOTEL SHENZHEN    ,47.05,,,47.05,,0,,0,,0,,,,,Credit card statement
+2013-04-06,6010,KOODO MOBILE PAC         ,46.45,,,,,,,,,,CAD,Utilities,,,Credit card statement
+2013-04-09,3034,IGA,11.49,,,11.49,,,,,,,CAD,Office expenses,,,Paper Receipt
+2013-04-11,6010,SHANGRI-LA HOTEL SHENZHEN    ,28,,,28,,0,,0,,0,,Meals,,,Credit card statement
+2013-04-12,6010,SHANGRI-LA HOTEL SHENZHEN    ,19.61,,,19.61,,0,,0,,0,,Meals,,,Credit card statement
+2013-04-13,6010,SHANGRI-LA HOTEL SHENZHEN    ,33.89,,,33.89,,0,,0,,0,,Meals,,,Credit card statement
+2013-04-15,6010,SHANGRI-LA HOTEL SHENZHEN    ,56.71,,,56.71,,0,,0,,0,,Meals,,,Credit card statement
+2013-04-16,6010,TELUS MOBILITY PREAUTH   ,74.27,,,,,,,,,,CAD,Utilities,,,Credit card statement
+2013-04-16,6010,SHANGRI-LA HOTEL SHENZHEN    ,61.98,,,61.98,,0,,0,,0,,Meals,,,Credit card statement
+2013-04-14,Employee1 Employee1,870.00 RMB tablet,147.9,,,147.9,,0,,0,,0,,Androids,,Android 4.2 phone for testing,Paper Receipt
+2013-04-14,Employee1 Employee1,75.00 RMB small electronics,12.75,,,12.75,,0,,0,,0,,Small Electronics,,Cables and keyboard?,Paper Receipt
+2013-04-14,Employee1 Employee1,152.00 RMB small electronics,25.84,,,25.84,,0,,0,,0,,Small Electronics,,SDCards,Paper Receipt
+2013-04-17,Employee1 Employee1,625.00 RMB tablet,106.25,,,106.25,,0,,0,,0,,Androids,,Tablet for testing,Paper Receipt
 2013-04-19,6010,7561679 CANADA INC       ,35,,,,,,,,,,,,,,Credit card statement
+2013-04-26,3034,Wrapcity Gourmet,9,,,7.83,,0.39,,0.78,,0,CAD,Meals,,Employee3 and collegues at desjardins,Paper Receipt
+2013-04-27,3034,Modavie,134.86,,,102,,5.1,,10.17,,17.59,CAD,Meals,,Employee3 and others,Paper Receipt
 2013-04-29,6010,MARCHE LOUISE MENARD 8345,35.13,,,,,,,,,,,,,,Credit card statement
 2013-04-29,6010,DOMAINSATCOST            ,13.6,,,,,,,,,,,,,,Credit card statement
 2013-05-03,6010,Amazon Web Services      aws.amazon.com            0.26 US DOLLAR,0.26,,,,,,,,,,,,,,Credit card statement
