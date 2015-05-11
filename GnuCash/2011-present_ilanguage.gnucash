@@ -30383,13 +30383,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f73040650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f73202650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -30637,13 +30630,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fee3e4650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fee592650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -30750,13 +30736,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f71ef2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f720aa650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -30815,13 +30794,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>499/100</split:value>
       <split:quantity>499/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f781d0650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f7837e650e11e49e24ce4e545c3ac5</split:id>
@@ -30950,7 +30922,8 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">3026</slot:value>
+      <slot:value type="string">Chair for the office
+chairs</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -30976,13 +30949,6 @@ chairs</split:memo>
       <split:value>848/100</split:value>
       <split:quantity>848/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">50330666651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">5033081e651a11e4bf93a1d1e053727d</split:id>
@@ -31019,7 +30985,8 @@ chairs</split:memo>
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">3026</slot:value>
+      <slot:value type="string">Shelves for the office and storage supplies
+</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -31045,13 +31012,6 @@ chairs</split:memo>
       <split:value>1346/100</split:value>
       <split:quantity>1346/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">503316ba651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">50331890651a11e4bf93a1d1e053727d</split:id>
@@ -31088,7 +31048,7 @@ chairs</split:memo>
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">3034</slot:value>
+      <slot:value type="string">Coffee Machine</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -31114,13 +31074,6 @@ chairs</split:memo>
       <split:value>277/100</split:value>
       <split:quantity>277/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">503331c2651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">5033337a651a11e4bf93a1d1e053727d</split:id>
@@ -33928,13 +33881,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f6ec84650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f6ee46650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -33995,13 +33941,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f6fcec650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f6fea4650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -34060,13 +33999,6 @@ chairs</split:memo>
       <split:value>498/100</split:value>
       <split:quantity>498/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f70d4a650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f70f0c650e11e49e24ce4e545c3ac5</split:id>
@@ -34237,12 +34169,13 @@ chairs</split:memo>
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Mat</slot:value>
+      <slot:value type="string">Lab clouds info graphic</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
     <trn:split>
       <split:id type="guid">5032f054651a11e4bf93a1d1e053727d</split:id>
+      <split:memo>Lab clouds info graphic</split:memo>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>4900/100</split:value>
       <split:quantity>4900/100</split:quantity>
@@ -34261,13 +34194,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">5032f5b8651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">5032f784651a11e4bf93a1d1e053727d</split:id>
@@ -34330,13 +34256,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f771a4650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f77348650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -34395,13 +34314,6 @@ chairs</split:memo>
       <split:value>623/100</split:value>
       <split:quantity>623/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f791de650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f7938c650e11e49e24ce4e545c3ac5</split:id>
@@ -34464,13 +34376,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f7b178650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f7b376650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -34529,13 +34434,6 @@ chairs</split:memo>
       <split:value>45/100</split:value>
       <split:quantity>45/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f7a1b0650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f7a354650e11e49e24ce4e545c3ac5</split:id>
@@ -34665,13 +34563,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f7d1a8650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f7d356650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -34730,13 +34621,6 @@ chairs</split:memo>
       <split:value>34/100</split:value>
       <split:quantity>34/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f7e170650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f7e31e650e11e49e24ce4e545c3ac5</split:id>
@@ -34799,13 +34683,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f7f322650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f7f4da650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -34864,13 +34741,6 @@ chairs</split:memo>
       <split:value>655/100</split:value>
       <split:quantity>655/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f806c8650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f80876650e11e49e24ce4e545c3ac5</split:id>
@@ -34933,13 +34803,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f818ca650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f81ab4650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -34998,13 +34861,6 @@ chairs</split:memo>
       <split:value>69/100</split:value>
       <split:quantity>69/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f82b4e650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f82d38650e11e49e24ce4e545c3ac5</split:id>
@@ -35067,13 +34923,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f83d14650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f83eb8650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -35132,13 +34981,6 @@ chairs</split:memo>
       <split:value>449/100</split:value>
       <split:quantity>449/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f84cdc650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f84e8a650e11e49e24ce4e545c3ac5</split:id>
@@ -35201,13 +35043,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f85d08650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f85eb6650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -35266,13 +35101,6 @@ chairs</split:memo>
       <split:value>139/100</split:value>
       <split:quantity>139/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f86df2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f8700e650e11e49e24ce4e545c3ac5</split:id>
@@ -35335,13 +35163,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f87e96650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f8803a650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -35400,13 +35221,6 @@ chairs</split:memo>
       <split:value>20/100</split:value>
       <split:quantity>20/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f88eb8650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f89066650e11e49e24ce4e545c3ac5</split:id>
@@ -35469,13 +35283,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f89ebc650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f8a060650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -35534,13 +35341,6 @@ chairs</split:memo>
       <split:value>13/100</split:value>
       <split:quantity>13/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f8ae8e650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f8b032650e11e49e24ce4e545c3ac5</split:id>
@@ -35603,13 +35403,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f8be74650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f8c07c650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -35668,13 +35461,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f8d008650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f8d1c0650e11e49e24ce4e545c3ac5</split:id>
@@ -35737,13 +35523,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f8e250650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f8e43a650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -35804,13 +35583,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f8f45c650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f8f63c650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -35862,13 +35634,6 @@ chairs</split:memo>
       <split:value>192/100</split:value>
       <split:quantity>192/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f90640650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f90104650e11e49e24ce4e545c3ac5</split:id>
@@ -35938,13 +35703,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f91734650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f918f6650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -36003,13 +35761,6 @@ chairs</split:memo>
       <split:value>109/100</split:value>
       <split:quantity>109/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f93cfa650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f93ea8650e11e49e24ce4e545c3ac5</split:id>
@@ -36072,13 +35823,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f92a8a650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f92c42650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -36137,13 +35881,6 @@ chairs</split:memo>
       <split:value>156/100</split:value>
       <split:quantity>156/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f95028650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f951d6650e11e49e24ce4e545c3ac5</split:id>
@@ -36206,13 +35943,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f962a2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f9654a650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -36271,13 +36001,6 @@ chairs</split:memo>
       <split:value>62/100</split:value>
       <split:quantity>62/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f97846650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f97a6c650e11e49e24ce4e545c3ac5</split:id>
@@ -36340,13 +36063,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f98d68650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f98f66650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -36405,13 +36121,6 @@ chairs</split:memo>
       <split:value>403/100</split:value>
       <split:quantity>403/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f9aef6650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f9b0ae650e11e49e24ce4e545c3ac5</split:id>
@@ -36474,13 +36183,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f99e16650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f99fd8650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -36541,13 +36243,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">503341ee651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">5033439c651a11e4bf93a1d1e053727d</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -36606,13 +36301,6 @@ chairs</split:memo>
       <split:value>27/100</split:value>
       <split:quantity>27/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f9bf54650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f9c10c650e11e49e24ce4e545c3ac5</split:id>
@@ -36735,13 +36423,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16f9e024650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16f9e236650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -36800,13 +36481,6 @@ chairs</split:memo>
       <split:value>31/100</split:value>
       <split:quantity>31/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16f9f0d2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16f9f28a650e11e49e24ce4e545c3ac5</split:id>
@@ -36869,13 +36543,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fa0158650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fa0310650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -36934,13 +36601,6 @@ chairs</split:memo>
       <split:value>74/100</split:value>
       <split:quantity>74/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fa11ac650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fa135a650e11e49e24ce4e545c3ac5</split:id>
@@ -37063,13 +36723,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fa32b8650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fa3498650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -37128,13 +36781,6 @@ chairs</split:memo>
       <split:value>15/100</split:value>
       <split:quantity>15/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fa4366650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fa451e650e11e49e24ce4e545c3ac5</split:id>
@@ -37197,13 +36843,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fa5446650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fa55f4650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -37262,13 +36901,6 @@ chairs</split:memo>
       <split:value>136/100</split:value>
       <split:quantity>136/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fa640e650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fa65bc650e11e49e24ce4e545c3ac5</split:id>
@@ -37398,13 +37030,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fa843e650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fa85e2650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -37463,13 +37088,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fa9410650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fa95b4650e11e49e24ce4e545c3ac5</split:id>
@@ -37531,13 +37149,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">1ecaec7ac0e324b4ab2a8e4e0abb9efd</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">a694e39dec216d8aa6acc39a2f4ea865</split:id>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-4645/100</split:value>
@@ -37593,13 +37204,6 @@ chairs</split:memo>
       <split:value>52/100</split:value>
       <split:quantity>52/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16faa40a650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16faa5b8650e11e49e24ce4e545c3ac5</split:id>
@@ -37662,13 +37266,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fab5f8650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fab79c650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -37728,13 +37325,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">6ddba40a55a5146a38503f07543db68f</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">738a52762a7e88a4beb8ddaaf5140014</split:id>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-7289/100</split:value>
@@ -37790,13 +37380,6 @@ chairs</split:memo>
       <split:value>70/100</split:value>
       <split:quantity>70/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fac5ca650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fac76e650e11e49e24ce4e545c3ac5</split:id>
@@ -37859,13 +37442,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fad5c4650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fad77c650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -37924,13 +37500,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16faf5e0650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16faf78e650e11e49e24ce4e545c3ac5</split:id>
@@ -37993,13 +37562,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fae5aa650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fae7b2650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -38058,13 +37620,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fb05bc650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fb076a650e11e49e24ce4e545c3ac5</split:id>
@@ -38127,13 +37682,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fb2600650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fb27ae650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -38192,13 +37740,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fb15c0650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fb176e650e11e49e24ce4e545c3ac5</split:id>
@@ -38320,13 +37861,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">834a334502a62b4f99c19d129b953013</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">67d176713d8d1fa96bb5654c68c9d1d1</split:id>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-4645/100</split:value>
@@ -38382,13 +37916,6 @@ chairs</split:memo>
       <split:value>129/100</split:value>
       <split:quantity>129/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fb45d6650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fb4784650e11e49e24ce4e545c3ac5</split:id>
@@ -38449,13 +37976,6 @@ chairs</split:memo>
       <split:value>431/100</split:value>
       <split:quantity>431/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fb35d2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fb3780650e11e49e24ce4e545c3ac5</split:id>
@@ -38585,13 +38105,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fb5616650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fb57c4650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -38650,13 +38163,6 @@ chairs</split:memo>
       <split:value>239/100</split:value>
       <split:quantity>239/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fb65f2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fb67a0650e11e49e24ce4e545c3ac5</split:id>
@@ -38719,13 +38225,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fb75f6650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fb77a4650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -38785,13 +38284,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">4521e09f8af3f331661816f80b29ee39</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">9a80b070ac4eb0e3f5ebd7f162df3a67</split:id>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-7243/100</split:value>
@@ -38847,13 +38339,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fb8636650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fb87da650e11e49e24ce4e545c3ac5</split:id>
@@ -38914,13 +38399,6 @@ chairs</split:memo>
       <split:value>69/100</split:value>
       <split:quantity>69/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fb9608650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fb97b6650e11e49e24ce4e545c3ac5</split:id>
@@ -39184,13 +38662,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fbc894650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fbca42650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -39249,13 +38720,6 @@ chairs</split:memo>
       <split:value>85/100</split:value>
       <split:quantity>85/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fbd866650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fbda14650e11e49e24ce4e545c3ac5</split:id>
@@ -39318,13 +38782,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fbe86a650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fbea72650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -39383,13 +38840,6 @@ chairs</split:memo>
       <split:value>31/100</split:value>
       <split:quantity>31/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fbf8a0650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fbfa44650e11e49e24ce4e545c3ac5</split:id>
@@ -39452,13 +38902,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fc0872650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fc0a16650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -39517,13 +38960,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">50337380651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">5033752e651a11e4bf93a1d1e053727d</split:id>
@@ -39586,13 +39022,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fc186c650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fc1a1a650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -39651,13 +39080,6 @@ chairs</split:memo>
       <split:value>83/100</split:value>
       <split:quantity>83/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fc28a2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fc2a46650e11e49e24ce4e545c3ac5</split:id>
@@ -39720,13 +39142,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fc386a650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fc3a18650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -39785,13 +39200,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fc4936650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fc4bca650e11e49e24ce4e545c3ac5</split:id>
@@ -39854,13 +39262,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fc5ebc650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fc606a650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -39919,13 +39320,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fc7e4c650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fc7ff0650e11e49e24ce4e545c3ac5</split:id>
@@ -39988,13 +39382,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fc6e84650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fc7032650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -40053,13 +39440,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fc8ea0650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fc904e650e11e49e24ce4e545c3ac5</split:id>
@@ -40122,13 +39502,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fcae44650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fcaff2650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -40187,13 +39560,6 @@ chairs</split:memo>
       <split:value>82/100</split:value>
       <split:quantity>82/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fc9e7c650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fca02a650e11e49e24ce4e545c3ac5</split:id>
@@ -40256,13 +39622,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fcce6a650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fcd00e650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -40323,13 +39682,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fcbea2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fcc046650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -40388,13 +39740,6 @@ chairs</split:memo>
       <split:value>146/100</split:value>
       <split:quantity>146/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fcde32650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fcdfd6650e11e49e24ce4e545c3ac5</split:id>
@@ -40524,13 +39869,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fcfe62650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fd0074650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -40589,13 +39927,6 @@ chairs</split:memo>
       <split:value>722/100</split:value>
       <split:quantity>722/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fd10dc650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fd1280650e11e49e24ce4e545c3ac5</split:id>
@@ -40658,13 +39989,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fd20a4650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fd2252650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -40725,13 +40049,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fd310c650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fd32ba650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -40790,13 +40107,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fd40e8650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fd428c650e11e49e24ce4e545c3ac5</split:id>
@@ -40926,13 +40236,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fd80c6650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fd8274650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -40991,13 +40294,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fd6122650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fd62d0650e11e49e24ce4e545c3ac5</split:id>
@@ -41060,13 +40356,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fd70f4650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fd72a2650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -41125,13 +40414,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fd90fc650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fd92d2650e11e49e24ce4e545c3ac5</split:id>
@@ -41194,13 +40476,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fdb0c8650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fdb26c650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -41259,13 +40534,6 @@ chairs</split:memo>
       <split:value>149/100</split:value>
       <split:quantity>149/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fda0f6650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fda2a4650e11e49e24ce4e545c3ac5</split:id>
@@ -41328,13 +40596,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fdc0f4650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fdc2a2650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -41393,13 +40654,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fdd1de650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fdd45e650e11e49e24ce4e545c3ac5</split:id>
@@ -41462,13 +40716,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fdf24a650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fdf4b6650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -41527,13 +40774,6 @@ chairs</split:memo>
       <split:value>25/100</split:value>
       <split:quantity>25/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fde282650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fde430650e11e49e24ce4e545c3ac5</split:id>
@@ -41596,13 +40836,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fe0456650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fe0604650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -41661,13 +40894,6 @@ chairs</split:memo>
       <split:value>157/100</split:value>
       <split:quantity>157/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fe1428650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fe15cc650e11e49e24ce4e545c3ac5</split:id>
@@ -41730,13 +40956,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fe23f0650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fe2594650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -41795,13 +41014,6 @@ chairs</split:memo>
       <split:value>463/100</split:value>
       <split:quantity>463/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fe341c650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fe35f2650e11e49e24ce4e545c3ac5</split:id>
@@ -41864,13 +41076,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fe4416650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fe45c4650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -41929,13 +41134,6 @@ chairs</split:memo>
       <split:value>69/100</split:value>
       <split:quantity>69/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fe53de650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fe5582650e11e49e24ce4e545c3ac5</split:id>
@@ -41998,13 +41196,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fe6400650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fe65ae650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -42063,13 +41254,6 @@ chairs</split:memo>
       <split:value>740/100</split:value>
       <split:quantity>740/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fe73fa650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fe759e650e11e49e24ce4e545c3ac5</split:id>
@@ -42132,13 +41316,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fe83c2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fe8570650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -42197,13 +41374,6 @@ chairs</split:memo>
       <split:value>41/100</split:value>
       <split:quantity>41/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">5033837a651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">50338528651a11e4bf93a1d1e053727d</split:id>
@@ -42266,13 +41436,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fe93f8650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fe959c650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -42331,13 +41494,6 @@ chairs</split:memo>
       <split:value>239/100</split:value>
       <split:quantity>239/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fea3f2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fea596650e11e49e24ce4e545c3ac5</split:id>
@@ -42400,13 +41556,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16feb3ba650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16feb568650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -42465,13 +41614,6 @@ chairs</split:memo>
       <split:value>261/100</split:value>
       <split:quantity>261/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fec3e6650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fec594650e11e49e24ce4e545c3ac5</split:id>
@@ -42588,13 +41730,6 @@ chairs</split:memo>
       <split:value>557/100</split:value>
       <split:quantity>557/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16fed408650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16fed5b6650e11e49e24ce4e545c3ac5</split:id>
@@ -42791,13 +41926,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16ff13fa650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16ff159e650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -42856,13 +41984,6 @@ chairs</split:memo>
       <split:value>102/100</split:value>
       <split:quantity>102/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16ff23c2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16ff2566650e11e49e24ce4e545c3ac5</split:id>
@@ -42992,13 +42113,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16ff43de650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16ff458c650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -43057,13 +42171,6 @@ chairs</split:memo>
       <split:value>136/100</split:value>
       <split:quantity>136/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16ff63c8650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16ff6576650e11e49e24ce4e545c3ac5</split:id>
@@ -43126,13 +42233,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16ff53a6650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16ff554a650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -43191,13 +42291,6 @@ chairs</split:memo>
       <split:value>77/100</split:value>
       <split:quantity>77/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16ff73c2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16ff7570650e11e49e24ce4e545c3ac5</split:id>
@@ -43260,13 +42353,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16ff8394650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16ff8538650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -43325,13 +42411,6 @@ chairs</split:memo>
       <split:value>104/100</split:value>
       <split:quantity>104/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16ff93c0650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16ff9564650e11e49e24ce4e545c3ac5</split:id>
@@ -43394,13 +42473,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16ffa392650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16ffa536650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -43459,13 +42531,6 @@ chairs</split:memo>
       <split:value>544/100</split:value>
       <split:quantity>544/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16ffb38c650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16ffb53a650e11e49e24ce4e545c3ac5</split:id>
@@ -43528,13 +42593,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16ffc3ae650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16ffc55c650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -43595,13 +42653,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">503394e6651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">5033969e651a11e4bf93a1d1e053727d</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -43660,13 +42711,6 @@ chairs</split:memo>
       <split:value>61/100</split:value>
       <split:quantity>61/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16ffd380650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">16ffd524650e11e49e24ce4e545c3ac5</split:id>
@@ -43863,13 +42907,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">16fff342650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">16fff54a650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -43928,13 +42965,6 @@ chairs</split:memo>
       <split:value>72/100</split:value>
       <split:quantity>72/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">1700036e650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">1700051c650e11e49e24ce4e545c3ac5</split:id>
@@ -44064,13 +43094,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">1700233a650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">170024e8650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -44129,13 +43152,6 @@ chairs</split:memo>
       <split:value>239/100</split:value>
       <split:quantity>239/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">17003366650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">1700350a650e11e49e24ce4e545c3ac5</split:id>
@@ -44198,13 +43214,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">1700432e650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">170044dc650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -44263,13 +43272,6 @@ chairs</split:memo>
       <split:value>69/100</split:value>
       <split:quantity>69/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">17005346650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">170054f4650e11e49e24ce4e545c3ac5</split:id>
@@ -44332,13 +43334,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">1700653e650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">170066e2650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -44397,13 +43392,6 @@ chairs</split:memo>
       <split:value>463/100</split:value>
       <split:quantity>463/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">17007506650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">170076aa650e11e49e24ce4e545c3ac5</split:id>
@@ -44466,13 +43454,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">5033b520651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">5033b6ce651a11e4bf93a1d1e053727d</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -44531,13 +43512,6 @@ chairs</split:memo>
       <split:value>82/100</split:value>
       <split:quantity>82/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">17008500650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">170086a4650e11e49e24ce4e545c3ac5</split:id>
@@ -44600,13 +43574,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">17009522650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">170096d0650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -44665,13 +43632,6 @@ chairs</split:memo>
       <split:value>722/100</split:value>
       <split:quantity>722/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">1700a4f4650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">1700a698650e11e49e24ce4e545c3ac5</split:id>
@@ -44734,13 +43694,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">1700b4ee650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">1700b69c650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -44799,13 +43752,6 @@ chairs</split:memo>
       <split:value>82/100</split:value>
       <split:quantity>82/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">1700c510650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">1700c6be650e11e49e24ce4e545c3ac5</split:id>
@@ -44868,13 +43814,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">1700d4e2650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">1700d686650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -44933,13 +43872,6 @@ chairs</split:memo>
       <split:value>208/100</split:value>
       <split:quantity>208/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">1700e4a0650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">1700e66c650e11e49e24ce4e545c3ac5</split:id>
@@ -45002,13 +43934,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">1700f49a650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">1700f6a2650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -45067,13 +43992,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">170104c6650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">1701066a650e11e49e24ce4e545c3ac5</split:id>
@@ -45136,13 +44054,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">5033c56a651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">5033c790651a11e4bf93a1d1e053727d</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -45201,13 +44112,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">1701148e650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">17011632650e11e49e24ce4e545c3ac5</split:id>
@@ -45270,13 +44174,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">17012488650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">17012636650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -45335,13 +44232,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">170134b4650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">17013658650e11e49e24ce4e545c3ac5</split:id>
@@ -45404,13 +44294,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">5033d62c651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">5033d7da651a11e4bf93a1d1e053727d</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -45469,13 +44352,6 @@ chairs</split:memo>
       <split:value>0/100</split:value>
       <split:quantity>0/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">17014486650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">1701462a650e11e49e24ce4e545c3ac5</split:id>
@@ -45538,13 +44414,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">5033e630651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">5033e7de651a11e4bf93a1d1e053727d</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -45605,13 +44474,6 @@ chairs</split:memo>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">17015476650e11e49e24ce4e545c3ac5</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
-    </trn:split>
-    <trn:split>
       <split:id type="guid">17015624650e11e49e24ce4e545c3ac5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
@@ -45670,13 +44532,6 @@ chairs</split:memo>
       <split:value>828/100</split:value>
       <split:quantity>828/100</split:quantity>
       <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">5033f63e651a11e4bf93a1d1e053727d</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">98d1ac9cc9d9522656ed76083bf1cc58</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">5033f7ec651a11e4bf93a1d1e053727d</split:id>
