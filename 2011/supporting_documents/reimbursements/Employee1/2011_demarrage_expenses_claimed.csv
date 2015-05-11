@@ -1,30 +1,30 @@
-1;2011-05-05;2011;5;2011-5Equipments – purchase;Mat;Best Buy;;69.74;;Cash;Equipments – purchase;Equipment;Equipment;Router Dlink #2;;3.5;6.25
-1;2011-05-19;2011;5;2011-5Equipments – purchase;8926;Apple Store;;39.87;;Cash;Equipments – purchase;Equipment;Equipment;Apple ecouteurs avec telecommande et micro;;1.75;3.12
-1;2011-07-13;2011;7;2011-7Publicity;6010;Click Imprimerie;;11.39;;Cash;Advertising;Publicity;Publicity;Business cards;;0.5;0.89
-1;2011-08-01;2011;8;2011-8Equipments – purchase;Mat;Future Shop;;569.61;;Cash;Equipments – purchase;Equipment;Equipment;Motorola Xoom Android – Testing device;;25;44.62
-1;2011-09-04;2011;9;2011-9Publicity;6010;Domains at cost;;31.4;;Cash;Advertising;Publicity;;;;;
-1;2011-09-09;2011;9;2011-9Office rent & utilities;377036;Syntenic;;265.82;;Cash;Rent;Rent;Rent;Desk 1 month (3 weeks);;11.56;23.06
-1;2011-09-11;2011;9;2011-9Publicity;Employee1 Employee1;PolyCopie;;68.34;;Cash;Advertising;Publicity;Publicity;ETAP poster for Prototype 1;;3;5.34
-1;2011-09-12;2011;9;2011-9Publicity;6022;Click Imprimerie;;11.39;;Cash;Advertising;Publicity;Publicity;Launch Party invitations;;0.5;0.89
-1;2011-09-18;2011;9;2011-9Publicity;6010;Loblaws;;41.83;;Cash;Advertising;Publicity;Launch Party 0.5;Cheese, pate, baggettes, juice;;0.4;0.71
-1;2011-09-18;2011;9;2011-9Publicity;6010;SAQ;;308.73;;Cash;Advertising;Publicity;Launch Party 0.5;Wine;30 bottles;13.55;24.19
-1;2011-09-18;2011;9;2011-9Publicity;Employee1 Employee1;Centre d'affaires Core;;3.18;;Cash;Advertising;Publicity;Publicity;PC time and print out of color proof of poster;;0.14;0.25
-1;2011-09-19;2011;9;2011-9Publicity;Employee1 Employee1;Centre d'affaires Core;;1.37;;Cash;Advertising;Publicity;Publicity;handouts for ETAP poster;;0.06;0.11
-1;2011-09-20;2011;9;2011-9Salaries & wages;Employee1 Employee1;Hiskako Employee2;;80;;Cash;Salaries;Human Resources;Pay;1 day of work in prep for the Wine and Cheese;;;
-1;2011-09-21;2011;9;2011-9Publicity;6022;Ikea;;37.52;;Cash;Advertising;Publicity;Launch Party 0.5;Wine glasses;;1.65;2.94
-1;2011-09-22;2011;9;2011-9Office supplies;Employee1 Employee1;Dollarama;;10.83;;Cash;Office expenses;Office supplies;Office Supplies;Pens, postits and desk organizers;;0.48;85
-1;2011-09-22;2011;9;2011-9Publicity;6010;Les Fromages du Paradis;;35.97;;Cash;Advertising;Publicity;Launch Party 0.5;Cheese;9 cheeses;1.56;3.12
-1;2011-09-22;2011;9;2011-9Publicity;6022;Metro;;36.43;;Cash;Advertising;Publicity;Launch Party 0.5;Cheese;5 cheeses;1.58;3.16
-1;2011-09-22;2011;9;2011-9Publicity;Employee1 Employee1;Click Imprimerie;;20;;Cash;Advertising;Publicity;Publicity;Launch Party game cards;;0.88;1.57
-1;2011-10-05;2011;10;2011-10Office rent & utilities;377036;Syntenic;;398.74;;Cash;Rent;Rent;Rent;Desk 1 month;;17.34;34.59
-1;2011-10-15;2011;10;2011-10Equipments – purchase;Mat;Apple Store;;1422.87;;Cash;Equipments – purchase;Equipment;Equipment;Laptop and scanner/copier/printer;;62.45;111.47
-1;2011-10-16;2011;10;2011-10Publicity;6010;PayPal -Academy of Aphasia;;260.14;;Cash;Conventions;Publicity;Conference registration ;Academy of Aphasia Anual meeting Oct 16-18 2011;;11.31;22.57
-1;2011-10-28;2011;10;2011-10Vehicle expenses;6010;Budget;;170.16;;Cash;Travel;Travel;Vehicule for Nels Conference;;;7.4;14.76
-;2011-11-01;2011;11;2011-11Publicity;Employee1 Employee1;ETAP;;60;;;Conventions;Publicity;Etap conference fees;;;;
-;2011-11-04;2010;11;2010-11Publicity;Employee1 Employee1;Copie express;;30.51;;;Advertising;;unsure what it is but it was during nels, itmight have been printing the inuktitut BAT for me and diana;;;1.33;2.65
-1;2011-11-04;2011;11;2011-11Publicity;6010;Domains at cost;;13.6;;Cash;Advertising;Publicity;;;;;
-1;2011-11-04;2011;11;2011-11Publicity;6010;PayPal-Nels;;140;;Cash;Conventions;Publicity;Nels conference fees;;;;
-;2011-11-10;2010;11;2010-11Vehicle expenses;Employee1 Employee1;MAC'S GAS #1282;;51.04;;;Travel;;nels gas;;;;
-;2011-11-13;2010;11;2010-11Vehicle expenses;Employee1 Employee1;Feulco #01172;;43.79;;;Travel;;nels gas;;;;
-;2011-11-13;2010;11;2010-11Vehicle expenses;Employee1 Employee1;SHELL 1450 WOODLAND;;33.73;;;Travel;;nels gas;;;;
-1;2011-11-17;2011;11;2011-11Publicity;6010;PAYPAL *JBRUN;;31.74;;Cash;Conventions;Publicity;Montreal Ouverte hackathon day with tee-shirt;;;;
+1;2011-05-05;2011-5Equipments – purchase;Mat;Best Buy;69.74;Equipments – purchase;Equipment;Equipment;Router Dlink #2;3.5;6.25;Paper Receipt
+1;2011-05-19;2011-5Equipments – purchase;8926;Apple Store;39.87;Equipments – purchase;Equipment;Equipment;Apple ecouteurs avec telecommande et micro;1.75;3.12;Paper Receipt
+1;2011-07-13;2011-7Publicity;6010;Click Imprimerie;11.39;Advertising;Publicity;Publicity;Business cards;0.5;0.89;Paper Receipt
+1;2011-08-01;2011-8Equipments – purchase;Mat;Future Shop;569.61;Equipments – purchase;Equipment;Equipment;Motorola Xoom Android – Testing device;25;44.62;Paper Receipt
+1;2011-09-04;2011-9Publicity;6010;Domains at cost;31.4;Advertising;Publicity;;;;;Paper Receipt
+1;2011-09-09;2011-9Office rent & utilities;377036;Syntenic;265.82;Rent;Rent;Rent;Desk 1 month (3 weeks);11.56;23.06;Paper Receipt
+1;2011-09-11;2011-9Publicity;Employee1 Employee1;PolyCopie;68.34;Advertising;Publicity;Publicity;ETAP poster for Prototype 1;3;5.34;Paper Receipt
+1;2011-09-12;2011-9Publicity;6022;Click Imprimerie;11.39;Advertising;Publicity;Publicity;Launch Party invitations;0.5;0.89;Paper Receipt
+1;2011-09-18;2011-9Publicity;6010;Loblaws;41.83;Advertising;Publicity;Launch Party 0.5;Cheese, pate, baggettes, juice;0.4;0.71;Paper Receipt
+1;2011-09-18;2011-9Publicity;6010;SAQ;308.73;Advertising;Publicity;Launch Party 0.5;Wine 30 bottles;13.55;24.19;Paper Receipt
+1;2011-09-18;2011-9Publicity;Employee1 Employee1;Centre d'affaires Core;3.18;Advertising;Publicity;Publicity;PC time and print out of color proof of poster;0.14;0.25;Paper Receipt
+1;2011-09-19;2011-9Publicity;Employee1 Employee1;Centre d'affaires Core;1.37;Advertising;Publicity;Publicity;handouts for ETAP poster;0.06;0.11;Paper Receipt
+1;2011-09-20;2011-9Salaries & wages;Employee1 Employee1;Hiskako Employee2;80;Salaries;Human Resources;Pay;1 day of work in prep for the Wine and Cheese;;;Paper Receipt
+1;2011-09-21;2011-9Publicity;6022;Ikea;37.52;Advertising;Publicity;Launch Party 0.5;Wine glasses;1.65;2.94;Paper Receipt
+1;2011-09-22;2011-9Office supplies;Employee1 Employee1;Dollarama;10.83;Office expenses;Office supplies;Office Supplies;Pens, postits and desk organizers;0.48;85;Paper Receipt
+1;2011-09-22;2011-9Publicity;6010;Les Fromages du Paradis;35.97;Advertising;Publicity;Launch Party 0.5;Cheese 9 cheeses;1.56;3.12;Paper Receipt
+1;2011-09-22;2011-9Publicity;6022;Metro;36.43;Advertising;Publicity;Launch Party 0.5;Cheese 5 cheeses;1.58;3.16;Paper Receipt
+1;2011-09-22;2011-9Publicity;Employee1 Employee1;Click Imprimerie;20;Advertising;Publicity;Publicity;Launch Party game cards;0.88;1.57;Paper Receipt
+1;2011-10-05;2011-10Office rent & utilities;377036;Syntenic;398.74;Rent;Rent;Rent;Desk 1 month;17.34;34.59;Paper Receipt
+1;2011-10-15;2011-10Equipments – purchase;Mat;Apple Store;1422.87;Equipments – purchase;Equipment;Equipment;Laptop and scanner/copier/printer;62.45;111.47;Paper Receipt
+1;2011-10-16;2011-10Publicity;6010;PayPal -Academy of Aphasia;260.14;Conventions;Publicity;Conference registration ;Academy of Aphasia Anual meeting Oct 16-18 2011;11.31;22.57;Paper Receipt
+1;2011-10-28;2011-10Vehicle expenses;6010;Budget;170.16;Travel;Travel;;Vehicule for Nels Conference;7.4;14.76;Paper Receipt
+;2011-11-01;2011-11Publicity;Employee1 Employee1;ETAP;60;Conventions;Publicity;Conference registration ;Etap conference fees;;;Paper Receipt
+;2011-11-04;2010-11Publicity;Employee1 Employee1;Copie express;30.51;Advertising;;;unsure what it is but it was during nels, itmight have been printing the inuktitut BAT for me and diana;1.33;2.65;Paper Receipt
+1;2011-11-04;2011-11Publicity;6010;Domains at cost;13.6;Advertising;Publicity;;;;;Paper Receipt
+1;2011-11-04;2011-11Publicity;6010;PayPal-Nels;140;Conventions;Publicity;Conference registration ;Nels conference fees;;;Paper Receipt
+;2011-11-10;2010-11Vehicle expenses;Employee1 Employee1;MAC'S GAS #1282;51.04;Travel;;nels gas;;;;Paper Receipt
+;2011-11-13;2010-11Vehicle expenses;Employee1 Employee1;Feulco #01172;43.79;Travel;;nels gas;;;;Paper Receipt
+;2011-11-13;2010-11Vehicle expenses;Employee1 Employee1;SHELL 1450 WOODLAND;33.73;Travel;;nels gas;;;;Paper Receipt
+1;2011-11-17;2011-11Publicity;6010;PAYPAL *JBRUN;31.74;Conventions;Publicity;Conference registration ;Montreal Ouverte hackathon day with tee-shirt;;;Paper Receipt
