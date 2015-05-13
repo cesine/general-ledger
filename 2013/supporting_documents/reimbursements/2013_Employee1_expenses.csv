@@ -1,11 +1,11 @@
 Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnucash6,TPS,TVQGnucash7,TVQ,TipsGnucash8,Tips,Currency,Category,Category9,Memo Field,Reconciled from
 2013-01-07,Employee1 Employee1,Mai Xiang Yuan Restaurant,20.66,,,,,0.9,,1.79,,,CAD,Meals,,,Paper Receipt
-2013-01-13,3034,STM,77,,,,,,,,,,,,,,Paper Receipt
+2013-01-13,3034,STM,77,,,,,,,,,,,Travel,,,Paper Receipt
 2013-01-16,6010,BUREAU EN GROS #31,35.71,,,,,1.55,,3.1,,,CAD,Office expenses,,plastic film for whiteboards and white boad markers,Credit card statement
-2013-01-16,6010,PAYPAL *TERRABALM,13.47,,,,,,,,,,,,,,Credit card statement
-2013-01-16,6010,KOODO AIRTIME,91.1,,,,,,,,,,,,,,Credit card statement
-2013-01-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,,Credit card statement
-2013-01-24,6010,STM JOLICOEUR DIN101,24.5,,,,,,,,,,CAD,,,,Credit card statement
+2013-01-16,6010,PAYPAL *TERRABALM,13.47,,,,,,,,,,,,,purchase from Lin's company,Credit card statement
+2013-01-16,6010,KOODO AIRTIME,91.1,,,,,,,,,,,Utilities,,,Credit card statement
+2013-01-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,Utilities,,,Credit card statement
+2013-01-24,6010,STM JOLICOEUR DIN101,24.5,,,,,,,,,,CAD,Travel,,,Credit card statement
 2013-01-24,Employee1 Employee1,Restaurant M.C.,33.29,,,,,1.45,,2.89,,,CAD,Meals,,,Paper Receipt
 2013-01-25,3024,Subway,6.33,,,5.5,,0.28,,0.55,,0,CAD,Meals,,,Paper Receipt
 2013-01-25,,SAQ,14.2,,,,,0.62,,1.23,,,CAD,Meals,,,Paper Receipt
@@ -32,7 +32,7 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2013-02-13,3034,IGA LOUISE MENARD,11.58,,,,,,,,,,CAD,Office expenses,,bagette and pate for office,Paper Receipt
 2013-02-14,3034,Sushi Shop,21.97,,,19.1,,0.96,,1.91,,0,CAD,Meals,,,Paper Receipt
 2013-02-15,Employee1 Employee1,Restaurant M.C.,9.48,,,,,0.41,,0.82,,,CAD,Meals,,,Paper Receipt
-2013-02-17,6010,TELUS MOBILITY PREAUTH,73.03,,,,,,,,,,,,,,Credit card statement
+2013-02-17,6010,TELUS MOBILITY PREAUTH,73.03,,,,,,,,,,,Utilities,,,Credit card statement
 2013-02-19,3034,IGA LOUISE MENARD,10.57,,,9.97,,0.2,,0.4,,,CAD,Office expenses,,Hot chocolate & muffins for the office,Paper Receipt
 2013-02-19,3034,IGA LOUISE MENARD,13.76,,,,,,,,,,CAD,Office expenses,,hot chocolate coffee cream bagget and humus for hte office,Paper Receipt
 2013-02-21,6010,SAQ23174 COMPLEXE DESJ,44.45,,,,,1.98,,3.94,,,CAD,Office expenses,,Employee8's going away party,Credit card statement
@@ -47,11 +47,11 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2013-03-04,6010,LA SOURCE 5438           ,45.98,,,39.99,,2,,3.99,,,CAD,Small Electronics,,Samsung Galaxy tab charger,"Paper Receipt, Credit card statement"
 2013-03-04,3034,La Legende' Patisserie,18.54,,,13.95,,0.7,,1.39,,6.68,CAD,Meals,,,Paper Receipt
 2013-03-05,6010,MARCHE LOUISE MENARD 8345 ,11.97,,,11.97,,0,,0,,,CAD,Office expenses,,Cream for office,"Paper Receipt, Credit card statement"
-2013-03-05,3034,STM JOLICOEUR DIN101     ,45,,,,,,,,,,,,,,Paper Receipt
-2013-03-05,6010,STM JOLICOEUR DIN101     ,77,,,,,,,,,,,,,,"Paper Receipt, Credit card statement"
+2013-03-05,3034,STM JOLICOEUR DIN101     ,45,,,,,,,,,,,Travel,,,Paper Receipt
+2013-03-05,6010,STM JOLICOEUR DIN101     ,77,,,,,,,,,,,Travel,,,"Paper Receipt, Credit card statement"
 2013-03-05,3034,Les 3 Brasseurs,50.55,,,38.24,,1.91,,3.81,,6.59,CAD,Meals,,,Paper Receipt
 2013-03-06,6010,Amazon Web Services      aws.amazon.co 37.74 US DOLLAR,39.69,,,,,,,,,,,,,,Credit card statement
-2013-03-06,6010,KOODO MOBILE PAC,48.69,,,,,,,,,,,,,,Credit card statement
+2013-03-06,6010,KOODO MOBILE PAC,48.69,,,,,,,,,,,Utilities,,,Credit card statement
 2013-03-07,Employee1 Employee1,Kien Vihn Supermarket,11.98,,,11.98,,0,,0,,,CAD,Office expenses,,Employee1ies for the office,Paper Receipt
 2013-03-07,3034,IGA,9.56,,,8.96,,0.2,,0.4,,,CAD,Office expenses,,Employee1ies for the office,Paper Receipt
 2013-03-08,3034,Restaurant O Thym,33.05,,,,,,,,,4.31,CAD,Meals,,,Paper Receipt
@@ -61,21 +61,21 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2013-03-14,3034,Mikes,19.83,,,14.99,,0.75,,1.5,,2.59,CAD,Meals,,Employee3 and collegues at desjardins,Paper Receipt
 2013-03-14,Employee1 Employee1,Restaurant Sai Swan,9.15,,,7.95,,0.4,,0.8,,0,CAD,Meals,,,Paper Receipt
 2013-03-14,6010,JEAN COUTU #350,6.89,,,,,,,,,,,,,,Credit card statement
-2013-03-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,,Credit card statement
+2013-03-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,Utilities,,,Credit card statement
 2013-03-17,Employee1 Employee1,Cafe depot complexe desjardins,4.44,,,3.86,,0.19,,0.39,,0,CAD,Meals,,,Paper Receipt
 2013-03-17,Employee1 Employee1,Restaurant Mai Xian Yuan,21.81,,,18.97,,0.95,,1.89,,,CAD,Meals,,,Paper Receipt
 2013-03-20,Employee1 Employee1,Restaurant M.C.,39.21,,,,,1.71,,3.4,,,CAD,Meals,,,Paper Receipt
 2013-03-20,3034,La Caverne Greque,94.24,,,72.4,,3.62,,7.22,,11,CAD,Meals,,,Paper Receipt
 2013-03-18,3034,Element 14,104.95,,,0,,0,,,,,CAD,Small Electronics,,"Raspberry PI MODB-512M, Adafruit case (taxes and final total unknown)",Paper Receipt
-2013-03-21,6010,MIKE CONSULAR VISA,531.42,,,,,,,,,,,,,Visa for Employee1 for China,Credit card statement
+2013-03-21,6010,MIKE CONSULAR VISA,531.42,,,,,,,,,,,Travel,,Visa for Employee1 for China,Credit card statement
 2013-03-20,3034,Juliette et Chocolat,14.02,,,12.19,,0.53,,1.06,,1.83,CAD,Meals,,,Paper Receipt
 2013-03-22,3034,Google Play,487.24,,,425.99,,61.25,,0,,0,CAD,Androids,,Nexus 10 tablet,Paper Receipt
 2013-03-26,3034,La Legende' Patisserie,18,,,15.46,,0.62,,1.34,,0.58,CAD,Meals,,,Paper Receipt
 2013-03-27,3034,St-Hubert Desjardins,14.03,,,12.2,,0.61,,1.22,,0,CAD,Meals,,Employee3 and collegues at desjardins,Paper Receipt
 2013-03-27,Employee1 Employee1,Pub Victoria,9.5,,,7.39,,0.37,,0.74,,1,CAD,Meals,,,Paper Receipt
 2013-04-01,3034,Future Shop Centreville,209.53,,,182.24,,9.11,,18.18,,,CAD,Small Electronics,,HP 23BW ,Paper Receipt
-2013-04-03,6010,Amazon Web Services      aws.amazon.com           47.68 US DOLLAR,49.26,,,,,,,,,,,,,,Credit card statement
-2013-04-06,6010,SHANGRI-LA HOTEL SHENZHEN    ,47.05,,,47.05,,0,,0,,0,,,,,Credit card statement
+2013-04-03,6010,Amazon Web Services      aws.amazon.com           47.68 US DOLLAR,49.26,,,49.26,,0,,0,,0,,Meals,,,Credit card statement
+2013-04-06,6010,SHANGRI-LA HOTEL SHENZHEN    ,47.05,,,47.05,,0,,0,,0,,Utilities,,,Credit card statement
 2013-04-06,6010,KOODO MOBILE PAC         ,46.45,,,,,,,,,,CAD,Utilities,,,Credit card statement
 2013-04-09,3034,IGA,11.49,,,11.49,,,,,,,CAD,Office expenses,,,Paper Receipt
 2013-04-11,6010,SHANGRI-LA HOTEL SHENZHEN    ,28,,,28,,0,,0,,0,,Meals,,,Credit card statement
@@ -95,7 +95,7 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2013-04-29,6010,DOMAINSATCOST            ,13.6,,,,,,,,,,,,,,Credit card statement
 2013-05-03,6010,Amazon Web Services      aws.amazon.com            0.26 US DOLLAR,0.26,,,,,,,,,,,,,,Credit card statement
 2013-05-04,6010,Amazon Web Services      aws.amazon.com           46.24 US DOLLAR,47.7,,,,,,,,,,,,,,Credit card statement
-2013-05-04,6010,KOODO MOBILE PAC         ,46.45,,,,,,,,,,,,,,Credit card statement
+2013-05-04,6010,KOODO MOBILE PAC         ,46.45,,,,,,,,,,,Utilities,,,Credit card statement
 2013-05-07,6010,MARCHE LOUISE MENARD 8345,35.97,,,35.97,,0,,0,,0,CAD,Office expenses,,Cream and coffee for the office,"Paper Receipt, Credit card statement"
 2013-05-08,Employee1 Employee1,Restaurant M.C.,14.66,,,12.75,,0.64,,1.27,,0,CAD,Meals,,,Paper Receipt
 2013-05-09,3034,IGA,38.13,,,36.44,,0.56,,1.13,,0,CAD,Office expenses,,Snacks and breakfast items for the office,Paper Receipt
@@ -103,7 +103,7 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2013-05-14,6010,L AMBROISIE,8.52,,,6.8,,0.34,,0.68,,0.7,CAD,Meals,,Javascript montreal,"Paper Receipt, Credit card statement"
 2013-05-14,3034,L AMBROISIE,17.64,,,13.6,,0.68,,1.36,,2,CAD,Meals,,Javascript montreal,Paper Receipt
 2013-05-15,3034,Les 3 Brasseurs,28.41,,,21.49,,1.07,,2.14,,3.71,CAD,Meals,,Employee3 and collegues at desjardins,Paper Receipt
-2013-05-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,,Credit card statement
+2013-05-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,Utilities,,,Credit card statement
 2013-05-18,3034,Walmart,160.78,,,139.84,,6.99,,13.95,,0,CAD,Furniture,,Microwave and toaster for new office,Paper Receipt
 2013-05-20,6010,PROVIGO #8698,24.86,,,,,,,,,,,,,,Credit card statement
 2013-05-24,3034,St-Hubert Desjardins,25.51,,,22.19,,1.11,,2.21,,0,CAD,Meals,,Employee3 and collegues at desjardins,Paper Receipt
@@ -116,7 +116,7 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2013-05-31,3034,A&W #5540,16.68,,,14.5,,0.73,,1.45,,0,CAD,Meals,,After visitng Employee12 & Employee11,Paper Receipt
 2013-06-03,6010,Amazon Web Services     aws.amazon.com       49.20 US DOLLAR,52.04,,,,,,,,,,,,,,Credit card statement
 2013-06-04,3034,IGA,20.77,,,20.02,,0.25,,0.5,,0,CAD,Office expenses,,Snacks and tissues for office,Paper Receipt
-2013-06-06,6010,KOODO MOBILE PAC,66.03,,,,,,,,,,,,,,Credit card statement
+2013-06-06,6010,KOODO MOBILE PAC,66.03,,,,,,,,,,,Utilities,,,Credit card statement
 2013-06-08,Employee1 Employee1,Les cafes Second Cup,7.99,,,6.95,,0.35,,0.69,,,CAD,Meals,,Coffee with Employee3,Paper Receipt
 2013-06-08,3034,BUREAU EN GROS #31,30.94,,,26.91,,1.35,,2.68,,,CAD,Office expenses,,Envelopes and filling sleaves for the filing cabinet,Paper Receipt
 2013-06-09,6420,IGA,6.76,,,6.76,,0,,0,,0,CAD,Office expenses,,Bagette and juice for office,Paper Receipt
@@ -127,7 +127,7 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2013-06-13,3034,IGA,76.23,,,73.98,,0.75,,1.5,,0,CAD,Office expenses,,food for office bbq,Paper Receipt
 2013-06-13,3034,Ville emard pizza,31.61,,,23.9,,1.2,,2.39,,4.12,CAD,Meals,,late dinner with Employee3,
 2013-06-14,3034,Resto wok et soupe,27.12,,,20.5,,1.03,,2.05,,3.54,CAD,Meals,,,Paper Receipt
-2013-06-15,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,,Credit card statement
+2013-06-15,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,Utilities,,,Credit card statement
 2013-06-19,Employee1 Employee1,Autour d un pain,1.5,,,1.5,,0,,0,,0,CAD,Meals,,Croissant ,Paper Receipt
 2013-06-19,Employee1 Employee1,Restaurant M.C.,9.48,,,8.25,,0.41,,0.82,,0,CAD,Meals,,,Paper Receipt
 2013-06-19,3034,Canada Poste,18.2,,,18.2,,0,,0,,,CAD,Postage and Delivery,,Registered mail to new york,Paper Receipt
@@ -147,7 +147,7 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2013-07-05,3034,IGA,27.76,,,25.36,,0.8,,1.6,,0,CAD,Office expenses,,food for office,Paper Receipt
 2013-07-05,Employee1 Employee1,Autour d un pain,5.69,,,4.95,,0.25,,0.49,,0,CAD,Meals,,lunch ,Paper Receipt
 2013-07-06,6010,MOUNTAIN EQUIPMENT CO-OP ,21.56,,,18.75,,1.87,,0.94,,0,CAD,Travel,,bike parts,"Paper Receipt, Credit card statement"
-2013-07-06,6010,KOODO MOBILE PAC,83.93,,,,,,,,,,,,,,Credit card statement
+2013-07-06,6010,KOODO MOBILE PAC,83.93,,,,,,,,,,,Utilities,,,Credit card statement
 2013-07-08,3034,Air Canada,3.25,,,3.25,,0,,0,,0,CAD,Travel,,headphones aboard flight,Paper Receipt
 2013-07-08,Employee1 Employee1,Autour d un pain,7.41,,,6.45,,0.32,,0.64,,0,CAD,Meals,,lunch ,Paper Receipt
 2013-07-09,6010,L AMBROISIE,25.79,,,20.17,,1.01,,2.01,,2.6,CAD,Meals,,Javascript montreal,"Paper Receipt, Credit card statement"
@@ -157,40 +157,59 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2013-07-12,3034,Bistro scena,29.9,,,22.61,,1.13,,2.26,,3.9,CAD,Meals,,Employee3 and collegues at desjardins,Paper Receipt
 2013-07-12,3034,VieuxPort Steakhouse,50,,,37,,1.85,,3.69,,7.46,CAD,Meals,,Employee3 and collegues at desjardins,Paper Receipt
 2013-07-13,3034,IGA,18.59,,,18.59,,0,,0,,0,CAD,Office expenses,,breakfast items at the office,Paper Receipt
-2013-07-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,,Credit card statement
+2013-07-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,Utilities,,,Credit card statement
 2013-07-18,3034,Bistro de la Gare,3.63,,,2.75,,0.14,,0.27,,0.47,CAD,Meals,,coffee in rosemere ,Paper Receipt
 2013-07-20,Employee1 Employee1,Traverse Quebec – Levis,3.35,,,0,,0,,0,,0,CAD,Travel,,ferry with bicycle,Paper Receipt
 2013-07-23,Employee1 Employee1,Via rail quebec,28.74,,,25,,1.25,,2.49,,0,CAD,Travel,,bike baggage check,Paper Receipt
 2013-07-23,6010,MAXI #8904       *,3.62,,,3.62,,0,,0,,0,CAD,Meals,,food for lunch,"Paper Receipt, Credit card statement"
-2013-07-23,6010,MCDONALD'S #10580  Q04   ,1.83,,,,,,,,,,,,,,Credit card statement
+2013-07-23,6010,MCDONALD'S #10580  Q04   ,1.83,,,,,,,,,,,Meals,,,Credit card statement
 2013-07-24,6010,PETROCAN-317 RUE HOTEL,84.05,,,73.1,,3.66,,7.29,,0,CAD,Travel,,bus ticket Riviere du loup to montreal,"Paper Receipt, Credit card statement"
 2013-07-24,6010,PETROCAN-317 RUE HOTEL,13.23,,,11.5,,0.58,,1.15,,0,CAD,Postage and Delivery,,bike postage,"Paper Receipt, Credit card statement"
 2013-07-24,Employee1 Employee1,Le Globe Trotter,8.21,,,7.14,,0.36,,0.71,,0,CAD,Meals,,dinner while in quebec city,Paper Receipt
 2013-07-25,3034,Bistro des terrasses bonsecours,33.35,,,25.22,,1.26,,2.52,,4.35,CAD,Meals,,with Employee3,Paper Receipt
 2013-07-25,3034,Bistro des terrasses bonsecours,42.3,,,32,,1.6,,3.19,,5.55,CAD,Meals,,with Employee3 and yi?,Paper Receipt
-2013-07-27,6010,BIXI VELO/PUBLIC BIKE,8.75,,,,,,,,,,,,,,Credit card statement
+2013-07-27,6010,BIXI VELO/PUBLIC BIKE,8.75,,,,,,,,,,,Travel,,,Credit card statement
 2013-07-28,6010,MAGASIN ABBAYE OKA,19.18,,,19.18,,0,,0,,,CAD,Office expenses,,Cheese and bread,"Paper Receipt, Credit card statement"
 2013-07-28,6010,SAQ23198 - ST-JOSEPH-DU-LST-JOSEPH-LAC,13.45,,,11.7,,0.59,,1.17,,0,CAD,Office expenses,,wine,"Paper Receipt, Credit card statement"
 2013-07-29,Mat,Les cafes Second Cup,7.99,,,6.95,,0.35,,0.69,,0,CAD,Meals,,cafe with Employee3,Paper Receipt
 2013-07-30,3034,Subway,10.63,,,9.25,,0.46,,0.92,,0,CAD,Meals,,,Paper Receipt
 2013-07-30,6010,PHARMAPRIX #29           ,15.78,,,15.03,,0.75,,0,,0,CAD,Postage and Delivery,,Shipped mac laptop for repairs to V6Z2Y6,"Paper Receipt, Credit card statement"
 2013-07-30,Mat,Les cafes Second Cup,18.98,,,16.5,,0.83,,1.65,,0,CAD,Meals,,cafe with Employee3,Paper Receipt
-,,,,,,,,,,,,,,,,,
 2013-07-31,,Frite Alors,20.82,,,18.1,,1.81,,0.91,,0,CAD,Meals,,,Paper Receipt
-2013-08-02,6010,SAQ23207 STE MARTHE      ,8.65,,,,,,,,,,,,,,Credit card statement
+2013-08-01,Employee1 Employee1,Dollarama,3.93,,,3.75,,0.06,,0.12,,0,CAD,Office expenses,,snacks for office,Paper Receipt
+2013-08-01,3034,SAQ,31.4,,,27.31,,1.37,,2.72,,0,CAD,Office expenses,,wine,Paper Receipt
+2013-08-01,3034,IGA,37.04,,,37.04,,0,,0,,0,CAD,Office expenses,,cheese and bread and juice for office ,Paper Receipt
+2013-08-02,3034,V de MTL Ban Ville-Marie,52,,,45.23,,2.26,,4.51,,0,CAD,Travel,,vignette for parking at office,Paper Receipt
+2013-08-02,6010,SAQ23207 STE MARTHE      ,8.65,,,7.52,,0.38,,0.75,,0,CAD,Office expenses,,wine with vicky and stephane,"Paper Receipt, Credit card statement"
 2013-08-03,6010,Amazon Web Services      aws.amazon.co           56.05 US DOLLAR,59.78,,,,,,,,,,,,,,Credit card statement
-2013-08-03,6010,KOODO MOBILE PAC,69.44,,,,,,,,,,,,,,Credit card statement
-2013-08-12,6010,GREEN TRAITEUR ET CAFE,9.2,,,,,,,,,,,,,,Credit card statement
-2013-08-13,6010,L AMBROISIE,8,,,,,,,,,,,,,,Credit card statement
-2013-08-13,6010,L AMBROISIE,8,,,,,,,,,,,,,,Credit card statement
-2013-08-13,6010,L AMBROISIE,8,,,,,,,,,,,,,,Credit card statement
-2013-08-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,,,,Credit card statement
-2013-08-17,6010,STM BEAUDRY DIN101,24.5,,,,,,,,,,,,,,Credit card statement
-2013-08-20,6010,METRO STE CATHERINE,17.27,,,,,,,,,,,,,,Credit card statement
-2013-08-21,6010,IGA LAMOUREUX,14.77,,,,,,,,,,,,,,Credit card statement
-2013-08-22,6010,IGA LOUISE MENARD,12.96,,,,,,,,,,,,,,Credit card statement
-2013-08-24,6010,SKI BROMONT.COM CAFETERIA ,20.34,,,,,,,,,,,,,,Credit card statement
-2013-08-29,6010,BEDO #44                 ,86.06,,,,,,,,,,,,,,Credit card statement
+2013-08-03,6010,KOODO MOBILE PAC,69.44,,,,,,,,,,,Utilities,,,Credit card statement
+2013-08-11,3034,Esso dorion,40.02,,,34.81,,1.74,,3.47,,0,CAD,Travel,,gas in vaudreauil ,Paper Receipt
+2013-08-12,6010,GREEN TRAITEUR ET CAFE,9.2,,,8,,0.4,,0.6,,0,CAD,Meals,,waiting for bike repairs,"Paper Receipt, Credit card statement"
+2013-08-12,3034,GREEN TRAITEUR ET CAFE,19.5,,,14.75,,0.74,,1.47,,2.54,CAD,Meals,,waiting for bike repairs,Paper Receipt
+2013-08-13,6010,L AMBROISIE,8,,,6.09,,0.3,,0.61,,1,CAD,Meals,,Javascript montreal,"Paper Receipt, Credit card statement"
+2013-08-13,6010,L AMBROISIE,8,,,6.09,,0.3,,0.61,,1,CAD,Meals,,Javascript montreal,"Paper Receipt, Credit card statement"
+2013-08-13,6010,L AMBROISIE,8,,,,,,,,,,,Meals,,Javascript montreal,Credit card statement
+2013-08-13,3034,IGA,34.98,,,34.38,,0.2,,0.4,,0,CAD,Office expenses,,pate and baggette,Paper Receipt
+2013-08-15,Employee1 Employee1,Les cafes Second Cup,2.07,,,1.8,,0.09,,0.18,,0,CAD,Meals,,,Paper Receipt
+2013-08-15,3034,Les cafes Second Cup,7.99,,,6.95,,0.35,,0.69,,0,CAD,Meals,,,Paper Receipt
+2013-08-15,3034,IGA,34.98,,,,,,,,,,CAD,Office expenses,,missing detailed recepit,Paper Receipt
+2013-08-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,Utilities,,,Credit card statement
+2013-08-17,3034,Sushiman,8.56,,,7.45,,0.37,,0.74,,0,CAD,Meals,,,Paper Receipt
+2013-08-17,3034,Bentley,13.78,,,11.98,,0.6,,1.2,,0,CAD,Travel,,suitcase ticket,Paper Receipt
+2013-08-17,6010,STM BEAUDRY DIN101,24.5,,,,,,,,,,CAD,Travel,,tickets,"Paper Receipt, Credit card statement"
+2013-08-20,6010,METRO STE CATHERINE,17.27,,,15.92,,0.45,,0.9,,0,CAD,Office expenses,,Wine and cheese and bread with alex,"Paper Receipt, Credit card statement"
+2013-08-21,6010,IGA LAMOUREUX,14.77,,,14.77,,0,,0,,,CAD,Travel,,fruit and bread in oka,Paper Receipt
+2013-08-21,3034,Les 3 Brasseurs,28.13,,,22.24,,1.11,,2.22,,2.56,CAD,Meals,,,Paper Receipt
+2013-08-22,6010,IGA LOUISE MENARD,12.96,,,12.96,,0,,0,,,CAD,Office expenses,,Cream for coffee,"Paper Receipt, Credit card statement"
+2013-08-22,Employee1 Employee1,Restaurant Cafe Saigon,17.19,,,14.95,,0.75,,1.49,,0,CAD,Meals,,probably lunch with alex,Paper Receipt
+2013-08-23,Employee1 Employee1,IGA,18.55,,,18.55,,0,,0,,0,CAD,Office expenses,,Cheese and bread,Paper Receipt
+2013-08-23,3034,SAQ,14.95,,,13,,0.65,,1.3,,0,CAD,Office expenses,,wine,Paper Receipt
+2013-08-24,3034,SKI BROMONT,45.75,,,39.79,,1.99,,3.97,,0,CAD,Travel,,equipment rental with JP and Alexis,Paper Receipt
+2013-08-24,3034,SKI BROMONT.COM CAFETERIA ,22.57,,,17.85,,0.89,,1.78,,2.05,CAD,Meals,,lunch with JP and Alexis,Paper Receipt
+2013-08-24,6010,SKI BROMONT.COM CAFETERIA ,20.34,,,15.95,,0.8,,1.59,,2,CAD,Meals,,lunch with JP and Alexis,"Paper Receipt, Credit card statement"
+2013-08-27,3034,Les cafes Second Cup,10.17,,,8.85,,0.44,,0.88,,0,CAD,Meals,,,Paper Receipt
+2013-08-28,3034,Piazzetta,26.12,,,19.75,,0.99,,1.97,,3.44,CAD,Meals,,lunch with mike,Paper Receipt
+2013-08-29,6010,BEDO #44                 ,86.06,,,,,,,,,,,,,dress for vicky and nadia's weddings,Credit card statement
 2013-09-03,6010,DOMAINSATCOST            ,47.1,,,,,,,,,,,,,,Credit card statement
 2013-09-04,6010,Amazon Web Services      aws.amazon.co 51.10 US DOLLAR,55.23,,,,,,,,,,,,,,Credit card statement
 2013-09-06,6010,KOODO MOBILE PAC,69.44,,,,,,,,,,,,,,Credit card statement

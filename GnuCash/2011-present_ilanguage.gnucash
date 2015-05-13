@@ -20569,7 +20569,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-20/100</split:value>
       <split:quantity>-20/100</split:quantity>
-      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
