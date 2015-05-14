@@ -212,13 +212,43 @@ Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnuca
 2013-08-29,6010,BEDO #44                 ,86.06,,,,,,,,,,,,,dress for vicky and nadia's weddings,Credit card statement
 2013-09-03,6010,DOMAINSATCOST            ,47.1,,,,,,,,,,,,,,Credit card statement
 2013-09-04,6010,Amazon Web Services      aws.amazon.co 51.10 US DOLLAR,55.23,,,,,,,,,,,,,,Credit card statement
-2013-09-06,6010,KOODO MOBILE PAC,69.44,,,,,,,,,,,,,,Credit card statement
-2013-09-10,6010,L AMBROISIE,8,,,,,,,,,,,,,,Credit card statement
-2013-09-10,6010,L AMBROISIE,8,,,,,,,,,,,,,,Credit card statement
-2013-09-14,6010,TELUS MOBILITY PREAUTH,74.27,,,,,,,,,,,,,,Credit card statement
-2013-09-18,6010,FOLIE EN VRAC,24.77,,,,,,,,,,,,,,Credit card statement
-2013-09-23,6010,RESTO CAFE AVESTA,36.6,,,,,,,,,,,,,,Credit card statement
+2013-09-04,3034,IGA,37.18,,,36.73,,0.15,,0.3,,0,CAD,Office expenses,,breakfast items at the office,Paper Receipt
+2013-09-04,3034,SAQ,49.95,,,43.44,,2.17,,4.33,,0,CAD,Office expenses,,alcohol,Paper Receipt
+2013-09-04,3034,SAQ,10.25,,,8.91,,0.45,,0.89,,0,CAD,Office expenses,,wine,Paper Receipt
+2013-09-06,6010,KOODO MOBILE PAC,69.44,,,,,,,,,,,Utilities,,,Credit card statement
+2013-09-06,3034,Les 3 Brasseurs,39.3,,,29.72,,1.49,,2.96,,5.13,CAD,Meals,,,Paper Receipt
+2013-09-10,3034,La Station des Sports,30.92,,,25.6,,1.28,,2.55,,4.49,CAD,Meals,,,Paper Receipt
+2013-09-10,6010,L AMBROISIE,8,,,6.09,,0.3,,0.61,,1,CAD,Meals,,Javascript montreal,"Paper Receipt, Credit card statement"
+2013-09-10,6010,L AMBROISIE,8,,,6.09,,0.3,,0.61,,1,CAD,Meals,,Javascript montreal,"Paper Receipt, Credit card statement"
+2013-09-13,3034,Les 3 Brasseurs,68.7,,,51.96,,2.6,,5.18,,8.96,CAD,Meals,,,Paper Receipt
+2013-09-14,6010,TELUS MOBILITY PREAUTH,74.27,,,,,,,,,,,Utilities,,,Credit card statement
+2013-09-18,6010,FOLIE EN VRAC,24.77,,,,,,,,,,,Office expenses,,office food,"Paper Receipt, Credit card statement"
+2013-09-19,3034,Wine Manor LLC,27.8,,,0,,0,,0,,0,USD,Office expenses,,wine for nadya's wedding events,Paper Receipt
+2013-09-22,3034,City Pharmacy of Elkton Inc,5.61,,,0,,0,,0,,0,USD,Office expenses,,insect repelant,Paper Receipt
+2013-09-22,3034,State Line Liquors,25.06,,,0,,0,,0,,0,USD,Office expenses,,insect repelant,Paper Receipt
+2013-09-22,Employee1 Employee1,Cracker barrel,3.07,,,0,,0,,0,,0,USD,Office expenses,,wooden peg game for office,Paper Receipt
+2013-09-23,3034,Sunoco Plattekill,21.28,,,0,,0,,0,,0,USD,Travel,,gas on return ot montreal,Paper Receipt
+2013-09-23,Visa4,Roy Rogers,12.62,,,0,,0,,0,,0,USD,Meals,,food on return to montreal,Paper Receipt
+2013-09-23,6010,RESTO CAFE AVESTA,36.6,,,28.94,,1.45,,2.89,,3.32,CAD,Meals,,not sure who with,"Paper Receipt, Credit card statement"
+2013-09-24,3034,Restaurant Sesame,10.51,,,7.95,,0.4,,0.79,,1.37,CAD,Meals,,lunch with marie-andre,Paper Receipt
+2013-09-27,3034,PHARMAPRIX #0029,4.36,,,3.79,,0.19,,0.38,,0,CAD,Office expenses,,hand soap,Paper Receipt
 2013-10-01,6010,DOMAINSATCOST,31.4,,,,,,,,,,,,,,Credit card statement
+2013-10-02,Employee1 Employee1,Denos,8.5,,,6.52,,0.33,,0.65,,1,CAD,Meals,,at st elisabeth pub,Paper Receipt
+2013-10-06,6010,KOODO MOBILE PAC,69.44,,,,,,,,,,,Utilities,,reconstructed,Uu
+2013-10-08,3034,L AMBROISIE,62.03,,,47.43,,2.37,,4.73,,7.5,CAD,Meals,,Javascript montreal,Paper Receipt
+2013-10-09,3034,Les 3 Brasseurs,50.91,,,38.5,,1.93,,3.84,,6.64,CAD,Meals,,,Paper Receipt
+2013-10-10,3034,IGA,46.91,,,46.91,,0,,0,,0,CAD,Office expenses,,creame and skacks for the office,Paper Receipt
+2013-10-13,3034,A&W #5540,15.23,,,13.35,,0.66,,1.32,,0,CAD,Meals,,,Paper Receipt
+2013-10-17,Employee1 Employee1,Restaurant Cafe Saigon,12.59,,,10.95,,0.55,,1.09,,0,CAD,Meals,,,Paper Receipt
+2013-10-20,6010,SAQ,9.1,,,7.91,,0.4,,0.79,,0,CAD,Office expenses,,wine,Paper Receipt
+2013-10-26,6010,Mcdonalds,1.71,,,1.49,,0.22,,1.71,,0,CAD,Meals,,waiting for oil change,Paper Receipt
+2013-10-26,3034,Michaels,17.24,,,14.99,,0.75,,1.5,,0,CAD,Office expenses,,paintings,Paper Receipt
+2013-10-26,3034,Teavana,94.17,,,83.4,,4.1,,8.17,,0,CAD,Office expenses,,tea decanter and tea for the office,Paper Receipt
+2013-10-26,3034,La Station des Sports,42.31,,,32,,1.6,,3.19,,5.52,CAD,Meals,,,Paper Receipt
+2013-10-13,6010,Cafe Maurizio,21.44,,,16.95,,0.85,,1.69,,1.95,CAD,Meals,,Android montreal,Paper Receipt
+2013-10-14,6010,TELUS MOBILITY PREAUTH,74.27,,,,,,,,,,,Utilities,,reconstructed,
+2013-10-30,6010,ESSO 3440 BOUL  ST-LAUREN,20.15,,,17.69,,0.82,,1.64,,0,CAD,Office expenses,,Android montreal,Paper Receipt
+2013-10-30,3034,La Couscousierre Ali Baba,69,,,52.19,,2.61,,5.21,,9,CAD,Meals,,Employee13's wedding,Paper Receipt
 2013-11-03,6010,Amazon Web Services      aws.amazon.co           11.56 US DOLLAR,12.39,,,,,,,,,,,,,,Credit card statement
 2013-11-06,6010,Amazon Web Services      aws.amazon.co           15.84 US DOLLAR,16.99,,,,,,,,,,,,,,Credit card statement
 2013-11-06,6010,KOODO MOBILE PAC         ,43.08,,,,,,,,,,,,,,Credit card statement
