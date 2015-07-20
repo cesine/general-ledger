@@ -156,8 +156,8 @@ Montreal QC REMOVED</slot:value>
   </slot>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
-<gnc:count-data cd:type="account">132</gnc:count-data>
-<gnc:count-data cd:type="transaction">569</gnc:count-data>
+<gnc:count-data cd:type="account">135</gnc:count-data>
+<gnc:count-data cd:type="transaction">576</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">5</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
@@ -6335,6 +6335,63 @@ Montreal QC REMOVED</slot:value>
   <act:commodity-scu>100</act:commodity-scu>
   <act:description>Workers Comp</act:description>
   <act:parent type="guid">89c48bc397b3935af34bfde9e685e754</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Fines</act:name>
+  <act:id type="guid">46e088d1279d1617c0cf14b5e1e2242e</act:id>
+  <act:type>EXPENSE</act:type>
+  <act:commodity>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:code>Fines</act:code>
+  <act:description>Fines for accounting errors</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>color</slot:key>
+      <slot:value type="string">Not Set</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">af71b129304b6b0bea736cf1cf965702</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Federal Fines</act:name>
+  <act:id type="guid">d24922d8e7500a006a618d6cdaf56ac2</act:id>
+  <act:type>EXPENSE</act:type>
+  <act:commodity>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:code>Federal Fines</act:code>
+  <act:description>Fines charged by federal government</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>color</slot:key>
+      <slot:value type="string">Not Set</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">46e088d1279d1617c0cf14b5e1e2242e</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Quebec Fines</act:name>
+  <act:id type="guid">7ddf641b0a0f3eeb2bddb13cc8cf88cb</act:id>
+  <act:type>EXPENSE</act:type>
+  <act:commodity>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:code>Quebec Fines</act:code>
+  <act:description>Fines charged by the Quebec Government</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>color</slot:key>
+      <slot:value type="string">Not Set</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">46e088d1279d1617c0cf14b5e1e2242e</act:parent>
 </gnc:account>
 <gnc:account version="2.0.0">
   <act:name>Amortization</act:name>
@@ -17261,7 +17318,7 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Virement - AccesD Internet Assets:Equipment  (Laptop purchase Transfered to Employee3 who paid on a credit card)</slot:value>
+      <slot:value type="string">Virement - AccesD Internet Assets:Equipment  (Employee1 MacBook Pro 15inch Laptop purchase Transfered to Employee3 who paid on a credit card)</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -27168,7 +27225,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>78792/100</split:value>
       <split:quantity>78792/100</split:quantity>
-      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">2599657a91f05aa05bcdf04f485ed6f0</split:id>
@@ -27212,9 +27269,16 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">cfe6e7890831ee564207debfd40cf587</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>2/100</split:value>
-      <split:quantity>2/100</split:quantity>
-      <split:account type="guid">8fefddb1076d81c8369b6474529b52dd</split:account>
+      <split:value>1/100</split:value>
+      <split:quantity>1/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c46c224f81bde9c817e9b3488506668c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1/100</split:value>
+      <split:quantity>1/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">fc9460325e5e4fb28bae8d19e1d4c4eb</split:id>
@@ -27251,7 +27315,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Fines for late Retenu de source 2014</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -27260,7 +27324,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>20636/100</split:value>
       <split:quantity>20636/100</split:quantity>
-      <split:account type="guid">17b3e95d857ddb053529def5587793b7</split:account>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">8dfe886299d67a9b6db018f579bf4559</split:id>
@@ -27287,7 +27351,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-07-20 16:09:59 -0400</ts:date>
   </trn:date-entered>
-  <trn:description>Transfer - AccesD - Internet</trn:description>
+  <trn:description>Air Canada</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -27297,7 +27361,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Transfer - AccesD - Internet</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -27398,7 +27462,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>78792/100</split:value>
       <split:quantity>78792/100</split:quantity>
-      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">af8270060b48151674dc3fa3d7922793</split:id>
@@ -27425,7 +27489,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:date-entered>
     <ts:date>2015-07-20 16:09:59 -0400</ts:date>
   </trn:date-entered>
-  <trn:description>Transfer - AccesD - Internet</trn:description>
+  <trn:description>Apple Store</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -27435,7 +27499,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">Transfer - AccesD - Internet (Intern Laptop purchase Transfered to Employee3 who paid on a credit card)</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -27444,7 +27508,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>128670/100</split:value>
       <split:quantity>128670/100</split:quantity>
-      <split:account type="guid">2b90b480916be10e12b085956be5ccc2</split:account>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">cb2dcdbe8b2c24015ff20339b984085d</split:id>
@@ -27536,7 +27600,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>78792/100</split:value>
       <split:quantity>78792/100</split:quantity>
-      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">04c4a1ff4b8280638573d0a651bcf6eb</split:id>
@@ -31597,7 +31661,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Equipment Laptop and scanner/copier/printer</slot:value>
+      <slot:value type="string">Employee2/Employee3 lab equipment MacBook 13inch Laptop and scanner/copier/printer</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -35062,6 +35126,164 @@ chairs</split:memo>
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
+  <trn:id type="guid">b74fba82649e450a846decafc13d5c9c</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-05-26 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-07-20 19:33:37 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee17 Employee17</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-05-26</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">f2827e4bc5bb2ea066a48e38077f6366</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>83333/100</split:value>
+      <split:quantity>83333/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">1122bdfd49cf5490b9905e2a8caac006</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1783/100</split:value>
+      <split:quantity>1783/100</split:quantity>
+      <split:account type="guid">f74e2e8f0a2675c25c09e65ee45546f3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">fcb30f3f652d97b4ac8631f9ae2ee966</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2801/100</split:value>
+      <split:quantity>2801/100</split:quantity>
+      <split:account type="guid">3491a29c5cf4fedba588333d589ef4c0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">dd140af1ae3366f58e7f3e840ee6b158</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>651/100</split:value>
+      <split:quantity>651/100</split:quantity>
+      <split:account type="guid">961aeb195f2e1d2162aa9b6fc42bc19f</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">db90a0078335d10b233b15bbcd5fa290</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2249/100</split:value>
+      <split:quantity>2249/100</split:quantity>
+      <split:account type="guid">54740c9ab8d03a686963dce3238e9b13</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">437bd3b4632309c328f3974d0a6e0b10</split:id>
+      <split:memo>Employee Impôt Federale sur le revenu retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">26468186bd15e67c50699c6d89499a30</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">2c2a637e57f26f9e32b45f9725d48d25</split:id>
+      <split:memo>Employee Impôt du Québec retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">48c92f65478d34885929858967a05746</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2249/100</split:value>
+      <split:quantity>-2249/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c6635af8843172ebd954a62e5c217b6e</split:id>
+      <split:memo>Employee Régie des rentes du Québec/Quebec Pension Plan QPP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e7fc5a50b5bf80fb5e414d6f66f62089</split:id>
+      <split:memo>Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-466/100</split:value>
+      <split:quantity>-466/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c07a2bcf4ded7fb51e9335e28fe7fc97</split:id>
+      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1274/100</split:value>
+      <split:quantity>-1274/100</split:quantity>
+      <split:account type="guid">63cd5dac860e96892dd7f26833cbd72a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a55fd9369fcbde6c1023445677721e4e</split:id>
+      <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
+      <split:action>Check</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">90c31351cf45bd43342697f634a02fb9</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1783/100</split:value>
+      <split:quantity>-1783/100</split:quantity>
+      <split:account type="guid">a834c47619ffbb633a7f67626639f2a1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">580921b26ef040ab2c62dac5d5e5cff4</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5d879384f6d6c5b8d033b40805fc3083</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-651/100</split:value>
+      <split:quantity>-651/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
   <trn:id type="guid">5a26e64f16c7e14a897d0e552e66ff24</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -35129,6 +35351,164 @@ chairs</split:memo>
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
+  <trn:id type="guid">3d76d3757339e2213e9aa52d97550e0e</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-06-26 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-07-20 19:33:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee17 Employee17</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-06-26</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">14c53481ac8358a0e4e91a7370905121</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>83333/100</split:value>
+      <split:quantity>83333/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50251a3c4300f9ce93a06a0db7321e76</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1783/100</split:value>
+      <split:quantity>1783/100</split:quantity>
+      <split:account type="guid">f74e2e8f0a2675c25c09e65ee45546f3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">89df5c5e3e92c4365a5312eb92a8befc</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2801/100</split:value>
+      <split:quantity>2801/100</split:quantity>
+      <split:account type="guid">3491a29c5cf4fedba588333d589ef4c0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">453d48548306000bc0bf114e6ecd4e7e</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>651/100</split:value>
+      <split:quantity>651/100</split:quantity>
+      <split:account type="guid">961aeb195f2e1d2162aa9b6fc42bc19f</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">9a1d19eeb87f37e6aa161714e2d967f5</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2249/100</split:value>
+      <split:quantity>2249/100</split:quantity>
+      <split:account type="guid">54740c9ab8d03a686963dce3238e9b13</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c60691165e76469af86d0f2efe8449ff</split:id>
+      <split:memo>Employee Impôt Federale sur le revenu retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">26468186bd15e67c50699c6d89499a30</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b3156ba0e640c3602e1f414e6d70548b</split:id>
+      <split:memo>Employee Impôt du Québec retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">74ebfbd05dae0ef05a8ecab21744b298</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2249/100</split:value>
+      <split:quantity>-2249/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b0ad27e8feaa40cbeba50f86bbe07704</split:id>
+      <split:memo>Employee Régie des rentes du Québec/Quebec Pension Plan QPP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">193a7bade2349d9f395b3fdff576c5f8</split:id>
+      <split:memo>Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-466/100</split:value>
+      <split:quantity>-466/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">2c0b3c336f7de3c2e7a1603429dd3393</split:id>
+      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1274/100</split:value>
+      <split:quantity>-1274/100</split:quantity>
+      <split:account type="guid">63cd5dac860e96892dd7f26833cbd72a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">2c0fe45514f4e6ffddd556fce42f7a99</split:id>
+      <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
+      <split:action>Check</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ab13334f4893415a10c4e92f8847c696</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1783/100</split:value>
+      <split:quantity>-1783/100</split:quantity>
+      <split:account type="guid">a834c47619ffbb633a7f67626639f2a1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">cae5484e482d624d9d9fa5ca0e77e72a</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e39c3651bf8ba2757c6d8a1e1189b04f</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-651/100</split:value>
+      <split:quantity>-651/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
   <trn:id type="guid">a6279a412494f15da6138a15404cfa91</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -35192,6 +35572,796 @@ chairs</split:memo>
       <split:value>-31500/100</split:value>
       <split:quantity>-31500/100</split:quantity>
       <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">31de8a7d3453fc161ed4beebf1e50939</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-07-26 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-07-20 19:33:57 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee17 Employee17</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-07-26</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">3753781f56dbbe1587c16362f3fc8517</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>83333/100</split:value>
+      <split:quantity>83333/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">bdd7f70d82af2484d8087a223c4666aa</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1783/100</split:value>
+      <split:quantity>1783/100</split:quantity>
+      <split:account type="guid">f74e2e8f0a2675c25c09e65ee45546f3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">bcc5a6a4c661d99037740d90fb88c925</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2801/100</split:value>
+      <split:quantity>2801/100</split:quantity>
+      <split:account type="guid">3491a29c5cf4fedba588333d589ef4c0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">0b6e115f80754e6d1daaa630b17603ea</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>651/100</split:value>
+      <split:quantity>651/100</split:quantity>
+      <split:account type="guid">961aeb195f2e1d2162aa9b6fc42bc19f</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">dbabbd7847febdac98db03350bb2f996</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2249/100</split:value>
+      <split:quantity>2249/100</split:quantity>
+      <split:account type="guid">54740c9ab8d03a686963dce3238e9b13</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e21ebb50335bae8207bb5ccd806b892a</split:id>
+      <split:memo>Employee Impôt Federale sur le revenu retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">26468186bd15e67c50699c6d89499a30</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">2383d9f186afa884dbc43546ae565bc1</split:id>
+      <split:memo>Employee Impôt du Québec retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f9ec574e5e8c3abf7c374c9a3fe15f1d</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2249/100</split:value>
+      <split:quantity>-2249/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">1fb80f3562091ee645be6afdac76a5f1</split:id>
+      <split:memo>Employee Régie des rentes du Québec/Quebec Pension Plan QPP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5673bc96633590126ebe517dcd2acbd6</split:id>
+      <split:memo>Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-466/100</split:value>
+      <split:quantity>-466/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5047464090220778ea1a9367ad441ae0</split:id>
+      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1274/100</split:value>
+      <split:quantity>-1274/100</split:quantity>
+      <split:account type="guid">63cd5dac860e96892dd7f26833cbd72a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d1cf5d7f4553990698fca4adacd90e29</split:id>
+      <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
+      <split:action>Check</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">af9f114039e2c1ac78aff34688bb73b8</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1783/100</split:value>
+      <split:quantity>-1783/100</split:quantity>
+      <split:account type="guid">a834c47619ffbb633a7f67626639f2a1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">504db05646c21355782551d695ae8171</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">6c87a3f57a10b590ecaadc1d7f177cac</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-651/100</split:value>
+      <split:quantity>-651/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">08869879b327cb96860cd24003c631e0</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-08-26 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-07-20 19:34:11 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee17 Employee17</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-08-26</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">ae5b2bb95ca6826c560044324b5dde2a</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>83333/100</split:value>
+      <split:quantity>83333/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">462641b7fec7fbbade631599b0412258</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1783/100</split:value>
+      <split:quantity>1783/100</split:quantity>
+      <split:account type="guid">f74e2e8f0a2675c25c09e65ee45546f3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">653950b8e5ddc6bb997f6d1a2150e977</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2801/100</split:value>
+      <split:quantity>2801/100</split:quantity>
+      <split:account type="guid">3491a29c5cf4fedba588333d589ef4c0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">78905d2342ec4f54bb364814b99379c4</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>651/100</split:value>
+      <split:quantity>651/100</split:quantity>
+      <split:account type="guid">961aeb195f2e1d2162aa9b6fc42bc19f</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">bb7c9a9aec405f79e8101011ef125399</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2249/100</split:value>
+      <split:quantity>2249/100</split:quantity>
+      <split:account type="guid">54740c9ab8d03a686963dce3238e9b13</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">93d699c11b5738521606286870a944cf</split:id>
+      <split:memo>Employee Impôt Federale sur le revenu retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">26468186bd15e67c50699c6d89499a30</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">4faab755ea0d5058da7d82b732744e3f</split:id>
+      <split:memo>Employee Impôt du Québec retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b8d433ae73751d1a29c54880fec3bf1f</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2249/100</split:value>
+      <split:quantity>-2249/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b1b08c06a7b45eef6e933cc9a1b62dd6</split:id>
+      <split:memo>Employee Régie des rentes du Québec/Quebec Pension Plan QPP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e6e322df79cabd0c2275a0b6b78981ae</split:id>
+      <split:memo>Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-466/100</split:value>
+      <split:quantity>-466/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">98e843a7d054cd2ef70825301d88d90a</split:id>
+      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1274/100</split:value>
+      <split:quantity>-1274/100</split:quantity>
+      <split:account type="guid">63cd5dac860e96892dd7f26833cbd72a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c06d144bf4452c8db6de876b3ca516a2</split:id>
+      <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
+      <split:action>Check</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c48450a55986400286be07c3f91cda1d</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1783/100</split:value>
+      <split:quantity>-1783/100</split:quantity>
+      <split:account type="guid">a834c47619ffbb633a7f67626639f2a1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">353e84f5f201e4fce110eff9fdd8a7fa</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">64560a6f85f89e1eb9b80c1573877058</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-651/100</split:value>
+      <split:quantity>-651/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">e598ab4951ad58bcd852aff1fae9ff6c</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-09-26 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-07-20 19:34:39 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee17 Employee17</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-09-26</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">62b5965118301d549ac3ac0423e53101</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>83333/100</split:value>
+      <split:quantity>83333/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ba67e1125f48011fff1094b1e05ecf03</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1783/100</split:value>
+      <split:quantity>1783/100</split:quantity>
+      <split:account type="guid">f74e2e8f0a2675c25c09e65ee45546f3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">eb56b09f3694bcc182c765e8d72f5d45</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2801/100</split:value>
+      <split:quantity>2801/100</split:quantity>
+      <split:account type="guid">3491a29c5cf4fedba588333d589ef4c0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a19d8445c8da28969f97aa85f4689803</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>651/100</split:value>
+      <split:quantity>651/100</split:quantity>
+      <split:account type="guid">961aeb195f2e1d2162aa9b6fc42bc19f</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">92ec2eb1feda260a561bd4e51be4f9bc</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2249/100</split:value>
+      <split:quantity>2249/100</split:quantity>
+      <split:account type="guid">54740c9ab8d03a686963dce3238e9b13</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3feb719da2dd14a95be66cac32282682</split:id>
+      <split:memo>Employee Impôt Federale sur le revenu retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">26468186bd15e67c50699c6d89499a30</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">99f503614e5049686451198d993db5f2</split:id>
+      <split:memo>Employee Impôt du Québec retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3aa7c49938666aa8b155b31281e76f19</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2249/100</split:value>
+      <split:quantity>-2249/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">1fbebc2cefb308b4e289f7ee54e58a2f</split:id>
+      <split:memo>Employee Régie des rentes du Québec/Quebec Pension Plan QPP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">4eb9ea894841f983c1e836ec2298700d</split:id>
+      <split:memo>Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-466/100</split:value>
+      <split:quantity>-466/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a53a249b83a1a881ef9e252cf69dd316</split:id>
+      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1274/100</split:value>
+      <split:quantity>-1274/100</split:quantity>
+      <split:account type="guid">63cd5dac860e96892dd7f26833cbd72a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a52b4c253ac61a14089fa7505e769982</split:id>
+      <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
+      <split:action>Check</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3d081f2ebff039a969eb1244ff7043f5</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1783/100</split:value>
+      <split:quantity>-1783/100</split:quantity>
+      <split:account type="guid">a834c47619ffbb633a7f67626639f2a1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c5486f16f71544ca6b2448e93589f30f</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">7c595c40bf4727ef0a7c13dbec855dd8</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-651/100</split:value>
+      <split:quantity>-651/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">3ea46e4f72fb8645efd17871178a70fc</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-10-26 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-07-20 19:34:45 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee17 Employee17</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-10-26</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">9108d2d841dd43d7727a6c29fd73a740</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>83333/100</split:value>
+      <split:quantity>83333/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3e6f63d2c2dd797d6811be11cffe42b1</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1783/100</split:value>
+      <split:quantity>1783/100</split:quantity>
+      <split:account type="guid">f74e2e8f0a2675c25c09e65ee45546f3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">52cc3e5958387c86bd213fc28b232c16</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2801/100</split:value>
+      <split:quantity>2801/100</split:quantity>
+      <split:account type="guid">3491a29c5cf4fedba588333d589ef4c0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f3916e7935db67fea8ce4ea2d4ab586a</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>651/100</split:value>
+      <split:quantity>651/100</split:quantity>
+      <split:account type="guid">961aeb195f2e1d2162aa9b6fc42bc19f</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">1caf62f5c3b1fb0b47c551e0b81c50b4</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2249/100</split:value>
+      <split:quantity>2249/100</split:quantity>
+      <split:account type="guid">54740c9ab8d03a686963dce3238e9b13</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c6c4fce65deda750f735799c22d3bde0</split:id>
+      <split:memo>Employee Impôt Federale sur le revenu retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">26468186bd15e67c50699c6d89499a30</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f02a6a1b1573555a641dfd12e8a485c1</split:id>
+      <split:memo>Employee Impôt du Québec retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b5285bee1b91802cf27e3b96351fcfcd</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2249/100</split:value>
+      <split:quantity>-2249/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">9e5382a6dd574e705ae8791ad70a931e</split:id>
+      <split:memo>Employee Régie des rentes du Québec/Quebec Pension Plan QPP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d51aa0228927d296fdea0e3f998d9319</split:id>
+      <split:memo>Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-466/100</split:value>
+      <split:quantity>-466/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">22f20b05baee0aaf9adde0591afa5bfb</split:id>
+      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1274/100</split:value>
+      <split:quantity>-1274/100</split:quantity>
+      <split:account type="guid">63cd5dac860e96892dd7f26833cbd72a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">57050f92ae2d6af50d9c68e3bcc9b722</split:id>
+      <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
+      <split:action>Check</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">0452f292b82e230641a787d3a419ea86</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1783/100</split:value>
+      <split:quantity>-1783/100</split:quantity>
+      <split:account type="guid">a834c47619ffbb633a7f67626639f2a1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ee7b9c5907930598f092c7b3202a2746</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">224e046ce336989c796cf6957e62a82a</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-651/100</split:value>
+      <split:quantity>-651/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">17aa4418cef60564373db5c51b9bebdc</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-11-26 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-07-20 19:34:51 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee17 Employee17</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-11-26</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">b158fd7a06d4eb8ca036fb006acab4d2</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>83333/100</split:value>
+      <split:quantity>83333/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">89e7f5302674d3a4e589f039fc508256</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1783/100</split:value>
+      <split:quantity>1783/100</split:quantity>
+      <split:account type="guid">f74e2e8f0a2675c25c09e65ee45546f3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">0cfc7690e89fb92a73408c6bac1f7880</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2801/100</split:value>
+      <split:quantity>2801/100</split:quantity>
+      <split:account type="guid">3491a29c5cf4fedba588333d589ef4c0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3ac2ad2e6469318d132fcc6ca2383421</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>651/100</split:value>
+      <split:quantity>651/100</split:quantity>
+      <split:account type="guid">961aeb195f2e1d2162aa9b6fc42bc19f</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">60e886874e0c109a76145ba51fa50328</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2249/100</split:value>
+      <split:quantity>2249/100</split:quantity>
+      <split:account type="guid">54740c9ab8d03a686963dce3238e9b13</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">6c308e887b87cc2251ebb5390ac3591e</split:id>
+      <split:memo>Employee Impôt Federale sur le revenu retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">26468186bd15e67c50699c6d89499a30</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">6dbd9ae41a9220c0bbf5d80638bcb66f</split:id>
+      <split:memo>Employee Impôt du Québec retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">9850ff5abeae26816fee8107dcb3e25d</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2249/100</split:value>
+      <split:quantity>-2249/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">70bc498c1759270884a9c60ca2199b37</split:id>
+      <split:memo>Employee Régie des rentes du Québec/Quebec Pension Plan QPP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">40a4dc3946ebe22576ff8da2f786a60e</split:id>
+      <split:memo>Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-466/100</split:value>
+      <split:quantity>-466/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3c5cc37a97a8ae62fd0fd3109152b157</split:id>
+      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1274/100</split:value>
+      <split:quantity>-1274/100</split:quantity>
+      <split:account type="guid">63cd5dac860e96892dd7f26833cbd72a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">4dea698cce790722d7fc92730f7bceb9</split:id>
+      <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
+      <split:action>Check</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ea8b9048b8e3282c48dd9f3bf0f6ed39</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1783/100</split:value>
+      <split:quantity>-1783/100</split:quantity>
+      <split:account type="guid">a834c47619ffbb633a7f67626639f2a1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f73898c97052e43b49a31bba97493473</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c9efe58cf6311a2731a662d349815af5</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-651/100</split:value>
+      <split:quantity>-651/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
