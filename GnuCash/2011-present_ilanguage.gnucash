@@ -156,15 +156,15 @@ Montreal QC REMOVED</slot:value>
   </slot>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
-<gnc:count-data cd:type="account">135</gnc:count-data>
-<gnc:count-data cd:type="transaction">576</gnc:count-data>
+<gnc:count-data cd:type="account">134</gnc:count-data>
+<gnc:count-data cd:type="transaction">577</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">5</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncCustomer">11</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncEmployee">18</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncEntry">178</gnc:count-data>
-<gnc:count-data cd:type="gnc:GncInvoice">52</gnc:count-data>
+<gnc:count-data cd:type="gnc:GncInvoice">53</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncJob">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncTaxTable">13</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncVendor">1</gnc:count-data>
@@ -2779,6 +2779,24 @@ Montreal QC REMOVED</slot:value>
       </lot:slots>
     </gnc:lot>
     <gnc:lot version="2.0.0">
+      <lot:id type="guid">329a937dfc5b9dc8b62a08bc2247972e</lot:id>
+      <lot:slots>
+        <slot>
+          <slot:key>gncOwner</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>owner-guid</slot:key>
+              <slot:value type="guid">36fbaf29f0ab7114329aaee0e50e3437</slot:value>
+            </slot>
+            <slot>
+              <slot:key>owner-type</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+      </lot:slots>
+    </gnc:lot>
+    <gnc:lot version="2.0.0">
       <lot:id type="guid">3474fef889e5cafd1c5c6b91fc9ef6ba</lot:id>
       <lot:slots>
         <slot>
@@ -4288,6 +4306,24 @@ Montreal QC REMOVED</slot:value>
       </lot:slots>
     </gnc:lot>
     <gnc:lot version="2.0.0">
+      <lot:id type="guid">381b95f1ef0aa5199d26f38914642bd8</lot:id>
+      <lot:slots>
+        <slot>
+          <slot:key>gncInvoice</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>invoice-guid</slot:key>
+              <slot:value type="guid">89aa2f1375bc5bf0abd61ae056548298</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>title</slot:key>
+          <slot:value type="string">Expense 000005</slot:value>
+        </slot>
+      </lot:slots>
+    </gnc:lot>
+    <gnc:lot version="2.0.0">
       <lot:id type="guid">3de829bd3a4dbc5f86be10b38123c468</lot:id>
       <lot:slots>
         <slot>
@@ -4428,24 +4464,6 @@ Montreal QC REMOVED</slot:value>
               <slot:value type="integer">5</slot:value>
             </slot>
           </slot:value>
-        </slot>
-      </lot:slots>
-    </gnc:lot>
-    <gnc:lot version="2.0.0">
-      <lot:id type="guid">beec9296352d3bfd497da4ea3cdd26c1</lot:id>
-      <lot:slots>
-        <slot>
-          <slot:key>gncInvoice</slot:key>
-          <slot:value type="frame">
-            <slot>
-              <slot:key>invoice-guid</slot:key>
-              <slot:value type="guid">7ccbf9c4a110739e2d37c6be172eede0</slot:value>
-            </slot>
-          </slot:value>
-        </slot>
-        <slot>
-          <slot:key>title</slot:key>
-          <slot:value type="string">Credit Note 000005</slot:value>
         </slot>
       </lot:slots>
     </gnc:lot>
@@ -6337,63 +6355,6 @@ Montreal QC REMOVED</slot:value>
   <act:parent type="guid">89c48bc397b3935af34bfde9e685e754</act:parent>
 </gnc:account>
 <gnc:account version="2.0.0">
-  <act:name>Fines</act:name>
-  <act:id type="guid">46e088d1279d1617c0cf14b5e1e2242e</act:id>
-  <act:type>EXPENSE</act:type>
-  <act:commodity>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </act:commodity>
-  <act:commodity-scu>100</act:commodity-scu>
-  <act:code>Fines</act:code>
-  <act:description>Fines for accounting errors</act:description>
-  <act:slots>
-    <slot>
-      <slot:key>color</slot:key>
-      <slot:value type="string">Not Set</slot:value>
-    </slot>
-  </act:slots>
-  <act:parent type="guid">af71b129304b6b0bea736cf1cf965702</act:parent>
-</gnc:account>
-<gnc:account version="2.0.0">
-  <act:name>Federal Fines</act:name>
-  <act:id type="guid">d24922d8e7500a006a618d6cdaf56ac2</act:id>
-  <act:type>EXPENSE</act:type>
-  <act:commodity>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </act:commodity>
-  <act:commodity-scu>100</act:commodity-scu>
-  <act:code>Federal Fines</act:code>
-  <act:description>Fines charged by federal government</act:description>
-  <act:slots>
-    <slot>
-      <slot:key>color</slot:key>
-      <slot:value type="string">Not Set</slot:value>
-    </slot>
-  </act:slots>
-  <act:parent type="guid">46e088d1279d1617c0cf14b5e1e2242e</act:parent>
-</gnc:account>
-<gnc:account version="2.0.0">
-  <act:name>Quebec Fines</act:name>
-  <act:id type="guid">7ddf641b0a0f3eeb2bddb13cc8cf88cb</act:id>
-  <act:type>EXPENSE</act:type>
-  <act:commodity>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </act:commodity>
-  <act:commodity-scu>100</act:commodity-scu>
-  <act:code>Quebec Fines</act:code>
-  <act:description>Fines charged by the Quebec Government</act:description>
-  <act:slots>
-    <slot>
-      <slot:key>color</slot:key>
-      <slot:value type="string">Not Set</slot:value>
-    </slot>
-  </act:slots>
-  <act:parent type="guid">46e088d1279d1617c0cf14b5e1e2242e</act:parent>
-</gnc:account>
-<gnc:account version="2.0.0">
   <act:name>Amortization</act:name>
   <act:id type="guid">5ad798d8fa074946fd3494148ac5bbb7</act:id>
   <act:type>EXPENSE</act:type>
@@ -6476,6 +6437,44 @@ Montreal QC REMOVED</slot:value>
   <act:commodity-scu>100</act:commodity-scu>
   <act:code>tips</act:code>
   <act:description>Tips and/org gratuities paid for services</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>color</slot:key>
+      <slot:value type="string">Not Set</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">7412037bf1a68b7672f778dacf4ca71d</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Federal Fines</act:name>
+  <act:id type="guid">d24922d8e7500a006a618d6cdaf56ac2</act:id>
+  <act:type>EXPENSE</act:type>
+  <act:commodity>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:code>Federal Fines</act:code>
+  <act:description>Fines charged by federal government</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>color</slot:key>
+      <slot:value type="string">Not Set</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">7412037bf1a68b7672f778dacf4ca71d</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Quebec Fines</act:name>
+  <act:id type="guid">7ddf641b0a0f3eeb2bddb13cc8cf88cb</act:id>
+  <act:type>EXPENSE</act:type>
+  <act:commodity>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:code>Quebec Fines</act:code>
+  <act:description>Fines charged by the Quebec Government</act:description>
   <act:slots>
     <slot>
       <slot:key>color</slot:key>
@@ -27639,10 +27638,15 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <slot:key>notes</slot:key>
       <slot:value type="string"></slot:value>
     </slot>
+    <slot>
+      <slot:key>trans-txn-type</slot:key>
+      <slot:value type="string">P</slot:value>
+    </slot>
   </trn:slots>
   <trn:splits>
     <trn:split>
       <split:id type="guid">4aa9b3c556e22129d39c0ecdbbbe556e</split:id>
+      <split:action>Payment</split:action>
       <split:reconciled-state>c</split:reconciled-state>
       <split:reconcile-date>
         <ts:date>2015-07-20 16:09:59 -0400</ts:date>
@@ -27652,11 +27656,24 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">8c6f180c40c60ba9f4b29c173c7c1eeb</split:id>
+      <split:id type="guid">8a000185334079edc5feea63d7a1113e</split:id>
+      <split:memo>Deposit at the counter/CAISSE CENTRALE DESJ.</split:memo>
+      <split:action>Payment</split:action>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-529633/100</split:value>
-      <split:quantity>-529633/100</split:quantity>
+      <split:value>-51049/100</split:value>
+      <split:quantity>-51049/100</split:quantity>
       <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+      <split:lot type="guid">9dfdf220eaa0f28ae1c69ab103a9be95</split:lot>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">47eeacf48f0793e18680e7170f5a7f7a</split:id>
+      <split:memo>Deposit at the counter/CAISSE CENTRALE DESJ.</split:memo>
+      <split:action>Payment</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-478584/100</split:value>
+      <split:quantity>-478584/100</split:quantity>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+      <split:lot type="guid">329a937dfc5b9dc8b62a08bc2247972e</split:lot>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -34478,6 +34495,164 @@ chairs</split:memo>
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
+  <trn:id type="guid">37f6792e0dcd5139e6c8e0c17317e5cc</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-12-26 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2015-07-20 19:58:20 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee17 Employee17</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-12-26</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">7138b8731819da5d2ff3541058aad758</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>83333/100</split:value>
+      <split:quantity>83333/100</split:quantity>
+      <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">0614acc289e8c0be85c8cf8b3a43d2c7</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1783/100</split:value>
+      <split:quantity>1783/100</split:quantity>
+      <split:account type="guid">f74e2e8f0a2675c25c09e65ee45546f3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5aeb3c531a0c282b4b75a615618c40ed</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2801/100</split:value>
+      <split:quantity>2801/100</split:quantity>
+      <split:account type="guid">3491a29c5cf4fedba588333d589ef4c0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">7aa24a4b477234ba07c8d709ccc7fcfe</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>651/100</split:value>
+      <split:quantity>651/100</split:quantity>
+      <split:account type="guid">961aeb195f2e1d2162aa9b6fc42bc19f</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">13a45d9fa98cb9d8b545fabe59b51944</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2249/100</split:value>
+      <split:quantity>2249/100</split:quantity>
+      <split:account type="guid">54740c9ab8d03a686963dce3238e9b13</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ab52adf1c7c19912f5972b1fd93c50ed</split:id>
+      <split:memo>Employee Impôt Federale sur le revenu retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">26468186bd15e67c50699c6d89499a30</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">8152f529bf096306b701f67f2d1764d2</split:id>
+      <split:memo>Employee Impôt du Québec retenu
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b25a48c81fc7538635de52e2bde2990b</split:id>
+      <split:memo>Employeur Cotisation au Fonds des services de santé/Quebec Health Services Fund
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2249/100</split:value>
+      <split:quantity>-2249/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">aa3b71f9b274620a3c197057495ecbfa</split:id>
+      <split:memo>Employee Régie des rentes du Québec/Quebec Pension Plan QPP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">081bf1feac87751597772abdc06c475c</split:id>
+      <split:memo>Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-466/100</split:value>
+      <split:quantity>-466/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b0d4c8c60ddc12dc8c5cb877bf991d31</split:id>
+      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1274/100</split:value>
+      <split:quantity>-1274/100</split:quantity>
+      <split:account type="guid">63cd5dac860e96892dd7f26833cbd72a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f45dc917b4edec0502bff317eb49eb18</split:id>
+      <split:memo>Paie Nette/Net Pay (Cheque)</split:memo>
+      <split:action>Check</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">466fef906a16b5565e564461322756ea</split:id>
+      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1783/100</split:value>
+      <split:quantity>-1783/100</split:quantity>
+      <split:account type="guid">a834c47619ffbb633a7f67626639f2a1</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c3d309b707a99715ee73cafba77573da</split:id>
+      <split:memo>Employeur Régie des rentes du Québec/Quebec Pension Plan QPP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2801/100</split:value>
+      <split:quantity>-2801/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">8cd16fb99ca46256ffb50818ca2dcaa2</split:id>
+      <split:memo>Employeur Régime québécois d'assurance parentale/Quebec Parental Insurance Plan QPIP
+</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-651/100</split:value>
+      <split:quantity>-651/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
   <trn:id type="guid">c1b1d8f0c26ea1ab6c36de34291d5f62</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -35509,7 +35684,7 @@ chairs</split:memo>
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">a6279a412494f15da6138a15404cfa91</trn:id>
+  <trn:id type="guid">fc83166738069f19d31d968d50f4e2a5</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
@@ -35519,7 +35694,7 @@ chairs</split:memo>
     <ts:date>2015-07-08 00:00:00 -0400</ts:date>
   </trn:date-posted>
   <trn:date-entered>
-    <ts:date>2015-07-08 17:07:55 -0400</ts:date>
+    <ts:date>2015-07-20 19:57:21 -0400</ts:date>
   </trn:date-entered>
   <trn:description>Employee14 Employee14</trn:description>
   <trn:slots>
@@ -35528,7 +35703,7 @@ chairs</split:memo>
       <slot:value type="frame">
         <slot>
           <slot:key>invoice-guid</slot:key>
-          <slot:value type="guid">7ccbf9c4a110739e2d37c6be172eede0</slot:value>
+          <slot:value type="guid">89aa2f1375bc5bf0abd61ae056548298</slot:value>
         </slot>
       </slot:value>
     </slot>
@@ -35549,29 +35724,37 @@ chairs</split:memo>
   </trn:slots>
   <trn:splits>
     <trn:split>
-      <split:id type="guid">f4a8f5c7a07835ce61966c3ed883c201</split:id>
-      <split:action>Credit Note</split:action>
+      <split:id type="guid">f5d865a4aa156c14d55d8a7618feebf1</split:id>
+      <split:action>Expense</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>43500/100</split:value>
       <split:quantity>43500/100</split:quantity>
-      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
-      <split:lot type="guid">beec9296352d3bfd497da4ea3cdd26c1</split:lot>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">5220a9cfb1d9a5a660c06c15b0da4882</split:id>
-      <split:action>Credit Note</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-12000/100</split:value>
-      <split:quantity>-12000/100</split:quantity>
-      <split:account type="guid">07c4302abdacc939043769fc6cd30e0f</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">1f6b976531c22396ce8ae4f353563e3e</split:id>
-      <split:action>Credit Note</split:action>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-31500/100</split:value>
-      <split:quantity>-31500/100</split:quantity>
       <split:account type="guid">e4a89ee3a96501b3fe62974e6271de50</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">16f32a4d0348c3e50d619d81561f0fd9</split:id>
+      <split:action>Expense</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-753/100</split:value>
+      <split:quantity>-753/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a59f6eacb8dc5f79431a62c442a95aaf</split:id>
+      <split:action>Expense</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-670/100</split:value>
+      <split:quantity>-670/100</split:quantity>
+      <split:account type="guid">63cd5dac860e96892dd7f26833cbd72a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">644b5250410657180472fc958314a2f0</split:id>
+      <split:action>Expense</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-42077/100</split:value>
+      <split:quantity>-42077/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+      <split:lot type="guid">381b95f1ef0aa5199d26f38914642bd8</split:lot>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -49907,6 +50090,44 @@ chairs</split:memo>
   <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">156615ccf28c1914fb12f044a99f4719</entry:guid>
+  <entry:date>
+    <ts:date>2015-06-10 12:00:00 -0400</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-07-20 19:50:31 -0400</ts:date>
+  </entry:entered>
+  <entry:description>Installing computer</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>8500000/1000000</entry:qty>
+  <entry:b-acct type="guid">e4a89ee3a96501b3fe62974e6271de50</entry:b-acct>
+  <entry:b-price>15000000/1000000</entry:b-price>
+  <entry:bill type="guid">89aa2f1375bc5bf0abd61ae056548298</entry:bill>
+  <entry:billable>0</entry:billable>
+  <entry:b-taxable>1</entry:b-taxable>
+  <entry:b-taxincluded>0</entry:b-taxincluded>
+  <entry:b-pay>CASH</entry:b-pay>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">1729a74e80ce9fc29ff756bc4b08637c</entry:guid>
+  <entry:date>
+    <ts:date>2015-06-18 12:00:00 -0400</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-07-20 19:52:08 -0400</ts:date>
+  </entry:entered>
+  <entry:description>Cleaning data using Futon</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>5000000/1000000</entry:qty>
+  <entry:b-acct type="guid">e4a89ee3a96501b3fe62974e6271de50</entry:b-acct>
+  <entry:b-price>15000000/1000000</entry:b-price>
+  <entry:bill type="guid">89aa2f1375bc5bf0abd61ae056548298</entry:bill>
+  <entry:billable>0</entry:billable>
+  <entry:b-taxable>1</entry:b-taxable>
+  <entry:b-taxincluded>0</entry:b-taxincluded>
+  <entry:b-pay>CASH</entry:b-pay>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">1816453caf89b21d972f3c767e05f76b</entry:guid>
   <entry:date>
     <ts:date>2012-12-17 00:00:00 -0500</ts:date>
@@ -49939,23 +50160,6 @@ chairs</split:memo>
   <entry:b-acct type="guid">cc0adcd4a9a3ef3f8e575313c1a05d92</entry:b-acct>
   <entry:b-price>300000000/1000000</entry:b-price>
   <entry:bill type="guid">bebf86526646fcc91bf055888be95ecf</entry:bill>
-  <entry:billable>0</entry:billable>
-  <entry:b-taxable>1</entry:b-taxable>
-  <entry:b-taxincluded>0</entry:b-taxincluded>
-  <entry:b-pay>CASH</entry:b-pay>
-</gnc:GncEntry>
-<gnc:GncEntry version="2.0.0">
-  <entry:guid type="guid">18bc2a201a5f14d263c0b5c326ee062c</entry:guid>
-  <entry:date>
-    <ts:date>2015-07-08 12:00:00 -0400</ts:date>
-  </entry:date>
-  <entry:entered>
-    <ts:date>2015-07-08 17:02:41 -0400</ts:date>
-  </entry:entered>
-  <entry:description>Assurance Emploi</entry:description>
-  <entry:qty>-1000000/1000000</entry:qty>
-  <entry:b-price>-6700000/1000000</entry:b-price>
-  <entry:bill type="guid">7ccbf9c4a110739e2d37c6be172eede0</entry:bill>
   <entry:billable>0</entry:billable>
   <entry:b-taxable>1</entry:b-taxable>
   <entry:b-taxincluded>0</entry:b-taxincluded>
@@ -50723,25 +50927,6 @@ chairs</split:memo>
   <entry:i-taxable>1</entry:i-taxable>
   <entry:i-taxincluded>0</entry:i-taxincluded>
   <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
-</gnc:GncEntry>
-<gnc:GncEntry version="2.0.0">
-  <entry:guid type="guid">566fa40f362b14afda9f119345c76ec4</entry:guid>
-  <entry:date>
-    <ts:date>2015-06-30 12:00:00 -0400</ts:date>
-  </entry:date>
-  <entry:entered>
-    <ts:date>2015-07-08 16:59:29 -0400</ts:date>
-  </entry:entered>
-  <entry:description>Integrating Lexicon Browser and Lab Cloud dependancies</entry:description>
-  <entry:action>Hours</entry:action>
-  <entry:qty>-8000000/1000000</entry:qty>
-  <entry:b-acct type="guid">07c4302abdacc939043769fc6cd30e0f</entry:b-acct>
-  <entry:b-price>15000000/1000000</entry:b-price>
-  <entry:bill type="guid">7ccbf9c4a110739e2d37c6be172eede0</entry:bill>
-  <entry:billable>0</entry:billable>
-  <entry:b-taxable>1</entry:b-taxable>
-  <entry:b-taxincluded>0</entry:b-taxincluded>
-  <entry:b-pay>CASH</entry:b-pay>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">57bfb171e340297d8c05b9baa81d81a8</entry:guid>
@@ -51741,6 +51926,25 @@ chairs</split:memo>
   <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">90201f4ecd26230e6043e9465c495646</entry:guid>
+  <entry:date>
+    <ts:date>2015-06-30 12:00:00 -0400</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-07-20 19:52:33 -0400</ts:date>
+  </entry:entered>
+  <entry:description>Integrating Lexicon Browser and Lab Cloud dependancies</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>8000000/1000000</entry:qty>
+  <entry:b-acct type="guid">e4a89ee3a96501b3fe62974e6271de50</entry:b-acct>
+  <entry:b-price>15000000/1000000</entry:b-price>
+  <entry:bill type="guid">89aa2f1375bc5bf0abd61ae056548298</entry:bill>
+  <entry:billable>0</entry:billable>
+  <entry:b-taxable>1</entry:b-taxable>
+  <entry:b-taxincluded>0</entry:b-taxincluded>
+  <entry:b-pay>CASH</entry:b-pay>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">92fb962d8001a5ec3678287e54f6ae75</entry:guid>
   <entry:date>
     <ts:date>2012-04-03 00:00:00 -0400</ts:date>
@@ -51945,25 +52149,6 @@ chairs</split:memo>
   <entry:b-acct type="guid">98270fc89c885d8eeb6ba9196b54a90e</entry:b-acct>
   <entry:b-price>4720000/1000000</entry:b-price>
   <entry:bill type="guid">bebf86526646fcc91bf055888be95ecf</entry:bill>
-  <entry:billable>0</entry:billable>
-  <entry:b-taxable>1</entry:b-taxable>
-  <entry:b-taxincluded>0</entry:b-taxincluded>
-  <entry:b-pay>CASH</entry:b-pay>
-</gnc:GncEntry>
-<gnc:GncEntry version="2.0.0">
-  <entry:guid type="guid">a840238ef3deab92742f34e256969321</entry:guid>
-  <entry:date>
-    <ts:date>2015-06-10 12:00:00 -0400</ts:date>
-  </entry:date>
-  <entry:entered>
-    <ts:date>2015-07-08 16:36:49 -0400</ts:date>
-  </entry:entered>
-  <entry:description>Installing computer</entry:description>
-  <entry:action>Hours</entry:action>
-  <entry:qty>-8500000/1000000</entry:qty>
-  <entry:b-acct type="guid">e4a89ee3a96501b3fe62974e6271de50</entry:b-acct>
-  <entry:b-price>15000000/1000000</entry:b-price>
-  <entry:bill type="guid">7ccbf9c4a110739e2d37c6be172eede0</entry:bill>
   <entry:billable>0</entry:billable>
   <entry:b-taxable>1</entry:b-taxable>
   <entry:b-taxincluded>0</entry:b-taxincluded>
@@ -52186,42 +52371,6 @@ chairs</split:memo>
   <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
-  <entry:guid type="guid">b2ad23d9ae483a7a84952673a9ed7ca5</entry:guid>
-  <entry:date>
-    <ts:date>2015-06-18 12:00:00 -0400</ts:date>
-  </entry:date>
-  <entry:entered>
-    <ts:date>2015-07-08 16:58:02 -0400</ts:date>
-  </entry:entered>
-  <entry:description>Cleaning data using Futon</entry:description>
-  <entry:action>Hours</entry:action>
-  <entry:qty>-5000000/1000000</entry:qty>
-  <entry:b-acct type="guid">e4a89ee3a96501b3fe62974e6271de50</entry:b-acct>
-  <entry:b-price>15000000/1000000</entry:b-price>
-  <entry:bill type="guid">7ccbf9c4a110739e2d37c6be172eede0</entry:bill>
-  <entry:billable>0</entry:billable>
-  <entry:b-taxable>1</entry:b-taxable>
-  <entry:b-taxincluded>0</entry:b-taxincluded>
-  <entry:b-pay>CASH</entry:b-pay>
-</gnc:GncEntry>
-<gnc:GncEntry version="2.0.0">
-  <entry:guid type="guid">b2ef266ce23d683a9520b06b27687381</entry:guid>
-  <entry:date>
-    <ts:date>2015-07-08 12:00:00 -0400</ts:date>
-  </entry:date>
-  <entry:entered>
-    <ts:date>2015-07-08 17:03:19 -0400</ts:date>
-  </entry:entered>
-  <entry:description>Régie des rentes du Québec</entry:description>
-  <entry:qty>-1000000/1000000</entry:qty>
-  <entry:b-price>-7530000/1000000</entry:b-price>
-  <entry:bill type="guid">7ccbf9c4a110739e2d37c6be172eede0</entry:bill>
-  <entry:billable>0</entry:billable>
-  <entry:b-taxable>1</entry:b-taxable>
-  <entry:b-taxincluded>0</entry:b-taxincluded>
-  <entry:b-pay>CASH</entry:b-pay>
-</gnc:GncEntry>
-<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">b4a3366ce89f7782e8e10735f2a06285</entry:guid>
   <entry:date>
     <ts:date>2013-05-12 12:00:00 -0400</ts:date>
@@ -52264,6 +52413,25 @@ chairs</split:memo>
   <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">b726dff2f8344eed1424915c33575df7</entry:guid>
+  <entry:date>
+    <ts:date>2015-07-08 12:00:00 -0400</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-07-20 19:54:25 -0400</ts:date>
+  </entry:entered>
+  <entry:description>User experience testing Lexicon Brower</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>7500000/1000000</entry:qty>
+  <entry:b-acct type="guid">e4a89ee3a96501b3fe62974e6271de50</entry:b-acct>
+  <entry:b-price>15000000/1000000</entry:b-price>
+  <entry:bill type="guid">89aa2f1375bc5bf0abd61ae056548298</entry:bill>
+  <entry:billable>0</entry:billable>
+  <entry:b-taxable>1</entry:b-taxable>
+  <entry:b-taxincluded>0</entry:b-taxincluded>
+  <entry:b-pay>CASH</entry:b-pay>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">b7bc652f38934ca0901aa9f3945a184b</entry:guid>
   <entry:date>
     <ts:date>2011-12-16 15:00:00 -0500</ts:date>
@@ -52290,25 +52458,6 @@ chairs</split:memo>
     <ts:date>2015-06-20 19:32:16 -0400</ts:date>
   </entry:entered>
   <entry:bill type="guid">173c0a05d68242d316e0a945b2ec929d</entry:bill>
-  <entry:billable>0</entry:billable>
-  <entry:b-taxable>1</entry:b-taxable>
-  <entry:b-taxincluded>0</entry:b-taxincluded>
-  <entry:b-pay>CASH</entry:b-pay>
-</gnc:GncEntry>
-<gnc:GncEntry version="2.0.0">
-  <entry:guid type="guid">bddcf03ecacc176eaa24ebd4369ab94f</entry:guid>
-  <entry:date>
-    <ts:date>2015-07-08 12:00:00 -0400</ts:date>
-  </entry:date>
-  <entry:entered>
-    <ts:date>2015-07-08 17:00:17 -0400</ts:date>
-  </entry:entered>
-  <entry:description>User experience testing Lexicon Brower</entry:description>
-  <entry:action>Hours</entry:action>
-  <entry:qty>-7500000/1000000</entry:qty>
-  <entry:b-acct type="guid">e4a89ee3a96501b3fe62974e6271de50</entry:b-acct>
-  <entry:b-price>15000000/1000000</entry:b-price>
-  <entry:bill type="guid">7ccbf9c4a110739e2d37c6be172eede0</entry:bill>
   <entry:billable>0</entry:billable>
   <entry:b-taxable>1</entry:b-taxable>
   <entry:b-taxincluded>0</entry:b-taxincluded>
@@ -52670,6 +52819,24 @@ chairs</split:memo>
   <entry:i-taxtable type="guid">116db2cebeb10302a9bcf16f6ba99d31</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">d488f02cb9290627fec31fd99b591c16</entry:guid>
+  <entry:date>
+    <ts:date>2015-07-08 12:00:00 -0400</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-07-20 19:55:01 -0400</ts:date>
+  </entry:entered>
+  <entry:description>Assurance Emploi</entry:description>
+  <entry:qty>1000000/1000000</entry:qty>
+  <entry:b-acct type="guid">63cd5dac860e96892dd7f26833cbd72a</entry:b-acct>
+  <entry:b-price>-6700000/1000000</entry:b-price>
+  <entry:bill type="guid">89aa2f1375bc5bf0abd61ae056548298</entry:bill>
+  <entry:billable>0</entry:billable>
+  <entry:b-taxable>1</entry:b-taxable>
+  <entry:b-taxincluded>0</entry:b-taxincluded>
+  <entry:b-pay>CASH</entry:b-pay>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">d4c873ad39987c91cf24c2baac4dddc5</entry:guid>
   <entry:date>
     <ts:date>2013-06-02 12:00:00 -0400</ts:date>
@@ -52805,6 +52972,24 @@ chairs</split:memo>
   <entry:b-taxincluded>0</entry:b-taxincluded>
   <entry:b-pay>CASH</entry:b-pay>
   <entry:b-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:b-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">e370e3ceb86011c1ea35ddad884ac423</entry:guid>
+  <entry:date>
+    <ts:date>2015-07-08 12:00:00 -0400</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2015-07-20 19:56:22 -0400</ts:date>
+  </entry:entered>
+  <entry:description>Régie des rentes du Québec</entry:description>
+  <entry:qty>1000000/1000000</entry:qty>
+  <entry:b-acct type="guid">2f4f708123c243cd66e1cdb4b955c85a</entry:b-acct>
+  <entry:b-price>-7530000/1000000</entry:b-price>
+  <entry:bill type="guid">89aa2f1375bc5bf0abd61ae056548298</entry:bill>
+  <entry:billable>0</entry:billable>
+  <entry:b-taxable>1</entry:b-taxable>
+  <entry:b-taxincluded>0</entry:b-taxincluded>
+  <entry:b-pay>CASH</entry:b-pay>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">e51614761c11c7afa742a832ee4c15a8</entry:guid>
@@ -53840,13 +54025,7 @@ Bill was never paid in full. Instead an agreement was reached to recieve some of
   <invoice:opened>
     <ts:date>2015-07-08 00:00:00 -0400</ts:date>
   </invoice:opened>
-  <invoice:posted>
-    <ts:date>2015-07-08 00:00:00 -0400</ts:date>
-  </invoice:posted>
   <invoice:active>1</invoice:active>
-  <invoice:posttxn type="guid">a6279a412494f15da6138a15404cfa91</invoice:posttxn>
-  <invoice:postlot type="guid">beec9296352d3bfd497da4ea3cdd26c1</invoice:postlot>
-  <invoice:postacc type="guid">6077a8766832848b1f621f21edefcac3</invoice:postacc>
   <invoice:currency>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
@@ -53881,6 +54060,34 @@ Bill was never paid in full. Instead an agreement was reached to recieve some of
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </invoice:currency>
+</gnc:GncInvoice>
+<gnc:GncInvoice version="2.0.0">
+  <invoice:guid type="guid">89aa2f1375bc5bf0abd61ae056548298</invoice:guid>
+  <invoice:id>000005</invoice:id>
+  <invoice:owner version="2.0.0">
+    <owner:type>gncEmployee</owner:type>
+    <owner:id type="guid">798c35a04694b32fcec34cd06cdc398f</owner:id>
+  </invoice:owner>
+  <invoice:opened>
+    <ts:date>2015-07-20 00:00:00 -0400</ts:date>
+  </invoice:opened>
+  <invoice:posted>
+    <ts:date>2015-07-08 00:00:00 -0400</ts:date>
+  </invoice:posted>
+  <invoice:active>1</invoice:active>
+  <invoice:posttxn type="guid">fc83166738069f19d31d968d50f4e2a5</invoice:posttxn>
+  <invoice:postlot type="guid">381b95f1ef0aa5199d26f38914642bd8</invoice:postlot>
+  <invoice:postacc type="guid">6077a8766832848b1f621f21edefcac3</invoice:postacc>
+  <invoice:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </invoice:currency>
+  <invoice:slots>
+    <slot>
+      <slot:key>credit-note</slot:key>
+      <slot:value type="integer">0</slot:value>
+    </slot>
+  </invoice:slots>
 </gnc:GncInvoice>
 <gnc:GncInvoice version="2.0.0">
   <invoice:guid type="guid">8f28929eaff4dd51a170d7bd055ed98a</invoice:guid>
