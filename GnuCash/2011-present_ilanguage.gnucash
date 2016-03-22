@@ -157,14 +157,14 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">134</gnc:count-data>
-<gnc:count-data cd:type="transaction">577</gnc:count-data>
+<gnc:count-data cd:type="transaction">578</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">5</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncCustomer">11</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncEmployee">18</gnc:count-data>
-<gnc:count-data cd:type="gnc:GncEntry">178</gnc:count-data>
-<gnc:count-data cd:type="gnc:GncInvoice">53</gnc:count-data>
+<gnc:count-data cd:type="gnc:GncEntry">190</gnc:count-data>
+<gnc:count-data cd:type="gnc:GncInvoice">54</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncJob">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncTaxTable">13</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncVendor">1</gnc:count-data>
@@ -3517,6 +3517,24 @@ Montreal QC REMOVED</slot:value>
       </lot:slots>
     </gnc:lot>
     <gnc:lot version="2.0.0">
+      <lot:id type="guid">f82991894bd049a95e5ec484b88c7d9a</lot:id>
+      <lot:slots>
+        <slot>
+          <slot:key>gncInvoice</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>invoice-guid</slot:key>
+              <slot:value type="guid">c97c76f0062a8983d6be2f45e6f1d466</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>title</slot:key>
+          <slot:value type="string">Invoice 413</slot:value>
+        </slot>
+      </lot:slots>
+    </gnc:lot>
+    <gnc:lot version="2.0.0">
       <lot:id type="guid">fab0a5de42952a4591041528ec566759</lot:id>
       <lot:slots>
         <slot>
@@ -4577,7 +4595,7 @@ Montreal QC REMOVED</slot:value>
   <act:parent type="guid">77b4e1450706ed2cca86db464af36aff</act:parent>
 </gnc:account>
 <gnc:account version="2.0.0">
-  <act:name>TPS</act:name>
+  <act:name>TPS No. 838993681 RT0001</act:name>
   <act:id type="guid">ce7032c7c039b1076980c5954dc5fff7</act:id>
   <act:type>LIABILITY</act:type>
   <act:commodity>
@@ -4595,7 +4613,7 @@ Montreal QC REMOVED</slot:value>
   <act:parent type="guid">8fefddb1076d81c8369b6474529b52dd</act:parent>
 </gnc:account>
 <gnc:account version="2.0.0">
-  <act:name>TVQ</act:name>
+  <act:name>TVQ No. 1218496586 TQ0001</act:name>
   <act:id type="guid">96e36fbbe849740bd1999b0d935b073d</act:id>
   <act:type>LIABILITY</act:type>
   <act:commodity>
@@ -31564,6 +31582,81 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
+  <trn:id type="guid">a560586734c5f76faf0dda3b6d855c2f</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>413</trn:num>
+  <trn:date-posted>
+    <ts:date>2016-03-21 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-03-21 23:54:42 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>IVS</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>gncInvoice</slot:key>
+      <slot:value type="frame">
+        <slot>
+          <slot:key>invoice-guid</slot:key>
+          <slot:value type="guid">c97c76f0062a8983d6be2f45e6f1d466</slot:value>
+        </slot>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-date-due</slot:key>
+      <slot:value type="timespec">
+        <ts:date>2016-04-11 00:00:00 -0400</ts:date>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-read-only</slot:key>
+      <slot:value type="string">Generated from an invoice. Try unposting the invoice.</slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-txn-type</slot:key>
+      <slot:value type="string">I</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">d64432ea0bcd6134b446f4437307a72e</split:id>
+      <split:action>Invoice</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>497727/100</split:value>
+      <split:quantity>497727/100</split:quantity>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+      <split:lot type="guid">f82991894bd049a95e5ec484b88c7d9a</split:lot>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c2a792dfaff08e6afbb3769c90126d1f</split:id>
+      <split:action>Invoice</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-43182/100</split:value>
+      <split:quantity>-43182/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">def2ae57c452079dedf54a2a80962268</split:id>
+      <split:action>Invoice</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-21645/100</split:value>
+      <split:quantity>-21645/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">7fcfed1b4733cd6da57f707f961326b2</split:id>
+      <split:action>Invoice</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-432900/100</split:value>
+      <split:quantity>-432900/100</split:quantity>
+      <split:account type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
   <trn:id type="guid">7f2412afbad99f583c118be409dd32f6</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -50303,6 +50396,26 @@ chairs</split:memo>
   <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">27f7f0d49578f40dc29effb3ef6c6e02</entry:guid>
+  <entry:date>
+    <ts:date>2015-10-18 12:00:00 -0400</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2016-01-02 23:41:55 -0500</ts:date>
+  </entry:entered>
+  <entry:description>Last replication info and Acra separation</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>1000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:invoice type="guid">c97c76f0062a8983d6be2f45e6f1d466</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">297de5d76a0b24ed32839420995bb5d7</entry:guid>
   <entry:date>
     <ts:date>2012-08-01 16:00:00 -0400</ts:date>
@@ -50604,6 +50717,26 @@ chairs</split:memo>
   <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">3d99112b3c226012b0c78d46a5efb9fa</entry:guid>
+  <entry:date>
+    <ts:date>2015-10-26 12:00:00 -0400</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2016-01-02 23:40:25 -0500</ts:date>
+  </entry:entered>
+  <entry:description>Attach images to inspections</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>1000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:invoice type="guid">c97c76f0062a8983d6be2f45e6f1d466</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">3ea2f4676e0d7e748803c72620bad974</entry:guid>
   <entry:date>
     <ts:date>2015-01-08 00:00:00 -0500</ts:date>
@@ -50867,6 +51000,26 @@ chairs</split:memo>
   <entry:b-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:b-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">51d381c9e050e48cd97b58a62b8427d1</entry:guid>
+  <entry:date>
+    <ts:date>2016-02-21 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2016-03-21 23:50:09 -0400</ts:date>
+  </entry:entered>
+  <entry:description>Bluetooth Calipers integation</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>9000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:invoice type="guid">c97c76f0062a8983d6be2f45e6f1d466</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">531b93b4ab144827151fe53c69b2675a</entry:guid>
   <entry:date>
     <ts:date>2013-05-26 12:00:00 -0400</ts:date>
@@ -51006,6 +51159,26 @@ chairs</split:memo>
   <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">5ede9119f87a5a896eec0f5b100b1482</entry:guid>
+  <entry:date>
+    <ts:date>2015-11-21 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2016-01-02 23:38:48 -0500</ts:date>
+  </entry:entered>
+  <entry:description>Attach images to inspections</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>8000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:invoice type="guid">c97c76f0062a8983d6be2f45e6f1d466</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">5fcfd589fe6e1e504fa0215d63bcfcab</entry:guid>
   <entry:date>
     <ts:date>2015-06-13 12:00:00 -0400</ts:date>
@@ -51120,6 +51293,26 @@ chairs</split:memo>
   <entry:i-taxable>1</entry:i-taxable>
   <entry:i-taxincluded>0</entry:i-taxincluded>
   <entry:i-taxtable type="guid">116db2cebeb10302a9bcf16f6ba99d31</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">6462c64597de5c2bcdf8258116ea2ec7</entry:guid>
+  <entry:date>
+    <ts:date>2015-11-27 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2016-01-02 23:30:47 -0500</ts:date>
+  </entry:entered>
+  <entry:description>Attach images to inspections</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>4000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:invoice type="guid">c97c76f0062a8983d6be2f45e6f1d466</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">64f556fa9f6e836b56c64b31a361103c</entry:guid>
@@ -51566,6 +51759,26 @@ chairs</split:memo>
   <entry:b-taxincluded>0</entry:b-taxincluded>
   <entry:b-pay>CASH</entry:b-pay>
   <entry:b-taxtable type="guid">655329ceff6cd1028dfabd8edc62fb7a</entry:b-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">7e95635682c06b678405d7efea1015ea</entry:guid>
+  <entry:date>
+    <ts:date>2016-01-23 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2016-03-21 23:48:50 -0400</ts:date>
+  </entry:entered>
+  <entry:description>Bluetooth Calipers integation</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>11000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:invoice type="guid">c97c76f0062a8983d6be2f45e6f1d466</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">80044913a557940245707a1a50e66dda</entry:guid>
@@ -52464,6 +52677,46 @@ chairs</split:memo>
   <entry:b-pay>CASH</entry:b-pay>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">ba9e50a329937fbedbfc4edb7a008775</entry:guid>
+  <entry:date>
+    <ts:date>2016-01-23 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2016-03-21 23:47:17 -0400</ts:date>
+  </entry:entered>
+  <entry:description>Bluetooth Calipers integation</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>3500000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:invoice type="guid">c97c76f0062a8983d6be2f45e6f1d466</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">bdfdafb6efb9d5c5043ebcedd721cdfa</entry:guid>
+  <entry:date>
+    <ts:date>2015-11-28 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2016-01-02 23:31:14 -0500</ts:date>
+  </entry:entered>
+  <entry:description>Attach images to inspections</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>1000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:invoice type="guid">c97c76f0062a8983d6be2f45e6f1d466</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">be204a19ed1128d7581086cf2a8708f3</entry:guid>
   <entry:date>
     <ts:date>2013-08-11 12:00:00 -0400</ts:date>
@@ -52563,6 +52816,26 @@ chairs</split:memo>
   <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">c56eaadedd8c80eb3d01b84f5287549c</entry:guid>
+  <entry:date>
+    <ts:date>2016-01-02 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2016-01-02 23:24:37 -0500</ts:date>
+  </entry:entered>
+  <entry:description>Bluetooth Calipers integation</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>7000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:invoice type="guid">c97c76f0062a8983d6be2f45e6f1d466</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">c78aa42a8d6127107e9ad67acd94b8f4</entry:guid>
   <entry:date>
     <ts:date>2013-01-13 12:00:00 -0500</ts:date>
@@ -52576,6 +52849,26 @@ chairs</split:memo>
   <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
   <entry:i-price>74000000/1000000</entry:i-price>
   <entry:invoice type="guid">134aa715f081662fda4c06801ef7fedd</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">c98ce08c6a5f30001ab38c71ad3ec51d</entry:guid>
+  <entry:date>
+    <ts:date>2016-02-24 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2016-03-21 23:50:53 -0400</ts:date>
+  </entry:entered>
+  <entry:description>Bluetooth Calipers integation</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>4000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:invoice type="guid">c97c76f0062a8983d6be2f45e6f1d466</entry:invoice>
   <entry:i-disc-type>PERCENT</entry:i-disc-type>
   <entry:i-disc-how>PRETAX</entry:i-disc-how>
   <entry:i-taxable>1</entry:i-taxable>
@@ -52891,6 +53184,46 @@ chairs</split:memo>
   <entry:i-acct type="guid">d094ad7b512d57a2d67bb6bd1c7bb334</entry:i-acct>
   <entry:i-price>53000000/1000000</entry:i-price>
   <entry:invoice type="guid">cba5ee6095d737e2fd85a662b1bfe4a5</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">dadc1945a6244faf40f10454a31fd6a9</entry:guid>
+  <entry:date>
+    <ts:date>2015-10-16 12:00:00 -0400</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2016-01-02 23:43:11 -0500</ts:date>
+  </entry:entered>
+  <entry:description>Update cblite and turn on two way replication</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>2000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:invoice type="guid">c97c76f0062a8983d6be2f45e6f1d466</entry:invoice>
+  <entry:i-disc-type>PERCENT</entry:i-disc-type>
+  <entry:i-disc-how>PRETAX</entry:i-disc-how>
+  <entry:i-taxable>1</entry:i-taxable>
+  <entry:i-taxincluded>0</entry:i-taxincluded>
+  <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">dd924a0db6a0bfa564b697389bec07f5</entry:guid>
+  <entry:date>
+    <ts:date>2015-11-22 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2016-01-02 23:37:54 -0500</ts:date>
+  </entry:entered>
+  <entry:description>Attach images to inspections</entry:description>
+  <entry:action>Hours</entry:action>
+  <entry:qty>7000000/1000000</entry:qty>
+  <entry:i-acct type="guid">d83eb39eefbb89f7c7e3d9f99e534ae1</entry:i-acct>
+  <entry:i-price>74000000/1000000</entry:i-price>
+  <entry:invoice type="guid">c97c76f0062a8983d6be2f45e6f1d466</entry:invoice>
   <entry:i-disc-type>PERCENT</entry:i-disc-type>
   <entry:i-disc-how>PRETAX</entry:i-disc-how>
   <entry:i-taxable>1</entry:i-taxable>
@@ -54448,6 +54781,34 @@ This bil is when IVS decided to stop paying, perhaps because of this clerical er
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </invoice:currency>
+</gnc:GncInvoice>
+<gnc:GncInvoice version="2.0.0">
+  <invoice:guid type="guid">c97c76f0062a8983d6be2f45e6f1d466</invoice:guid>
+  <invoice:id>413</invoice:id>
+  <invoice:owner version="2.0.0">
+    <owner:type>gncCustomer</owner:type>
+    <owner:id type="guid">36fbaf29f0ab7114329aaee0e50e3437</owner:id>
+  </invoice:owner>
+  <invoice:opened>
+    <ts:date>2016-01-02 00:00:00 -0500</ts:date>
+  </invoice:opened>
+  <invoice:posted>
+    <ts:date>2016-03-21 00:00:00 -0400</ts:date>
+  </invoice:posted>
+  <invoice:active>1</invoice:active>
+  <invoice:posttxn type="guid">a560586734c5f76faf0dda3b6d855c2f</invoice:posttxn>
+  <invoice:postlot type="guid">f82991894bd049a95e5ec484b88c7d9a</invoice:postlot>
+  <invoice:postacc type="guid">5fa5d33589233e016705e03b94643fc3</invoice:postacc>
+  <invoice:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </invoice:currency>
+  <invoice:slots>
+    <slot>
+      <slot:key>credit-note</slot:key>
+      <slot:value type="integer">0</slot:value>
+    </slot>
+  </invoice:slots>
 </gnc:GncInvoice>
 <gnc:GncInvoice version="2.0.0">
   <invoice:guid type="guid">cba5ee6095d737e2fd85a662b1bfe4a5</invoice:guid>
