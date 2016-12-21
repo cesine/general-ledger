@@ -157,7 +157,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">134</gnc:count-data>
-<gnc:count-data cd:type="transaction">646</gnc:count-data>
+<gnc:count-data cd:type="transaction">674</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">5</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
@@ -272,6 +272,10 @@ Montreal QC REMOVED</slot:value>
               <slot:value type="integer">1</slot:value>
             </slot>
             <slot>
+              <slot:key>Assets:Equipment:Computers, Monitors</slot:key>
+              <slot:value type="integer">4</slot:value>
+            </slot>
+            <slot>
               <slot:key>Equity:Owners Contributions:Employee1</slot:key>
               <slot:value type="integer">7</slot:value>
             </slot>
@@ -289,7 +293,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Other expenses:Travel</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">6</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Salaries</slot:key>
@@ -297,7 +301,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Accounts Payable</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
@@ -305,11 +309,11 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">6</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">7</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -352,11 +356,11 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">5</slot:value>
+              <slot:value type="integer">7</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -365,6 +369,10 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Orphan-CAD</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
@@ -387,7 +395,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">11</slot:value>
+              <slot:value type="integer">20</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -396,7 +404,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">6</slot:value>
+              <slot:value type="integer">10</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -435,7 +443,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">8</slot:value>
+              <slot:value type="integer">15</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -445,6 +453,10 @@ Montreal QC REMOVED</slot:value>
             <slot>
               <slot:key>Imbalance-CAD</slot:key>
               <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
+              <slot:value type="integer">2</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
@@ -482,7 +494,11 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Current Assets:Tangerine</slot:key>
-              <slot:value type="integer">8</slot:value>
+              <slot:value type="integer">10</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -876,11 +892,24 @@ Montreal QC REMOVED</slot:value>
           </slot:value>
         </slot>
         <slot>
+          <slot:key>ATM</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Orphan-CAD</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
           <slot:key>AccesD</slot:key>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Deprecateable Assets:Computers</slot:key>
               <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Assets:Equipment:Computers, Monitors</slot:key>
+              <slot:value type="integer">2</slot:value>
             </slot>
             <slot>
               <slot:key>Equity:Owners Contributions:Employee1</slot:key>
@@ -896,7 +925,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Other expenses:Travel</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Salaries</slot:key>
@@ -904,7 +933,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Accounts Payable</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
@@ -912,11 +941,11 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -929,7 +958,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
@@ -951,11 +980,11 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">5</slot:value>
+              <slot:value type="integer">7</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -968,7 +997,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1002,7 +1031,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Accounts Payable</slot:key>
-              <slot:value type="integer">18</slot:value>
+              <slot:value type="integer">45</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Expenses Employee1</slot:key>
@@ -1014,7 +1043,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">2</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1073,6 +1102,10 @@ Montreal QC REMOVED</slot:value>
               <slot:key>Assets:Accounts Receivable</slot:key>
               <slot:value type="integer">2</slot:value>
             </slot>
+            <slot>
+              <slot:key>Orphan-CAD</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
           </slot:value>
         </slot>
         <slot>
@@ -1080,11 +1113,11 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">5</slot:value>
+              <slot:value type="integer">7</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1123,7 +1156,11 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">3</slot:value>
+              <slot:value type="integer">5</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Orphan-CAD</slot:key>
+              <slot:value type="integer">4</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1153,7 +1190,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
-              <slot:value type="integer">22</slot:value>
+              <slot:value type="integer">33</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1178,12 +1215,16 @@ Montreal QC REMOVED</slot:value>
               <slot:value type="integer">4</slot:value>
             </slot>
             <slot>
+              <slot:key>Assets:Equipment:Computers, Monitors</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
               <slot:key>Expenses:Bank Service Charge</slot:key>
               <slot:value type="integer">2</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
-              <slot:value type="integer">17</slot:value>
+              <slot:value type="integer">25</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Other expenses:Travel</slot:key>
@@ -1195,7 +1236,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Accounts Payable</slot:key>
-              <slot:value type="integer">8</slot:value>
+              <slot:value type="integer">12</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
@@ -1208,6 +1249,23 @@ Montreal QC REMOVED</slot:value>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
               <slot:value type="integer">3</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Orphan-CAD</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Funds</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Current Assets:Tangerine</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1246,7 +1304,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">4</slot:value>
+              <slot:value type="integer">8</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1259,15 +1317,28 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">12</slot:value>
+              <slot:value type="integer">23</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">8</slot:value>
+              <slot:value type="integer">15</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">4</slot:value>
+              <slot:value type="integer">8</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Inter-FI</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Current Assets:Tangerine</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
+              <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1277,6 +1348,10 @@ Montreal QC REMOVED</slot:value>
             <slot>
               <slot:key>Assets:Deprecateable Assets:Computers</slot:key>
               <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Assets:Equipment:Computers, Monitors</slot:key>
+              <slot:value type="integer">2</slot:value>
             </slot>
             <slot>
               <slot:key>Equity:Owners Contributions:Employee1</slot:key>
@@ -1292,7 +1367,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Other expenses:Travel</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Salaries</slot:key>
@@ -1300,7 +1375,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Accounts Payable</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
@@ -1308,7 +1383,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1321,7 +1396,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1330,7 +1405,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Current Assets:Tangerine</slot:key>
-              <slot:value type="integer">8</slot:value>
+              <slot:value type="integer">9</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1350,6 +1425,10 @@ Montreal QC REMOVED</slot:value>
               <slot:key>Assets:Accounts Receivable</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
+            <slot>
+              <slot:key>Orphan-CAD</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
           </slot:value>
         </slot>
         <slot>
@@ -1357,6 +1436,10 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Orphan-CAD</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
@@ -1375,11 +1458,15 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">10</slot:value>
+              <slot:value type="integer">12</slot:value>
             </slot>
             <slot>
               <slot:key>Assets:Current Assets:Tangerine</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">3</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Assets:Equipment:Computers, Monitors</slot:key>
+              <slot:value type="integer">1</slot:value>
             </slot>
             <slot>
               <slot:key>Equity:Owners Contributions:Employee1</slot:key>
@@ -1407,7 +1494,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Accounts Payable</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Expenses Employee1</slot:key>
@@ -1415,7 +1502,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">5</slot:value>
+              <slot:value type="integer">10</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
@@ -1423,15 +1510,15 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">6</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1485,6 +1572,10 @@ Montreal QC REMOVED</slot:value>
               <slot:key>Imbalance-CAD</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
           </slot:value>
         </slot>
         <slot>
@@ -1492,6 +1583,10 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Orphan-CAD</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
           </slot:value>
@@ -1511,6 +1606,10 @@ Montreal QC REMOVED</slot:value>
             <slot>
               <slot:key>Imbalance-CAD</slot:key>
               <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
+              <slot:value type="integer">2</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1578,7 +1677,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
-              <slot:value type="integer">3</slot:value>
+              <slot:value type="integer">5</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1682,7 +1781,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
-              <slot:value type="integer">5</slot:value>
+              <slot:value type="integer">7</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Salaries</slot:key>
@@ -1702,11 +1801,11 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Accounts Payable</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">16</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">5</slot:value>
+              <slot:value type="integer">9</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
@@ -1714,11 +1813,11 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">3</slot:value>
+              <slot:value type="integer">7</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">4</slot:value>
+              <slot:value type="integer">6</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ:TPS</slot:key>
@@ -1730,7 +1829,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1738,16 +1837,32 @@ Montreal QC REMOVED</slot:value>
           <slot:key>Transfer</slot:key>
           <slot:value type="frame">
             <slot>
+              <slot:key>Assets:Current Assets:Tangerine</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Assets:Equipment:Computers, Monitors</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+            <slot>
               <slot:key>Equity:Owners Contributions:Employee1</slot:key>
               <slot:value type="integer">2</slot:value>
             </slot>
             <slot>
-              <slot:key>Expenses:Other expenses:Travel</slot:key>
+              <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
               <slot:value type="integer">1</slot:value>
             </slot>
             <slot>
+              <slot:key>Expenses:Other expenses:Travel</slot:key>
+              <slot:value type="integer">3</slot:value>
+            </slot>
+            <slot>
               <slot:key>Liabilities:Accounts Payable</slot:key>
-              <slot:value type="integer">4</slot:value>
+              <slot:value type="integer">5</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Orphan-CAD</slot:key>
+              <slot:value type="integer">3</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1780,7 +1895,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
-              <slot:value type="integer">5</slot:value>
+              <slot:value type="integer">8</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Rent</slot:key>
@@ -1808,7 +1923,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Accounts Payable</slot:key>
-              <slot:value type="integer">4</slot:value>
+              <slot:value type="integer">8</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes</slot:key>
@@ -1816,7 +1931,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">6</slot:value>
+              <slot:value type="integer">8</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
@@ -1824,7 +1939,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
@@ -1836,7 +1951,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Orphan-CAD</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -1877,6 +1992,10 @@ Montreal QC REMOVED</slot:value>
               <slot:value type="integer">7</slot:value>
             </slot>
             <slot>
+              <slot:key>Assets:Current Assets:Tangerine</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
               <slot:key>Equity:Owners Contributions:Employee1</slot:key>
               <slot:value type="integer">2</slot:value>
             </slot>
@@ -1886,7 +2005,11 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
-              <slot:value type="integer">5</slot:value>
+              <slot:value type="integer">6</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Expenses:Other expenses:Travel</slot:key>
+              <slot:value type="integer">2</slot:value>
             </slot>
             <slot>
               <slot:key>Expenses:Outside Services</slot:key>
@@ -1914,7 +2037,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Accounts Payable</slot:key>
-              <slot:value type="integer">6</slot:value>
+              <slot:value type="integer">10</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
@@ -1968,7 +2091,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">3</slot:value>
+              <slot:value type="integer">5</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
@@ -1976,7 +2099,11 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">8</slot:value>
+              <slot:value type="integer">15</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Orphan-CAD</slot:key>
+              <slot:value type="integer">3</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -2006,7 +2133,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
-              <slot:value type="integer">25</slot:value>
+              <slot:value type="integer">38</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -2037,11 +2164,15 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
-              <slot:value type="integer">3</slot:value>
+              <slot:value type="integer">5</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
               <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Orphan-CAD</slot:key>
+              <slot:value type="integer">3</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -2067,7 +2198,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">13</slot:value>
+              <slot:value type="integer">24</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
@@ -2075,7 +2206,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">8</slot:value>
+              <slot:value type="integer">15</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -2235,6 +2366,15 @@ Montreal QC REMOVED</slot:value>
           </slot:value>
         </slot>
         <slot>
+          <slot:key>on</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Orphan-CAD</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
           <slot:key>payment</slot:key>
           <slot:value type="frame">
             <slot>
@@ -2243,7 +2383,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">1</slot:value>
+              <slot:value type="integer">3</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
@@ -2256,7 +2396,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">6</slot:value>
+              <slot:value type="integer">10</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -2278,15 +2418,15 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">10</slot:value>
+              <slot:value type="integer">19</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">8</slot:value>
+              <slot:value type="integer">15</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">4</slot:value>
+              <slot:value type="integer">8</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -2295,7 +2435,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">2</slot:value>
+              <slot:value type="integer">4</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -2313,7 +2453,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Expenses:Other expenses:Bank Service Charge</slot:key>
-              <slot:value type="integer">22</slot:value>
+              <slot:value type="integer">33</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -2338,7 +2478,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remise Federal</slot:key>
-              <slot:value type="integer">24</slot:value>
+              <slot:value type="integer">35</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec</slot:key>
@@ -2346,7 +2486,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>Liabilities:Taxes:Remises Quebec RS0001</slot:key>
-              <slot:value type="integer">8</slot:value>
+              <slot:value type="integer">15</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -2355,7 +2495,7 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Liabilities:Taxes:TPS/TVQ</slot:key>
-              <slot:value type="integer">6</slot:value>
+              <slot:value type="integer">10</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -2381,6 +2521,10 @@ Montreal QC REMOVED</slot:value>
           <slot:value type="frame">
             <slot>
               <slot:key>Assets:Accounts Receivable</slot:key>
+              <slot:value type="integer">5</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Orphan-CAD</slot:key>
               <slot:value type="integer">3</slot:value>
             </slot>
           </slot:value>
@@ -2417,7 +2561,7 @@ Montreal QC REMOVED</slot:value>
         </slot>
         <slot>
           <slot:key>last-date</slot:key>
-          <slot:value type="integer">1427947199</slot:value>
+          <slot:value type="integer">1482382799</slot:value>
         </slot>
         <slot>
           <slot:key>last-interval</slot:key>
@@ -2428,7 +2572,7 @@ Montreal QC REMOVED</slot:value>
             </slot>
             <slot>
               <slot:key>months</slot:key>
-              <slot:value type="integer">28</slot:value>
+              <slot:value type="integer">12</slot:value>
             </slot>
           </slot:value>
         </slot>
@@ -26783,7 +26927,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">51f34597d43931f6644399072366ec22</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -26829,7 +26973,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">45c20fa44fa8cffe4a89820a696c4bbd</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-25000/100</split:value>
       <split:quantity>-25000/100</split:quantity>
@@ -26875,7 +27019,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">b985ced5c5db2dddb8ef1f16a23d003a</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-20000/100</split:value>
       <split:quantity>-20000/100</split:quantity>
@@ -26921,7 +27065,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">1f3d091ee43d45bdadf4e181b4c43ca3</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-30100/100</split:value>
       <split:quantity>-30100/100</split:quantity>
@@ -26974,7 +27118,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">b1efc38ec74148e2f2ba0a39fdce41d5</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-2/100</split:value>
       <split:quantity>-2/100</split:quantity>
@@ -27020,7 +27164,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">5c1a9f0f157d325f4188d050aee0e937</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -27066,7 +27210,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">56ef750e6c5a158214c29905df612975</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -27110,7 +27254,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:action>Payment</split:action>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>359003/100</split:value>
       <split:quantity>359003/100</split:quantity>
@@ -27166,7 +27310,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">3a9777bf2dbd8545d7616f49327f51b3</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-125/100</split:value>
       <split:quantity>-125/100</split:quantity>
@@ -27212,7 +27356,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">634bb031f11489c32c24292dbee87a3c</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -27258,7 +27402,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">58c1abd40c33c3d3ffdb8d6fd5068e56</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-129683/100</split:value>
       <split:quantity>-129683/100</split:quantity>
@@ -27304,7 +27448,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">3841197648a8a090404a6be0af74cb2f</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-39680/100</split:value>
       <split:quantity>-39680/100</split:quantity>
@@ -27350,7 +27494,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">4ccbffd28010c5a24d80d0a8c69c5d8d</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -27396,7 +27540,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">7a364f5cb00ddac79e3ec70c6781b9c2</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -27442,7 +27586,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:id type="guid">ac7a3bc3a6bd82c109754c7cbec5b942</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -27486,9 +27630,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">8dfe6a2a240a402e291bf498e48272e1</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-46760/100</split:value>
       <split:quantity>-46760/100</split:quantity>
@@ -27532,9 +27676,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">274a19f78e572b23bf6d512d1c8275ae</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-5793/100</split:value>
       <split:quantity>-5793/100</split:quantity>
@@ -27578,9 +27722,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">fba14086f5aa3ff0850951d580fe9527</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-17403/100</split:value>
       <split:quantity>-17403/100</split:quantity>
@@ -27624,9 +27768,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">726c22382de98295bf7e10e20318a9cd</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-12000/100</split:value>
       <split:quantity>-12000/100</split:quantity>
@@ -27670,9 +27814,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">0d949631ae6af6ff043e5af860acc307</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -27716,9 +27860,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">2599657a91f05aa05bcdf04f485ed6f0</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -27769,9 +27913,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">fc9460325e5e4fb28bae8d19e1d4c4eb</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-2/100</split:value>
       <split:quantity>-2/100</split:quantity>
@@ -27815,9 +27959,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">8dfe886299d67a9b6db018f579bf4559</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-20636/100</split:value>
       <split:quantity>-20636/100</split:quantity>
@@ -27861,9 +28005,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">f1923ee1a52602e531986a6daeba62bc</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-234068/100</split:value>
       <split:quantity>-234068/100</split:quantity>
@@ -27907,9 +28051,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">bb2675d2301a7cff048648ea4e8d836e</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -27953,9 +28097,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">af8270060b48151674dc3fa3d7922793</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -27999,9 +28143,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">cb2dcdbe8b2c24015ff20339b984085d</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-128670/100</split:value>
       <split:quantity>-128670/100</split:quantity>
@@ -28010,7 +28154,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">9b7df935051ffd82b1c8bd45b735b490</trn:id>
+  <trn:id type="guid">c4f1860d076016379bca21b6c64cffff</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
@@ -28020,7 +28164,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <ts:date>2015-06-30 00:00:00 -0400</ts:date>
   </trn:date-posted>
   <trn:date-entered>
-    <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+    <ts:date>2016-12-21 11:30:05 -0500</ts:date>
   </trn:date-entered>
   <trn:description>Fixed service charges</trn:description>
   <trn:slots>
@@ -28037,17 +28181,17 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:slots>
   <trn:splits>
     <trn:split>
-      <split:id type="guid">2610016a9cdd15a11e9c6c4b36c1a1e1</split:id>
+      <split:id type="guid">b283ce69fea48597e81c3018edc9e114</split:id>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>495/100</split:value>
       <split:quantity>495/100</split:quantity>
       <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">3ebeb69b753e5410a99b7d67d12be7d3</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:id type="guid">7b5d1c6a9ef194b75978fa1c36264d32</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -28091,9 +28235,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">04c4a1ff4b8280638573d0a651bcf6eb</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -28135,9 +28279,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">4aa9b3c556e22129d39c0ecdbbbe556e</split:id>
       <split:action>Payment</split:action>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>529633/100</split:value>
       <split:quantity>529633/100</split:quantity>
@@ -28201,13 +28345,381 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">25323e8f71fb80ed95e264ee1aca047f</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2015-07-20 16:09:59 -0400</ts:date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-42077/100</split:value>
       <split:quantity>-42077/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">6f9c2293f555847b3f2f36f7ca82d9ee</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>4</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-07-20 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 11:30:05 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>GST-QST Government remittance /GST/QST tax payments</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-07-20</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">7f7108f7352b65ad6091ec89862d1a60</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2/100</split:value>
+      <split:quantity>2/100</split:quantity>
+      <split:account type="guid">8fefddb1076d81c8369b6474529b52dd</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">44b5626847c5b891efa0a0f93b9cdc99</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-2/100</split:value>
+      <split:quantity>-2/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">3e217b51dde029e4e152acb7000ee894</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>5</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-07-20 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 11:30:05 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Government remittance /Qc. deductions at source</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-07-20</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">a8c710ce1798bcfc2054062b3806ddcc</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>28414/100</split:value>
+      <split:quantity>28414/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">34409f9e515c2223f02f5e86eb3833ce</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-28414/100</split:value>
+      <split:quantity>-28414/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">772a67cad37b7cfd2ce6453b28438226</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>6</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-07-20 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 11:30:05 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Government remittance /Federal source deductions</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-07-20</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">e3f5501f675aaea74c623252bfe7b857</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>9171/100</split:value>
+      <split:quantity>9171/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">76d8536079ccd9f55daacf331a870779</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-9171/100</split:value>
+      <split:quantity>-9171/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">4c3afdf11596edeec7da91703d5f3c8b</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>7</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-07-30 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:02 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Transfer - AccesD - Internet</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-07-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Paie Employee1 2014</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">551a2d6d41556274f7435a5d00b0be8b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>945504/100</split:value>
+      <split:quantity>945504/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d369cb3025f606f983b9c87d1786a089</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-945504/100</split:value>
+      <split:quantity>-945504/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">f61adcc97ea91de1b9101976b36ad442</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>8</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-07-30 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 11:30:05 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee17 Employee17</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-07-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque 31</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">30460e7d3949b75f07a747a7306c6df3</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d42999b2ad8e52a796cf921fcc514ee1</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">0490daca9ea0c87fdd226764cabf79a4</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>9</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-07-31 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:02 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-07-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">20609ae3ab92cd986484e87719b1989c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>125/100</split:value>
+      <split:quantity>125/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">2717b9c0e65835c40151ee18057522ef</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-125/100</split:value>
+      <split:quantity>-125/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">17afd8fee361674fcd632847d207dfa4</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>10</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-07-31 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:02 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-07-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">433ff22252f3befc5f2ba9f9221499af</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">85b022ed9cbd67709ea9be9268066b4b</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">e68a00ab406b26924f5be8d5b1e21ac2</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-08-17 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Deposit on ATM /CD QUARTIER LATIN DE MTL</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-08-17</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">8a7022e315d3afa2b442576466990d37</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>176717/100</split:value>
+      <split:quantity>176717/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">9f54d42c231dfd8ff05da895e6f05c27</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-176717/100</split:value>
+      <split:quantity>-176717/100</split:quantity>
+      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -28234,7 +28746,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Deposit</slot:value>
+      <slot:value type="string">Deposit to savings</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -28250,7 +28762,10 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">908d92b9e5d6158f63a1106d4db438de</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>-600000/100</split:value>
       <split:quantity>-600000/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
@@ -28258,19 +28773,479 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
-  <trn:id type="guid">346e551694c8beb11c9b3aa11a8bd183</trn:id>
+  <trn:id type="guid">07151a295f79b00509f2427e03c4c4cc</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-08-20 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Cheque</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-08-20</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">37</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">5579bd0eda3dfbbe97a25436e97c642f</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>61958/100</split:value>
+      <split:quantity>61958/100</split:quantity>
+      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">9ef295c2e3ba3f208b8e03a0bd7fecc4</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-61958/100</split:value>
+      <split:quantity>-61958/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">c5487664250f0d093fc9f9fe5ec75809</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>4</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-08-31 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-08-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">63acb420bdd2ec5c057db8afdba1a1fc</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d354eb206fbc0fe28123f0269de07a47</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">854d6d787467dfef730ca816ddcba8dd</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>5</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-08-31 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Charges - Commercial deposit</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-08-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">212d2c42bf4f4cf0a98697d99de11f2e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>22/100</split:value>
+      <split:quantity>22/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">51795b83592dd35099e93a9eb7cbbbd7</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-22/100</split:value>
+      <split:quantity>-22/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">6071eb4e5348bdaae6cfdcf5d081d309</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-09-03 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee17 Employee17</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-09-03</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque 32</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">787d901b33bb7f8a1a3792981aac1864</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ada454bf5d90f6aa0949fbb41d6870b0</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">93afc32d29adc62d645c20f127fb9b1d</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </trn:currency>
   <trn:num>2</trn:num>
   <trn:date-posted>
+    <ts:date>2015-09-08 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Deposit at the counter /CAISSE CENTRALE DESJ.</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-09-08</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">9ec6bc09cb7ef7e420a8d16741321a52</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>159528/100</split:value>
+      <split:quantity>159528/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">40cafb49d77f3aa5d68d80b47342b2af</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-159528/100</split:value>
+      <split:quantity>-159528/100</split:quantity>
+      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">16a1b497d4f3e0c0b2575efb60d04fb5</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-09-30 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-09-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">7799c5370a3a42fae5bf9064ec6172ac</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>125/100</split:value>
+      <split:quantity>125/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d79546c98b3249e3aed9d8bc7ca24f2a</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-125/100</split:value>
+      <split:quantity>-125/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">99af9862e587c495709c1119fede308a</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>4</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-09-30 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-09-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">98d2ad5add6f957743026b76f3bc2476</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">59998fd0c1283ec5516d3a3e5ab55fb5</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">c08888bba57ec5cdced0e1570b413467</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-10-01 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee17 Employee17</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-10-01</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque 33</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">0c9a84af2c618f0b5631f577984daf5f</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">713bd9913a11cd2999e034cd14a7f373</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">a51ee9942f94f2d29a821b498aec1e81</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-10-29 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee17 Employee17</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-10-29</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque 34</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">7c40fc5fca6938ce5fa17cf1f8430f80</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b996848cfc3ac4811471c1ca580da0e5</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">76b8d533a17044eec9944c42543273a1</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-10-30 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-10-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">6af57b8e084ab45ded4c69d6d3b3c9fb</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">59d0a6406e00665a47206995ad7b239b</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">565f28cdcaebb6dd4f3270fa5b593487</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
     <ts:date>2015-11-02 00:00:00 -0500</ts:date>
   </trn:date-posted>
   <trn:date-entered>
-    <ts:date>2016-12-21 11:03:12 -0500</ts:date>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
   </trn:date-entered>
-  <trn:description>EFT Withdrawal to C.D. DE SAINT-HENRI ET VILLE-EMARD</trn:description>
+  <trn:description>Transfer - AccesD - Internet</trn:description>
   <trn:slots>
     <slot>
       <slot:key>date-posted</slot:key>
@@ -28280,26 +29255,394 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Withdrawal</slot:value>
+      <slot:value type="string"></slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
     <trn:split>
-      <split:id type="guid">8eadeedd85af469191507aa2c76126cc</split:id>
+      <split:id type="guid">3d7f572d64ef937af24c0f532375262c</split:id>
       <split:reconciled-state>n</split:reconciled-state>
+      <split:value>168400/100</split:value>
+      <split:quantity>168400/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">9eb1b5e539e5df08d5ad3d34a68fee46</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-168400/100</split:value>
+      <split:quantity>-168400/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">e5b1a9ff93b477bd30e39969eb267a56</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-11-02 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>GST-QST Government remittance /GST/QST tax payments</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-11-02</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">402a7f6289d76d7a7fed2120e55817bb</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2/100</split:value>
+      <split:quantity>2/100</split:quantity>
+      <split:account type="guid">8fefddb1076d81c8369b6474529b52dd</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">7fd3298d433cb2928d29db67e2366e53</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-2/100</split:value>
+      <split:quantity>-2/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">bd1674c5e5a6c000d7d3388d674768db</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-11-02 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Government remittance /Qc. deductions at source</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-11-02</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">47aa5ae308458f27df1f96de46b26471</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>26908/100</split:value>
+      <split:quantity>26908/100</split:quantity>
+      <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">96b6cbeda0d2b5f268f2c4df40b3daf1</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-26908/100</split:value>
+      <split:quantity>-26908/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">220d3e981e13b5f2759cc9b47fc1fa5f</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>4</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-11-02 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Government remittance /Federal source deductions</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-11-02</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">52bb67ab3dd414db8eb1be9131e9d2a1</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>9171/100</split:value>
+      <split:quantity>9171/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">136e3308d94df5d7b7cd5f822714f7b8</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-9171/100</split:value>
+      <split:quantity>-9171/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">152a839e4bdd6d40fb9c95e0a716a146</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>5</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-11-02 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>GST-QST Government remittance /GST/QST tax payments</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-11-02</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">b7e065cc7073878c6ca5bb48d307ebbf</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>92000/100</split:value>
+      <split:quantity>92000/100</split:quantity>
+      <split:account type="guid">8fefddb1076d81c8369b6474529b52dd</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">419d0811027786fcfa00baaa318952d6</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-92000/100</split:value>
+      <split:quantity>-92000/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">606d3d62ab70d817c54b681c1e151545</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>6</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-11-02 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Investment /Tangerine</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-11-02</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Withdrawal from savings</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">4499c977b88d072af199639ac2a8f36d</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
       <split:value>200000/100</split:value>
       <split:quantity>200000/100</split:quantity>
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">976e176c3a32652ab948ce9f6395cbb2</split:id>
+      <split:id type="guid">ac43ce6d1afd469da4acc3683fbd4bd3</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-200000/100</split:value>
+      <split:quantity>-200000/100</split:quantity>
+      <split:account type="guid">045217bc9b67a39b789aa35f07da15e8</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">c8afecd37344d94c3c010592fb6769cb</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>7</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-11-30 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-11-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">580726825846b344916f7ce159bc9010</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">8f24d1b7df45773a9fe791674ae9d723</split:id>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
         <ts:date>2015-12-31 23:59:59 -0500</ts:date>
       </split:reconcile-date>
-      <split:value>-200000/100</split:value>
-      <split:quantity>-200000/100</split:quantity>
-      <split:account type="guid">045217bc9b67a39b789aa35f07da15e8</split:account>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d85bb47ee29f1f1acbe0b8993f2ae11a</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-12-01 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Employee17 Employee17</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-12-01</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Cheque 35</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">2a7d233dca9dd245cc1f2cb4dc8c7f82</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>78792/100</split:value>
+      <split:quantity>78792/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">50e9638adbee3966c61875ce40e0110b</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-78792/100</split:value>
+      <split:quantity>-78792/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">56f479f5246d169c45c29beb1bfa8ba2</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-12-31 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 12:03:03 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Fixed service charges</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-12-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">b52e1969b49f1d56ca0a4b7438c433e5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>495/100</split:value>
+      <split:quantity>495/100</split:quantity>
+      <split:account type="guid">7c97a12ce45a49fe7532e7bd7c38d3e6</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e076b9f0e3ab5b6051518e9df214bff7</split:id>
+      <split:reconciled-state>y</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2015-12-31 23:59:59 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-495/100</split:value>
+      <split:quantity>-495/100</split:quantity>
+      <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -28339,9 +29682,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">f7a9d8fe1c24dfa770f2d73b8376da42</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-2/100</split:value>
       <split:quantity>-2/100</split:quantity>
@@ -28385,9 +29728,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">0cabe13a0ba69b8c069252ab1bbb8cb0</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-26908/100</split:value>
       <split:quantity>-26908/100</split:quantity>
@@ -28431,9 +29774,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">293b8f7d4093f727cfac7f4e6367f940</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-43500/100</split:value>
       <split:quantity>-43500/100</split:quantity>
@@ -28477,9 +29820,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">ac733068b05ec84f3ae778cad2e0b766</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -28523,9 +29866,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">42c455de1de8d8f8438abc6c7a571717</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -28569,9 +29912,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">efb2eff21d14cf63413ee58e3bca7738</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-4500/100</split:value>
       <split:quantity>-4500/100</split:quantity>
@@ -28608,9 +29951,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">37243c9bf9254bbe51474b2a850342c5</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>200000/100</split:value>
       <split:quantity>200000/100</split:quantity>
@@ -28664,9 +30007,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">66376dc0594cc108d46fc119521ea6a1</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -28710,9 +30053,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">5f472969c5af527ced150ae561d09d54</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -28756,9 +30099,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">0944bfec885601e4dcc9c6efb2ee38de</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -28795,9 +30138,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">9626cf68b81baaff4bffcc9f022b033c</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>160000/100</split:value>
       <split:quantity>160000/100</split:quantity>
@@ -28851,9 +30194,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">cf594196ef6f115e08392fd904c7c38f</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -28897,9 +30240,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">8bfc98d80d9444f581c752cb7389471d</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -28943,9 +30286,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">520a6e1d07141072321d3a28aa807833</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-2/100</split:value>
       <split:quantity>-2/100</split:quantity>
@@ -28989,9 +30332,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">0c2512ed7f57fab1148223000079b3f4</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-26908/100</split:value>
       <split:quantity>-26908/100</split:quantity>
@@ -29035,9 +30378,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">8922260926ea5cf00d93774bce899f05</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-9171/100</split:value>
       <split:quantity>-9171/100</split:quantity>
@@ -29081,9 +30424,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">612a1377a93c46c8f82d253d71fd5850</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -29127,9 +30470,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">47c45e02c2343d56cb71dfc34bde3b85</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -29166,9 +30509,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">f3e27755cc67078e56a570abdd3a8ccf</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>47809/100</split:value>
       <split:quantity>47809/100</split:quantity>
@@ -29215,9 +30558,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">32b3fa5a844f0331875f7ddb35dd41c9</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>100000/100</split:value>
       <split:quantity>100000/100</split:quantity>
@@ -29271,9 +30614,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">058b30d56b00eaa7924ca0f6017af4f9</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -29317,9 +30660,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">8f5a3066783dfbfdd3d547229210c2de</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -29363,9 +30706,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">08ce9de03329bc445c62b3bf8b885acf</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-495/100</split:value>
       <split:quantity>-495/100</split:quantity>
@@ -29409,9 +30752,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">ef3e3528e384b446fe46f88c47d9800d</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-595/100</split:value>
       <split:quantity>-595/100</split:quantity>
@@ -29455,9 +30798,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">046923efc10d65557ef4675fe13e6d7a</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-595/100</split:value>
       <split:quantity>-595/100</split:quantity>
@@ -29501,9 +30844,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">ae067753d99f4dddeca587bf189a347c</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-595/100</split:value>
       <split:quantity>-595/100</split:quantity>
@@ -29547,9 +30890,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">418acd9166e58b36728461e51dfdacd8</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-595/100</split:value>
       <split:quantity>-595/100</split:quantity>
@@ -29593,9 +30936,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">c409cfdd336e386f7f45918855d12972</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-595/100</split:value>
       <split:quantity>-595/100</split:quantity>
@@ -29639,9 +30982,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">58b6245d0f80f44967c5c31a89080f61</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-26908/100</split:value>
       <split:quantity>-26908/100</split:quantity>
@@ -29685,9 +31028,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">59f3c2d57385e17e32023d9fd3cb8e39</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-2/100</split:value>
       <split:quantity>-2/100</split:quantity>
@@ -29731,9 +31074,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">f4c5b3d7b39929d596f7fa99a5cda1c7</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-9171/100</split:value>
       <split:quantity>-9171/100</split:quantity>
@@ -29770,9 +31113,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">d42e76003439305a0e77040769771f7f</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>100000/100</split:value>
       <split:quantity>100000/100</split:quantity>
@@ -29823,9 +31166,9 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </trn:split>
     <trn:split>
       <split:id type="guid">494ccf874f02d6a84bc4b27c20ce6afa</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
-        <ts:date>2016-12-21 09:47:30 -0500</ts:date>
+        <ts:date>2016-12-21 23:59:59 -0500</ts:date>
       </split:reconcile-date>
       <split:value>-78792/100</split:value>
       <split:quantity>-78792/100</split:quantity>
@@ -52084,6 +53427,98 @@ chairs</split:memo>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">9fc4387bfe5633490f131cab4000801f</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-07-13 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 11:30:05 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Deposit at the counter /CAISSE CENTRALE DESJ.</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-07-13</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">db35f898ca33b517a7a8317ac825b5a1</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>500/100</split:value>
+      <split:quantity>500/100</split:quantity>
+      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e907ed55c323225a5e0b4472da704849</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-500/100</split:value>
+      <split:quantity>-500/100</split:quantity>
+      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">69204508bc7a55fbc9eff73eb16b8a75</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>7</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-07-30 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2016-12-21 11:30:05 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Transfer - AccesD - Internet</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-07-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">0858a796c8754741cc73a0e18f8c65b0</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>900/100</split:value>
+      <split:quantity>900/100</split:quantity>
+      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">144b25e5f71ec69efa42a73adc7ad08b</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-900/100</split:value>
+      <split:quantity>-900/100</split:quantity>
+      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
 <gnc:template-transactions>
 <gnc:account version="2.0.0">
   <act:name>Template Root</act:name>
@@ -52733,15 +54168,15 @@ chairs</split:memo>
   </sx:schedule>
 </gnc:schedxaction>
 <gnc:budget version="2.0.0">
-  <bgt:id type="guid">78960e6c922aaa72a8d44c4f88ebc03c</bgt:id>
-  <bgt:name>2011 Budget</bgt:name>
+  <bgt:id type="guid">3b189da669f9066f9c0ba3e8203e091c</bgt:id>
+  <bgt:name>2013 Budget</bgt:name>
   <bgt:description/>
   <bgt:num-periods>12</bgt:num-periods>
   <bgt:recurrence version="1.0.0">
     <recurrence:mult>1</recurrence:mult>
     <recurrence:period_type>month</recurrence:period_type>
     <recurrence:start>
-      <gdate>2011-01-01</gdate>
+      <gdate>2013-01-01</gdate>
     </recurrence:start>
   </bgt:recurrence>
 </gnc:budget>
@@ -52759,32 +54194,6 @@ chairs</split:memo>
   </bgt:recurrence>
 </gnc:budget>
 <gnc:budget version="2.0.0">
-  <bgt:id type="guid">821a1f76560036ff5f28a58a7e7cd355</bgt:id>
-  <bgt:name>2014 Budget</bgt:name>
-  <bgt:description/>
-  <bgt:num-periods>12</bgt:num-periods>
-  <bgt:recurrence version="1.0.0">
-    <recurrence:mult>1</recurrence:mult>
-    <recurrence:period_type>month</recurrence:period_type>
-    <recurrence:start>
-      <gdate>2014-01-01</gdate>
-    </recurrence:start>
-  </bgt:recurrence>
-</gnc:budget>
-<gnc:budget version="2.0.0">
-  <bgt:id type="guid">3b189da669f9066f9c0ba3e8203e091c</bgt:id>
-  <bgt:name>2013 Budget</bgt:name>
-  <bgt:description/>
-  <bgt:num-periods>12</bgt:num-periods>
-  <bgt:recurrence version="1.0.0">
-    <recurrence:mult>1</recurrence:mult>
-    <recurrence:period_type>month</recurrence:period_type>
-    <recurrence:start>
-      <gdate>2013-01-01</gdate>
-    </recurrence:start>
-  </bgt:recurrence>
-</gnc:budget>
-<gnc:budget version="2.0.0">
   <bgt:id type="guid">2fa4dc5cc7b58d37f8deda5f362b0775</bgt:id>
   <bgt:name>2015 Budget</bgt:name>
   <bgt:description/>
@@ -52794,6 +54203,32 @@ chairs</split:memo>
     <recurrence:period_type>month</recurrence:period_type>
     <recurrence:start>
       <gdate>2015-01-01</gdate>
+    </recurrence:start>
+  </bgt:recurrence>
+</gnc:budget>
+<gnc:budget version="2.0.0">
+  <bgt:id type="guid">78960e6c922aaa72a8d44c4f88ebc03c</bgt:id>
+  <bgt:name>2011 Budget</bgt:name>
+  <bgt:description/>
+  <bgt:num-periods>12</bgt:num-periods>
+  <bgt:recurrence version="1.0.0">
+    <recurrence:mult>1</recurrence:mult>
+    <recurrence:period_type>month</recurrence:period_type>
+    <recurrence:start>
+      <gdate>2011-01-01</gdate>
+    </recurrence:start>
+  </bgt:recurrence>
+</gnc:budget>
+<gnc:budget version="2.0.0">
+  <bgt:id type="guid">821a1f76560036ff5f28a58a7e7cd355</bgt:id>
+  <bgt:name>2014 Budget</bgt:name>
+  <bgt:description/>
+  <bgt:num-periods>12</bgt:num-periods>
+  <bgt:recurrence version="1.0.0">
+    <recurrence:mult>1</recurrence:mult>
+    <recurrence:period_type>month</recurrence:period_type>
+    <recurrence:start>
+      <gdate>2014-01-01</gdate>
     </recurrence:start>
   </bgt:recurrence>
 </gnc:budget>
