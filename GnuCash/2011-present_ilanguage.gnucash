@@ -157,7 +157,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">134</gnc:count-data>
-<gnc:count-data cd:type="transaction">674</gnc:count-data>
+<gnc:count-data cd:type="transaction">672</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">5</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
@@ -28702,10 +28702,15 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <slot:key>notes</slot:key>
       <slot:value type="string"></slot:value>
     </slot>
+    <slot>
+      <slot:key>trans-txn-type</slot:key>
+      <slot:value type="string">P</slot:value>
+    </slot>
   </trn:slots>
   <trn:splits>
     <trn:split>
       <split:id type="guid">8a7022e315d3afa2b442576466990d37</split:id>
+      <split:action>Payment</split:action>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
         <ts:date>2015-12-31 23:59:59 -0500</ts:date>
@@ -28715,11 +28720,14 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">9f54d42c231dfd8ff05da895e6f05c27</split:id>
+      <split:id type="guid">0ef234b2bca203aaada2d86060e8fe88</split:id>
+      <split:memo>Deposit on ATM /CD QUARTIER LATIN DE MTL</split:memo>
+      <split:action>Payment</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-176717/100</split:value>
       <split:quantity>-176717/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+      <split:lot type="guid">8ea45a044adc863f43fdd1c952312f35</split:lot>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -28981,10 +28989,15 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <slot:key>notes</slot:key>
       <slot:value type="string"></slot:value>
     </slot>
+    <slot>
+      <slot:key>trans-txn-type</slot:key>
+      <slot:value type="string">P</slot:value>
+    </slot>
   </trn:slots>
   <trn:splits>
     <trn:split>
       <split:id type="guid">9ec6bc09cb7ef7e420a8d16741321a52</split:id>
+      <split:action>Payment</split:action>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
         <ts:date>2015-12-31 23:59:59 -0500</ts:date>
@@ -28994,11 +29007,14 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:account type="guid">008127df6cb9ded0885fd0493367e0f5</split:account>
     </trn:split>
     <trn:split>
-      <split:id type="guid">40cafb49d77f3aa5d68d80b47342b2af</split:id>
+      <split:id type="guid">416adfb2936d41bfc0d26f7dbc6febce</split:id>
+      <split:memo>Deposit at the counter /CAISSE CENTRALE DESJ.</split:memo>
+      <split:action>Payment</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-159528/100</split:value>
       <split:quantity>-159528/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
+      <split:account type="guid">5fa5d33589233e016705e03b94643fc3</split:account>
+      <split:lot type="guid">cd7c9a208314e15b692e83aec5a8833b</split:lot>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -53424,98 +53440,6 @@ chairs</split:memo>
       <split:value>-659793/100</split:value>
       <split:quantity>-659793/100</split:quantity>
       <split:account type="guid">a9b6ff610561f64722e02e5ced1a0c4b</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">9fc4387bfe5633490f131cab4000801f</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:num>2</trn:num>
-  <trn:date-posted>
-    <ts:date>2015-07-13 00:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2016-12-21 11:30:05 -0500</ts:date>
-  </trn:date-entered>
-  <trn:description>Deposit at the counter /CAISSE CENTRALE DESJ.</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2015-07-13</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">db35f898ca33b517a7a8317ac825b5a1</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
-      </split:reconcile-date>
-      <split:value>500/100</split:value>
-      <split:quantity>500/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">e907ed55c323225a5e0b4472da704849</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-500/100</split:value>
-      <split:quantity>-500/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-    </trn:split>
-  </trn:splits>
-</gnc:transaction>
-<gnc:transaction version="2.0.0">
-  <trn:id type="guid">69204508bc7a55fbc9eff73eb16b8a75</trn:id>
-  <trn:currency>
-    <cmdty:space>ISO4217</cmdty:space>
-    <cmdty:id>CAD</cmdty:id>
-  </trn:currency>
-  <trn:num>7</trn:num>
-  <trn:date-posted>
-    <ts:date>2015-07-30 00:00:00 -0400</ts:date>
-  </trn:date-posted>
-  <trn:date-entered>
-    <ts:date>2016-12-21 11:30:05 -0500</ts:date>
-  </trn:date-entered>
-  <trn:description>Transfer - AccesD - Internet</trn:description>
-  <trn:slots>
-    <slot>
-      <slot:key>date-posted</slot:key>
-      <slot:value type="gdate">
-        <gdate>2015-07-30</gdate>
-      </slot:value>
-    </slot>
-    <slot>
-      <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
-    </slot>
-  </trn:slots>
-  <trn:splits>
-    <trn:split>
-      <split:id type="guid">0858a796c8754741cc73a0e18f8c65b0</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>900/100</split:value>
-      <split:quantity>900/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">144b25e5f71ec69efa42a73adc7ad08b</split:id>
-      <split:reconciled-state>c</split:reconciled-state>
-      <split:reconcile-date>
-        <ts:date>2016-12-21 11:30:05 -0500</ts:date>
-      </split:reconcile-date>
-      <split:value>-900/100</split:value>
-      <split:quantity>-900/100</split:quantity>
-      <split:account type="guid">de017ee90269ae7c50be8b1f91e3e0a8</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
