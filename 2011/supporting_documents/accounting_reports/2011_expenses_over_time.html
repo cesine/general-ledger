@@ -1,0 +1,533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<style type="text/css">
+h3 { font-family: .Helvetica Neue DeskInterface; font-size: 15pt; font-weight: bold;  }
+a { font-family: .Helvetica Neue DeskInterface; font-size: 10pt; font-style: italic;  }
+body, p, table, tr, td { text-align: left; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+tr.alternate-row { background: #ffffff }
+th.column-heading-left { text-align: left; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+th.column-heading-center { text-align: center; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+th.column-heading-right { text-align: right; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.neg { color: red;  }
+td.number-cell, td.total-number-cell { text-align: right; white-space: nowrap; }
+td.date-cell { white-space: nowrap; }
+td.anchor-cell { white-space: nowrap; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.number-cell { font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.number-header { text-align: right; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.text-cell { font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.total-number-cell { font-family: .Helvetica Neue DeskInterface; font-size: 12pt; font-weight: bold;  }
+td.total-label-cell { font-family: .Helvetica Neue DeskInterface; font-size: 12pt; font-weight: bold;  }
+td.centered-label-cell { text-align: center; font-family: .Helvetica Neue DeskInterface; font-size: 12pt; font-weight: bold;  }
+</style><title>
+</title></head>
+
+<body link="#b22222" text="#000000" bgcolor="#ffffff"><center>
+<table border="0" cellpadding="1" cellspacing="1">
+<tr>
+<td rowspan="1" colspan="1"><div align="right"></div></td>
+</tr>
+
+<tr>
+<td rowspan="1" colspan="1">
+<h3></h3>
+</td>
+</tr>
+
+<tr>
+<td rowspan="1" colspan="1"><script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jquery.jqplot.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.barRenderer.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.cursor.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.categoryAxisRenderer.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.highlighter.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.canvasTextRenderer.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.canvasAxisTickRenderer.js"></script>
+<link rel="stylesheet" type="text/css" href="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jquery.jqplot.css" />
+<div id="chart-458583" style="width:800.0px;height:400px;"></div>
+<script id="source">
+$(function () {var data = [];var series = [];
+var d0 = [];
+  d0.push([1, 0.0]);
+  d0.push([2, 0.0]);
+  d0.push([3, 0.0]);
+  d0.push([4, 0.0]);
+  d0.push([5, 0.0]);
+  d0.push([6, 0.0]);
+  d0.push([7, 0.0]);
+  d0.push([8, 0.0]);
+  d0.push([9, 0.0]);
+  d0.push([10, 0.0]);
+  d0.push([11, 0.0]);
+  d0.push([12, 3750.0]);
+data.push(d0);
+series.push({ label: "MITACS R&amp;D"});
+
+var d1 = [];
+  d1.push([1, 0.0]);
+  d1.push([2, 0.0]);
+  d1.push([3, 0.0]);
+  d1.push([4, 0.0]);
+  d1.push([5, 0.0]);
+  d1.push([6, 0.0]);
+  d1.push([7, 0.0]);
+  d1.push([8, 0.0]);
+  d1.push([9, 0.0]);
+  d1.push([10, 0.0]);
+  d1.push([11, 0.0]);
+  d1.push([12, 500.0]);
+data.push(d1);
+series.push({ label: "Licenses and Permits"});
+
+var d2 = [];
+  d2.push([1, 0.0]);
+  d2.push([2, 0.0]);
+  d2.push([3, 0.0]);
+  d2.push([4, 0.0]);
+  d2.push([5, 0.0]);
+  d2.push([6, 0.0]);
+  d2.push([7, 0.0]);
+  d2.push([8, 0.0]);
+  d2.push([9, 0.0]);
+  d2.push([10, 0.0]);
+  d2.push([11, 0.0]);
+  d2.push([12, 400.0]);
+data.push(d2);
+series.push({ label: "Salaries"});
+
+var d3 = [];
+  d3.push([1, 0.0]);
+  d3.push([2, 0.0]);
+  d3.push([3, 0.0]);
+  d3.push([4, 0.0]);
+  d3.push([5, 0.0]);
+  d3.push([6, 0.0]);
+  d3.push([7, 0.0]);
+  d3.push([8, 0.0]);
+  d3.push([9, 0.0]);
+  d3.push([10, 0.0]);
+  d3.push([11, 0.0]);
+  d3.push([12, 289.78]);
+data.push(d3);
+series.push({ label: "Cell Phone"});
+
+var d4 = [];
+  d4.push([1, 0.0]);
+  d4.push([2, 0.0]);
+  d4.push([3, 0.0]);
+  d4.push([4, 0.0]);
+  d4.push([5, 0.0]);
+  d4.push([6, 0.0]);
+  d4.push([7, 0.0]);
+  d4.push([8, 0.0]);
+  d4.push([9, 0.0]);
+  d4.push([10, 0.0]);
+  d4.push([11, 0.0]);
+  d4.push([12, 150.0]);
+data.push(d4);
+series.push({ label: "Meetings and conventions"});
+
+var d5 = [];
+  d5.push([1, 0.0]);
+  d5.push([2, 0.0]);
+  d5.push([3, 0.0]);
+  d5.push([4, 0.0]);
+  d5.push([5, 0.0]);
+  d5.push([6, 0.0]);
+  d5.push([7, 0.0]);
+  d5.push([8, 0.0]);
+  d5.push([9, 0.0]);
+  d5.push([10, 0.0]);
+  d5.push([11, 0.0]);
+  d5.push([12, 73.85]);
+data.push(d5);
+series.push({ label: "Meals"});
+
+var d6 = [];
+  d6.push([1, 0.0]);
+  d6.push([2, 0.0]);
+  d6.push([3, 0.0]);
+  d6.push([4, 0.0]);
+  d6.push([5, 0.0]);
+  d6.push([6, 0.0]);
+  d6.push([7, 0.0]);
+  d6.push([8, 0.0]);
+  d6.push([9, 0.0]);
+  d6.push([10, 0.0]);
+  d6.push([11, 0.0]);
+  d6.push([12, 39.87]);
+data.push(d6);
+series.push({ label: "Payroll Expenses"});
+
+var d7 = [];
+  d7.push([1, 0.0]);
+  d7.push([2, 0.0]);
+  d7.push([3, 0.0]);
+  d7.push([4, 0.0]);
+  d7.push([5, 0.0]);
+  d7.push([6, 0.0]);
+  d7.push([7, 0.0]);
+  d7.push([8, 0.0]);
+  d7.push([9, 0.0]);
+  d7.push([10, 0.0]);
+  d7.push([11, 0.0]);
+  d7.push([12, 74.15000000000002]);
+data.push(d7);
+series.push({ label: "Other"});
+
+var options = {
+                   shadowAlpha: 0.07,
+                   stackSeries: false,
+                   legend: {
+                        show: true,
+                        placement: "outsideGrid", },
+                   seriesDefaults: {
+                        renderer: $.jqplot.BarRenderer,
+                        rendererOptions: {
+                            shadowAlpha: 0.04,
+                            shadowDepth: 3,
+                        },
+                        fillToZero: true,
+                   },
+                   series: series,
+                   axesDefaults: {
+                   },        
+                   grid: {
+                   },
+                   axes: {
+                       xaxis: {
+                           renderer:$.jqplot.CategoryAxisRenderer,
+                           tickRenderer: $.jqplot.CanvasAxisTickRenderer,
+                           tickOptions: {
+                               angle: -30,
+                               fontSize: '10pt',
+                           },
+                       },
+                       yaxis: {
+                           autoscale: true,
+                       },
+                   },
+                   highlighter: {
+                       tooltipContentEditor: formatTooltip,
+                   },
+                   cursor:{
+                       show: true,
+                       showTooltip: false,
+                       zoom: true,
+                   },
+                };
+  options.stackSeries = true;
+  options.title = "Expense Over Time";
+  options.title += " <br />2011-01-01 to 2011-12-31";
+  options.axes.yaxis.label = "CAD";
+  options.axes.xaxis.ticks = ["2011-01-01","2011-02-01","2011-03-01","2011-04-01","2011-05-01","2011-06-01","2011-07-01","2011-08-01","2011-09-01","2011-10-01","2011-11-01","2011-12-01",];
+$.jqplot.config.enablePlugins = true;
+var plot = $.jqplot('chart-458583', data, options);
+
+  function formatTooltip(str, seriesIndex, pointIndex) {
+      if (options.axes.xaxis.ticks[pointIndex] !== undefined)
+          x = options.axes.xaxis.ticks[pointIndex];
+      else
+          x = pointIndex;
+      y = data[seriesIndex][pointIndex][1].toFixed(2);
+      return options.series[seriesIndex].label + '<br/>' + x + '<br/><b>' + y + '</b>';
+  }
+});
+</script>
+<table border="0" cellpadding="1" cellspacing="1">
+<tr>
+<th>Date</th>
+
+<th>MITACS R&D</th>
+
+<th>Licenses and Permits</th>
+
+<th>Salaries</th>
+
+<th>Cell Phone</th>
+
+<th>Meetings and conventions</th>
+
+<th>Meals</th>
+
+<th>Payroll Expenses</th>
+
+<th>Other</th>
+
+<th>Grand Total</th>
+</tr>
+
+<tr>
+<td>2011-01-01</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+</tr>
+
+<tr>
+<td>2011-02-01</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+</tr>
+
+<tr>
+<td>2011-03-01</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+</tr>
+
+<tr>
+<td>2011-04-01</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+</tr>
+
+<tr>
+<td>2011-05-01</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+</tr>
+
+<tr>
+<td>2011-06-01</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+</tr>
+
+<tr>
+<td>2011-07-01</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+</tr>
+
+<tr>
+<td>2011-08-01</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+</tr>
+
+<tr>
+<td>2011-09-01</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+</tr>
+
+<tr>
+<td>2011-10-01</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+</tr>
+
+<tr>
+<td>2011-11-01</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">0.00</td>
+</tr>
+
+<tr>
+<td>2011-12-01</td>
+
+<td class="number-cell">3,750.00</td>
+
+<td class="number-cell">500.00</td>
+
+<td class="number-cell">400.00</td>
+
+<td class="number-cell">289.78</td>
+
+<td class="number-cell">150.00</td>
+
+<td class="number-cell">73.85</td>
+
+<td class="number-cell">39.87</td>
+
+<td class="number-cell">74.15</td>
+
+<td class="number-cell">5,277.65</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td rowspan="1" colspan="1"></td>
+</tr>
+</table>
+</center></body>
+</html>
