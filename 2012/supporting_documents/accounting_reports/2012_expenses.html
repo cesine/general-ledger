@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<style type="text/css">
+h3 { font-family: .Helvetica Neue DeskInterface; font-size: 15pt; font-weight: bold;  }
+a { font-family: .Helvetica Neue DeskInterface; font-size: 10pt; font-style: italic;  }
+body, p, table, tr, td { text-align: left; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+tr.alternate-row { background: #ffffff }
+th.column-heading-left { text-align: left; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+th.column-heading-center { text-align: center; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+th.column-heading-right { text-align: right; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.neg { color: red;  }
+td.number-cell, td.total-number-cell { text-align: right; white-space: nowrap; }
+td.date-cell { white-space: nowrap; }
+td.anchor-cell { white-space: nowrap; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.number-cell { font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.number-header { text-align: right; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.text-cell { font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.total-number-cell { font-family: .Helvetica Neue DeskInterface; font-size: 12pt; font-weight: bold;  }
+td.total-label-cell { font-family: .Helvetica Neue DeskInterface; font-size: 12pt; font-weight: bold;  }
+td.centered-label-cell { text-align: center; font-family: .Helvetica Neue DeskInterface; font-size: 12pt; font-weight: bold;  }
+</style><title>
+</title></head>
+
+<body link="#b22222" text="#000000" bgcolor="#ffffff"><center>
+<table border="0" cellpadding="1" cellspacing="1">
+<tr>
+<td rowspan="1" colspan="1"><div align="right"></div></td>
+</tr>
+
+<tr>
+<td rowspan="1" colspan="1">
+<h3></h3>
+</td>
+</tr>
+
+<tr>
+<td rowspan="1" colspan="1"><script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jquery.jqplot.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.pieRenderer.js"></script>
+<link rel="stylesheet" type="text/css" href="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jquery.jqplot.css" />
+<div id="chart-240272" style="width:500px;height:350px;"></div>
+<script id="source">
+$(function () {var data = [];
+  data.push(['iField - C$36,185.63   (45.02 %)',36185.63]);
+  data.push(['REMOVED88 - C$14,161.99   (17.62 %)',14161.99]);
+  data.push(['Rent - C$7,152.58   (8.90 %)',7152.58]);
+  data.push(['iField - C$5,000.00   (6.22 %)',5000.0]);
+  data.push(['CC-RRQ(QPP) - C$4,948.84   (6.16 %)',4948.84]);
+  data.push(['CC-AE(EI) - C$2,435.58   (3.03 %)',2435.58]);
+  data.push(['Travel - C$2,164.11   (2.69 %)',2164.11]);
+  data.push(['InSpect - C$1,500.01   (1.87 %)',1500.01]);
+  data.push(['Cell Phone - C$1,413.75   (1.76 %)',1413.75]);
+  data.push(['Amortization - C$1,304.69   (1.62 %)',1304.69]);
+  data.push(['Meals - C$1,125.03   (1.40 %)',1125.03]);
+  data.push(['PhoPhlo - C$800.00   (1.00 %)',800.0]);
+  data.push(['CC-RQAP(QPIP) - C$725.37   (0.90 %)',725.37]);
+  data.push(['Licenses and Permits - C$424.19   (0.53 %)',424.19]);
+  data.push(['Office expenses - C$387.64   (0.48 %)',387.64]);
+  data.push(['Bank Service Charge - C$237.52   (0.30 %)',237.52]);
+  data.push(['Printing and Reproduction - C$191.37   (0.24 %)',191.37]);
+  data.push(['Advertising - C$139.95   (0.17 %)',139.95]);
+  data.push(['Gratuities/Tips - C$42.04   (0.05 %)',42.04]);
+  data.push(['Other - C$41.79   (0.05 %)',41.79]);
+var options = {
+                    seriesDefaults: {
+                        renderer: $.jqplot.PieRenderer,
+                    },
+                    legend: {
+                         show: true,
+                         placement: "outsideGrid", },
+                   };
+  options.title = "Expense Accounts";
+  options.title += " (2012-01-01 to 2012-12-31: C$80,382.08)";
+$.jqplot.config.enablePlugins = true;
+var plot = $.jqplot('chart-240272', [data], options);
+});
+</script></td>
+</tr>
+
+<tr>
+<td rowspan="1" colspan="1"></td>
+</tr>
+</table>
+</center></body>
+</html>
