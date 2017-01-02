@@ -157,7 +157,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">134</gnc:count-data>
-<gnc:count-data cd:type="transaction">672</gnc:count-data>
+<gnc:count-data cd:type="transaction">740</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">5</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
@@ -4420,6 +4420,74 @@ Montreal QC REMOVED</slot:value>
     <slot>
       <slot:key>color</slot:key>
       <slot:value type="string">Not Set</slot:value>
+    </slot>
+    <slot>
+      <slot:key>import-map-bayes</slot:key>
+      <slot:value type="frame">
+        <slot>
+          <slot:key>Amortize</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Amortization</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Ikea</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Amortization</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Tuesday</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Amortization</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>and</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Amortization</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>desks</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Amortization</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>furniture</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Amortization</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>office</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Expenses:Amortization</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+      </slot:value>
     </slot>
   </act:slots>
   <act:parent type="guid">51a397dad1c9c6f7c864003f5c506ea8</act:parent>
@@ -29271,7 +29339,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string"></slot:value>
+      <slot:value type="string">air b'n b brooklyn</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -29280,7 +29348,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>168400/100</split:value>
       <split:quantity>168400/100</split:quantity>
-      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+      <split:account type="guid">2b90b480916be10e12b085956be5ccc2</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">9eb1b5e539e5df08d5ad3d34a68fee46</split:id>
@@ -36631,7 +36699,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </trn:currency>
-  <trn:num>3018</trn:num>
   <trn:date-posted>
     <ts:date>2010-09-27 04:00:00 -0400</ts:date>
   </trn:date-posted>
@@ -36648,7 +36715,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">projector</slot:value>
+      <slot:value type="string">3018 projector</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -36677,7 +36744,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </trn:currency>
-  <trn:num>6010</trn:num>
   <trn:date-posted>
     <ts:date>2010-12-05 03:00:00 -0500</ts:date>
   </trn:date-posted>
@@ -36694,7 +36760,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Monitor #2</slot:value>
+      <slot:value type="string">6010 Monitor #2</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -36723,7 +36789,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </trn:currency>
-  <trn:num>3026</trn:num>
   <trn:date-posted>
     <ts:date>2011-10-15 04:00:00 -0400</ts:date>
   </trn:date-posted>
@@ -36740,7 +36805,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Employee2/Employee3 lab equipment MacBook 13inch Laptop and scanner/copier/printer</slot:value>
+      <slot:value type="string">3026 Employee2/Employee3 lab equipment MacBook 13inch Laptop and scanner/copier/printer</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -36789,7 +36854,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">6010</slot:value>
+      <slot:value type="string">6010 lab computer</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -36823,6 +36888,772 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>-42338/100</split:value>
       <split:quantity>-42338/100</split:quantity>
       <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">317a67fa1e32c2e9bab07bc678ebdbef</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-09-27 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:34:01 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Projector</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-09-27</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">10ec26a706cc0fe1b5cb028cd169dd10</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>20316/100</split:value>
+      <split:quantity>20316/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">7da3a66eef05353a2a51cba9ecd70c3d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-20316/100</split:value>
+      <split:quantity>-20316/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">19e528b61569bcbf36e8aecbcbb2af9d</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-10-15 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:40:44 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize lab MacBook</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-10-15</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">ffc329824cf8763ee3e7b18ebddc9cdf</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>47429/100</split:value>
+      <split:quantity>47429/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d05f1e5c5f1ccdd2947ccb05f6dfacc9</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-47429/100</split:value>
+      <split:quantity>-47429/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">c689d99b1f0da2a7788ff6db1e5de8f1</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-12-05 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:35:52 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Monitor</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-12-05</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">c29e0e5914c62fbe271f3f131267a9dc</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>6434/100</split:value>
+      <split:quantity>6434/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">61557bbfd921c5f9110dcaba3a30aaea</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-6434/100</split:value>
+      <split:quantity>-6434/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">f19ff826fa60ce84d34d960c6e562503</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>4</trn:num>
+  <trn:date-posted>
+    <ts:date>2013-01-09 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:45:37 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize lab computer</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-01-09</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">2ee30eadd22d3a518426bb7b6ff44230</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>12166/100</split:value>
+      <split:quantity>12166/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">14d1a2cd6ce9a27f2108f1598cd7dbae</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-12166/100</split:value>
+      <split:quantity>-12166/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">9144ebb39fb94ed29843ab428f945959</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2013-09-27 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:34:56 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Projector</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-09-27</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">ac86ac936bdc4390d0da2ca1abcde618</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>20317/100</split:value>
+      <split:quantity>20317/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">71e994bbcf5cb9275397aef653c26984</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-20317/100</split:value>
+      <split:quantity>-20317/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">cfee043367fed386e2889ddce43c370a</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2013-10-15 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:42:18 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize lab MacBook</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-10-15</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">78acb91535235ebc6502beab8f70304a</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>47429/100</split:value>
+      <split:quantity>47429/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">493ed59002b9bbb44941443cb4d9ffa4</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-47429/100</split:value>
+      <split:quantity>-47429/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d8c31548b2cb0619b56ba2e009da1050</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2013-12-05 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:36:52 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Monitor</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-12-05</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">1752c0b87aa6cc5bce54b2e7fb8470f8</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>6434/100</split:value>
+      <split:quantity>6434/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">11df068497ce9c0cf9ec55eaffc34e2a</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-6434/100</split:value>
+      <split:quantity>-6434/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">dd3603686bd78fb1b86dcdcbad8b04d7</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-01-09 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:46:38 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize lab computer</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-01-09</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">f140d31a83bbf17932c22a08bf8fb467</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>12166/100</split:value>
+      <split:quantity>12166/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">66f2d4997f2d99369b0365c60d60af68</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-12166/100</split:value>
+      <split:quantity>-12166/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">ce5839dce31d0b9ec6a5593cd49036c9</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-04-03 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:43:22 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Employee1 MacBook</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-04-03</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">b029acbcdb0f10948d0785b35aff16c8</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>54728/100</split:value>
+      <split:quantity>54728/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ba1d469350b86776a95774622da311fb</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-54728/100</split:value>
+      <split:quantity>-54728/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">f6f1e9f78bacf937c6f0c6d191075c15</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-09-27 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:35:07 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Projector</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-09-27</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">0f8837cd44f53713a96e4f9ff60ec1a9</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>20317/100</split:value>
+      <split:quantity>20317/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">4a94a01a4bd4fc1346b27188f01961c6</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-20317/100</split:value>
+      <split:quantity>-20317/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">f2920df7780659e53b61580a1948676e</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-10-15 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:42:34 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize lab MacBook</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-10-15</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">8214bcb2b0ee256d62de4e3084c311b7</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>47429/100</split:value>
+      <split:quantity>47429/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d6353492652b5e02a6a406121999bf88</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-47429/100</split:value>
+      <split:quantity>-47429/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">13c14d389c65a01270298aefbeda6de9</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-12-05 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:37:02 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Monitor</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-12-05</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">e883d54861acb07baf57ceabc7ea1e86</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>6434/100</split:value>
+      <split:quantity>6434/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f2c186e06bc445fe5ca57ba4ff4073c3</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-6434/100</split:value>
+      <split:quantity>-6434/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">995c384d62518492c2e9f1d1a270d947</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-01-09 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:57:19 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize lab computer</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-01-09</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">86480c716c0dc5dfc31f77ba23633ef0</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>12166/100</split:value>
+      <split:quantity>12166/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">dd2157fdcfaec4bc20879c5ea4ef4943</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-12166/100</split:value>
+      <split:quantity>-12166/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">cefd81d20f0caa969da3bbce30008c33</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-04-03 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:44:12 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Employee1 MacBook</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-04-03</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">753cdfeed4e96069b1bd1c89b2df39a0</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>54728/100</split:value>
+      <split:quantity>54728/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">cbcf0925912b8f19de67e51d9aaf002d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-54728/100</split:value>
+      <split:quantity>-54728/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">020fd356a088392fb7e152edb135b449</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2016-04-03 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:44:19 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Employee1 MacBook</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2016-04-03</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">6cfc9f74cffb5475ca82b2af6b07912a</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>54728/100</split:value>
+      <split:quantity>54728/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">499ee702904bcd55cd797ba88959d2c9</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-54728/100</split:value>
+      <split:quantity>-54728/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">854964d49c8a84298d3a617091a97b8c</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2016-06-26 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:59:24 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize intern MacBook</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2016-06-26</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">40f86208134e9fc3878d37ca68c383e7</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>42890/100</split:value>
+      <split:quantity>42890/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">262c263e167406484e5c77cd66caa840</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-42890/100</split:value>
+      <split:quantity>-42890/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">47e93e8794b048786410fe93307043c2</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2017-06-26 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:00:32 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize intern MacBook</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2017-06-26</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">17bbbe5b37f679e9e0fbb54cf61e2932</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>42890/100</split:value>
+      <split:quantity>42890/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">98343fddbc6a10a55efc97e027fc0ca8</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-42890/100</split:value>
+      <split:quantity>-42890/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">ea44256c6739015df7649a5751a48ffd</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2018-06-26 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:00:49 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize intern MacBook</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2018-06-26</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">3c7ff915717a26c4e81925c2143904cb</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>42890/100</split:value>
+      <split:quantity>42890/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">42a8df507221c5a7e20d7f0c6ca2a569</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-42890/100</split:value>
+      <split:quantity>-42890/100</split:quantity>
+      <split:account type="guid">458f4e504aa04d2749917b564570c66b</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -36876,12 +37707,255 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
+  <trn:id type="guid">a803d35dd213ada8f44dfa7fbdb2e3cb</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-05-05 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:24:18 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize backup drive</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-05-05</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">7136eecab1fe5665ddf377b741222ffd</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2325/100</split:value>
+      <split:quantity>2325/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ba1b22c1290e25809f1f268f3f5bb701</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2325/100</split:value>
+      <split:quantity>-2325/100</split:quantity>
+      <split:account type="guid">fc5bf64f1a519ee39c05e7d9a1a74924</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">9b634b909ea9530a2c9cc5fafb70a1db</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-05-05 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:24:58 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize backup drive</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-05-05</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">69c50e6d61d17d16e80c298990bc4d94</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2325/100</split:value>
+      <split:quantity>2325/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e5de46b2e2a1bf6ed1b421e61da60420</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2325/100</split:value>
+      <split:quantity>-2325/100</split:quantity>
+      <split:account type="guid">fc5bf64f1a519ee39c05e7d9a1a74924</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">22d7a224483cabf54d707ee24d28329d</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-05-05 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:25:09 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize backup drive</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-05-05</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">8b29280ea39e22f6595c2b0bc2cf407f</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2325/100</split:value>
+      <split:quantity>2325/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">7d0e766b816fe85bd953a5b1f6aaa742</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2325/100</split:value>
+      <split:quantity>-2325/100</split:quantity>
+      <split:account type="guid">fc5bf64f1a519ee39c05e7d9a1a74924</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">059d1deeb408e7dad52bbee5618caaa5</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-05-31 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:25:49 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize wifi router</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-05-31</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">149f07c3575fa646bd7c66bce27c9b42</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2999/100</split:value>
+      <split:quantity>2999/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">490a6fb149c10b50f57e8fc21f787625</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2999/100</split:value>
+      <split:quantity>-2999/100</split:quantity>
+      <split:account type="guid">fc5bf64f1a519ee39c05e7d9a1a74924</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">410ef311ebf9e2fc596e2bbe3de9fe26</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-05-31 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:26:37 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize wifi router</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-05-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">5eace1ffd778f3b4b8d36f8009baefc6</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2999/100</split:value>
+      <split:quantity>2999/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">cb00c2e677dee3b3c13a4e9f44575b0a</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2999/100</split:value>
+      <split:quantity>-2999/100</split:quantity>
+      <split:account type="guid">fc5bf64f1a519ee39c05e7d9a1a74924</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">47c4958ed0f43fe9cafc123265d614e2</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2016-05-31 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:26:52 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize wifi router</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2016-05-31</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">27af33939de4e63afe156d447e14f3d1</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2998/100</split:value>
+      <split:quantity>2998/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">284f3ee277fb2a9f6b8f11cdfe265f18</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2998/100</split:value>
+      <split:quantity>-2998/100</split:quantity>
+      <split:account type="guid">fc5bf64f1a519ee39c05e7d9a1a74924</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
   <trn:id type="guid">75b0c1ed965ba1a86b2ff1a0e314af69</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </trn:currency>
-  <trn:num>Employee1 Employee1</trn:num>
   <trn:date-posted>
     <ts:date>2011-02-01 03:00:00 -0500</ts:date>
   </trn:date-posted>
@@ -36898,7 +37972,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Android ViewSonic G-Tab bought in Delaware, exact dates and price to be confirmed</slot:value>
+      <slot:value type="string">Employee1 Employee1 Android ViewSonic G-Tab bought in Delaware, exact dates and price to be confirmed</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -36924,7 +37998,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </trn:currency>
-  <trn:num>3018</trn:num>
   <trn:date-posted>
     <ts:date>2011-08-01 04:00:00 -0400</ts:date>
   </trn:date-posted>
@@ -36941,7 +38014,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Equipment Motorola Xoom Android – Testing device
+      <slot:value type="string">3018 Equipment Motorola Xoom Android – Testing device
 </slot:value>
     </slot>
   </trn:slots>
@@ -36972,7 +38045,6 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </trn:currency>
-  <trn:num>6010</trn:num>
   <trn:date-posted>
     <ts:date>2011-10-21 04:00:00 -0400</ts:date>
   </trn:date-posted>
@@ -36989,7 +38061,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">Phone cost for Nexus S Android Testing device and company phone</slot:value>
+      <slot:value type="string">6010 Phone cost for Nexus S Android Testing device and company phone</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -37014,12 +38086,87 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
+  <trn:id type="guid">139a618033d493f463b176a696007040</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-02-01 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:15:36 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize ViewSonic G-Tablet</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-02-01</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">872e09ee64f14a15274051945c9c5f88</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>13300/100</split:value>
+      <split:quantity>13300/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">45ec9a618a6b6b7d59a12a9d86b593a0</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-13300/100</split:value>
+      <split:quantity>-13300/100</split:quantity>
+      <split:account type="guid">c75953b26e4343611a770d806bb1b554</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">6635809f393212892a5fa005f9370f7d</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-08-01 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:17:59 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Motorola Xoom</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-08-01</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">afd79f57415b013d28c98ce4ccce58c4</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>18987/100</split:value>
+      <split:quantity>18987/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">647209200833e6945038e6c2fe76b0d9</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-18987/100</split:value>
+      <split:quantity>-18987/100</split:quantity>
+      <split:account type="guid">c75953b26e4343611a770d806bb1b554</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
   <trn:id type="guid">16fed890650e11e49e24ce4e545c3ac5</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </trn:currency>
-  <trn:num>1</trn:num>
   <trn:date-posted>
     <ts:date>2012-10-08 13:00:00 -0400</ts:date>
   </trn:date-posted>
@@ -37036,7 +38183,7 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     </slot>
     <slot>
       <slot:key>notes</slot:key>
-      <slot:value type="string">6010</slot:value>
+      <slot:value type="string">6010 Nexus 7?</slot:value>
     </slot>
   </trn:slots>
   <trn:splits>
@@ -37070,6 +38217,426 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>-30082/100</split:value>
       <split:quantity>-30082/100</split:quantity>
       <split:account type="guid">31944d3aedb7a5e7a87c9aa3f8dae825</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">e8438bafd27c05b8237ec5e80e790f77</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-10-21 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:20:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Nexus S</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-10-21</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">97e49e3bd3dcc5f751b824b9a279e84b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>3333/100</split:value>
+      <split:quantity>3333/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">736470d090ee27886ac4cdb66ac2b45c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-3333/100</split:value>
+      <split:quantity>-3333/100</split:quantity>
+      <split:account type="guid">c75953b26e4343611a770d806bb1b554</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">e95fb3c1cc4f26ae84a2128fa0dbc81e</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-02-01 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:29:20 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize ViewSonic G-Tablet</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-02-01</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">b762ad67ffe8317271aeb74b44206c61</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>13300/100</split:value>
+      <split:quantity>13300/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d6cc751175e771e24a554d7dcecfb8fd</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-13300/100</split:value>
+      <split:quantity>-13300/100</split:quantity>
+      <split:account type="guid">c75953b26e4343611a770d806bb1b554</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">667cd7087dd142d01c03c78abe64e390</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-08-01 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:29:46 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Motorola Xoom</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-08-01</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">085b827ea2523d08fc7adfd338c91989</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>18987/100</split:value>
+      <split:quantity>18987/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e22d11393e523d10593262352049bbf4</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-18987/100</split:value>
+      <split:quantity>-18987/100</split:quantity>
+      <split:account type="guid">c75953b26e4343611a770d806bb1b554</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">3a0ea3a1003e36aa3145500724809818</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-10-08 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:30:08 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Nexus 7</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-10-08</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">f47e24391b7b171b60e3927fca4fd6c5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8526/100</split:value>
+      <split:quantity>8526/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">de334d27e11212a8382000d0327c9400</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-8526/100</split:value>
+      <split:quantity>-8526/100</split:quantity>
+      <split:account type="guid">c75953b26e4343611a770d806bb1b554</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">ebf8210bcde51f3a58c81ee72899b274</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-10-21 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:29:51 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Nexus S</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-10-21</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">af9317181a5dde0764ac0884e6ad9612</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>3333/100</split:value>
+      <split:quantity>3333/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">4ab2da713940a148da2e845887a35a34</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-3333/100</split:value>
+      <split:quantity>-3333/100</split:quantity>
+      <split:account type="guid">c75953b26e4343611a770d806bb1b554</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">8d2088f4077417c327cad622ef1b5cfb</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-02-01 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:29:36 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize ViewSonic G-Tablet</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-02-01</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">9c099479b3b397568f0e54f078764447</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>13300/100</split:value>
+      <split:quantity>13300/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d94c16b699b4027a11c9a0eebd3707ec</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-13300/100</split:value>
+      <split:quantity>-13300/100</split:quantity>
+      <split:account type="guid">c75953b26e4343611a770d806bb1b554</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">e7f91e010d34481830f997a8aa00d04c</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-08-01 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:30:23 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Motorola Xoom</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-08-01</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">6d80604a300965fc46ae712a16b31f5b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>18987/100</split:value>
+      <split:quantity>18987/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">cd4f2f06da2aec8fea6aef5c66d11f22</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-18987/100</split:value>
+      <split:quantity>-18987/100</split:quantity>
+      <split:account type="guid">c75953b26e4343611a770d806bb1b554</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">1d2381cf4e783ed5acdc639c137715ef</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-10-08 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:30:50 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Nexus 7</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-10-08</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">907a769b3da8a9aa5f61ab6be586f328</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8526/100</split:value>
+      <split:quantity>8526/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">cd198abd38d31bf8cd17a861f368aa1d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-8526/100</split:value>
+      <split:quantity>-8526/100</split:quantity>
+      <split:account type="guid">c75953b26e4343611a770d806bb1b554</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">dab75be29c7199f9d85608884ffb3b84</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-10-21 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:30:45 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Nexus S</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-10-21</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">d17ed3f121f45cc8c05eb890dfac11de</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>3333/100</split:value>
+      <split:quantity>3333/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">87014a95436e96f7d55ae917abd5de5a</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-3333/100</split:value>
+      <split:quantity>-3333/100</split:quantity>
+      <split:account type="guid">c75953b26e4343611a770d806bb1b554</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">508f3d925b6c95e716b1d49aee30f5f2</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-10-08 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 17:20:51 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Nexus 7</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-10-08</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">46855ea80cf85c30cbb451ca97f72ef3</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8526/100</split:value>
+      <split:quantity>8526/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">bea6e446fbf912b84e889981a321df5d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-8526/100</split:value>
+      <split:quantity>-8526/100</split:quantity>
+      <split:account type="guid">c75953b26e4343611a770d806bb1b554</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -37240,6 +38807,288 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
+  <trn:id type="guid">c5fd7bb23e6506adbc77ff6d0db87542</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-05-19 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:28:43 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize apple equiment</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-05-19</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">144fc21a97999f270ae36cded14af0ef</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1329/100</split:value>
+      <split:quantity>1329/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3ad908f6bf4be03f86ec811babc881cd</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1329/100</split:value>
+      <split:quantity>-1329/100</split:quantity>
+      <split:account type="guid">b399fff5b6b10355f27b8687b29ec724</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">9b564e4aa8952f627468f63c6fe61400</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-01-09 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:30:05 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize small electronics bought jan 2012</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-01-09</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">cec024a53f33625ac8ee25aae10f86f0</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>650/100</split:value>
+      <split:quantity>650/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">0a474a095e1862905a12cb5e15020f66</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-650/100</split:value>
+      <split:quantity>-650/100</split:quantity>
+      <split:account type="guid">b399fff5b6b10355f27b8687b29ec724</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">3866c81e2638e2177a54ce1b6f5615c7</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-01-13 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:31:13 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize small electronics bought jan 13 2012</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-01-13</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">a754100e1935edbd05ccd4d5f0626d41</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1666/100</split:value>
+      <split:quantity>1666/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">602ae53e1234daae6cdc30ee24b67119</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1666/100</split:value>
+      <split:quantity>-1666/100</split:quantity>
+      <split:account type="guid">b399fff5b6b10355f27b8687b29ec724</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">82544e15e5444659cf3506562dab88ff</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-05-19 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:29:27 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize apple equiment</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-05-19</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">2d98b688d1bd12cdee1f29154c09da15</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1329/100</split:value>
+      <split:quantity>1329/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">74b574db2ed81288c8222c0ae6387644</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1329/100</split:value>
+      <split:quantity>-1329/100</split:quantity>
+      <split:account type="guid">b399fff5b6b10355f27b8687b29ec724</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">ec71a38339bf1e0a05cfd01abbb35128</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-01-13 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:31:45 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize small electronics bought jan 13 2012</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-01-13</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">64e9c26d9dd18cd0f117019b88b6aca6</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1666/100</split:value>
+      <split:quantity>1666/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">8b3733f8f5ddf60c7119d81f27bb6412</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1666/100</split:value>
+      <split:quantity>-1666/100</split:quantity>
+      <split:account type="guid">b399fff5b6b10355f27b8687b29ec724</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">be894fc6b231a6d7b4e700dac273036b</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-05-19 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:29:33 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize apple equiment</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-05-19</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">67823f015985b5c1cb13f9bba7271d02</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1329/100</split:value>
+      <split:quantity>1329/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">2b4b9c25d689d91b4536a34ce8a773e8</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1329/100</split:value>
+      <split:quantity>-1329/100</split:quantity>
+      <split:account type="guid">b399fff5b6b10355f27b8687b29ec724</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">86a76ba844de052d0d1281da8024f361</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-01-13 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:31:50 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize small electronics bought jan 13 2012</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-01-13</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">1a37d9bf6b9efbd79cb693cac7324b60</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1667/100</split:value>
+      <split:quantity>1667/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">70cbba74f01b78c4a2675f7a29095045</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1667/100</split:value>
+      <split:quantity>-1667/100</split:quantity>
+      <split:account type="guid">b399fff5b6b10355f27b8687b29ec724</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
   <trn:id type="guid">b1366257812650c0ec2c50b11ef6f6c2</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -37328,6 +39177,88 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
       <split:value>-40791/100</split:value>
       <split:quantity>-40791/100</split:quantity>
       <split:account type="guid">a9b6ff610561f64722e02e5ced1a0c4b</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">f3ca3d1873256852d8fca2ec8deb5063</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2011-11-15 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Ikea desks and office furniture</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2011-11-15</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">bb4e9ecb6136d9cef4d9deaa7203cfee</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8858/100</split:value>
+      <split:quantity>8858/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">8eb26ac1b5d06fc3e6f48a09ccc18d1a</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-8858/100</split:value>
+      <split:quantity>-8858/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">b3634850cc48850027ae4fd07fa18bd8</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2011-11-25 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Ikea desks and office furniture</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2011-11-25</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">bbe3f281691db6385f56d4a7f9a6fb60</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8158/100</split:value>
+      <split:quantity>8158/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3b2b0c0e4d3214ce772c6380d27559d4</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-8158/100</split:value>
+      <split:quantity>-8158/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -37516,6 +39447,949 @@ chairs</split:memo>
       <split:value>-3193/100</split:value>
       <split:quantity>-3193/100</split:quantity>
       <split:account type="guid">146246790ca7fd24cd33420800c3a694</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">bc151a9436dd23c8d7c88702ed4d32af</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-11-14 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Ikea desks and office furniture</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-11-14</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">b77cfb2d2fbb8455c9915ff7bb6e8d7f</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8858/100</split:value>
+      <split:quantity>8858/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e0aa140e6f468cae5b4510927d102095</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-8858/100</split:value>
+      <split:quantity>-8858/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">33d2eae3491c8f96ab5078789841137e</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-11-24 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Ikea desks and office furniture</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-11-24</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">465093904f8eaee3f43a30a6bdb243d8</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8158/100</split:value>
+      <split:quantity>8158/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">388d04241297ce1edd74a5d63efd3b9e</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-8158/100</split:value>
+      <split:quantity>-8158/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d770986a0e9ff46bf4852c9c3b5b6f7a</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-01-21 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize chair</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-01-21</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">aaef319a3bcb168a82f15e9fa635fe44</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1700/100</split:value>
+      <split:quantity>1700/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">1424c94492601347264674fc972e9d15</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-1700/100</split:value>
+      <split:quantity>-1700/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">ea236669743356bb727838016eaf427b</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-01-21 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize shelves and storage supplies</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-01-21</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">48117fd5b9f31691afe3e4c96c559377</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2698/100</split:value>
+      <split:quantity>2698/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b9eb61a1742ce807506fb67c37251f3f</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-2698/100</split:value>
+      <split:quantity>-2698/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">35b6197333e9783f8781c8b12996b7c1</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-04-07 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize coffee machine</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-04-07</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">27d3e67c00c85cfe902c07eeb6bcc49c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>555/100</split:value>
+      <split:quantity>555/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ae49dbe621899e477037a2db4a588c30</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-555/100</split:value>
+      <split:quantity>-555/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d78ea7e281dccfcd197b316036049ba8</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-11-14 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Ikea desks and office furniture</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-11-14</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">c22dc931f5a8437697dfc51ede797b6c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8858/100</split:value>
+      <split:quantity>8858/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">0f1cbdb6b31f018e29588b60f4bd2a0c</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-8858/100</split:value>
+      <split:quantity>-8858/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">aade1d5c06e754070da12eec2eacdda3</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2013-11-24 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Ikea desks and office furniture</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-11-24</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">9fa1fecc6bc6c2e1e893ccfb52fab741</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8158/100</split:value>
+      <split:quantity>8158/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">edb5956a8a3a3de296d4bed3087e2241</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-8158/100</split:value>
+      <split:quantity>-8158/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">dd2a42c79e15aef2f48eff8b0f79b60a</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-01-21 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize chair</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-01-21</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">a139c121b7e0ad80634d65002872847b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1700/100</split:value>
+      <split:quantity>1700/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">62e0f1f7dab2e246bfd6f565c54f6369</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-1700/100</split:value>
+      <split:quantity>-1700/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">91c3942929b917c34de5aa145c1fe832</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-01-21 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize shelves and storage supplies</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-01-21</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">7d78941f39907fdf101a5553f4c1a7ff</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2698/100</split:value>
+      <split:quantity>2698/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">beefa65c1096f7b9d012ab0ba5d2ce13</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-2698/100</split:value>
+      <split:quantity>-2698/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">c97a52da63a97232dbba38922aa1284a</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-04-07 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize coffee machine</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-04-07</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">f4b2292fc21c273169640f410217dec8</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>555/100</split:value>
+      <split:quantity>555/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">0f2311bee3b2d6ae1a4150a8d02c42bb</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-555/100</split:value>
+      <split:quantity>-555/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d5027ba3d19d47d7bf4f8cbe55943b36</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-11-14 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Ikea desks and office furniture</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-11-14</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">b12c293ad9b53c02cb2cf76760966671</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8858/100</split:value>
+      <split:quantity>8858/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">150217e1c6f64406546a7813d4cda845</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-8858/100</split:value>
+      <split:quantity>-8858/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">59f11d57002b30207527b7c5789bbafc</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2014-11-24 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Ikea desks and office furniture</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-11-24</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">43319e9a9cc056df8a34570a230f0eea</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8158/100</split:value>
+      <split:quantity>8158/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5ccf71257d1459cb7b516fe467f32d29</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-8158/100</split:value>
+      <split:quantity>-8158/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">cbfed490f91dad0d77fd36bf732d84a3</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-01-21 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize chair</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-01-21</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">c8f87c6852ed3a760c9f3fa314cfcd48</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1700/100</split:value>
+      <split:quantity>1700/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">fe2ef13087a4e0862bbe400a4fbdfca8</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-1700/100</split:value>
+      <split:quantity>-1700/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">a8c593ab6e24f2207cfbafd2b9abf58e</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-01-21 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize shelves and storage supplies</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-01-21</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">8ab474fa40862ec584846edb7b0b131e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2698/100</split:value>
+      <split:quantity>2698/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">70f4eb734c2adcf9fa8b4ac8b7eef59b</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-2698/100</split:value>
+      <split:quantity>-2698/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">ede22621c5f3bc64c499b6190c61ba76</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-04-07 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize coffee machine</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-04-07</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">aea1b0fb07f9ff47110a0f3bf7539a5c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>555/100</split:value>
+      <split:quantity>555/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c8eeebb306c81e9c0f6e2d50fb8b2a04</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-555/100</split:value>
+      <split:quantity>-555/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">85ccb2d48ef2c261b9b6d8838759a2e9</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-11-14 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Ikea desks and office furniture</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-11-14</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">3015bd637259911ef810db3efc1a84fa</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8858/100</split:value>
+      <split:quantity>8858/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">927d23fc3aef0c1f8d1a1760314773ad</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-8858/100</split:value>
+      <split:quantity>-8858/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">72463c393a7cc1ffade85b7f7813fffa</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2015-11-24 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize Ikea desks and office furniture</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-11-24</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">9594bb4be76c55fd1defee9b9ea3e9cd</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8158/100</split:value>
+      <split:quantity>8158/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">934e8eb72e7fd1c8e4ceee3bc6773953</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-8158/100</split:value>
+      <split:quantity>-8158/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">03a90d5abe8c29cce7e915e3c5fcecd6</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2016-01-21 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize chair</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2016-01-21</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">f23641f11409858754bbdc775a1e2946</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1700/100</split:value>
+      <split:quantity>1700/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b350eb0731518ae1a9a839ebfd86d02c</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-1700/100</split:value>
+      <split:quantity>-1700/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">df4b883cdd1e13f45d697095363a727a</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2016-01-21 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize shelves and storage supplies</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2016-01-21</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">3b05b9c10665874f561fe468c87bdba8</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2698/100</split:value>
+      <split:quantity>2698/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f8780a256619c73a17b6f883e499d994</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-2698/100</split:value>
+      <split:quantity>-2698/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">ba5391cee53e0257678d5e98ea5d73f6</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2016-04-06 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize coffee machine</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2016-04-06</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">970f6757aaf560abd3852b4ac9a0b95b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>555/100</split:value>
+      <split:quantity>555/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f2982982494155792c81b21700d3065e</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-555/100</split:value>
+      <split:quantity>-555/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">59f8726e35df04e9a213a7620aac2374</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2017-01-20 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize chair</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2017-01-20</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">43f73b51b217fc49211c61ea67854eaa</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1700/100</split:value>
+      <split:quantity>1700/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ec7b5defef4fe34cb73219d7729e0cb9</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-1700/100</split:value>
+      <split:quantity>-1700/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">5a9674f4f2043f8e7126ad3d263979be</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2017-01-20 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize shelves and storage supplies</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2017-01-20</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">9a75df96ef001b567c01c85aefe432a7</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2698/100</split:value>
+      <split:quantity>2698/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c67781a40852b0e347f8f267898d532a</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-2698/100</split:value>
+      <split:quantity>-2698/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">af99195aa7556706a01c9bb142437571</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2017-04-06 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Amortize coffee machine</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2017-04-06</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">8cd855b7078cb63561eab90142d01010</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>556/100</split:value>
+      <split:quantity>556/100</split:quantity>
+      <split:account type="guid">5ad798d8fa074946fd3494148ac5bbb7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b077a13d2c590d41aeb069e0e8ccb8a1</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-01-01 18:53:29 -0500</ts:date>
+      </split:reconcile-date>
+      <split:value>-556/100</split:value>
+      <split:quantity>-556/100</split:quantity>
+      <split:account type="guid">f8d9656e0c68baa8c46bd25c8eb2f8cb</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
@@ -54092,45 +56966,6 @@ chairs</split:memo>
   </sx:schedule>
 </gnc:schedxaction>
 <gnc:budget version="2.0.0">
-  <bgt:id type="guid">3b189da669f9066f9c0ba3e8203e091c</bgt:id>
-  <bgt:name>2013 Budget</bgt:name>
-  <bgt:description/>
-  <bgt:num-periods>12</bgt:num-periods>
-  <bgt:recurrence version="1.0.0">
-    <recurrence:mult>1</recurrence:mult>
-    <recurrence:period_type>month</recurrence:period_type>
-    <recurrence:start>
-      <gdate>2013-01-01</gdate>
-    </recurrence:start>
-  </bgt:recurrence>
-</gnc:budget>
-<gnc:budget version="2.0.0">
-  <bgt:id type="guid">db3e3fb50a196dcbbe4e4b3746ffd58d</bgt:id>
-  <bgt:name>2012 Budget</bgt:name>
-  <bgt:description/>
-  <bgt:num-periods>12</bgt:num-periods>
-  <bgt:recurrence version="1.0.0">
-    <recurrence:mult>1</recurrence:mult>
-    <recurrence:period_type>month</recurrence:period_type>
-    <recurrence:start>
-      <gdate>2012-01-01</gdate>
-    </recurrence:start>
-  </bgt:recurrence>
-</gnc:budget>
-<gnc:budget version="2.0.0">
-  <bgt:id type="guid">2fa4dc5cc7b58d37f8deda5f362b0775</bgt:id>
-  <bgt:name>2015 Budget</bgt:name>
-  <bgt:description/>
-  <bgt:num-periods>12</bgt:num-periods>
-  <bgt:recurrence version="1.0.0">
-    <recurrence:mult>1</recurrence:mult>
-    <recurrence:period_type>month</recurrence:period_type>
-    <recurrence:start>
-      <gdate>2015-01-01</gdate>
-    </recurrence:start>
-  </bgt:recurrence>
-</gnc:budget>
-<gnc:budget version="2.0.0">
   <bgt:id type="guid">78960e6c922aaa72a8d44c4f88ebc03c</bgt:id>
   <bgt:name>2011 Budget</bgt:name>
   <bgt:description/>
@@ -54153,6 +56988,45 @@ chairs</split:memo>
     <recurrence:period_type>month</recurrence:period_type>
     <recurrence:start>
       <gdate>2014-01-01</gdate>
+    </recurrence:start>
+  </bgt:recurrence>
+</gnc:budget>
+<gnc:budget version="2.0.0">
+  <bgt:id type="guid">db3e3fb50a196dcbbe4e4b3746ffd58d</bgt:id>
+  <bgt:name>2012 Budget</bgt:name>
+  <bgt:description/>
+  <bgt:num-periods>12</bgt:num-periods>
+  <bgt:recurrence version="1.0.0">
+    <recurrence:mult>1</recurrence:mult>
+    <recurrence:period_type>month</recurrence:period_type>
+    <recurrence:start>
+      <gdate>2012-01-01</gdate>
+    </recurrence:start>
+  </bgt:recurrence>
+</gnc:budget>
+<gnc:budget version="2.0.0">
+  <bgt:id type="guid">3b189da669f9066f9c0ba3e8203e091c</bgt:id>
+  <bgt:name>2013 Budget</bgt:name>
+  <bgt:description/>
+  <bgt:num-periods>12</bgt:num-periods>
+  <bgt:recurrence version="1.0.0">
+    <recurrence:mult>1</recurrence:mult>
+    <recurrence:period_type>month</recurrence:period_type>
+    <recurrence:start>
+      <gdate>2013-01-01</gdate>
+    </recurrence:start>
+  </bgt:recurrence>
+</gnc:budget>
+<gnc:budget version="2.0.0">
+  <bgt:id type="guid">2fa4dc5cc7b58d37f8deda5f362b0775</bgt:id>
+  <bgt:name>2015 Budget</bgt:name>
+  <bgt:description/>
+  <bgt:num-periods>12</bgt:num-periods>
+  <bgt:recurrence version="1.0.0">
+    <recurrence:mult>1</recurrence:mult>
+    <recurrence:period_type>month</recurrence:period_type>
+    <recurrence:start>
+      <gdate>2015-01-01</gdate>
     </recurrence:start>
   </bgt:recurrence>
 </gnc:budget>
