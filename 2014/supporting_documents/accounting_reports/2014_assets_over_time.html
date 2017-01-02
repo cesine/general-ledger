@@ -1,0 +1,563 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<style type="text/css">
+h3 { font-family: .Helvetica Neue DeskInterface; font-size: 15pt; font-weight: bold;  }
+a { font-family: .Helvetica Neue DeskInterface; font-size: 10pt; font-style: italic;  }
+body, p, table, tr, td { text-align: left; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+tr.alternate-row { background: #ffffff }
+th.column-heading-left { text-align: left; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+th.column-heading-center { text-align: center; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+th.column-heading-right { text-align: right; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.neg { color: red;  }
+td.number-cell, td.total-number-cell { text-align: right; white-space: nowrap; }
+td.date-cell { white-space: nowrap; }
+td.anchor-cell { white-space: nowrap; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.number-cell { font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.number-header { text-align: right; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.text-cell { font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.total-number-cell { font-family: .Helvetica Neue DeskInterface; font-size: 12pt; font-weight: bold;  }
+td.total-label-cell { font-family: .Helvetica Neue DeskInterface; font-size: 12pt; font-weight: bold;  }
+td.centered-label-cell { text-align: center; font-family: .Helvetica Neue DeskInterface; font-size: 12pt; font-weight: bold;  }
+</style><title>
+</title></head>
+
+<body link="#b22222" text="#000000" bgcolor="#ffffff"><center>
+<table border="0" cellpadding="1" cellspacing="1">
+<tr>
+<td rowspan="1" colspan="1"><div align="right"></div></td>
+</tr>
+
+<tr>
+<td rowspan="1" colspan="1">
+<h3></h3>
+</td>
+</tr>
+
+<tr>
+<td rowspan="1" colspan="1"><script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jquery.jqplot.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.barRenderer.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.cursor.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.categoryAxisRenderer.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.highlighter.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.canvasTextRenderer.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.canvasAxisTickRenderer.js"></script>
+<link rel="stylesheet" type="text/css" href="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jquery.jqplot.css" />
+<div id="chart-54953" style="width:800.0px;height:400px;"></div>
+<script id="source">
+$(function () {var data = [];var series = [];
+var d0 = [];
+  d0.push([1, 5518.08]);
+  d0.push([2, 5513.13]);
+  d0.push([3, 5188.39]);
+  d0.push([4, 5183.42]);
+  d0.push([5, 13801.6]);
+  d0.push([6, 13796.45]);
+  d0.push([7, 13790.49]);
+  d0.push([8, 30843.33]);
+  d0.push([9, 27836.79]);
+  d0.push([10, 26256.0]);
+  d0.push([11, 25900.99]);
+  d0.push([12, 25108.12]);
+  d0.push([13, 23984.94]);
+data.push(d0);
+series.push({ label: "Checking Account"});
+
+var d1 = [];
+  d1.push([1, 8760.56]);
+  d1.push([2, 8760.56]);
+  d1.push([3, 8760.56]);
+  d1.push([4, 17383.69]);
+  d1.push([5, 8760.56]);
+  d1.push([6, 8760.56]);
+  d1.push([7, 8760.56]);
+  d1.push([8, -0.2]);
+  d1.push([9, -0.2]);
+  d1.push([10, -0.2]);
+  d1.push([11, -0.2]);
+  d1.push([12, -0.2]);
+  d1.push([13, -0.2]);
+data.push(d1);
+series.push({ label: "Accounts Receivable"});
+
+var d2 = [];
+  d2.push([1, 2626.96]);
+  d2.push([2, 2505.3]);
+  d2.push([3, 2505.3]);
+  d2.push([4, 2505.3]);
+  d2.push([5, 1958.02]);
+  d2.push([6, 1958.02]);
+  d2.push([7, 1958.02]);
+  d2.push([8, 1958.02]);
+  d2.push([9, 1958.02]);
+  d2.push([10, 1754.85]);
+  d2.push([11, 1280.56]);
+  d2.push([12, 1280.56]);
+  d2.push([13, 1216.22]);
+data.push(d2);
+series.push({ label: "Computers, Monitors"});
+
+var d3 = [];
+  d3.push([1, 538.45]);
+  d3.push([2, 494.47]);
+  d3.push([3, 494.47]);
+  d3.push([4, 494.47]);
+  d3.push([5, 488.92]);
+  d3.push([6, 488.92]);
+  d3.push([7, 488.92]);
+  d3.push([8, 488.92]);
+  d3.push([9, 488.92]);
+  d3.push([10, 488.92]);
+  d3.push([11, 488.92]);
+  d3.push([12, 318.76]);
+  d3.push([13, 318.76]);
+data.push(d3);
+series.push({ label: "Furniture"});
+
+var d4 = [];
+  d4.push([1, 0.0]);
+  d4.push([2, 0.0]);
+  d4.push([3, 0.0]);
+  d4.push([4, 0.0]);
+  d4.push([5, 0.0]);
+  d4.push([6, 0.0]);
+  d4.push([7, 0.0]);
+  d4.push([8, 0.0]);
+  d4.push([9, 1026.97]);
+  d4.push([10, 1028.43]);
+  d4.push([11, 1029.94]);
+  d4.push([12, 1031.41]);
+  d4.push([13, 1032.29]);
+data.push(d4);
+series.push({ label: "Tangerine"});
+
+var d5 = [];
+  d5.push([1, 526.72]);
+  d5.push([2, 393.72]);
+  d5.push([3, 393.72]);
+  d5.push([4, 393.72]);
+  d5.push([5, 393.72]);
+  d5.push([6, 393.72]);
+  d5.push([7, 393.72]);
+  d5.push([8, 203.85]);
+  d5.push([9, 203.85]);
+  d5.push([10, 203.85]);
+  d5.push([11, 85.26]);
+  d5.push([12, 85.26]);
+  d5.push([13, 85.26]);
+data.push(d5);
+series.push({ label: "Androids"});
+
+var d6 = [];
+  d6.push([1, 113.21]);
+  d6.push([2, 113.21]);
+  d6.push([3, 113.21]);
+  d6.push([4, 113.21]);
+  d6.push([5, 113.21]);
+  d6.push([6, 59.97]);
+  d6.push([7, 59.97]);
+  d6.push([8, 59.97]);
+  d6.push([9, 59.97]);
+  d6.push([10, 59.97]);
+  d6.push([11, 59.97]);
+  d6.push([12, 59.97]);
+  d6.push([13, 59.97]);
+data.push(d6);
+series.push({ label: "Networking Hardware"});
+
+var d7 = [];
+  d7.push([1, -66.22]);
+  d7.push([2, -82.88]);
+  d7.push([3, -82.88]);
+  d7.push([4, -82.88]);
+  d7.push([5, -82.88]);
+  d7.push([6, -96.17]);
+  d7.push([7, -96.17]);
+  d7.push([8, -96.17]);
+  d7.push([9, -96.17]);
+  d7.push([10, -96.17]);
+  d7.push([11, -96.17]);
+  d7.push([12, -96.17]);
+  d7.push([13, -96.17]);
+data.push(d7);
+series.push({ label: "Other"});
+
+var options = {
+                   shadowAlpha: 0.07,
+                   stackSeries: false,
+                   legend: {
+                        show: true,
+                        placement: "outsideGrid", },
+                   seriesDefaults: {
+                        renderer: $.jqplot.BarRenderer,
+                        rendererOptions: {
+                            shadowAlpha: 0.04,
+                            shadowDepth: 3,
+                        },
+                        fillToZero: true,
+                   },
+                   series: series,
+                   axesDefaults: {
+                   },        
+                   grid: {
+                   },
+                   axes: {
+                       xaxis: {
+                           renderer:$.jqplot.CategoryAxisRenderer,
+                           tickRenderer: $.jqplot.CanvasAxisTickRenderer,
+                           tickOptions: {
+                               angle: -30,
+                               fontSize: '10pt',
+                           },
+                       },
+                       yaxis: {
+                           autoscale: true,
+                       },
+                   },
+                   highlighter: {
+                       tooltipContentEditor: formatTooltip,
+                   },
+                   cursor:{
+                       show: true,
+                       showTooltip: false,
+                       zoom: true,
+                   },
+                };
+  options.stackSeries = true;
+  options.title = "Assets Over Time";
+  options.title += " <br />Balances 2014-01-01 to 2014-12-31";
+  options.axes.yaxis.label = "CAD";
+  options.axes.xaxis.ticks = ["2014-01-01","2014-02-01","2014-03-01","2014-04-01","2014-05-01","2014-06-01","2014-07-01","2014-08-01","2014-09-01","2014-10-01","2014-11-01","2014-12-01","2014-12-31",];
+$.jqplot.config.enablePlugins = true;
+var plot = $.jqplot('chart-54953', data, options);
+
+  function formatTooltip(str, seriesIndex, pointIndex) {
+      if (options.axes.xaxis.ticks[pointIndex] !== undefined)
+          x = options.axes.xaxis.ticks[pointIndex];
+      else
+          x = pointIndex;
+      y = data[seriesIndex][pointIndex][1].toFixed(2);
+      return options.series[seriesIndex].label + '<br/>' + x + '<br/><b>' + y + '</b>';
+  }
+});
+</script>
+<table border="0" cellpadding="1" cellspacing="1">
+<tr>
+<th>Date</th>
+
+<th>Checking Account</th>
+
+<th>Accounts Receivable</th>
+
+<th>Computers, Monitors</th>
+
+<th>Furniture</th>
+
+<th>Tangerine</th>
+
+<th>Androids</th>
+
+<th>Networking Hardware</th>
+
+<th>Other</th>
+
+<th>Grand Total</th>
+</tr>
+
+<tr>
+<td>2014-01-01</td>
+
+<td class="number-cell">5,518.08</td>
+
+<td class="number-cell">8,760.56</td>
+
+<td class="number-cell">2,626.96</td>
+
+<td class="number-cell">538.45</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">526.72</td>
+
+<td class="number-cell">113.21</td>
+
+<td class="number-cell">-66.22</td>
+
+<td class="number-cell">18,017.76</td>
+</tr>
+
+<tr>
+<td>2014-02-01</td>
+
+<td class="number-cell">5,513.13</td>
+
+<td class="number-cell">8,760.56</td>
+
+<td class="number-cell">2,505.30</td>
+
+<td class="number-cell">494.47</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">393.72</td>
+
+<td class="number-cell">113.21</td>
+
+<td class="number-cell">-82.88</td>
+
+<td class="number-cell">17,697.51</td>
+</tr>
+
+<tr>
+<td>2014-03-01</td>
+
+<td class="number-cell">5,188.39</td>
+
+<td class="number-cell">8,760.56</td>
+
+<td class="number-cell">2,505.30</td>
+
+<td class="number-cell">494.47</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">393.72</td>
+
+<td class="number-cell">113.21</td>
+
+<td class="number-cell">-82.88</td>
+
+<td class="number-cell">17,372.77</td>
+</tr>
+
+<tr>
+<td>2014-04-01</td>
+
+<td class="number-cell">5,183.42</td>
+
+<td class="number-cell">17,383.69</td>
+
+<td class="number-cell">2,505.30</td>
+
+<td class="number-cell">494.47</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">393.72</td>
+
+<td class="number-cell">113.21</td>
+
+<td class="number-cell">-82.88</td>
+
+<td class="number-cell">25,990.93</td>
+</tr>
+
+<tr>
+<td>2014-05-01</td>
+
+<td class="number-cell">13,801.60</td>
+
+<td class="number-cell">8,760.56</td>
+
+<td class="number-cell">1,958.02</td>
+
+<td class="number-cell">488.92</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">393.72</td>
+
+<td class="number-cell">113.21</td>
+
+<td class="number-cell">-82.88</td>
+
+<td class="number-cell">25,433.15</td>
+</tr>
+
+<tr>
+<td>2014-06-01</td>
+
+<td class="number-cell">13,796.45</td>
+
+<td class="number-cell">8,760.56</td>
+
+<td class="number-cell">1,958.02</td>
+
+<td class="number-cell">488.92</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">393.72</td>
+
+<td class="number-cell">59.97</td>
+
+<td class="number-cell">-96.17</td>
+
+<td class="number-cell">25,361.47</td>
+</tr>
+
+<tr>
+<td>2014-07-01</td>
+
+<td class="number-cell">13,790.49</td>
+
+<td class="number-cell">8,760.56</td>
+
+<td class="number-cell">1,958.02</td>
+
+<td class="number-cell">488.92</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">393.72</td>
+
+<td class="number-cell">59.97</td>
+
+<td class="number-cell">-96.17</td>
+
+<td class="number-cell">25,355.51</td>
+</tr>
+
+<tr>
+<td>2014-08-01</td>
+
+<td class="number-cell">30,843.33</td>
+
+<td class="number-cell">-0.20</td>
+
+<td class="number-cell">1,958.02</td>
+
+<td class="number-cell">488.92</td>
+
+<td class="number-cell">0.00</td>
+
+<td class="number-cell">203.85</td>
+
+<td class="number-cell">59.97</td>
+
+<td class="number-cell">-96.17</td>
+
+<td class="number-cell">33,457.72</td>
+</tr>
+
+<tr>
+<td>2014-09-01</td>
+
+<td class="number-cell">27,836.79</td>
+
+<td class="number-cell">-0.20</td>
+
+<td class="number-cell">1,958.02</td>
+
+<td class="number-cell">488.92</td>
+
+<td class="number-cell">1,026.97</td>
+
+<td class="number-cell">203.85</td>
+
+<td class="number-cell">59.97</td>
+
+<td class="number-cell">-96.17</td>
+
+<td class="number-cell">31,478.15</td>
+</tr>
+
+<tr>
+<td>2014-10-01</td>
+
+<td class="number-cell">26,256.00</td>
+
+<td class="number-cell">-0.20</td>
+
+<td class="number-cell">1,754.85</td>
+
+<td class="number-cell">488.92</td>
+
+<td class="number-cell">1,028.43</td>
+
+<td class="number-cell">203.85</td>
+
+<td class="number-cell">59.97</td>
+
+<td class="number-cell">-96.17</td>
+
+<td class="number-cell">29,695.65</td>
+</tr>
+
+<tr>
+<td>2014-11-01</td>
+
+<td class="number-cell">25,900.99</td>
+
+<td class="number-cell">-0.20</td>
+
+<td class="number-cell">1,280.56</td>
+
+<td class="number-cell">488.92</td>
+
+<td class="number-cell">1,029.94</td>
+
+<td class="number-cell">85.26</td>
+
+<td class="number-cell">59.97</td>
+
+<td class="number-cell">-96.17</td>
+
+<td class="number-cell">28,749.27</td>
+</tr>
+
+<tr>
+<td>2014-12-01</td>
+
+<td class="number-cell">25,108.12</td>
+
+<td class="number-cell">-0.20</td>
+
+<td class="number-cell">1,280.56</td>
+
+<td class="number-cell">318.76</td>
+
+<td class="number-cell">1,031.41</td>
+
+<td class="number-cell">85.26</td>
+
+<td class="number-cell">59.97</td>
+
+<td class="number-cell">-96.17</td>
+
+<td class="number-cell">27,787.71</td>
+</tr>
+
+<tr>
+<td>2014-12-31</td>
+
+<td class="number-cell">23,984.94</td>
+
+<td class="number-cell">-0.20</td>
+
+<td class="number-cell">1,216.22</td>
+
+<td class="number-cell">318.76</td>
+
+<td class="number-cell">1,032.29</td>
+
+<td class="number-cell">85.26</td>
+
+<td class="number-cell">59.97</td>
+
+<td class="number-cell">-96.17</td>
+
+<td class="number-cell">26,601.07</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td rowspan="1" colspan="1"></td>
+</tr>
+</table>
+</center></body>
+</html>

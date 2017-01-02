@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<style type="text/css">
+h3 { font-family: .Helvetica Neue DeskInterface; font-size: 15pt; font-weight: bold;  }
+a { font-family: .Helvetica Neue DeskInterface; font-size: 10pt; font-style: italic;  }
+body, p, table, tr, td { text-align: left; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+tr.alternate-row { background: #ffffff }
+th.column-heading-left { text-align: left; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+th.column-heading-center { text-align: center; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+th.column-heading-right { text-align: right; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.neg { color: red;  }
+td.number-cell, td.total-number-cell { text-align: right; white-space: nowrap; }
+td.date-cell { white-space: nowrap; }
+td.anchor-cell { white-space: nowrap; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.number-cell { font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.number-header { text-align: right; font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.text-cell { font-family: .Helvetica Neue DeskInterface; font-size: 10pt;  }
+td.total-number-cell { font-family: .Helvetica Neue DeskInterface; font-size: 12pt; font-weight: bold;  }
+td.total-label-cell { font-family: .Helvetica Neue DeskInterface; font-size: 12pt; font-weight: bold;  }
+td.centered-label-cell { text-align: center; font-family: .Helvetica Neue DeskInterface; font-size: 12pt; font-weight: bold;  }
+</style><title>
+</title></head>
+
+<body link="#b22222" text="#000000" bgcolor="#ffffff"><center>
+<table border="0" cellpadding="1" cellspacing="1">
+<tr>
+<td rowspan="1" colspan="1"><div align="right"></div></td>
+</tr>
+
+<tr>
+<td rowspan="1" colspan="1">
+<h3></h3>
+</td>
+</tr>
+
+<tr>
+<td rowspan="1" colspan="1"><script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jquery.jqplot.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.highlighter.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.canvasTextRenderer.js"></script>
+<script language="javascript" type="text/javascript" src="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jqplot.canvasAxisTickRenderer.js"></script>
+<link rel="stylesheet" type="text/css" href="file:////Applications/Gnucash.app/Contents/Resources/share/gnucash/jqplot/jquery.jqplot.css" />
+<div id="chart-472021" style="width:800px;height:450px;"></div>
+<script id="source">
+$(function () {var data = [];var series = [];
+var d0 = [];
+  d0.push([1, 18017.76]);
+  d0.push([2, 17697.51]);
+  d0.push([3, 17372.77]);
+  d0.push([4, 25990.93]);
+  d0.push([5, 25433.15]);
+  d0.push([6, 25361.47]);
+  d0.push([7, 25355.51]);
+  d0.push([8, 33457.72]);
+  d0.push([9, 31478.15]);
+  d0.push([10, 29695.65]);
+  d0.push([11, 28749.27]);
+  d0.push([12, 27787.71]);
+  d0.push([13, 26601.07]);
+data.push(d0);
+series.push({ label: "Assets"});
+
+var d1 = [];
+  d1.push([1, 9841.58]);
+  d1.push([2, 9841.58]);
+  d1.push([3, 9521.79]);
+  d1.push([4, 10644.9]);
+  d1.push([5, 11553.07]);
+  d1.push([6, 11553.07]);
+  d1.push([7, 12461.23]);
+  d1.push([8, 11893.8]);
+  d1.push([9, 10800.38]);
+  d1.push([10, 10132.71]);
+  d1.push([11, 10690.82]);
+  d1.push([12, 10811.07]);
+  d1.push([13, 11232.32]);
+data.push(d1);
+series.push({ label: "Liabilities"});
+
+var d2 = [];
+  d2.push([1, 8176.1799999999985]);
+  d2.push([2, 7855.9299999999985]);
+  d2.push([3, 7850.98]);
+  d2.push([4, 15346.03]);
+  d2.push([5, 13880.080000000002]);
+  d2.push([6, 13808.400000000001]);
+  d2.push([7, 12894.279999999999]);
+  d2.push([8, 21563.920000000002]);
+  d2.push([9, 20677.770000000004]);
+  d2.push([10, 19562.940000000002]);
+  d2.push([11, 18058.45]);
+  d2.push([12, 16976.64]);
+  d2.push([13, 15368.75]);
+data.push(d2);
+series.push({ label: "Net Worth"});
+
+var options = {
+                   shadowAlpha: 0.07,
+                   legend: {
+                        show: true,
+                        placement: "outsideGrid", },
+                   seriesDefaults: {
+                        lineWidth: 0.0,
+                        showMarker: false,
+                   },
+                   series: series,
+                   axesDefaults: {
+                   },        
+                   grid: {
+                   },
+                   axes: {
+                       xaxis: {
+                           tickRenderer: $.jqplot.CanvasAxisTickRenderer,
+                           tickOptions: {
+                               angle: -30,
+                               fontSize: '10pt',
+                           },
+                       },
+                       yaxis: {
+                           autoscale: true,
+                       },
+                   },
+                   highlighter: {
+                       tooltipContentEditor: formatTooltip,
+                       tooltipLocation: 'ne',
+                   }
+                };
+  options.stackSeries = false;
+  options.seriesDefaults.showMarker = true;
+  options.axesDefaults.drawMajorGridlines = true;
+  options.axesDefaults.drawMinorGridlines = false;
+  options.title = "Net Worth Linechart";
+  options.title += " (2014-01-01 to 2014-12-31)";
+  options.axes.yaxis.label = "CAD";
+  options.axes.xaxis.ticks = [[1,"2014-01-01"],[2,"2014-02-01"],[3,"2014-03-01"],[4,"2014-04-01"],[5,"2014-05-01"],[6,"2014-06-01"],[7,"2014-07-01"],[8,"2014-08-01"],[9,"2014-09-01"],[10,"2014-10-01"],[11,"2014-11-01"],[12,"2014-12-01"],[13,"2014-12-31"],];
+$.jqplot.config.enablePlugins = true;var plot = $.jqplot('chart-472021', data, options);
+
+  function formatTooltip(str, seriesIndex, pointIndex) {
+      if (options.axes.xaxis.ticks[pointIndex] !== undefined)
+          x = options.axes.xaxis.ticks[pointIndex][1];
+      else
+          x = pointIndex;
+      y = data[seriesIndex][pointIndex][1].toFixed(2);
+      return options.series[seriesIndex].label + ' ' + x + '<br><b>' + y + '</b>';
+  }
+});
+</script>
+<table border="0" cellpadding="4" cellspacing="0">
+<tr>
+<th>Date</th>
+
+<th>Assets</th>
+
+<th>Liabilities</th>
+
+<th>Net Worth</th>
+</tr>
+
+<tr>
+<td>2014-01-01</td>
+
+<td class="number-cell">18,017.76</td>
+
+<td class="number-cell">-9,841.58</td>
+
+<td class="number-cell">8,176.18</td>
+</tr>
+
+<tr>
+<td>2014-02-01</td>
+
+<td class="number-cell">17,697.51</td>
+
+<td class="number-cell">-9,841.58</td>
+
+<td class="number-cell">7,855.93</td>
+</tr>
+
+<tr>
+<td>2014-03-01</td>
+
+<td class="number-cell">17,372.77</td>
+
+<td class="number-cell">-9,521.79</td>
+
+<td class="number-cell">7,850.98</td>
+</tr>
+
+<tr>
+<td>2014-04-01</td>
+
+<td class="number-cell">25,990.93</td>
+
+<td class="number-cell">-10,644.90</td>
+
+<td class="number-cell">15,346.03</td>
+</tr>
+
+<tr>
+<td>2014-05-01</td>
+
+<td class="number-cell">25,433.15</td>
+
+<td class="number-cell">-11,553.07</td>
+
+<td class="number-cell">13,880.08</td>
+</tr>
+
+<tr>
+<td>2014-06-01</td>
+
+<td class="number-cell">25,361.47</td>
+
+<td class="number-cell">-11,553.07</td>
+
+<td class="number-cell">13,808.40</td>
+</tr>
+
+<tr>
+<td>2014-07-01</td>
+
+<td class="number-cell">25,355.51</td>
+
+<td class="number-cell">-12,461.23</td>
+
+<td class="number-cell">12,894.28</td>
+</tr>
+
+<tr>
+<td>2014-08-01</td>
+
+<td class="number-cell">33,457.72</td>
+
+<td class="number-cell">-11,893.80</td>
+
+<td class="number-cell">21,563.92</td>
+</tr>
+
+<tr>
+<td>2014-09-01</td>
+
+<td class="number-cell">31,478.15</td>
+
+<td class="number-cell">-10,800.38</td>
+
+<td class="number-cell">20,677.77</td>
+</tr>
+
+<tr>
+<td>2014-10-01</td>
+
+<td class="number-cell">29,695.65</td>
+
+<td class="number-cell">-10,132.71</td>
+
+<td class="number-cell">19,562.94</td>
+</tr>
+
+<tr>
+<td>2014-11-01</td>
+
+<td class="number-cell">28,749.27</td>
+
+<td class="number-cell">-10,690.82</td>
+
+<td class="number-cell">18,058.45</td>
+</tr>
+
+<tr>
+<td>2014-12-01</td>
+
+<td class="number-cell">27,787.71</td>
+
+<td class="number-cell">-10,811.07</td>
+
+<td class="number-cell">16,976.64</td>
+</tr>
+
+<tr>
+<td>2014-12-31</td>
+
+<td class="number-cell">26,601.07</td>
+
+<td class="number-cell">-11,232.32</td>
+
+<td class="number-cell">15,368.75</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td rowspan="1" colspan="1"></td>
+</tr>
+</table>
+</center></body>
+</html>
