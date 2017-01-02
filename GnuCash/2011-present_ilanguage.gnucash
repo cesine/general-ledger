@@ -56,7 +56,7 @@
     <slot:value type="frame">
       <slot>
         <slot:key>gncBill</slot:key>
-        <slot:value type="integer">5</slot:value>
+        <slot:value type="integer">9</slot:value>
       </slot>
       <slot>
         <slot:key>gncCustomer</slot:key>
@@ -157,14 +157,14 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">134</gnc:count-data>
-<gnc:count-data cd:type="transaction">740</gnc:count-data>
+<gnc:count-data cd:type="transaction">742</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">5</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncCustomer">11</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncEmployee">18</gnc:count-data>
-<gnc:count-data cd:type="gnc:GncEntry">190</gnc:count-data>
-<gnc:count-data cd:type="gnc:GncInvoice">54</gnc:count-data>
+<gnc:count-data cd:type="gnc:GncEntry">192</gnc:count-data>
+<gnc:count-data cd:type="gnc:GncInvoice">56</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncJob">1</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncTaxTable">13</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncVendor">1</gnc:count-data>
@@ -5057,6 +5057,24 @@ Montreal QC REMOVED</slot:value>
       </lot:slots>
     </gnc:lot>
     <gnc:lot version="2.0.0">
+      <lot:id type="guid">49da12f059535301831c20ecfdbba034</lot:id>
+      <lot:slots>
+        <slot>
+          <slot:key>gncInvoice</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>invoice-guid</slot:key>
+              <slot:value type="guid">6f1812e12d37c51d2f502db34fd8fa7c</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>title</slot:key>
+          <slot:value type="string">Bill 000009</slot:value>
+        </slot>
+      </lot:slots>
+    </gnc:lot>
+    <gnc:lot version="2.0.0">
       <lot:id type="guid">61cb62ed3d1501d6fe206dbd5a697f52</lot:id>
       <lot:slots>
         <slot>
@@ -5107,6 +5125,24 @@ Montreal QC REMOVED</slot:value>
               <slot:value type="integer">4</slot:value>
             </slot>
           </slot:value>
+        </slot>
+      </lot:slots>
+    </gnc:lot>
+    <gnc:lot version="2.0.0">
+      <lot:id type="guid">84eae8ce652be75723cabc1c0c57a615</lot:id>
+      <lot:slots>
+        <slot>
+          <slot:key>gncInvoice</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>invoice-guid</slot:key>
+              <slot:value type="guid">0520beee4d48db7df2d3e433c0f48c74</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>title</slot:key>
+          <slot:value type="string">Bill 000008</slot:value>
         </slot>
       </lot:slots>
     </gnc:lot>
@@ -14276,17 +14312,25 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <slot:key>notes</slot:key>
       <slot:value type="string">Rent:QuoVadis</slot:value>
     </slot>
+    <slot>
+      <slot:key>trans-txn-type</slot:key>
+      <slot:value type="string">P</slot:value>
+    </slot>
   </trn:slots>
   <trn:splits>
     <trn:split>
-      <split:id type="guid">5a6ffc7636c1e6e887b253fe96197a55</split:id>
+      <split:id type="guid">93d1a84e6e6656b6abdb626db6dd9697</split:id>
+      <split:memo>Cheque 10</split:memo>
+      <split:action>Payment</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>206955/100</split:value>
       <split:quantity>206955/100</split:quantity>
-      <split:account type="guid">fff63efd30a8eac8b771c4243b6d6376</split:account>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+      <split:lot type="guid">84eae8ce652be75723cabc1c0c57a615</split:lot>
     </trn:split>
     <trn:split>
       <split:id type="guid">3e67b74a6a86b7cacbee8e96d32ea6d0</split:id>
+      <split:action>Payment</split:action>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
         <ts:date>2015-04-01 23:59:59 -0400</ts:date>
@@ -18324,17 +18368,25 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <slot:key>notes</slot:key>
       <slot:value type="string">Rent:QuoVadis</slot:value>
     </slot>
+    <slot>
+      <slot:key>trans-txn-type</slot:key>
+      <slot:value type="string">P</slot:value>
+    </slot>
   </trn:slots>
   <trn:splits>
     <trn:split>
-      <split:id type="guid">46b56788fb383d90bea3e49a08a58d7e</split:id>
+      <split:id type="guid">37f5a2cb027185970e0ce30f654e3e7e</split:id>
+      <split:memo>Cheque 28</split:memo>
+      <split:action>Payment</split:action>
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>206955/100</split:value>
       <split:quantity>206955/100</split:quantity>
-      <split:account type="guid">fff63efd30a8eac8b771c4243b6d6376</split:account>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+      <split:lot type="guid">49da12f059535301831c20ecfdbba034</split:lot>
     </trn:split>
     <trn:split>
       <split:id type="guid">d95dc980389bcf0df33fc2fb7ce03c6d</split:id>
+      <split:action>Payment</split:action>
       <split:reconciled-state>y</split:reconciled-state>
       <split:reconcile-date>
         <ts:date>2015-04-01 23:59:59 -0400</ts:date>
@@ -41301,6 +41353,156 @@ chairs</split:memo>
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
+  <trn:id type="guid">755cba7a229f10330b7a6f8b7ceec79c</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>000008</trn:num>
+  <trn:date-posted>
+    <ts:date>2013-01-01 00:00:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 20:58:14 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Quo Vadis</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>gncInvoice</slot:key>
+      <slot:value type="frame">
+        <slot>
+          <slot:key>invoice-guid</slot:key>
+          <slot:value type="guid">0520beee4d48db7df2d3e433c0f48c74</slot:value>
+        </slot>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-date-due</slot:key>
+      <slot:value type="timespec">
+        <ts:date>2013-01-01 00:00:00 -0500</ts:date>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-read-only</slot:key>
+      <slot:value type="string">Generated from an invoice. Try unposting the invoice.</slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-txn-type</slot:key>
+      <slot:value type="string">I</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">3190368d6a3af82cf197663193ecc21a</split:id>
+      <split:action>Bill</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>17955/100</split:value>
+      <split:quantity>17955/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">cf4e3f5ca98eb21960dda1e020ba9dfe</split:id>
+      <split:action>Bill</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>9000/100</split:value>
+      <split:quantity>9000/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">48925212339d904b315b1f7283849e18</split:id>
+      <split:action>Bill</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>180000/100</split:value>
+      <split:quantity>180000/100</split:quantity>
+      <split:account type="guid">fff63efd30a8eac8b771c4243b6d6376</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">c6a1cec79abbef87ae78965dfed4bb8a</split:id>
+      <split:action>Bill</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-206955/100</split:value>
+      <split:quantity>-206955/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+      <split:lot type="guid">84eae8ce652be75723cabc1c0c57a615</split:lot>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">eeb472d5dcf83b33cf4e0f0289a665fc</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>000009</trn:num>
+  <trn:date-posted>
+    <ts:date>2013-04-01 00:00:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-01-01 20:59:18 -0500</ts:date>
+  </trn:date-entered>
+  <trn:description>Quo Vadis</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>gncInvoice</slot:key>
+      <slot:value type="frame">
+        <slot>
+          <slot:key>invoice-guid</slot:key>
+          <slot:value type="guid">6f1812e12d37c51d2f502db34fd8fa7c</slot:value>
+        </slot>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-date-due</slot:key>
+      <slot:value type="timespec">
+        <ts:date>2013-04-01 00:00:00 -0400</ts:date>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-read-only</slot:key>
+      <slot:value type="string">Generated from an invoice. Try unposting the invoice.</slot:value>
+    </slot>
+    <slot>
+      <slot:key>trans-txn-type</slot:key>
+      <slot:value type="string">I</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">f2eb5b16330db253512e4a0472831847</split:id>
+      <split:action>Bill</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>17955/100</split:value>
+      <split:quantity>17955/100</split:quantity>
+      <split:account type="guid">96e36fbbe849740bd1999b0d935b073d</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">6ee7ed934512d55cc110bb8e71e2c039</split:id>
+      <split:action>Bill</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>9000/100</split:value>
+      <split:quantity>9000/100</split:quantity>
+      <split:account type="guid">ce7032c7c039b1076980c5954dc5fff7</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">92bc7a1e256efebd9c02e6c892eb794c</split:id>
+      <split:action>Bill</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>180000/100</split:value>
+      <split:quantity>180000/100</split:quantity>
+      <split:account type="guid">fff63efd30a8eac8b771c4243b6d6376</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">32d51102ce64912fc76769c8756a9588</split:id>
+      <split:action>Bill</split:action>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-206955/100</split:value>
+      <split:quantity>-206955/100</split:quantity>
+      <split:account type="guid">6077a8766832848b1f621f21edefcac3</split:account>
+      <split:lot type="guid">49da12f059535301831c20ecfdbba034</split:lot>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
   <trn:id type="guid">ac3f2fd2b6881af4209de4e8fdcc438e</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -59706,6 +59908,25 @@ chairs</split:memo>
   <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">8196bca96fb9728f77179695bc259944</entry:guid>
+  <entry:date>
+    <ts:date>2013-01-01 12:00:00 -0500</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2017-01-01 20:56:50 -0500</ts:date>
+  </entry:entered>
+  <entry:description>Quo Vadis</entry:description>
+  <entry:qty>3000000/1000000</entry:qty>
+  <entry:b-acct type="guid">fff63efd30a8eac8b771c4243b6d6376</entry:b-acct>
+  <entry:b-price>600000000/1000000</entry:b-price>
+  <entry:bill type="guid">0520beee4d48db7df2d3e433c0f48c74</entry:bill>
+  <entry:billable>0</entry:billable>
+  <entry:b-taxable>1</entry:b-taxable>
+  <entry:b-taxincluded>0</entry:b-taxincluded>
+  <entry:b-pay>CASH</entry:b-pay>
+  <entry:b-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:b-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">84aaf5fd018f49266539541de60b01bd</entry:guid>
   <entry:date>
     <ts:date>2013-07-07 12:00:00 -0400</ts:date>
@@ -61227,6 +61448,25 @@ chairs</split:memo>
   <entry:i-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:i-taxtable>
 </gnc:GncEntry>
 <gnc:GncEntry version="2.0.0">
+  <entry:guid type="guid">e7c7996027a621ea9fdfadd5156b9af3</entry:guid>
+  <entry:date>
+    <ts:date>2013-04-01 12:00:00 -0400</ts:date>
+  </entry:date>
+  <entry:entered>
+    <ts:date>2017-01-01 20:56:50 -0500</ts:date>
+  </entry:entered>
+  <entry:description>Quo Vadis</entry:description>
+  <entry:qty>3000000/1000000</entry:qty>
+  <entry:b-acct type="guid">fff63efd30a8eac8b771c4243b6d6376</entry:b-acct>
+  <entry:b-price>600000000/1000000</entry:b-price>
+  <entry:bill type="guid">6f1812e12d37c51d2f502db34fd8fa7c</entry:bill>
+  <entry:billable>0</entry:billable>
+  <entry:b-taxable>1</entry:b-taxable>
+  <entry:b-taxincluded>0</entry:b-taxincluded>
+  <entry:b-pay>CASH</entry:b-pay>
+  <entry:b-taxtable type="guid">1d9ea31e7a84f424886cc2c66c5042d2</entry:b-taxtable>
+</gnc:GncEntry>
+<gnc:GncEntry version="2.0.0">
   <entry:guid type="guid">e7f424690609ab162b12ce69959c348f</entry:guid>
   <entry:date>
     <ts:date>2012-05-14 16:00:00 -0400</ts:date>
@@ -61571,6 +61811,35 @@ chairs</split:memo>
   <entry:i-taxincluded>0</entry:i-taxincluded>
   <entry:i-taxtable type="guid">643b5e3ded8817a088d0a1e24267947d</entry:i-taxtable>
 </gnc:GncEntry>
+<gnc:GncInvoice version="2.0.0">
+  <invoice:guid type="guid">0520beee4d48db7df2d3e433c0f48c74</invoice:guid>
+  <invoice:id>000008</invoice:id>
+  <invoice:owner version="2.0.0">
+    <owner:type>gncVendor</owner:type>
+    <owner:id type="guid">4abeff7e8a372ad2b0a9c98dd83b33d5</owner:id>
+  </invoice:owner>
+  <invoice:opened>
+    <ts:date>2012-01-01 00:00:00 -0500</ts:date>
+  </invoice:opened>
+  <invoice:posted>
+    <ts:date>2013-01-01 00:00:00 -0500</ts:date>
+  </invoice:posted>
+  <invoice:notes>Rent Jan, Feb, March 2013</invoice:notes>
+  <invoice:active>1</invoice:active>
+  <invoice:posttxn type="guid">755cba7a229f10330b7a6f8b7ceec79c</invoice:posttxn>
+  <invoice:postlot type="guid">84eae8ce652be75723cabc1c0c57a615</invoice:postlot>
+  <invoice:postacc type="guid">6077a8766832848b1f621f21edefcac3</invoice:postacc>
+  <invoice:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </invoice:currency>
+  <invoice:slots>
+    <slot>
+      <slot:key>credit-note</slot:key>
+      <slot:value type="integer">0</slot:value>
+    </slot>
+  </invoice:slots>
+</gnc:GncInvoice>
 <gnc:GncInvoice version="2.0.0">
   <invoice:guid type="guid">0c949fb039cb4768ddf5ee3184b058c9</invoice:guid>
   <invoice:id>313</invoice:id>
@@ -62130,6 +62399,35 @@ Conditions: If any bill is not paid within three weeks, all work will be stopped
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>CAD</cmdty:id>
   </invoice:currency>
+</gnc:GncInvoice>
+<gnc:GncInvoice version="2.0.0">
+  <invoice:guid type="guid">6f1812e12d37c51d2f502db34fd8fa7c</invoice:guid>
+  <invoice:id>000009</invoice:id>
+  <invoice:owner version="2.0.0">
+    <owner:type>gncVendor</owner:type>
+    <owner:id type="guid">4abeff7e8a372ad2b0a9c98dd83b33d5</owner:id>
+  </invoice:owner>
+  <invoice:opened>
+    <ts:date>2013-04-01 00:00:00 -0400</ts:date>
+  </invoice:opened>
+  <invoice:posted>
+    <ts:date>2013-04-01 00:00:00 -0400</ts:date>
+  </invoice:posted>
+  <invoice:notes>Rent April, May, June 2013</invoice:notes>
+  <invoice:active>1</invoice:active>
+  <invoice:posttxn type="guid">eeb472d5dcf83b33cf4e0f0289a665fc</invoice:posttxn>
+  <invoice:postlot type="guid">49da12f059535301831c20ecfdbba034</invoice:postlot>
+  <invoice:postacc type="guid">6077a8766832848b1f621f21edefcac3</invoice:postacc>
+  <invoice:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </invoice:currency>
+  <invoice:slots>
+    <slot>
+      <slot:key>credit-note</slot:key>
+      <slot:value type="integer">0</slot:value>
+    </slot>
+  </invoice:slots>
 </gnc:GncInvoice>
 <gnc:GncInvoice version="2.0.0">
   <invoice:guid type="guid">76b9c1438574d79ed4bf07a25112de5c</invoice:guid>
@@ -63196,7 +63494,7 @@ Conditions if any bill is not paid within three weeks, all work will be stopped 
       <slot:value type="frame">
         <slot>
           <slot:key>last_acct</slot:key>
-          <slot:value type="guid">7d2b6c4fb4f0546f8dea6895bb5b7a33</slot:value>
+          <slot:value type="guid">008127df6cb9ded0885fd0493367e0f5</slot:value>
         </slot>
       </slot:value>
     </slot>
