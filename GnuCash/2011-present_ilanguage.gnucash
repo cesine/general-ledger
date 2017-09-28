@@ -157,7 +157,7 @@ Montreal QC REMOVED</slot:value>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">129</gnc:count-data>
-<gnc:count-data cd:type="transaction">742</gnc:count-data>
+<gnc:count-data cd:type="transaction">767</gnc:count-data>
 <gnc:count-data cd:type="schedxaction">1</gnc:count-data>
 <gnc:count-data cd:type="budget">5</gnc:count-data>
 <gnc:count-data cd:type="gnc:GncBillTerm">2</gnc:count-data>
@@ -5360,6 +5360,440 @@ Montreal QC REMOVED</slot:value>
       <slot:key>color</slot:key>
       <slot:value type="string">Not Set</slot:value>
     </slot>
+    <slot>
+      <slot:key>import-map-bayes</slot:key>
+      <slot:value type="frame">
+        <slot>
+          <slot:key>2012</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Current Assets:Checking Account</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>2013</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Current Assets:Checking Account</slot:key>
+              <slot:value type="integer">3</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">3</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>2014</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>2015</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Arrears</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Assessed</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Accounts Payable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Aug</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Current Assets:Checking Account</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>CRA</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Credit</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">3</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Friday</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Hiring</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Information</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">3</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>June</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Current Assets:Checking Account</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Mar</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Current Assets:Checking Account</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Monday</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Current Assets:Checking Account</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Accounts Payable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Nov</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Current Assets:Checking Account</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Payment</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Current Assets:Checking Account</slot:key>
+              <slot:value type="integer">4</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Refund</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Return</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">3</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>T4</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">3</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Thursday</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">4</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Tuesday</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Current Assets:Checking Account</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Type</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">3</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>Wednesday</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Assets:Current Assets:Checking Account</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">3</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>account</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>and</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>beloned</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>filing</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Accounts Payable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>for</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>from</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>interest</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>it</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>late</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Accounts Payable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>our</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>payment</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>penalty</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Accounts Payable</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>rebalanced</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>requested</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>to</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>transferred</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">2</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+        <slot>
+          <slot:key>where</slot:key>
+          <slot:value type="frame">
+            <slot>
+              <slot:key>Liabilities:Taxes:Remises Federal RP0001</slot:key>
+              <slot:value type="integer">1</slot:value>
+            </slot>
+          </slot:value>
+        </slot>
+      </slot:value>
+    </slot>
   </act:slots>
   <act:parent type="guid">77b4e1450706ed2cca86db464af36aff</act:parent>
 </gnc:account>
@@ -8275,34 +8709,12 @@ Montreal QC REMOVED</slot:value>
   <trn:splits>
     <trn:split>
       <split:id type="guid">7d94451a7a933d6d5929a531437d3d87</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>5207/100</split:value>
-      <split:quantity>5207/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">d99f3b7878ab4ee8f6cb96d802b3ca10</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>2205/100</split:value>
-      <split:quantity>2205/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">daca3a2a51e3f22be3fe9eb35689e507</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>3087/100</split:value>
-      <split:quantity>3087/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">f3d1f0441b33d2379b4bccbe03bf3ae2</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>10499/100</split:value>
+      <split:quantity>10499/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -8761,7 +9173,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">f7c0cfffd911166ad67496946019b7f8</split:id>
       <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
 </split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-18755/100</split:value>
       <split:quantity>-18755/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
@@ -8869,35 +9284,8 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">65a213f94f62f4db2d2557534182efc3</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>22061/100</split:value>
-      <split:quantity>22061/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">e0f60b5576b03235af306110804b952a</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>4003/100</split:value>
-      <split:quantity>4003/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">4aa1d08cfeb956eeb06c4106a8442976</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>5604/100</split:value>
-      <split:quantity>5604/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">a50983dd4aaaee524ecfae1c3cbe8351</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>31668/100</split:value>
+      <split:quantity>31668/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -9545,35 +9933,8 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">ed6d9b97a28f9a8122cfcc4d37fe38c3</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>66183/100</split:value>
-      <split:quantity>66183/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">72669b9bec96f6df1d38cf642ce9b5b9</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>12009/100</split:value>
-      <split:quantity>12009/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">4bc572fd78e93c1d150831e713dbe31f</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>16813/100</split:value>
-      <split:quantity>16813/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">b71cc993c94a16ad4472276cef2f20a9</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>95005/100</split:value>
+      <split:quantity>95005/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -10372,35 +10733,8 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">67f582c2f165767daf8e3e98af0e3729</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>44122/100</split:value>
-      <split:quantity>44122/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">7a57b0634fec3388b82cd2d1da57af7a</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>8006/100</split:value>
-      <split:quantity>8006/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">b10781984ce990e6b8e611de10395e63</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>11208/100</split:value>
-      <split:quantity>11208/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">c64e59f4fcace699e61ec88b7de4d177</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>63336/100</split:value>
+      <split:quantity>63336/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -11193,7 +11527,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">597c4280afa243f518e7275d30da42b3</split:id>
       <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
 </split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-18755/100</split:value>
       <split:quantity>-18755/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
@@ -11345,35 +11682,8 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">acb73abb09d74738ac85011a09ef5286</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>31374/100</split:value>
-      <split:quantity>31374/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">164381fa837331dd6f62e4e122e84a54</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>5179/100</split:value>
-      <split:quantity>5179/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">aa80fe4e9a720c01c66b7957273d59a0</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>13825/100</split:value>
-      <split:quantity>13825/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">f5d4d31c62af891b39e2abf84b974673</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>50378/100</split:value>
+      <split:quantity>50378/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -12973,35 +13283,8 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">34ad04a8d35cd9613c088cae4c6ba961</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>70618/100</split:value>
-      <split:quantity>70618/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">5b05836e961c89f7af7648958894cd04</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>12814/100</split:value>
-      <split:quantity>12814/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">df5d16d65a16117721ebe105b80d9a01</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>17940/100</split:value>
-      <split:quantity>17940/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">2199eb60a5c3b24731eaa4c632c4bee4</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>101372/100</split:value>
+      <split:quantity>101372/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -13481,35 +13764,8 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">d4cfe7211b54c01da4f08e012e53b7bd</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>149974/100</split:value>
-      <split:quantity>149974/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">b5cc3d92c2257095ed75f82233371855</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>27213/100</split:value>
-      <split:quantity>27213/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">16dbc05387eae278fe2bfef2a2046283</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>38099/100</split:value>
-      <split:quantity>38099/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">c051eb9a6cbddbd6b11edbdaae472baa</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>215286/100</split:value>
+      <split:quantity>215286/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -16601,35 +16857,8 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">21ad78538c62796e80210007733bd46e</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>60300/100</split:value>
-      <split:quantity>60300/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">7de3179e812903c77cf1a78d5449861a</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>10942/100</split:value>
-      <split:quantity>10942/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">d5fa18243f56d674fc54071a0133bcd3</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>15318/100</split:value>
-      <split:quantity>15318/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">83929af2188c1aa9b43da929de2b88f8</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>86560/100</split:value>
+      <split:quantity>86560/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -17874,35 +18103,8 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">0b0043f49c0ce658e28221b109ed0d82</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>47441/100</split:value>
-      <split:quantity>47441/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">3326f9b13699afaa6fd58efb763f8e46</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>8608/100</split:value>
-      <split:quantity>8608/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">98fd33b6558eb23a283cd3d8754776c7</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>12052/100</split:value>
-      <split:quantity>12052/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">50b8140ff72d29836831b61a9f2701f8</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>68101/100</split:value>
+      <split:quantity>68101/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -18681,35 +18883,8 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">bc71247cc683673bcefc09f7146b774e</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>38266/100</split:value>
-      <split:quantity>38266/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">e4f7c71318222442b1a674996921a925</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>6943/100</split:value>
-      <split:quantity>6943/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">7eb8e3f9e28a3931d04970121907d3c6</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>9721/100</split:value>
-      <split:quantity>9721/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">f0c5cb9c0afaff4825680dd2a640da07</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>54930/100</split:value>
+      <split:quantity>54930/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -18954,7 +19129,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">7e3039251f6573f681b744af7094c4bc</split:id>
       <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
 </split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-2170/100</split:value>
       <split:quantity>-2170/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
@@ -20336,35 +20514,8 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">398e1509bd73028e6a8da86bcd475a71</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>42785/100</split:value>
-      <split:quantity>42785/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">85319d0ddf3aa892d8eee55098cc61db</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>7763/100</split:value>
-      <split:quantity>7763/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">b33590898379a8ca9d86d252128065a3</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>10869/100</split:value>
-      <split:quantity>10869/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">9b16805f9084290cf102bc32be0c730a</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>61417/100</split:value>
+      <split:quantity>61417/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -20912,36 +21063,12 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
   <trn:splits>
     <trn:split>
       <split:id type="guid">c1c20d1342b8516b35f679dbceed05ca</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>100/100</split:value>
       <split:quantity>100/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">fe76b8c285067ccd7f9900bc6f1b7796</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">a1e00d05eec9d041265d0e063a7b0774</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">5d3b1821e2bfc98a904370ec7cab5ace</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -21034,35 +21161,8 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
     <trn:split>
       <split:id type="guid">99b4b7ab4ff7347d09ee5427759e1b23</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>96260/100</split:value>
-      <split:quantity>96260/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">2f1d738cc92d7965f34b16f5b29b9f98</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>17466/100</split:value>
-      <split:quantity>17466/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">76b4805c36e7561bd49bac716be7fd60</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>24453/100</split:value>
-      <split:quantity>24453/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">465ed9cb7860778068a06cdebc1cd0aa</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>138179/100</split:value>
+      <split:quantity>138179/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -21261,7 +21361,10 @@ PMT Employee1 Seulement MARS - Reconciled with RS0001 account as Cotisation 2012
       <split:id type="guid">519bacffca577b5415db5baa90803516</split:id>
       <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
 </split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>-8756/100</split:value>
       <split:quantity>-8756/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
@@ -22568,36 +22671,12 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">cd264daaae9acd1bd64b78071a09b510</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>100/100</split:value>
       <split:quantity>100/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">7a9e08c4642c4f33c48089657477213c</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">a5f0eb3c457f0457815419ead6f3dee2</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">8582005dee9e615ce221a3b1c8c4daba</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -22736,35 +22815,8 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">2c03dbf0172ae0e898dc066df432356e</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>62709/100</split:value>
-      <split:quantity>62709/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">f1d9a8ec5b8cb12d35ba66bd497bd89a</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>11379/100</split:value>
-      <split:quantity>11379/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">504b2cce88f1619ce867a6c6550f6335</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>15931/100</split:value>
-      <split:quantity>15931/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">ba16731eb828531b2183dfe10e66b2d2</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>90019/100</split:value>
+      <split:quantity>90019/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -23619,35 +23671,8 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">2eb425009b8d13e215d561d63435927a</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>22605/100</split:value>
-      <split:quantity>22605/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">1a08bda4e78a2fcabf60e76a7bbf45cd</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>4102/100</split:value>
-      <split:quantity>4102/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">7bf650de996d204119e0f120fbe1db9a</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>5743/100</split:value>
-      <split:quantity>5743/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">526376708f7bbfc7eda27ccc1e8890d4</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>32450/100</split:value>
+      <split:quantity>32450/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -24502,36 +24527,12 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
   <trn:splits>
     <trn:split>
       <split:id type="guid">bc4cc5daafe3552d7076d4c9b3db9078</split:id>
-      <split:reconciled-state>n</split:reconciled-state>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
       <split:value>100/100</split:value>
       <split:quantity>100/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">596949bf6d892b0cff4aa9f7448c105a</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">90f6a9e0e417e46b6ec6a7809fa68763</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">f45aea1a3e111dd9ba5badf24287bd71</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -24624,35 +24625,8 @@ Employee Régime québécois d'assurance parentale/Quebec Parental Insurance Pla
     <trn:split>
       <split:id type="guid">dfdd61ab0387fd708966f601fddfefb9</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>33908/100</split:value>
-      <split:quantity>33908/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">71054aea2f1c1e332f257630933fbc80</split:id>
-      <split:memo>Employee Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>6153/100</split:value>
-      <split:quantity>6153/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">6b3ea237ca2a939f3d3c57d6276487c6</split:id>
-      <split:memo>Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>8614/100</split:value>
-      <split:quantity>8614/100</split:quantity>
-      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
-    </trn:split>
-    <trn:split>
-      <split:id type="guid">b7a1ea7b8c53a56ef8789c1c4756f100</split:id>
-      <split:memo>Employeur Régime de pensions du Canada/Canada Pension Plan CPP
-</split:memo>
-      <split:reconciled-state>n</split:reconciled-state>
-      <split:value>0/100</split:value>
-      <split:quantity>0/100</split:quantity>
+      <split:value>48675/100</split:value>
+      <split:quantity>48675/100</split:quantity>
       <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
     <trn:split>
@@ -55343,6 +55317,130 @@ chairs</split:memo>
   </trn:splits>
 </gnc:transaction>
 <gnc:transaction version="2.0.0">
+  <trn:id type="guid">ef369f550af3d7f569d7d51bcf7a4687</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-09-01 06:59:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Missing payment Sept 2012</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-09-01</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">b253ed8cf5a3f0130a9b577fe26004b6</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">3ab982faecd86de3d364dcdec529ffeb</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-09-14 06:59:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Balance adjustment to 2011</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-09-14</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CRA rebalanced our account to where it beloned</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">987aca704815b575f794f2dd9c285536</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>3000/100</split:value>
+      <split:quantity>3000/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e37c5db593b23d1859ab5d19a6f2876b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-3000/100</split:value>
+      <split:quantity>-3000/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">87e8267e1dc07fe936c4c02b5f6a4828</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2012-10-01 06:59:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Missing payment Oct 2012</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-10-01</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">5f4687ca55c0b98fafd80a1d6d466fb9</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
   <trn:id type="guid">c6d504c61cdafd71d84d25c7c9e21164</trn:id>
   <trn:currency>
     <cmdty:space>ISO4217</cmdty:space>
@@ -56317,6 +56415,1011 @@ chairs</split:memo>
       <split:value>-1073/100</split:value>
       <split:quantity>-1073/100</split:quantity>
       <split:account type="guid">2f4f708123c243cd66e1cdb4b955c85a</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">ed26b21c5fb177e8173c2e98d84041c8</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2013-02-21 05:59:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>T4 Type Information Return 2012</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-02-21</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">05eb1b718b8d2d038e3da3e99326ac86</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>564721/100</split:value>
+      <split:quantity>564721/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a4e3cfe021c74c0257734a588024fca2</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-564721/100</split:value>
+      <split:quantity>-564721/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">544e371576533faa78ae3a08aa7ae3dd</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2013-02-22 05:59:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Balance adjustment to 2012</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-02-22</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CRA rebalanced our account to next year</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">7e551fe424f837a5732a72953762b8d0</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>2823/100</split:value>
+      <split:quantity>2823/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5bd6505e5c4419babfaed9afaa3381ab</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2823/100</split:value>
+      <split:quantity>-2823/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">85f0dcd9109693ba13a9d9033129a64c</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2013-02-22 05:59:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Hiring Credit 2012</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-02-22</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">86132c6a0b4957f7901c9174eb22815b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>100000/100</split:value>
+      <split:quantity>100000/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">87ddbdaef53027003424fc24dedc10eb</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-100000/100</split:value>
+      <split:quantity>-100000/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">b0c87ebeba87fbf061b3c8021fb80019</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2013-02-22 05:59:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Credit transferred from 2012</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-02-22</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">5ed4dbe11504deeb654894d4b73f90e4</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>100000/100</split:value>
+      <split:quantity>100000/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">83c450099a065a646280ddcee7dd066a</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-100000/100</split:value>
+      <split:quantity>-100000/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">0ab98ebac837084a5c2b1ec9bfeec7eb</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>3</trn:num>
+  <trn:date-posted>
+    <ts:date>2013-02-22 05:59:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Credit transferred to 2013</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-02-22</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">9f0cf63ab9d0f2604ea4adafe0142610</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>100000/100</split:value>
+      <split:quantity>100000/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">5b9b145de129f140db2d38b32eacd868</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-100000/100</split:value>
+      <split:quantity>-100000/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">4e53fa9079b950e946406a94b0d373a6</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2013-03-28 06:59:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Refund requested for 2013</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2013-03-28</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Really? Why would we request a refund like that?</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">d2fd3b58d5348ee28246ec70c434b4e1</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>100000/100</split:value>
+      <split:quantity>100000/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">78297163156f093cc6112af7fef02e50</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-100000/100</split:value>
+      <split:quantity>-100000/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">fd8d08058dfcd18705b7b6c8be8e93e3</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-02-28 05:59:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>T4 Type Information Return 2013</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-02-28</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">b3707e04631e3c22e4d0044f6ad24919</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>627588/100</split:value>
+      <split:quantity>627588/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">10e17497ad9922aab285ff9200f75d6e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-627588/100</split:value>
+      <split:quantity>-627588/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">8c0d18ed1ed01062c78dfc8369d76350</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-03-05 05:59:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Hiring Credit 2013</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-03-05</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Why is this only 138?</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">698b3a1cea93ba85426362357f973c1c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>13887/100</split:value>
+      <split:quantity>13887/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">061c159ad55106e11d231adf005f92a3</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-13887/100</split:value>
+      <split:quantity>-13887/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">f01ef5c804c136fb7de95f4c2efb6516</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>2</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-03-05 05:59:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Credit transferred from 2013</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-03-05</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CRA rebalanced our account to next year</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">6a60e6faf2801095541bf8152562483c</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>13887/100</split:value>
+      <split:quantity>13887/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">7ce6095a7fc46aa765b1959e1fa1da97</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-13887/100</split:value>
+      <split:quantity>-13887/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d2e5a1b4c8c485d95a6bc4fe50a52bb0</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>4</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-03-05 05:59:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Credit transferred to 2014</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-03-05</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CRA rebalanced our account to next year</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">596445437c3db71d98604bcd3a6f38ab</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>13887/100</split:value>
+      <split:quantity>13887/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">2eb16c7bed58fb57f234b86c023d123f</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-13887/100</split:value>
+      <split:quantity>-13887/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">e14094c82ecef5ca929de3bc7bb618ec</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>5</trn:num>
+  <trn:date-posted>
+    <ts:date>2014-03-05 05:59:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Balance adjustment to 2013</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2014-03-05</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CRA rebalanced our account to next year</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">c0d2a3826757fe7379d8924b51a2beb0</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>301/100</split:value>
+      <split:quantity>301/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">2e7357f69bf56b31dad7634733b94e06</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-301/100</split:value>
+      <split:quantity>-301/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">bdd6058c6626189f59441207043f00bc</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-03-03 05:59:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Arrears payment</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-03-03</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">What is this?</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">acc3571a9a6cf4ecc77771019831c26a</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>39680/100</split:value>
+      <split:quantity>39680/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">21378d5c820eecd14de876efda8980f2</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-39680/100</split:value>
+      <split:quantity>-39680/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">922b395413e73bf7e70c78c1ee5319a0</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-03-10 06:59:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>T4 Type Information Return 2014</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-03-10</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">This should contain the uncalculated duties for Employee1 at 9999.98 salary</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">34d9e21dba070bc965a319e9cc6049b1</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>58094/100</split:value>
+      <split:quantity>58094/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b880d808e9792d3222af1de4158334d3</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-58094/100</split:value>
+      <split:quantity>-58094/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">780ab3f16221815203610faef1739454</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-04-30 06:59:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Arrears payment</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-04-30</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">What is this?</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">c1d8abf0314504dc70bca6c06e04389f</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>5793/100</split:value>
+      <split:quantity>5793/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">091e3228f35151bb9c67f99f9f293722</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-5793/100</split:value>
+      <split:quantity>-5793/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">ec660d0126a79ee0c6ab51dacf175dae</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-12-11 05:59:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Credit transferred from arrears</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-12-11</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">What is this?</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">3b0159644c51d3d180692edfcc748eff</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>5793/100</split:value>
+      <split:quantity>5793/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a80059092a93a8878745430a048ca64e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-5793/100</split:value>
+      <split:quantity>-5793/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">0d8cbfc2e169c8e3bc271b4c85727f04</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2015-12-11 05:59:00 -0500</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Credit transferred to 2014</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2015-12-11</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">Why 2014?</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">6a51b64c92643ee08637e867108e4487</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>5793/100</split:value>
+      <split:quantity>5793/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">fe23b92a2f9fa90bad66e1511595e293</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-5793/100</split:value>
+      <split:quantity>-5793/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">a5e241d8de7f40b7d2b548dcc1395694</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2016-03-16 06:59:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>T4 Type Information Return 2015</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2016-03-16</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">2a4b95ec3cf3d7ef82d46453453a8b2c</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>38299/100</split:value>
+      <split:quantity>38299/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">4d7f926831895642a3d4eefe25d53602</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-38299/100</split:value>
+      <split:quantity>-38299/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">929fab231b4ae92594ff9c856b95176a</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2016-06-01 06:59:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Missing payment June 2016, requested to transfer the Sept to June</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2016-06-01</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">8b7fb3852e63381b3842cc139bd81ed1</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>0/100</split:value>
+      <split:quantity>0/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">2a6176a2a65bba549de94bd504dd5f40</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2016-06-20 06:59:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Assessed late filing penalty</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2016-06-20</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">The bank transactions we set up were not executed after the fusion</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">00c2264a8f011065fa144f84994b8601</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>10000/100</split:value>
+      <split:quantity>10000/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a01f1b92b3bf352807c6ce78a862c776</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-10000/100</split:value>
+      <split:quantity>-10000/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">11bf10855026da5891acd3580081563c</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2016-06-20 06:59:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Balance adjustment to 2015</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2016-06-20</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">CRA rebalanced our account to next year</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">f36ea82e7760f563d848c9d6e3966938</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>39604/100</split:value>
+      <split:quantity>39604/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e18e8f9f0f3f39055d0bd7766414d06e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-39604/100</split:value>
+      <split:quantity>-39604/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">5f48a6b1e872cfc7bed2d0190f77b9aa</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2016-06-23 06:59:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Credit transferred from penalty and interest</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2016-06-23</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">This is a lot of penalties</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">43d08e2fb0d6bf7c39110fdcdc746783</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>29680/100</split:value>
+      <split:quantity>29680/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">81b2f53b601558968d618fdd5b766b59</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-29680/100</split:value>
+      <split:quantity>-29680/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d2747b0d5327517ed640e859a02e29bf</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </trn:currency>
+  <trn:num>1</trn:num>
+  <trn:date-posted>
+    <ts:date>2016-06-23 06:59:00 -0400</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+  </trn:date-entered>
+  <trn:description>Credit transferred to 2016</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2016-06-23</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">546b32589fb6dba136406e1a637a182f</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>29680/100</split:value>
+      <split:quantity>29680/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">993a3d1077903e2db75ec9c2757aaea7</split:id>
+      <split:reconciled-state>c</split:reconciled-state>
+      <split:reconcile-date>
+        <ts:date>2017-09-27 22:35:47 -0400</ts:date>
+      </split:reconcile-date>
+      <split:value>-29680/100</split:value>
+      <split:quantity>-29680/100</split:quantity>
+      <split:account type="guid">99809c18544d25817aa48b7cae1ff5a0</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
