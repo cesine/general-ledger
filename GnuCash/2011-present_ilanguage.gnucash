@@ -59317,8 +59317,8 @@ chairs</split:memo>
   <cust:name>PSREMOVED</cust:name>
   <cust:id>1</cust:id>
   <cust:addr version="2.0.0">
-    <addr:name>Pierre Provost</addr:name>
-    <addr:addr1>7015 boul. Gouin est #26</addr:addr1>
+    <addr:name>Pierre Removed</addr:name>
+    <addr:addr1>Removed</addr:addr1>
   </cust:addr>
   <cust:shipaddr version="2.0.0"/>
   <cust:taxincluded>USEGLOBAL</cust:taxincluded>
@@ -59333,7 +59333,7 @@ chairs</split:memo>
   <cust:slots>
     <slot>
       <slot:key>export-pdf-directory</slot:key>
-      <slot:value type="string">/Users/Employee1/Downloads</slot:value>
+      <slot:value type="string">/tmp</slot:value>
     </slot>
     <slot>
       <slot:key>last-posted-to-acct</slot:key>
@@ -59372,7 +59372,7 @@ chairs</split:memo>
   <cust:slots>
     <slot>
       <slot:key>export-pdf-directory</slot:key>
-      <slot:value type="string">/Users/Employee1/Documents/Lab_admin/clients/REMOVED88-Oct12</slot:value>
+      <slot:value type="string">/tmp</slot:value>
     </slot>
     <slot>
       <slot:key>last-posted-to-acct</slot:key>
@@ -59409,7 +59409,7 @@ chairs</split:memo>
   <cust:slots>
     <slot>
       <slot:key>export-pdf-directory</slot:key>
-      <slot:value type="string">/Users/Employee1/Downloads</slot:value>
+      <slot:value type="string">/tmp</slot:value>
     </slot>
     <slot>
       <slot:key>last-posted-to-acct</slot:key>
@@ -59446,7 +59446,7 @@ chairs</split:memo>
   <cust:slots>
     <slot>
       <slot:key>export-pdf-directory</slot:key>
-      <slot:value type="string">/Users/Employee1/Downloads</slot:value>
+      <slot:value type="string">/tmp</slot:value>
     </slot>
     <slot>
       <slot:key>last-posted-to-acct</slot:key>
@@ -59483,7 +59483,7 @@ chairs</split:memo>
   <cust:slots>
     <slot>
       <slot:key>export-pdf-directory</slot:key>
-      <slot:value type="string">/Users/Employee1/Downloads</slot:value>
+      <slot:value type="string">/tmp</slot:value>
     </slot>
     <slot>
       <slot:key>last-posted-to-acct</slot:key>
@@ -59523,7 +59523,7 @@ chairs</split:memo>
   <cust:slots>
     <slot>
       <slot:key>export-pdf-directory</slot:key>
-      <slot:value type="string">/Users/Employee1/Documents/Lab_admin/clients/invoices</slot:value>
+      <slot:value type="string">/tmp</slot:value>
     </slot>
     <slot>
       <slot:key>last-posted-to-acct</slot:key>
@@ -59560,7 +59560,7 @@ chairs</split:memo>
   <cust:slots>
     <slot>
       <slot:key>export-pdf-directory</slot:key>
-      <slot:value type="string">/Users/Employee1/Downloads</slot:value>
+      <slot:value type="string">/tmp</slot:value>
     </slot>
     <slot>
       <slot:key>last-posted-to-acct</slot:key>
@@ -59597,7 +59597,7 @@ chairs</split:memo>
   <cust:slots>
     <slot>
       <slot:key>export-pdf-directory</slot:key>
-      <slot:value type="string">/Users/Employee1/Downloads</slot:value>
+      <slot:value type="string">/tmp</slot:value>
     </slot>
     <slot>
       <slot:key>last-posted-to-acct</slot:key>
@@ -59635,7 +59635,7 @@ chairs</split:memo>
   <cust:slots>
     <slot>
       <slot:key>export-pdf-directory</slot:key>
-      <slot:value type="string">/Users/Employee1/Downloads</slot:value>
+      <slot:value type="string">/tmp</slot:value>
     </slot>
     <slot>
       <slot:key>last-posted-to-acct</slot:key>
@@ -59672,7 +59672,7 @@ chairs</split:memo>
   <cust:slots>
     <slot>
       <slot:key>export-pdf-directory</slot:key>
-      <slot:value type="string">/Users/Employee1/Downloads</slot:value>
+      <slot:value type="string">/tmp</slot:value>
     </slot>
     <slot>
       <slot:key>last-posted-to-acct</slot:key>
