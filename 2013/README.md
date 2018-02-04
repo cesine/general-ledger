@@ -2,16 +2,16 @@
 
 Step 1:
 
-T4 and Releve 1 have to be submitted before February 28th 2014. All payroll accounts were paid in full and on time for 2013. 
+T4 and Releve 1 have to be submitted before February 28th 2014. All payroll accounts were paid in full and on time for 2013.
 
-T4: 
+T4:
 ----
-Completed  on February 25th 4:20pm 2014 based on 
+Completed  on February 25th 4:20pm 2014 based on
 * human_resources/payroll/PaySlip/Real_Pay_Sheet2012.ods
-Remitted payments based on 
-* Accounting/GnuCash/2013_firstaccount.gnucash
+Remitted payments based on
+* Accounting/ledger/2013_firstaccount.gnucash
 
-Result file: 
+Result file:
 * Accounting/2013/T4_2013_submission_5509204.pdf
 
 Website where completed:
@@ -26,13 +26,13 @@ Information required:
 Releve 1:
 ---------
 
-Completed  on February 25th 5:50pm 2014 based on 
+Completed  on February 25th 5:50pm 2014 based on
 * human_resources/payroll/PaySlip/Real_Pay_Sheet2012.ods
-Remitted payments based on 
-* Accounting/GnuCash/2013_firstaccount.gnucash
+Remitted payments based on
+* Accounting/ledger/2013_firstaccount.gnucash
 
-Result file: 
-* 
+Result file:
+*
 
 Website where completed:
 * http://www.revenuquebec.ca/en/sepf/services/scr_releves1/default.aspx
