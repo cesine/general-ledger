@@ -1,28 +1,28 @@
-1;2011-01-16;2011;1;2011-1Telephone service;6010;Telus;;71.77;;Cash;Utilities;Communications;;;;3.12;6.23
-1;2011-02-16;2011;2;2011-2Telephone service;6010;Telus;;71.77;;Cash;Utilities;Communications;;;;3.12;6.23
-1;2011-03-16;2011;3;2011-3Telephone service;6010;Telus;;71.77;;Cash;Utilities;Communications;;;;3.12;6.23
-1;2011-04-16;2011;4;2011-4Telephone service;6010;Telus;;71.77;;Cash;Utilities;Communications;;;;3.12;6.23
-1;2011-05-16;2011;5;2011-5Telephone service;6010;Telus;;71.77;;Cash;Utilities;Communications;;;;3.12;6.23
-0;2011-05-19;2011;5;2011-5Representation;6010;HELM;;22.25;;Cash;Meals;Representation;Representation;SAJE happy hour with other group;;0.84;1.51
-0;2011-05-26;2011;5;2011-5Representation;6010;The Salvation Army;;40.5;;Cash;Representation;Representation;Wardrobe;working clothes;;0;0
-0;2011-06-09;2011;6;2011-6Representation;Employee1 Employee1;Cafe Republique;;6.78;;Cash;Meals;Representation;Representation;AILIA meeting;;0.3;0.53
-1;2011-06-16;2011;6;2011-6Telephone service;6010;Telus;;71.77;;Cash;Utilities;Communications;;;;3.12;6.23
-1;2011-07-16;2011;7;2011-7Telephone service;6010;Telus;;71.77;;Cash;Utilities;Communications;;;;3.12;6.23
-0;2011-08-01;2011;8;2011-8Representation;Employee1 Employee1;Unknown;;6.84;;Cash;Meals;Representation;Unknown;;;0.3;0.54
-0;2011-08-03;2011;8;2011-8Representation;Mat;L3B;;77.64;;Cash;Meals;Representation;Beer;not sure when this was or with who. Maybe the defile de mode?;;3.01;5.38
-1;2011-08-16;2011;8;2011-8Telephone service;6010;Telus;;71.77;;Cash;Utilities;Communications;;;;3.12;6.23
-1;2011-09-03;2011;9;2011-9Telephone service;6010;Koodo;;23.24;;Cash;Utilities;Communications;;;;1.01;2.02
-0;2011-09-12;2011;9;2011-9Representation;6022;La Bistrote;;21.04;;Cash;Meals;Representation;Business Lunch;Employee3 Working Lunch;;0.82;1.47
-0;2011-09-13;2011;9;2011-9Representation;6010;Postes Canada;;10.31;;Cash;Meals;Representation;Publicity;Mail invitations to Launch party;;0.06;0.11
-0;2011-09-13;2011;9;2011-9Representation;Employee1 Employee1;Thai Express;;8.06;;Cash;Meals;Representation;Working Lunch;food when testing users at concordia;;0.35;0.63
-0;2011-09-15;2011;9;2011-9Representation;6010;Petro-Canada;;5.69;;Cash;Meals;Representation;Working Lunch;sandwich;;0.25;0.45
-1;2011-09-16;2011;9;2011-9Telephone service;6010;Telus;;71.77;;Cash;Utilities;Communications;;;;3.12;6.23
-0;2011-09-20;2011;9;2011-9Representation;6010;La Bistrote;;40.77;;Cash;Meals;Representation;Business Lunch;Employee2 Job Interview;;1.57;2.8
-0;2011-10-01;2011;10;2011-10Representation;Employee1 Employee1;La Gargote des antiquaires;;21.19;;Cash;Meals;Representation;Business Lunch;Employee3 Working Lunch;;0.93;1.66
-0;2011-10-06;2011;10;2011-10Telephone service;6010;Koodo;;8.24;;Cash;Utilities;Communications;what is this for?;;;0.36;0.71
-1;2011-10-21;2011;10;2011-10Telephone service;6010;Koodo;;100;;Cash;Utilities;Communications;Phone cost for Nexus S, or somethign else Koodo Airtime;;;4.35;8.68
-1;2011-11-05;2011;11;2011-11Telephone service;6010;Koodo;;23.24;;Cash;Utilities;Communications;;;;1.01;2.02
-;2011-11-14;2011;11;2011-11Telephone service;Employee1 Employee1;Telus;;71.77;;;Utilities;Communications;;;;3.12;6.23
-0;2011-11-18;2011;11;2011-11Representation;Employee1 Employee1;Cafe Depot;;2.59;;Cash;Meals;Representation;Working Lunch;coffee on the way to lasik and working at concordia;;0.11;0.2
-0;2011-11-18;2011;11;2011-11Representation;Employee1 Employee1;Altaib;;7.31;;Cash;Meals;Representation;Working Lunch;2 zatar working at concordia waiting for Employee4;;0.32;0.57
-0;2011-11-19;2011;11;2011-11Representation;Employee1 Employee1;L3B;;20.32;;Cash;Meals;Representation;Representation;Hackathon happy hour Montreal Ouverte;;0.89;1.59
+1,2011-01-16,2011,1,2011-1Telephone service,6010,Telus,,71.77,,Cash,Utilities,Communications,,,,3.12,6.23
+1,2011-02-16,2011,2,2011-2Telephone service,6010,Telus,,71.77,,Cash,Utilities,Communications,,,,3.12,6.23
+1,2011-03-16,2011,3,2011-3Telephone service,6010,Telus,,71.77,,Cash,Utilities,Communications,,,,3.12,6.23
+1,2011-04-16,2011,4,2011-4Telephone service,6010,Telus,,71.77,,Cash,Utilities,Communications,,,,3.12,6.23
+1,2011-05-16,2011,5,2011-5Telephone service,6010,Telus,,71.77,,Cash,Utilities,Communications,,,,3.12,6.23
+0,2011-05-19,2011,5,2011-5Representation,6010,HELM,,22.25,,Cash,Meals,Representation,Representation,SAJE happy hour with other group,,0.84,1.51
+0,2011-05-26,2011,5,2011-5Representation,6010,The Salvation Army,,40.5,,Cash,Representation,Representation,Wardrobe,working clothes,,0,0
+0,2011-06-09,2011,6,2011-6Representation,Employee1 Employee1,Cafe Republique,,6.78,,Cash,Meals,Representation,Representation,AILIA meeting,,0.3,0.53
+1,2011-06-16,2011,6,2011-6Telephone service,6010,Telus,,71.77,,Cash,Utilities,Communications,,,,3.12,6.23
+1,2011-07-16,2011,7,2011-7Telephone service,6010,Telus,,71.77,,Cash,Utilities,Communications,,,,3.12,6.23
+0,2011-08-01,2011,8,2011-8Representation,Employee1 Employee1,Unknown,,6.84,,Cash,Meals,Representation,Unknown,,,0.3,0.54
+0,2011-08-03,2011,8,2011-8Representation,Mat,L3B,,77.64,,Cash,Meals,Representation,Beer,not sure when this was or with who. Maybe the defile de mode?,,3.01,5.38
+1,2011-08-16,2011,8,2011-8Telephone service,6010,Telus,,71.77,,Cash,Utilities,Communications,,,,3.12,6.23
+1,2011-09-03,2011,9,2011-9Telephone service,6010,Koodo,,23.24,,Cash,Utilities,Communications,,,,1.01,2.02
+0,2011-09-12,2011,9,2011-9Representation,6022,La Bistrote,,21.04,,Cash,Meals,Representation,Business Lunch,Employee3 Working Lunch,,0.82,1.47
+0,2011-09-13,2011,9,2011-9Representation,6010,Postes Canada,,10.31,,Cash,Meals,Representation,Publicity,Mail invitations to Launch party,,0.06,0.11
+0,2011-09-13,2011,9,2011-9Representation,Employee1 Employee1,Thai Express,,8.06,,Cash,Meals,Representation,Working Lunch,food when testing users at concordia,,0.35,0.63
+0,2011-09-15,2011,9,2011-9Representation,6010,Petro-Canada,,5.69,,Cash,Meals,Representation,Working Lunch,sandwich,,0.25,0.45
+1,2011-09-16,2011,9,2011-9Telephone service,6010,Telus,,71.77,,Cash,Utilities,Communications,,,,3.12,6.23
+0,2011-09-20,2011,9,2011-9Representation,6010,La Bistrote,,40.77,,Cash,Meals,Representation,Business Lunch,Employee2 Job Interview,,1.57,2.8
+0,2011-10-01,2011,10,2011-10Representation,Employee1 Employee1,La Gargote des antiquaires,,21.19,,Cash,Meals,Representation,Business Lunch,Employee3 Working Lunch,,0.93,1.66
+0,2011-10-06,2011,10,2011-10Telephone service,6010,Koodo,,8.24,,Cash,Utilities,Communications,what is this for?,,,0.36,0.71
+1,2011-10-21,2011,10,2011-10Telephone service,6010,Koodo,,100,,Cash,Utilities,Communications,Phone cost for Nexus S or somethign else Koodo Airtime,,,4.35,8.68
+1,2011-11-05,2011,11,2011-11Telephone service,6010,Koodo,,23.24,,Cash,Utilities,Communications,,,,1.01,2.02
+,2011-11-14,2011,11,2011-11Telephone service,Employee1 Employee1,Telus,,71.77,,,Utilities,Communications,,,,3.12,6.23
+0,2011-11-18,2011,11,2011-11Representation,Employee1 Employee1,Cafe Depot,,2.59,,Cash,Meals,Representation,Working Lunch,coffee on the way to lasik and working at concordia,,0.11,0.2
+0,2011-11-18,2011,11,2011-11Representation,Employee1 Employee1,Altaib,,7.31,,Cash,Meals,Representation,Working Lunch,2 zatar working at concordia waiting for Employee4,,0.32,0.57
+0,2011-11-19,2011,11,2011-11Representation,Employee1 Employee1,L3B,,20.32,,Cash,Meals,Representation,Representation,Hackathon happy hour Montreal Ouverte,,0.89,1.59
