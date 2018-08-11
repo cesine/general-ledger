@@ -1,5 +1,6 @@
 TODO
-* recacculate the sheet and put the data into gnu cache
+* export payroll and cross confirm with paystub pdfs (done)
+* recacculate the payroll company contributions and put the data into ledger
 
 
 
