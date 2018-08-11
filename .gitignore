@@ -1,2 +1,10 @@
 node_modules
 redact.sh
+
+*.LNK
+*.LCK
+*.log
+
+
+*.pdf
+*.xls
