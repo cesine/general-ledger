@@ -112,9 +112,12 @@ Liabilities:Taxes:Remises Quebec RS0001
 Reconciled:
 
 
-HSF
+FSS-HSF
 
 https://www.simplepay.ca/canada_payroll/hsf.html
+
+
+TODO the FSS per year is not always 2.7% like the guy said, instead check what it is and update the values before continuing
 
 ```
 2016 2.70%
@@ -122,7 +125,7 @@ https://www.simplepay.ca/canada_payroll/hsf.html
 2012 2.70%
 ```
 
-QPIP
+RQAP-QPIP
 
 https://www.revenuquebec.ca/en/businesses/source-deductions-contributions/calculating-source-deductions-and-employer-contributions/quebec-parental-insurance-plan-qpip-premiums/maximum-insurable-earnings-and-premium-rate/
 
@@ -135,7 +138,7 @@ https://www.revenuquebec.ca/en/businesses/source-deductions-contributions/calcul
 2012  0.559     0.782
 ```
 
-QPP
+RRQ-QPP
 
 https://www.taxtips.ca/cppandei/cpprates.htm
 
