@@ -1,5 +1,48 @@
 # Ledger
 
+## Transactions
+
+
+
+Import transactions
+  Bills
+    - Liabilities:accounts payable
+    + Expenses
+
+Import transactions
+  Employee purchases
+    - Liabilities:accounts payable:employee
+    + Expenses
+
+Generate splits by template
+  Paystub
+    + Expenses:salaries (Gross salary)
+    - Assets:checking (Net salary)
+    - Liabilities:Accounts payable:taxes (employee)
+    - Liabilities:Accounts payable:benefits (employee)
+
+    + Expenses:benefits (employer)
+    - Liabilities:Accounts payable:benefits (employer)
+    + Expenses:taxes (employer)
+    - Liabilities:Accounts payable:taxes (employer)
+
+Generate invoices by template?
+  Invoice
+    + Income
+    - Liabilities:TPS
+    - Liabilities:TVQ
+    + Assets:Accounts receivable (when invoiced)
+    + Assets:checking (when paid)
+
+Import transactions
+  Canada Statements
+    -/+ Liabilities:accounts payable
+
+  Quebec Statements
+    -/+ Liabilities:accounts payable
+
+
+
 ## Accounts
 
 These are the following accounts in the ledger.
@@ -17,6 +60,8 @@ Reconciled: Yes
 
 Assets:Current Assets:Checking Account
 Reconciled:
+
+- Need to make sure all paychecks go to accounts liable instead of expenses
 
 Assets:Equipment
 Reconciled:
@@ -50,8 +95,57 @@ Reconciled:
 Liabilities:Taxes:Remises Federal RP0001
 Reconciled:
 
+AE-EI
+
+https://www.taxtips.ca/cppandei/eirates.htm
+
+
+```
+2016  1.52
+2015  1.54
+2014  1.53
+2013  1.52
+2012  1.47
+```
+
 Liabilities:Taxes:Remises Quebec RS0001
 Reconciled:
+
+
+HSF
+
+https://www.simplepay.ca/canada_payroll/hsf.html
+
+```
+2016 2.70%
+2013 2.70%
+2012 2.70%
+```
+
+QPIP
+
+https://www.revenuquebec.ca/en/businesses/source-deductions-contributions/calculating-source-deductions-and-employer-contributions/quebec-parental-insurance-plan-qpip-premiums/maximum-insurable-earnings-and-premium-rate/
+
+```
+      Employee  Employer
+2016  0.548     0.767
+2015  0.559     0.782
+2014  0.559     0.782
+2013  0.559     0.782
+2012  0.559     0.782
+```
+
+QPP
+
+https://www.taxtips.ca/cppandei/cpprates.htm
+
+```
+2016  5.325%
+2015  5.250%
+2014  5.175%
+2013  5.100%
+2012  5.025%
+```
 
 Liabilities:Taxes:TPS/TVQ
 Reconciled:
