@@ -696,7 +696,7 @@
   <act:parent type="guid">66db4c8e08e34ab5837fa240ba10572b</act:parent>
 </gnc:account>
 <gnc:account version="2.0.0">
-  <act:name>Office Supplies</act:name>
+  <act:name>Office expenses</act:name>
   <act:id type="guid">768010e57e094682934a1fddeed8f1fa</act:id>
   <act:type>EXPENSE</act:type>
   <act:commodity>
@@ -704,7 +704,7 @@
     <cmdty:id>CAD</cmdty:id>
   </act:commodity>
   <act:commodity-scu>100</act:commodity-scu>
-  <act:description>Office Supplies</act:description>
+  <act:description>Office expenses (Line 8810)</act:description>
   <act:slots>
     <slot>
       <slot:key>notes</slot:key>
@@ -814,7 +814,7 @@
     <cmdty:id>CAD</cmdty:id>
   </act:commodity>
   <act:commodity-scu>100</act:commodity-scu>
-  <act:description>Professional Fees</act:description>
+  <act:description>Professional Fees (Line 8860)</act:description>
   <act:slots>
     <slot>
       <slot:key>notes</slot:key>
@@ -872,7 +872,7 @@
   <act:parent type="guid">9400dd7497e74740a7383cf43bf086df</act:parent>
 </gnc:account>
 <gnc:account version="2.0.0">
-  <act:name>Rent</act:name>
+  <act:name>Rental</act:name>
   <act:id type="guid">79ac88eac78b41bd922109caf41adada</act:id>
   <act:type>EXPENSE</act:type>
   <act:commodity>
@@ -880,7 +880,7 @@
     <cmdty:id>CAD</cmdty:id>
   </act:commodity>
   <act:commodity-scu>100</act:commodity-scu>
-  <act:description>Rent</act:description>
+  <act:description>Rental (Line 8910)</act:description>
   <act:slots>
     <slot>
       <slot:key>notes</slot:key>
@@ -894,7 +894,7 @@
   <act:parent type="guid">66db4c8e08e34ab5837fa240ba10572b</act:parent>
 </gnc:account>
 <gnc:account version="2.0.0">
-  <act:name>Repairs</act:name>
+  <act:name>Repairs and maintenance</act:name>
   <act:id type="guid">4de384bee8b44af697ad2a73621a642c</act:id>
   <act:type>EXPENSE</act:type>
   <act:commodity>
@@ -902,7 +902,7 @@
     <cmdty:id>CAD</cmdty:id>
   </act:commodity>
   <act:commodity-scu>100</act:commodity-scu>
-  <act:description>Repairs</act:description>
+  <act:description>Repairs and maintenance (Line 8960)</act:description>
   <act:slots>
     <slot>
       <slot:key>notes</slot:key>

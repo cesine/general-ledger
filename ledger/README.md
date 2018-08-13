@@ -210,6 +210,8 @@ Reconciled:
 Expenses:Advertising
 Reconciled:
 
+Advertising and promotion (Line 8520)
+
 Expenses:Advertising:Meals and entertainment
 Reconciled:
 
@@ -222,6 +224,11 @@ Reconciled:
 Expenses:Advertising:Meals and entertainment:Meals
 Reconciled:
 
+The maximum amount for food, beverages, and entertainment expenses is 50% the amount  incurred for the expenses.
+
+These limits do not apply if any of the following apply:
+* Meal and entertainment expenses for an office party or similar event, and the employer invite all employees from a particular location. The limit is six such events per year.
+
 Expenses:Advertising:Printing and Reproduction
 Reconciled:
 
@@ -231,17 +238,40 @@ Reconciled:
 Expenses:Amortization
 Reconciled:
 
+Amortization of intangible assets  (Line 8570)
+
 Expenses:Bad debts
 Reconciled:
 
+Bad debt expense  (Line 8590)
+
+* you had determined that an account receivable is a bad debt in the year
+* you had already included the receivable in income
+
+Employee benefits  (Line 8620)
+
+Deduct employer part of the following amounts payable on employees' remuneration:
+
+* CPP or QPP contributions
+* Employment insurance (EI) premiums
+
+
 Expenses:Business fees
 Reconciled:
+
+Business taxes, licences, and memberships  (Line 8760)
+
+* You can deduct any annual licence fees and business taxes you incur to run your business.
+* You can also deduct annual dues or fees to keep your membership in a trade or commercial association.
 
 Expenses:Business fees:Licenses and Permits
 Reconciled:
 
 Expenses:Interest
 Reconciled:
+
+Interest and bank charges  (Line 8710)
+
 
 Expenses:Motor vehicle expenses
 Reconciled:
@@ -261,8 +291,12 @@ Reconciled:
 Expenses:Office expenses
 Reconciled:
 
+Office expenses  (Line 8810)
+
 Expenses:Other expenses
 Reconciled:
+
+Other expenses  (Line 9270)
 
 Expenses:Other expenses:Adjustment
 Reconciled:
@@ -306,6 +340,9 @@ Reconciled:
 Expenses:Other expenses:Travel
 Reconciled:
 
+* public transportation fares
+* hotel accommodations
+
 Expenses:Other expenses:Travel:Meetings and conventions
 Reconciled:
 
@@ -330,6 +367,12 @@ Reconciled:
 Expenses:Professional fees
 Reconciled:
 
+Professional fees  (Line 8860)
+
+
+Interfund transfer  (Line 9286)
+
+
 Expenses:Professional fees:Accounting
 Reconciled:
 
@@ -342,16 +385,23 @@ Reconciled:
 Expenses:Rent
 Reconciled:
 
+Rental  (Line 8910)
+
 - Missing 2013-05 ->
 
 Expenses:Repairs
 Reconciled:
+
+
+Repairs and maintenance (Line 8960)
 
 Expenses:Repairs:Building Repairs
 Reconciled:
 
 Expenses:Repairs:Computer Repairs
 Reconciled:
+
+Computer-related expenses (Line 9150)
 
 Expenses:Repairs:Equipment Repairs
 Reconciled:
@@ -363,6 +413,7 @@ Expenses:Salaries
 Reconciled:
 
 - Need to re-export payroll and re-calculate to reconcile the retenue de la source
+Salaries and wages  (Line 9060)
 
 
 Expenses:Salaries:ExpoCite
@@ -421,6 +472,9 @@ Reconciled:
 
 Expenses:Subcontracts
 Reconciled:
+
+Sub-contracts  (Line 9110)
+
 
 Expenses:Subcontracts:iField
 Reconciled:
