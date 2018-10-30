@@ -5,6 +5,7 @@ redact.sh
 *.LCK
 *.log
 .~*
+.DS_Store
 
 *.pdf
 *.xls
