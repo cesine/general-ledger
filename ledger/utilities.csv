@@ -37,8 +37,8 @@ Date,Description,Notes,Account Name,Amount,TPS,TVQ,
 2013-02-20,DOMAINSATCOST,6010,Hosting,11.83,0.59,1.18,seedw
 2013-02-22,DOMAINSATCOST,6011,Hosting,11.83,0.59,1.18,aub
 2013-02-25,DOMAINSATCOST,6012,Hosting,11.83,0.59,1.18,il
-2013-03-06,Amazon Web Services,37.74 US DOLLAR,Hosting,39.69,,,Credit card statement
 2013-03-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
+2013-03-06,Amazon Web Services,37.74 US DOLLAR,Hosting,39.69,,,Credit card statement
 2013-03-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
 2013-04-03,Amazon Web Services,47.68 US DOLLAR,Hosting,49.26,,,Credit card statement
 2013-04-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
@@ -68,8 +68,8 @@ Date,Description,Notes,Account Name,Amount,TPS,TVQ,
 2013-10-07,DOMAINSATCOST,6018,Hosting,11.83,0.59,1.18,lab.ca
 2013-10-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
 2013-10-17,DOMAINSATCOST,6019,Hosting,11.83,0.59,1.18,ces
-2013-11-03,Amazon Web Services,11.56 US DOLLAR,Hosting,12.39,,,Credit card statement
 2013-11-03,DOMAINSATCOST,6020,Hosting,11.83,0.59,1.18,openl
+2013-11-03,Amazon Web Services,11.56 US DOLLAR,Hosting,12.39,,,Credit card statement
 2013-11-06,Amazon Web Services,15.84 US DOLLAR,Hosting,16.99,,,Credit card statement
 2013-11-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2013-11-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
@@ -83,37 +83,46 @@ Date,Description,Notes,Account Name,Amount,TPS,TVQ,
 2014-01-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2014-01-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2014-01-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2014-01-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
+2014-01-20,Gemstelecom/CRONOMAGIC,6010,Internet,257.46,,,Email statement
 2014-02-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2014-02-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2014-02-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2014-02-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
 2014-02-20,DOMAINSATCOST,6010,Hosting,11.83,0.59,1.18,seedw
+2014-02-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2014-02-22,DOMAINSATCOST,6011,Hosting,11.83,0.59,1.18,aub
 2014-02-25,DOMAINSATCOST,6012,Hosting,11.83,0.59,1.18,il
 2014-03-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2014-03-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2014-03-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2014-03-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2014-03-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2014-04-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2014-04-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2014-04-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2014-04-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2014-04-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2014-05-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2014-05-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2014-05-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2014-05-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2014-05-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2014-06-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2014-06-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2014-06-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2014-06-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2014-06-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2014-07-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2014-07-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2014-07-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2014-07-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2014-07-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2014-08-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2014-08-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2014-08-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2014-08-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2014-08-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2014-09-02,DOMAINSATCOST,6013,Hosting,11.83,0.59,1.18,fieldl
 2014-09-02,DOMAINSATCOST,6014,Hosting,11.83,0.59,1.18,seedn
 2014-09-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
@@ -121,6 +130,7 @@ Date,Description,Notes,Account Name,Amount,TPS,TVQ,
 2014-09-05,DOMAINSATCOST,6015,Hosting,11.83,0.59,1.18,field
 2014-09-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2014-09-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2014-09-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2014-10-02,DOMAINSATCOST,6016,Hosting,11.83,0.59,1.18,sync.com
 2014-10-02,DOMAINSATCOST,6017,Hosting,11.83,0.59,1.18,sync.org
 2014-10-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
@@ -129,51 +139,63 @@ Date,Description,Notes,Account Name,Amount,TPS,TVQ,
 2014-10-07,DOMAINSATCOST,6018,Hosting,11.83,0.59,1.18,lab.ca
 2014-10-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
 2014-10-17,DOMAINSATCOST,6019,Hosting,11.83,0.59,1.18,ces
+2014-10-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2014-11-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
-2014-11-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2014-11-03,DOMAINSATCOST,6020,Hosting,11.83,0.59,1.18,openl
+2014-11-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2014-11-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2014-11-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2014-11-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2014-12-02,DOMAINSATCOST,6021,Hosting,11.83,0.59,1.18,pho
 2014-12-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2014-12-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2014-12-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2014-12-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2014-12-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2015-01-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2015-01-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2015-01-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2015-01-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2015-01-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
+2015-01-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2015-02-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2015-02-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2015-02-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2015-02-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
 2015-02-20,DOMAINSATCOST,6010,Hosting,11.83,0.59,1.18,seedw
+2015-02-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2015-02-22,DOMAINSATCOST,6011,Hosting,11.83,0.59,1.18,aub
 2015-02-25,DOMAINSATCOST,6012,Hosting,11.83,0.59,1.18,il
 2015-03-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2015-03-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2015-03-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2015-03-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2015-03-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2015-04-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2015-04-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2015-04-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2015-04-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2015-04-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2015-05-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2015-05-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2015-05-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2015-05-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2015-05-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2015-06-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2015-06-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2015-06-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2015-06-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2015-06-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2015-07-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2015-07-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2015-07-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2015-07-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2015-07-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2015-08-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2015-08-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2015-08-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2015-08-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2015-08-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2015-09-02,DOMAINSATCOST,6013,Hosting,11.83,0.59,1.18,fieldl
 2015-09-02,DOMAINSATCOST,6014,Hosting,11.83,0.59,1.18,seedn
 2015-09-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
@@ -181,6 +203,7 @@ Date,Description,Notes,Account Name,Amount,TPS,TVQ,
 2015-09-05,DOMAINSATCOST,6015,Hosting,11.83,0.59,1.18,field
 2015-09-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2015-09-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2015-09-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2015-10-02,DOMAINSATCOST,6016,Hosting,11.83,0.59,1.18,sync.com
 2015-10-02,DOMAINSATCOST,6017,Hosting,11.83,0.59,1.18,sync.org
 2015-10-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
@@ -189,54 +212,108 @@ Date,Description,Notes,Account Name,Amount,TPS,TVQ,
 2015-10-07,DOMAINSATCOST,6018,Hosting,11.83,0.59,1.18,lab.ca
 2015-10-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
 2015-10-17,DOMAINSATCOST,6019,Hosting,11.83,0.59,1.18,ces
+2015-10-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2015-11-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
-2015-11-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2015-11-03,DOMAINSATCOST,6020,Hosting,11.83,0.59,1.18,openl
+2015-11-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2015-11-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2015-11-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2015-11-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2015-12-02,DOMAINSATCOST,6021,Hosting,11.83,0.59,1.18,pho
 2015-12-03,Amazon Web Services,6010,Hosting,6.16,,,Email Statement apps@il
 2015-12-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2015-12-06,Koodo,6010,Cell Phone,39.5,2.32,4.63,
 2015-12-16,Telus,6010,Cell Phone,61.59,3.62,7.22,
+2015-12-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2016-01-03,Amazon Web Services,6010,Hosting,2.56,,,Email Statement apps@il
 2016-01-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
+2016-01-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
+2016-01-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2016-02-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2016-02-20,DOMAINSATCOST,6010,Hosting,11.83,0.59,1.18,seedw
+2016-02-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2016-02-22,DOMAINSATCOST,6011,Hosting,11.83,0.59,1.18,aub
 2016-02-25,DOMAINSATCOST,6012,Hosting,11.83,0.59,1.18,il
 2016-03-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
+2016-03-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2016-04-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
+2016-04-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2016-05-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
+2016-05-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2016-06-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
+2016-06-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2016-07-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
+2016-07-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2016-08-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
+2016-08-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2016-09-02,DOMAINSATCOST,6013,Hosting,11.83,0.59,1.18,fieldl
 2016-09-02,DOMAINSATCOST,6014,Hosting,11.83,0.59,1.18,seedn
 2016-09-03,Amazon Web Services,6010,Hosting,25.15,,,Email Statement apps@fieldl
 2016-09-05,DOMAINSATCOST,6015,Hosting,11.83,0.59,1.18,field
+2016-09-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2016-10-02,DOMAINSATCOST,6016,Hosting,11.83,0.59,1.18,sync.com
 2016-10-02,DOMAINSATCOST,6017,Hosting,11.83,0.59,1.18,sync.org
 2016-10-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2016-10-07,DOMAINSATCOST,6018,Hosting,11.83,0.59,1.18,lab.ca
 2016-10-17,DOMAINSATCOST,6019,Hosting,11.83,0.59,1.18,ces
-2016-11-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
+2016-10-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2016-11-03,DOMAINSATCOST,6020,Hosting,11.83,0.59,1.18,openl
+2016-11-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
+2016-11-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2016-12-02,DOMAINSATCOST,6021,Hosting,11.83,0.59,1.18,pho
 2016-12-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
+2016-12-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2017-01-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
+2017-01-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
+2017-01-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2017-02-03,Amazon Web Services,6010,Hosting,15.45,,,Email Statement apps@fieldl
 2017-02-20,DOMAINSATCOST,6010,Hosting,11.83,0.59,1.18,seedw
+2017-02-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
 2017-02-22,DOMAINSATCOST,6011,Hosting,11.83,0.59,1.18,aub
 2017-02-25,DOMAINSATCOST,6012,Hosting,11.83,0.59,1.18,il
 2017-03-03,Amazon Web Services,6010,Hosting,13.88,,,Email Statement apps@fieldl
+2017-03-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2017-04-03,Amazon Web Services,6010,Hosting,8.67,,,Email Statement apps@fieldl
+2017-04-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2017-05-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2017-06-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2017-07-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2017-08-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2017-09-02,DOMAINSATCOST,6013,Hosting,11.83,0.59,1.18,fieldl
 2017-09-02,DOMAINSATCOST,6014,Hosting,11.83,0.59,1.18,seedn
 2017-09-05,DOMAINSATCOST,6015,Hosting,11.83,0.59,1.18,field
+2017-09-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2017-10-02,DOMAINSATCOST,6016,Hosting,11.83,0.59,1.18,sync.com
 2017-10-02,DOMAINSATCOST,6017,Hosting,11.83,0.59,1.18,sync.org
 2017-10-07,DOMAINSATCOST,6018,Hosting,11.83,0.59,1.18,lab.ca
 2017-10-17,DOMAINSATCOST,6019,Hosting,11.83,0.59,1.18,ces
+2017-10-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2017-11-03,DOMAINSATCOST,6020,Hosting,11.83,0.59,1.18,openl
+2017-11-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
 2017-12-02,DOMAINSATCOST,6021,Hosting,11.83,0.59,1.18,pho
+2017-12-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2018-01-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
+2018-01-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
+2018-02-20,DOMAINSATCOST,6010,Hosting,11.83,0.59,1.18,seedw
+2018-02-20,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,3,5.98,Email statement
+2018-02-22,DOMAINSATCOST,6011,Hosting,11.83,0.59,1.18,aub
+2018-02-25,DOMAINSATCOST,6012,Hosting,11.83,0.59,1.18,il
+2018-03-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2018-04-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2018-05-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2018-06-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2018-07-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2018-08-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2018-09-02,DOMAINSATCOST,6013,Hosting,11.83,0.59,1.18,fieldl
+2018-09-02,DOMAINSATCOST,6014,Hosting,11.83,0.59,1.18,seedn
+2018-09-05,DOMAINSATCOST,6015,Hosting,11.83,0.59,1.18,field
+2018-09-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2018-10-02,DOMAINSATCOST,6016,Hosting,11.83,0.59,1.18,sync.com
+2018-10-02,DOMAINSATCOST,6017,Hosting,11.83,0.59,1.18,sync.org
+2018-10-07,DOMAINSATCOST,6018,Hosting,11.83,0.59,1.18,lab.ca
+2018-10-17,DOMAINSATCOST,6019,Hosting,11.83,0.59,1.18,ces
+2018-10-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2018-11-03,DOMAINSATCOST,6020,Hosting,11.83,0.59,1.18,openl
+2018-11-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
+2018-12-02,DOMAINSATCOST,6021,Hosting,11.83,0.59,1.18,pho
+2018-12-20,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,3,5.98,Email statement
