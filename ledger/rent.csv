@@ -1,29 +1,31 @@
-Date,Transaction ID,Number,Description,Notes,Commodity/Currency,Void Reason,Action,Memo,Full Account Name,Account Name,Amount With Sym,Amount Num.,Reconcile,Reconcile Date,Rate/Price
-2011-12-05,c85014c9fc52274b1bf440c63ad2c793,377036,Syntenic,Rent,CURRENCY::CAD,,,,Expenses:Rent,Rent,C$25.00,25.00,n,,1.00
-,,,,,,,,,Assets:Current Assets:377036,377036,-C$25.00,-25.00,y,2013-01-01,1.00
-2012-01-04,1289d360602adc93563b927665a6a95d,000004,Quo Vadis,,CURRENCY::CAD,,Bill,,Expenses:Rent,Rent,"C$1,722.58","1,722.58",n,,1.00
-,,,,,,,Bill,,Liabilities:Taxes:TPS/TVQ:TVQ No. 1218496586 TQ0001,TVQ No. 1218496586 TQ0001,C$171.83,171.83,n,,1.00
-,,,,,,,Bill,,Liabilities:Taxes:TPS/TVQ:TPS No. 838993681 RT0001,TPS No. 838993681 RT0001,C$86.13,86.13,n,,1.00
-,,,,,,,Bill,,Liabilities:Accounts Payable,Accounts Payable,"-C$1,980.54","-1,980.54",y,2013-01-01,1.00
-2012-01-04,e5c9c73715344d26321a80d34303ca6c,000005,Quo Vadis,,CURRENCY::CAD,,Bill,,Expenses:Rent,Rent,C$30.00,30.00,n,,1.00
-,,,,,,,Bill,,Liabilities:Accounts Payable,Accounts Payable,-C$30.00,-30.00,y,2013-01-01,1.00
-2012-04-02,686bf3e38d4566dff1df778529bf4960,000001,Quo Vadis,,CURRENCY::CAD,,Bill,,Expenses:Rent,Rent,"C$1,800.00","1,800.00",n,,1.00
-,,,,,,,Bill,,Liabilities:Taxes:TPS/TVQ:TVQ No. 1218496586 TQ0001,TVQ No. 1218496586 TQ0001,C$179.55,179.55,n,,1.00
-,,,,,,,Bill,,Liabilities:Taxes:TPS/TVQ:TPS No. 838993681 RT0001,TPS No. 838993681 RT0001,C$90.00,90.00,n,,1.00
-,,,,,,,Bill,,Liabilities:Accounts Payable,Accounts Payable,"-C$2,069.55","-2,069.55",y,2013-01-01,1.00
-2012-06-30,8026e4a29517c4cad9869995aa2d7b5f,000002,Quo Vadis,,CURRENCY::CAD,,Bill,,Expenses:Rent,Rent,"C$1,800.00","1,800.00",n,,1.00
-,,,,,,,Bill,,Liabilities:Taxes:TPS/TVQ:TVQ No. 1218496586 TQ0001,TVQ No. 1218496586 TQ0001,C$179.55,179.55,n,,1.00
-,,,,,,,Bill,,Liabilities:Taxes:TPS/TVQ:TPS No. 838993681 RT0001,TPS No. 838993681 RT0001,C$90.00,90.00,n,,1.00
-,,,,,,,Bill,,Liabilities:Accounts Payable,Accounts Payable,"-C$2,069.55","-2,069.55",y,2013-01-01,1.00
-2012-09-30,32561b2a7ccb40df9ad0e8eb1ab6630d,000003,Quo Vadis,,CURRENCY::CAD,,Bill,,Expenses:Rent,Rent,"C$1,800.00","1,800.00",n,,1.00
-,,,,,,,Bill,,Liabilities:Taxes:TPS/TVQ:TVQ No. 1218496586 TQ0001,TVQ No. 1218496586 TQ0001,C$179.55,179.55,n,,1.00
-,,,,,,,Bill,,Liabilities:Taxes:TPS/TVQ:TPS No. 838993681 RT0001,TPS No. 838993681 RT0001,C$90.00,90.00,n,,1.00
-,,,,,,,Bill,,Liabilities:Accounts Payable,Accounts Payable,"-C$2,069.55","-2,069.55",y,2013-01-01,1.00
-2013-01-01,755cba7a229f10330b7a6f8b7ceec79c,000008,Quo Vadis,,CURRENCY::CAD,,Bill,,Expenses:Rent,Rent,"C$1,800.00","1,800.00",n,,1.00
-,,,,,,,Bill,,Liabilities:Taxes:TPS/TVQ:TVQ No. 1218496586 TQ0001,TVQ No. 1218496586 TQ0001,C$179.55,179.55,n,,1.00
-,,,,,,,Bill,,Liabilities:Taxes:TPS/TVQ:TPS No. 838993681 RT0001,TPS No. 838993681 RT0001,C$90.00,90.00,n,,1.00
-,,,,,,,Bill,,Liabilities:Accounts Payable,Accounts Payable,"-C$2,069.55","-2,069.55",n,,1.00
-2013-04-01,eeb472d5dcf83b33cf4e0f0289a665fc,000009,Quo Vadis,,CURRENCY::CAD,,Bill,,Expenses:Rent,Rent,"C$1,800.00","1,800.00",n,,1.00
-,,,,,,,Bill,,Liabilities:Taxes:TPS/TVQ:TVQ No. 1218496586 TQ0001,TVQ No. 1218496586 TQ0001,C$179.55,179.55,n,,1.00
-,,,,,,,Bill,,Liabilities:Taxes:TPS/TVQ:TPS No. 838993681 RT0001,TPS No. 838993681 RT0001,C$90.00,90.00,n,,1.00
-,,,,,,,Bill,,Liabilities:Accounts Payable,Accounts Payable,"-C$2,069.55","-2,069.55",n,,1.00
+Date,Description,Account Name,Amount Num.,TPS,TVQ
+2011-12-05,Syntenic,Rent,25,,
+2012-01-04,Quo Vadis,Rent,1722.58,86.13,171.83
+2012-01-04,Quo Vadis,Rent,30,,
+2012-04-02,Quo Vadis,Rent,1800,90,179.55
+2012-06-30,Quo Vadis,Rent,1800,90,179.55
+2012-09-30,Quo Vadis,Rent,1800,90,179.55
+2013-01-01,Quo Vadis,Rent,1800,90,179.55
+2013-04-01,Quo Vadis,Rent,1800,90,179.55
+2013-06-01,Shareholder,Rent,1000,50,99.75
+2013-07-01,Shareholder,Rent,1000,50,99.75
+2013-08-01,Shareholder,Rent,1000,50,99.75
+2013-09-01,Shareholder,Rent,1000,50,99.75
+2013-10-01,Shareholder,Rent,1000,50,99.75
+2013-11-01,Shareholder,Rent,1000,50,99.75
+2013-12-01,Shareholder,Rent,1000,50,99.75
+2014-07-01,Shareholder,Rent,500,25,49.875
+2014-08-01,Shareholder,Rent,500,25,49.875
+2014-09-01,Shareholder,Rent,500,25,49.875
+2014-10-01,Shareholder,Rent,500,25,49.875
+2014-11-01,Shareholder,Rent,500,25,49.875
+2014-12-01,Shareholder,Rent,500,25,49.875
+2014-12-01,Shareholder,Rent,500,25,49.875
+2015-05-01,Shareholder,Rent,500,25,49.875
+2015-06-01,Shareholder,Rent,500,25,49.875
+2015-07-01,Shareholder,Rent,500,25,49.875
+2015-08-01,Shareholder,Rent,500,25,49.875
+2015-09-01,Shareholder,Rent,500,25,49.875
+2015-10-01,Shareholder,Rent,500,25,49.875
+2015-11-01,Shareholder,Rent,500,25,49.875
+2015-12-01,Shareholder,Rent,500,25,49.875
