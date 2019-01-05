@@ -1,4 +1,4 @@
-Date,Transaction ID,Number,Description,Notes,Memo,Full Account Name,Account Name,Amount Num.
+Date,Transaction_ID,Number,Description,Notes,Memo,Full_Account_Name,Account_Name,Amount_Num
 2013-08-30,b71cc35ae5c51e8b28c5cf2218195acc,4,Employee12,Cheque/no 4,,Expenses:Salaries,ExpoCite,1440
 2013-08-30,b71cc35ae5c51e8b28c5cf2218195acc,4,Employee12,Cheque/no 4,"Employeur Cotisation à l'assurance-emploi/Employment Insurance Premiums",Expenses:Salaries:Taxes and Benefits:Canada:CC-AE(EI),CC-AE(EI),30.65
 2013-08-30,b71cc35ae5c51e8b28c5cf2218195acc,4,Employee12,Cheque/no 4,"Employeur Régie des rentes du Québec/Quebec Pension Plan QPP",Expenses:Salaries:Taxes and Benefits:Quebec:CC-RRQ(QPP),CC-RRQ(QPP),133.15
