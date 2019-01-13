@@ -44,7 +44,7 @@
   </slot>
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
-<gnc:count-data cd:type="account">63</gnc:count-data>
+<gnc:count-data cd:type="account">65</gnc:count-data>
 <gnc:commodity version="2.0.0">
   <cmdty:space>CURRENCY</cmdty:space>
   <cmdty:id>CAD</cmdty:id>
@@ -229,6 +229,46 @@
   </act:commodity>
   <act:commodity-scu>100</act:commodity-scu>
   <act:description>Due to shareholder(s)/director(s) (Line 2780)</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>color</slot:key>
+      <slot:value type="string">Not Set</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">364271aba52c406d9ba3016fef421775</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>TVQ</act:name>
+  <act:id type="guid">c898b97e77e543859939158130c99ee8</act:id>
+  <act:type>LIABILITY</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:code>TVQ No. 1218496586 TQ0001</act:code>
+  <act:description>TVQ Collected No. 1218496586 TQ0001</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>color</slot:key>
+      <slot:value type="string">Not Set</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">364271aba52c406d9ba3016fef421775</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>TPS</act:name>
+  <act:id type="guid">bcba89e352044f2f89cd23920df061a4</act:id>
+  <act:type>LIABILITY</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:code>TPS No. 838993681 RT0001
+</act:code>
+  <act:description>TPS Collected No. 838993681 RT0001
+</act:description>
   <act:slots>
     <slot>
       <slot:key>color</slot:key>
