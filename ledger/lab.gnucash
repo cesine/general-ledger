@@ -45,6 +45,7 @@
 </book:slots>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">65</gnc:count-data>
+<gnc:count-data cd:type="gnc:GncEmployee">18</gnc:count-data>
 <gnc:commodity version="2.0.0">
   <cmdty:space>CURRENCY</cmdty:space>
   <cmdty:id>CAD</cmdty:id>
@@ -1073,6 +1074,330 @@
   </act:slots>
   <act:parent type="guid">f878d99baddf40fe92ad91f066018422</act:parent>
 </gnc:account>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a0825d1</employee:guid>
+  <employee:username>Employee01</employee:username>
+  <employee:id>1</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee01</addr:name>
+    <addr:addr1>Employee01</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a0825d2</employee:guid>
+  <employee:username>Employee02</employee:username>
+  <employee:id>2</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee02</addr:name>
+    <addr:addr1>Employee02</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a0825d3</employee:guid>
+  <employee:username>Employee03</employee:username>
+  <employee:id>3</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee03</addr:name>
+    <addr:addr1>Employee03</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a0825d4</employee:guid>
+  <employee:username>Employee04</employee:username>
+  <employee:id>4</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee04</addr:name>
+    <addr:addr1>Employee04</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a0825d5</employee:guid>
+  <employee:username>Employee05</employee:username>
+  <employee:id>5</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee05</addr:name>
+    <addr:addr1>Employee05</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a0825d6</employee:guid>
+  <employee:username>Employee06</employee:username>
+  <employee:id>6</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee06</addr:name>
+    <addr:addr1>Employee06</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a0825d7</employee:guid>
+  <employee:username>Employee07</employee:username>
+  <employee:id>7</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee07</addr:name>
+    <addr:addr1>Employee07</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a0825d8</employee:guid>
+  <employee:username>Employee08</employee:username>
+  <employee:id>8</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee08</addr:name>
+    <addr:addr1>Employee08</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a0825d9</employee:guid>
+  <employee:username>Employee09</employee:username>
+  <employee:id>9</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee09</addr:name>
+    <addr:addr1>Employee09</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a082510</employee:guid>
+  <employee:username>Employee10</employee:username>
+  <employee:id>10</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee10</addr:name>
+    <addr:addr1>Employee10</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a082511</employee:guid>
+  <employee:username>Employee11</employee:username>
+  <employee:id>11</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee11</addr:name>
+    <addr:addr1>Employee11</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a082512</employee:guid>
+  <employee:username>Employee12</employee:username>
+  <employee:id>12</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee12</addr:name>
+    <addr:addr1>Employee12</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a082513</employee:guid>
+  <employee:username>Employee13</employee:username>
+  <employee:id>13</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee13</addr:name>
+    <addr:addr1>Employee13</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a082514</employee:guid>
+  <employee:username>Employee14</employee:username>
+  <employee:id>14</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee14</addr:name>
+    <addr:addr1>Employee14</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a082515</employee:guid>
+  <employee:username>Employee15</employee:username>
+  <employee:id>15</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee15</addr:name>
+    <addr:addr1>Employee15</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a082516</employee:guid>
+  <employee:username>Employee16</employee:username>
+  <employee:id>16</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee16</addr:name>
+    <addr:addr1>Employee16</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a082517</employee:guid>
+  <employee:username>Employee17</employee:username>
+  <employee:id>17</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee17</addr:name>
+    <addr:addr1>Employee17</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
+<gnc:GncEmployee version="2.0.0">
+  <employee:guid type="guid">e9baa93197a44d3bb30e96661a082518</employee:guid>
+  <employee:username>Employee18</employee:username>
+  <employee:id>18</employee:id>
+  <employee:addr version="2.0.0">
+    <addr:name>Employee18</addr:name>
+    <addr:addr1>Employee18</addr:addr1>
+    <addr:addr3>Montreal</addr:addr3>
+    <addr:addr4>QC</addr:addr4>
+  </employee:addr>
+  <employee:active>1</employee:active>
+  <employee:workday>0/1</employee:workday>
+  <employee:rate>0/1</employee:rate>
+  <employee:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>CAD</cmdty:id>
+  </employee:currency>
+</gnc:GncEmployee>
 </gnc:book>
 </gnc-v2>
 
