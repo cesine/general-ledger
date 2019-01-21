@@ -75,12 +75,12 @@ Periode Start,Periode End,Date,Description,Compte débiteur,Compte créditeur,Pa
 2016,2016,2016-12-21,"Avis de cotisation  4714621 (droits, -86.42)",-86.42,,3,2017-10-10,
 2016-01-01,2016-12-31,2017-01-02,Paiement,-89.69,,3,2017-10-10,
 2016-01-01,2016-12-31,2017-01-18,Annulation de la cotisation,-269.08,,3,2017-10-10,
-2016-01-01,2016-12-31,2017-01-18,Nouvelle cotisation,627.85,,3,2017-10-10,Why? There were no employees this year
-2015,2015,2017-02-06,Avis de cotisation de conciliation 2096571 (pénalités 150.00),150,,4,2017-10-10,
+2016-01-01,2016-12-31,2017-01-18,Nouvelle cotisation,627.85,,3,2017-10-10,"We got a letter about this, saying we declared 402.43 but they propose 627.85"
+2015,2015,2017-02-06,Avis de cotisation de conciliation 2096571 (pénalités 150.00),150,,4,2017-10-10,Paid at the counter 2017-10-10 by debit 3798
 2017-01-01,2017-12-31,2017-05-08,Paiement,-0.01,,3,2017-10-10,
 2017-01-01,2017-12-31,2017-05-10,Cotisation,0.01,,3,2017-10-10,
-2014-10-01,2014-12-31,2017-05-18,"Avis de cotisation  3172701 (droits, 1130.28, pénalités 169.54, Intérêts 169.74)",1469.56,,4,2017-10-10,
-2015-12-00,2015-12-00,2017-05-18,"Avis de cotisation  3172701 (droits, 1171.49, pénalités 425.71, Intérêts 97.54)",1694.74,,3,2017-10-10,"Where did this come from, how is there an invalid period?"
+2014-10-01,2014-12-31,2017-05-18,"Avis de cotisation  3172701 (droits, 1130.28, pénalités 169.54, Intérêts 169.74)",1469.56,,4,2017-10-10,"Paid at counter on 2017-10-10 by debit 3798, this should be returned after they include the savings account in their calculs"
+2015-12-00,2015-12-00,2017-05-18,"Avis de cotisation  3172721 (droits, 1171.49, pénalités 425.71, Intérêts 97.54)",1694.74,,3,2017-10-10,"Paid at counter on 2017-10-10 by debit 3798, this should be returned after they include the savings account in their calculs how is there an invalid period?"
 2017-01-01,2017-12-31,2017-08-22,Paiement excédentaire,0,,3,2017-10-10,
 2017-01-01,2017-12-31,2017-09-22,Paiement excédentaire,0,,3,2017-10-10,
 2015,2015,2017-09-25,Intérêts courus,5.8,,4,2017-10-10,
