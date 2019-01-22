@@ -82,7 +82,10 @@ jobs.transactions = ['transactionJSON', function(results, next) {
     transactions.push(transaction);
   });
 
-  next(null, transactions);
+  fs.appendFile(`ledger/${filename}_${Date.now()}.json`, JSON.stringify(results, null, 2), function(err, result) {
+    debug('done writing in file', err, result);
+    next(err, transactions);
+  });
 }];
 
 jobs.csv = ['fields', 'transactions', function(results, next) {
@@ -99,7 +102,7 @@ jobs.csv = ['fields', 'transactions', function(results, next) {
 
 jobs.xml = ['csv', function(results, next) {
   const xml = results.transactions.map(function(transaction) {
-    return ```
+    return `
       <gnc:transaction version="2.0.0">
         <trn:id type="guid">${uuid()}</trn:id>
         <trn:currency>
@@ -108,17 +111,17 @@ jobs.xml = ['csv', function(results, next) {
         </trn:currency>
         <trn:num>1</trn:num>
         <trn:date-posted>
-          <ts:date>${transaction.Date}</ts:date>
+          <ts:date>${new Date(transaction.Date)}</ts:date>
         </trn:date-posted>
         <trn:date-entered>
-          <ts:date>${transaction.Date}</ts:date>
+          <ts:date>${new Date(transaction.Date)}</ts:date>
         </trn:date-entered>
         <trn:description>${transaction.Description}</trn:description>
         <trn:slots>
           <slot>
             <slot:key>date-posted</slot:key>
             <slot:value type="gdate">
-              <gdate>${transaction.Date}</gdate>
+              <gdate>${new Date(transaction.Date)}</gdate>
             </slot:value>
           </slot>
           <slot>
@@ -136,14 +139,15 @@ jobs.xml = ['csv', function(results, next) {
           </trn:split>
         </trn:splits>
       </gnc:transaction>
-    ```;
+    `;
   });
-  next(null, xml);
+  fs.appendFile(`ledger/${filename}_${Date.now()}.xml`, xml, function(err, result) {
+    debug('done writing data', err, result);
+    next(err, xml);
+  });
 }];
 
 async.auto(jobs, function(err, results) {
   console.log('results', results);
-  fs.appendFile(`ledger/${filename}_${Date.now()}.json`, JSON.stringify(results, null, 2), function(err, result) {
-    debug('done writing in file', err, result);
-  });
+
 });
