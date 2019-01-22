@@ -1,109 +1,75 @@
-Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnucash6,TPS,TVQGnucash7,TVQ,TipsGnucash8,Tips,Currency,Category,Category9,Memo Field,Reconciled from
-2013-01-13,3034,STM,77,,,,,,,,,,,Travel,,,Paper Receipt
-2013-01-16,6010,BUREAU EN GROS #31,35.71,,,,,1.55,,3.1,,,CAD,Office expenses,,plastic film for whiteboards and white boad markers,Credit card statement
-2013-01-16,6010,KOODO AIRTIME,91.1,,,,,,,,,,,Utilities,,,Credit card statement
-2013-01-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,Utilities,,,Credit card statement
-2013-01-24,6010,STM JOLICOEUR DIN101,24.5,,,,,,,,,,CAD,Travel,,,Credit card statement
-2013-01-28,7426,STM,24.5,,,,,,,,,,CAD,Travel,,,Paper Receipt
-2013-01-29,8296,STM,77,,,,,,,,,,CAD,Travel,,,Paper Receipt
-2013-01-29,3034,STM,77,,,,,,,,,,CAD,Travel,,,Paper Receipt
-2013-02-03,3034,Canadian Tire Lasalle,9.76,,,8.49,,0.42,,0.85,,,CAD,Travel,,spark plugs ,Paper Receipt
-2013-02-05,4090,STM,45,,,,,,,,,,CAD,Travel,,,Paper Receipt
-2013-02-06,6010,STM SAINT LAUREN DIN101  ,77,,,,,,,,,,CAD,Travel,,,Credit card statement
-2013-02-10,6010,ESSO 3440 BOUL  ST-LAUREN,15.31,,,,,0.64,,1.28,,,CAD,Gas,,beer for android montreal ,Credit card statement
-2013-02-17,6010,TELUS MOBILITY PREAUTH,73.03,,,,,,,,,,,Utilities,,,Credit card statement
-2013-02-26,6010,DOMAINSATCOST,45,,,,,,,,,,,Amazon,,,Credit card statement
-2013-02-27,3034,STM,77,,,,,,,,,,CAD,Travel,,,Paper Receipt
-2013-03-03,3034,Esso Station la verendrye,45,,,,,1.96,,3.9,,,CAD,Travel,,,Paper Receipt
-2013-03-04,6010,LA SOURCE 5438           ,45.98,,,39.99,,2,,3.99,,,CAD,Small Electronics,,Samsung Galaxy tab charger,"Paper Receipt, Credit card statement"
-2013-03-05,3034,STM JOLICOEUR DIN101     ,45,,,,,,,,,,,Travel,,,Paper Receipt
-2013-03-05,6010,STM JOLICOEUR DIN101     ,77,,,,,,,,,,,Travel,,,"Paper Receipt, Credit card statement"
-2013-03-06,6010,Amazon Web Services      aws.amazon.co 37.74 US DOLLAR,39.69,,,,,,,,,,,Amazon,,,Credit card statement
-2013-03-06,6010,KOODO MOBILE PAC,48.69,,,,,,,,,,,Utilities,,,Credit card statement
-2013-03-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,Utilities,,,Credit card statement
-2013-03-18,3034,Element 14,104.95,,,0,,0,,,,,CAD,Small Electronics,,"Raspberry PI MODB-512M, Adafruit case (taxes and final total unknown)",Paper Receipt
-2013-03-21,6010,MIKE CONSULAR VISA,531.42,,,,,,,,,,,Travel,,Visa for Employee1 for China,Credit card statement
-2013-03-22,3034,Google Play,487.24,,,425.99,,61.25,,0,,0,CAD,Androids,,Nexus 10 tablet,Paper Receipt
-2013-04-01,3034,Future Shop Centreville,209.53,,,182.24,,9.11,,18.18,,,CAD,Small Electronics,,HP 23BW ,Paper Receipt
-2013-04-03,6010,Amazon Web Services      aws.amazon.com           47.68 US DOLLAR,49.26,,,49.26,,0,,0,,0,,Amazon,,,Credit card statement
-2013-04-06,6010,SHANGRI-LA HOTEL SHENZHEN    ,47.05,,,47.05,,0,,0,,0,,Meals,,,Credit card statement
-2013-04-06,6010,KOODO MOBILE PAC         ,46.45,,,,,,,,,,CAD,Utilities,,,Credit card statement
-2013-04-11,6010,SHANGRI-LA HOTEL SHENZHEN    ,28,,,28,,0,,0,,0,,Meals,,,Credit card statement
-2013-04-12,6010,SHANGRI-LA HOTEL SHENZHEN    ,19.61,,,19.61,,0,,0,,0,,Meals,,,Credit card statement
-2013-04-13,6010,SHANGRI-LA HOTEL SHENZHEN    ,33.89,,,33.89,,0,,0,,0,,Meals,,,Credit card statement
-2013-04-14,Employee1,870.00 RMB tablet,147.9,,,147.9,,0,,0,,0,,Androids,,Android 4.2 phone for testing,Paper Receipt
-2013-04-14,Employee1,152.00 RMB small electronics,25.84,,,25.84,,0,,0,,0,,Small Electronics,,SDCards,Paper Receipt
-2013-04-14,Employee1,75.00 RMB small electronics,12.75,,,12.75,,0,,0,,0,,Small Electronics,,Cables and keyboard?,Paper Receipt
-2013-04-15,6010,SHANGRI-LA HOTEL SHENZHEN    ,56.71,,,56.71,,0,,0,,0,,Meals,,,Credit card statement
-2013-04-16,6010,SHANGRI-LA HOTEL SHENZHEN    ,61.98,,,61.98,,0,,0,,0,,Meals,,,Credit card statement
-2013-04-16,6010,TELUS MOBILITY PREAUTH   ,74.27,,,,,,,,,,CAD,Utilities,,,Credit card statement
-2013-04-17,Employee1,625.00 RMB tablet,106.25,,,106.25,,0,,0,,0,,Androids,,Tablet for testing,Paper Receipt
-2013-04-19,6010,7561679 CANADA INC       ,35,,,,,,,,,,,Licenses,,,Credit card statement
-2013-04-29,6010,DOMAINSATCOST            ,13.6,,,,,,,,,,,Amazon,,,Credit card statement
-2013-05-03,6010,Amazon Web Services      aws.amazon.com            0.26 US DOLLAR,0.26,,,,,,,,,,,Amazon,,,Credit card statement
-2013-05-04,6010,Amazon Web Services      aws.amazon.com           46.24 US DOLLAR,47.7,,,,,,,,,,,Amazon,,,Credit card statement
-2013-05-04,6010,KOODO MOBILE PAC         ,46.45,,,,,,,,,,,Utilities,,,Credit card statement
-2013-05-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,Utilities,,,Credit card statement
-2013-05-18,3034,Walmart,160.78,,,139.84,,6.99,,13.95,,0,CAD,Furniture,,Microwave and toaster for new office,Paper Receipt
-2013-05-25,3034,Ikea,143.66,,,124.95,,6.25,,12.46,,9,CAD,Furniture,,Desk protectors for the office,Paper Receipt
-2013-05-27,3034,Ikea,3198.63,,,2782.02,,139.1,,277.51,,9,CAD,Furniture,,New furniture for the office,Paper Receipt
-2013-05-27,3758,BUREAU EN GROS #306,103.44,,,89.97,,4.5,,8.97,,0,CAD,Networking Hardware,,"Wifi router bought by Josh, reimbursed as cheque 40",Paper Receipt
-2013-05-27,,IGA,124.2,,,124.05,,0.05,,0.1,,0,CAD,Publicity,,Cheese and bread for the wine and cheese,Paper Receipt
-2013-05-28,3034,Home Depot,40.15,,,34.93,,1.75,,3.47,,0,CAD,Office equipment,,"Felt Gard for furniture, Reflector, DWKIT",Paper Receipt
-2013-06-03,6010,Amazon Web Services     aws.amazon.com       49.20 US DOLLAR,52.04,,,,,,,,,,,Amazon,,,Credit card statement
-2013-06-06,6010,KOODO MOBILE PAC,66.03,,,,,,,,,,,Utilities,,,Credit card statement
-2013-06-08,3034,BUREAU EN GROS #31,30.94,,,26.91,,1.35,,2.68,,,CAD,Office expenses,,Envelopes and filling sleaves for the filing cabinet,Paper Receipt
-2013-06-10,3034,PHARMAPRIX #0029,20.67,,,17.98,,0.9,,1.79,,0,CAD,Office expenses,,garbage bags for the office,Paper Receipt
-2013-06-13,3034,PHARMAPRIX #0029,13.39,,,15.99,,0.8,,1.6,,,CAD,Office expenses,,plunger,Paper Receipt
-2013-06-13,3034,STM,21.55,,,,,,,,,,CAD,Travel,,,Paper Receipt
-2013-06-15,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,Utilities,,,Credit card statement
-2013-06-19,3034,Canada Poste,18.2,,,18.2,,0,,0,,,CAD,Postage and Delivery,,Registered mail to new york,Paper Receipt
-2013-06-20,3034,STM,14,,,,,,,,,,CAD,Travel,,2 tickets for 7 dollars to take train to Oka,Paper Receipt
-2013-06-27,,STM Expressbus 747,7,,,,,,,,,,,Travel,,,Paper Receipt
-2013-06-29,3034,Canadian Tire Lasalle,158.13,,,137.53,,6.88,,13.72,,0,CAD,Office equipment,,"Table, lighter, wrenches for the office",Paper Receipt
-2013-07-05,6010,Amazon Web Services      aws.amazon.com           54.66 US DOLLAR,58.72,,,,,,,,,,,Amazon,,,Credit card statement
-2013-07-06,6010,KOODO MOBILE PAC,83.93,,,,,,,,,,,Utilities,,,Credit card statement
-2013-07-08,3034,Air Canada,3.25,,,3.25,,0,,0,,0,CAD,Travel,,headphones aboard flight,Paper Receipt
-2013-07-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,Utilities,,,Credit card statement
-2013-07-20,Employee1,Traverse Quebec – Levis,3.35,,,0,,0,,0,,0,CAD,Travel,,ferry with bicycle,Paper Receipt
-2013-07-23,Employee1,Via rail quebec,28.74,,,25,,1.25,,2.49,,0,CAD,Travel,,bike baggage check,Paper Receipt
-2013-07-24,6010,PETROCAN-317 RUE HOTEL,13.23,,,11.5,,0.58,,1.15,,0,CAD,Gas,,bike postage,"Paper Receipt, Credit card statement"
-2013-07-24,6010,PETROCAN-317 RUE HOTEL,84.05,,,73.1,,3.66,,7.29,,0,CAD,Gas,,bus ticket Riviere du loup to montreal,"Paper Receipt, Credit card statement"
-2013-07-27,6010,BIXI VELO/PUBLIC BIKE,8.75,,,,,,,,,,,Travel,,,Credit card statement
-2013-07-30,6010,PHARMAPRIX #29           ,15.78,,,15.03,,0.75,,0,,0,CAD,Postage and Delivery,,Shipped mac laptop for repairs to V6Z2Y6,"Paper Receipt, Credit card statement"
-2013-08-01,Employee1,Dollarama,3.93,,,3.75,,0.06,,0.12,,0,CAD,Office expenses,,snacks for office,Paper Receipt
-2013-08-02,3034,V de MTL Ban Ville-Marie,52,,,45.23,,2.26,,4.51,,0,CAD,Travel,,vignette for parking at office,Paper Receipt
-2013-08-03,6010,Amazon Web Services      aws.amazon.co           56.05 US DOLLAR,59.78,,,,,,,,,,,Amazon,,,Credit card statement
-2013-08-03,6010,KOODO MOBILE PAC,69.44,,,,,,,,,,,Utilities,,,Credit card statement
-2013-08-11,3034,Esso dorion,40.02,,,34.81,,1.74,,3.47,,0,CAD,Travel,,gas in vaudreauil ,Paper Receipt
-2013-08-16,6010,TELUS MOBILITY PREAUTH,72.43,,,,,,,,,,,Utilities,,,Credit card statement
-2013-08-17,3034,Bentley,13.78,,,11.98,,0.6,,1.2,,0,CAD,Travel,,suitcase ticket,Paper Receipt
-2013-08-17,6010,STM BEAUDRY DIN101,24.5,,,,,,,,,,CAD,Travel,,tickets,"Paper Receipt, Credit card statement"
-2013-08-20,6010,METRO STE CATHERINE,17.27,,,15.92,,0.45,,0.9,,0,CAD,Office expenses,,Wine and cheese and bread with alex,"Paper Receipt, Credit card statement"
-2013-08-21,6010,IGA LAMOUREUX,14.77,,,14.77,,0,,0,,,CAD,Travel,,fruit and bread in oka,Paper Receipt
-2013-08-29,6010,BEDO #44                 ,86.06,,,,,,,,,,,Amazon,,dress for vicky and nadia's weddings,Credit card statement
-2013-09-03,6010,DOMAINSATCOST            ,47.1,,,,,,,,,,,Amazon,,,Credit card statement
-2013-09-04,6010,Amazon Web Services      aws.amazon.co 51.10 US DOLLAR,55.23,,,,,,,,,,,Amazon,,,Credit card statement
-2013-09-06,6010,KOODO MOBILE PAC,69.44,,,,,,,,,,,Utilities,,,Credit card statement
-2013-09-14,6010,TELUS MOBILITY PREAUTH,74.27,,,,,,,,,,,Utilities,,,Credit card statement
-2013-09-18,6010,FOLIE EN VRAC,24.77,,,,,,,,,,,Office expenses,,office food,"Paper Receipt, Credit card statement"
-2013-09-23,3034,Sunoco Plattekill,21.28,,,0,,0,,0,,0,USD,Gas,,gas on return ot montreal,Paper Receipt
-2013-09-27,3034,PHARMAPRIX #0029,4.36,,,3.79,,0.19,,0.38,,0,CAD,Office expenses,,hand soap,Paper Receipt
-2013-10-01,6010,DOMAINSATCOST,31.4,,,,,,,,,,,Amazon,,,Credit card statement
-2013-10-06,6010,KOODO MOBILE PAC,69.44,,,,,,,,,,,Utilities,,reconstructed,Uu
-2013-10-14,6010,TELUS MOBILITY PREAUTH,74.27,,,,,,,,,,,Utilities,,reconstructed,
-2013-10-26,3034,Michaels,17.24,,,14.99,,0.75,,1.5,,0,CAD,Office expenses,,paintings,Paper Receipt
-2013-10-26,3034,Teavana,94.17,,,83.4,,4.1,,8.17,,0,CAD,Office expenses,,tea decanter and tea for the office,Paper Receipt
-2013-10-30,6010,ESSO 3440 BOUL  ST-LAUREN,20.15,,,17.69,,0.82,,1.64,,0,CAD,Gas,,Android montreal,Paper Receipt
-2013-11-03,6010,Amazon Web Services      aws.amazon.co           11.56 US DOLLAR,12.39,,,,,,,,,,,Amazon,,,Credit card statement
-2013-11-06,6010,Amazon Web Services      aws.amazon.co           15.84 US DOLLAR,16.99,,,,,,,,,,,Amazon,,,Credit card statement
-2013-11-06,6010,KOODO MOBILE PAC         ,43.08,,,,,,,,,,,Utilities,,,Credit card statement
-2013-11-16,6010,TELUS MOBILITY PREAUTH   ,72.43,,,,,,,,,,,Utilities,,,Credit card statement
-2013-11-27,6010,DOMAINSATCOST/DOMAINSA   ,27.2,,,,,,,,,,,Amazon,,,Credit card statement
-2013-12-03,6010,Amazon Web Services      aws.amazon.co            3.12 US DOLLAR,3.41,,,,,,,,,,,Amazon,,,Credit card statement
-2013-12-04,6010,Amazon Web Services      aws.amazon.co           11.56 US DOLLAR,12.68,,,,,,,,,,,Amazon,,,Credit card statement
-2013-12-04,6010,Amazon Web Services      aws.amazon.co           15.37 US DOLLAR,16.81,,,,,,,,,,,Amazon,,,Credit card statement
-2013-12-06,6010,KOODO MOBILE PAC,52.2,,,,,,,,,,,Utilities,,,Credit card statement
-2013-12-13,6010,STM BERRI UQAM DIS101,24.5,,,,,,,,,,,Travel,,,Credit card statement
-2013-12-14,6010,TELUS MOBILITY PREAUTH,82.55,,,,,,,,,,,Utilities,,,Credit card statement
-2013-12-24,6010,CORPORATN/IC 4303401,20,,,,,,,,,,,Licenses,,,Credit card statement
+Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnucash6,TPS,TVQGnucash7,TVQ,TipsGnucash8,Tips,Currency,Category,CategoryID,Category9,MemoField,Reconciled from
+2013-01-16,31944d3aedb7a5e7a87c9aa3f8dae825,BUREAU EN GROS #31,35.71,,,31.06,,1.55,,3.10,,,CAD,Office expenses,af71b129304b6b0bea736cf1cf965702,,plastic film for whiteboards and white boad markers,Credit card statement
+2013-01-16,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO AIRTIME,91.1,,,79.23,,3.96,,7.90,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-01-16,31944d3aedb7a5e7a87c9aa3f8dae825,TELUS MOBILITY PREAUTH,72.43,,,63.00,,3.15,,6.28,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-02-17,31944d3aedb7a5e7a87c9aa3f8dae825,TELUS MOBILITY PREAUTH,73.03,,,63.52,,3.18,,6.34,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-02-26,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,45,,,39.14,,1.96,,3.90,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-03-04,31944d3aedb7a5e7a87c9aa3f8dae825,LA SOURCE 5438           ,45.98,,,39.99,,2.00,,3.99,,,CAD,Small Electronics,b399fff5b6b10355f27b8687b29ec724,,Samsung Galaxy tab charger,"Paper Receipt, Credit card statement"
+2013-03-06,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co 37.74 US DOLLAR,39.69,,,39.69,,0.00,,0.00,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-03-06,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,48.69,,,42.35,,2.12,,4.22,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-03-16,31944d3aedb7a5e7a87c9aa3f8dae825,TELUS MOBILITY PREAUTH,72.43,,,63.00,,3.15,,6.28,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-03-18,146246790ca7fd24cd33420800c3a694,Element 14,104.95,,,91.28,,4.56,,9.11,,,CAD,Small Electronics,b399fff5b6b10355f27b8687b29ec724,,"Raspberry PI MODB-512M, Adafruit case (taxes and final total unknown)",Paper Receipt
+2013-03-21,31944d3aedb7a5e7a87c9aa3f8dae825,MIKE CONSULAR VISA,531.42,,,531.42,,0.00,,0.00,,,,Travel,2b90b480916be10e12b085956be5ccc2,,Visa for Employee1 for China,Credit card statement
+2013-03-22,146246790ca7fd24cd33420800c3a694,Google Play,487.24,,,423.78,,21.19,,42.27,,0,CAD,Androids,c75953b26e4343611a770d806bb1b554,,Nexus 10 tablet,Paper Receipt
+2013-04-01,146246790ca7fd24cd33420800c3a694,Future Shop Centreville,209.53,,,182.24,,9.11,,18.18,,,CAD,Small Electronics,b399fff5b6b10355f27b8687b29ec724,,HP 23BW ,Paper Receipt
+2013-04-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.com           47.68 US DOLLAR,49.26,,,49.26,,0.00,,0.00,,0,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-04-06,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC         ,46.45,,,40.40,,2.02,,4.03,,,CAD,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-04-06,31944d3aedb7a5e7a87c9aa3f8dae825,SHANGRI-LA HOTEL SHENZHEN    ,47.05,,,47.05,,0.00,,0.00,,0,,Meals,c2182d6f30c059e8c268332c30c26b5b,,,Credit card statement
+2013-04-11,31944d3aedb7a5e7a87c9aa3f8dae825,SHANGRI-LA HOTEL SHENZHEN    ,28,,,28.00,,0.00,,0.00,,0,,Meals,c2182d6f30c059e8c268332c30c26b5b,,,Credit card statement
+2013-04-12,31944d3aedb7a5e7a87c9aa3f8dae825,SHANGRI-LA HOTEL SHENZHEN    ,19.61,,,19.61,,0.00,,0.00,,0,,Meals,c2182d6f30c059e8c268332c30c26b5b,,,Credit card statement
+2013-04-13,31944d3aedb7a5e7a87c9aa3f8dae825,SHANGRI-LA HOTEL SHENZHEN    ,33.89,,,33.89,,0.00,,0.00,,0,,Meals,c2182d6f30c059e8c268332c30c26b5b,,,Credit card statement
+2013-04-14,31944d3aedb7a5e7a87c9aa3f8dae825,152.00 RMB small electronics,25.84,,,25.84,,0.00,,0.00,,0,,Small Electronics,b399fff5b6b10355f27b8687b29ec724,,SDCards,Paper Receipt
+2013-04-14,31944d3aedb7a5e7a87c9aa3f8dae825,75.00 RMB small electronics,12.75,,,12.75,,0.00,,0.00,,0,,Small Electronics,b399fff5b6b10355f27b8687b29ec724,,Cables and keyboard?,Paper Receipt
+2013-04-14,31944d3aedb7a5e7a87c9aa3f8dae825,870.00 RMB tablet,147.9,,,147.90,,0.00,,0.00,,0,,Androids,c75953b26e4343611a770d806bb1b554,,Android 4.2 phone for testing,Paper Receipt
+2013-04-15,31944d3aedb7a5e7a87c9aa3f8dae825,SHANGRI-LA HOTEL SHENZHEN    ,56.71,,,56.71,,0.00,,0.00,,0,,Meals,c2182d6f30c059e8c268332c30c26b5b,,,Credit card statement
+2013-04-16,31944d3aedb7a5e7a87c9aa3f8dae825,SHANGRI-LA HOTEL SHENZHEN    ,61.98,,,61.98,,0.00,,0.00,,0,,Meals,c2182d6f30c059e8c268332c30c26b5b,,,Credit card statement
+2013-04-16,31944d3aedb7a5e7a87c9aa3f8dae825,TELUS MOBILITY PREAUTH   ,74.27,,,64.60,,3.23,,6.44,,,CAD,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-04-17,31944d3aedb7a5e7a87c9aa3f8dae825,625.00 RMB tablet,106.25,,,106.25,,0.00,,0.00,,0,,Androids,c75953b26e4343611a770d806bb1b554,,Tablet for testing,Paper Receipt
+2013-04-19,31944d3aedb7a5e7a87c9aa3f8dae825,7561679 CANADA INC       ,35,,,35.00,,0.00,,0.00,,,,Licenses,3fd8cb454a9cb1e969a7145c1e554916,,,Credit card statement
+2013-04-29,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST            ,13.6,,,11.83,,0.59,,1.18,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-05-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.com            0.26 US DOLLAR,0.26,,,0.26,,0.00,,0.00,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-05-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.com           46.24 US DOLLAR,47.7,,,47.70,,0.00,,0.00,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-05-04,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC         ,46.45,,,40.40,,2.02,,4.03,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-05-16,31944d3aedb7a5e7a87c9aa3f8dae825,TELUS MOBILITY PREAUTH,72.43,,,63.00,,3.15,,6.28,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-05-18,146246790ca7fd24cd33420800c3a694,Walmart,160.78,,,139.84,,6.99,,13.95,,0,CAD,Furniture,f8d9656e0c68baa8c46bd25c8eb2f8cb,,Microwave and toaster for new office,Paper Receipt
+2013-05-25,146246790ca7fd24cd33420800c3a694,Ikea,143.66,,,124.95,,6.25,,12.46,,9,CAD,Furniture,f8d9656e0c68baa8c46bd25c8eb2f8cb,,Desk protectors for the office,Paper Receipt
+2013-05-27,146246790ca7fd24cd33420800c3a693,BUREAU EN GROS #306,103.44,,,89.97,,4.50,,8.97,,0,CAD,Networking Hardware,fc5bf64f1a519ee39c05e7d9a1a74924,,"Wifi router bought by Josh, reimbursed as cheque 40",Paper Receipt
+2013-05-27,146246790ca7fd24cd33420800c3a694,Ikea,3198.63,,,2782.02,,139.10,,277.51,,9,CAD,Furniture,f8d9656e0c68baa8c46bd25c8eb2f8cb,,New furniture for the office,Paper Receipt
+2013-05-28,146246790ca7fd24cd33420800c3a694,Home Depot,40.15,,,34.92,,1.75,,3.48,,0,CAD,Office equipment,af71b129304b6b0bea736cf1cf965702,,"Felt Gard for furniture, Reflector, DWKIT",Paper Receipt
+2013-06-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services     aws.amazon.com       49.20 US DOLLAR,52.04,,,52.04,,0.00,,0.00,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-06-06,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,66.03,,,57.43,,2.87,,5.73,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-06-08,146246790ca7fd24cd33420800c3a694,BUREAU EN GROS #31,30.94,,,26.91,,1.35,,2.68,,,CAD,Office expenses,af71b129304b6b0bea736cf1cf965702,,Envelopes and filling sleaves for the filing cabinet,Paper Receipt
+2013-06-10,146246790ca7fd24cd33420800c3a694,PHARMAPRIX #0029,20.67,,,17.98,,0.90,,1.79,,0,CAD,Office expenses,af71b129304b6b0bea736cf1cf965702,,garbage bags for the office,Paper Receipt
+2013-06-13,146246790ca7fd24cd33420800c3a694,PHARMAPRIX #0029,13.39,,,11.65,,0.58,,1.16,,,CAD,Office expenses,af71b129304b6b0bea736cf1cf965702,,plunger,Paper Receipt
+2013-06-15,31944d3aedb7a5e7a87c9aa3f8dae825,TELUS MOBILITY PREAUTH,72.43,,,63.00,,3.15,,6.28,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-06-19,146246790ca7fd24cd33420800c3a694,Canada Poste,18.2,,,15.83,,0.79,,1.58,,,CAD,Postage and Delivery,3511d11000fe2ce747dcf0a36cc06125,,Registered mail to new york,Paper Receipt
+2013-06-29,146246790ca7fd24cd33420800c3a694,Canadian Tire Lasalle,158.13,,,137.53,,6.88,,13.72,,0,CAD,Office equipment,af71b129304b6b0bea736cf1cf965702,,"Table, lighter, wrenches for the office",Paper Receipt
+2013-07-05,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.com           54.66 US DOLLAR,58.72,,,58.72,,0.00,,0.00,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-07-06,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,83.93,,,73.00,,3.65,,7.28,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-07-16,31944d3aedb7a5e7a87c9aa3f8dae825,TELUS MOBILITY PREAUTH,72.43,,,63.00,,3.15,,6.28,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-07-30,31944d3aedb7a5e7a87c9aa3f8dae825,PHARMAPRIX #29           ,15.78,,,13.72,,0.69,,1.37,,0,CAD,Postage and Delivery,3511d11000fe2ce747dcf0a36cc06125,,Shipped mac laptop for repairs to V6Z2Y6,"Paper Receipt, Credit card statement"
+2013-08-01,31944d3aedb7a5e7a87c9aa3f8dae825,Dollarama,3.93,,,3.42,,0.17,,0.34,,0,CAD,Office expenses,af71b129304b6b0bea736cf1cf965702,,snacks for office,Paper Receipt
+2013-08-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co           56.05 US DOLLAR,59.78,,,59.78,,0.00,,0.00,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-08-03,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,69.44,,,60.40,,3.02,,6.02,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-08-16,31944d3aedb7a5e7a87c9aa3f8dae825,TELUS MOBILITY PREAUTH,72.43,,,63.00,,3.15,,6.28,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-09-03,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST            ,47.1,,,40.97,,2.05,,4.09,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-09-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co 51.10 US DOLLAR,55.23,,,55.23,,0.00,,0.00,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-09-06,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,69.44,,,60.40,,3.02,,6.02,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-09-14,31944d3aedb7a5e7a87c9aa3f8dae825,TELUS MOBILITY PREAUTH,74.27,,,64.60,,3.23,,6.44,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-09-27,146246790ca7fd24cd33420800c3a694,PHARMAPRIX #0029,4.36,,,3.79,,0.19,,0.38,,0,CAD,Office expenses,af71b129304b6b0bea736cf1cf965702,,hand soap,Paper Receipt
+2013-10-01,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,31.4,,,27.31,,1.37,,2.72,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-10-06,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,69.44,,,60.40,,3.02,,6.02,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,reconstructed,Uu
+2013-10-14,31944d3aedb7a5e7a87c9aa3f8dae825,TELUS MOBILITY PREAUTH,74.27,,,64.60,,3.23,,6.44,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,reconstructed,
+2013-10-26,146246790ca7fd24cd33420800c3a694,Michaels,17.24,,,14.99,,0.75,,1.50,,0,CAD,Office expenses,af71b129304b6b0bea736cf1cf965702,,paintings,Paper Receipt
+2013-10-26,146246790ca7fd24cd33420800c3a694,Teavana,94.17,,,81.90,,4.10,,8.17,,0,CAD,Office expenses,af71b129304b6b0bea736cf1cf965702,,tea decanter and tea for the office,Paper Receipt
+2013-11-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co           11.56 US DOLLAR,12.39,,,12.39,,0.00,,0.00,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-11-06,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co           15.84 US DOLLAR,16.99,,,16.99,,0.00,,0.00,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-11-06,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC         ,43.08,,,37.47,,1.87,,3.74,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-11-16,31944d3aedb7a5e7a87c9aa3f8dae825,TELUS MOBILITY PREAUTH   ,72.43,,,63.00,,3.15,,6.28,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-11-27,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST/DOMAINSA   ,27.2,,,23.66,,1.18,,2.36,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-12-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            3.12 US DOLLAR,3.41,,,3.41,,0.00,,0.00,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-12-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co           11.56 US DOLLAR,12.68,,,12.68,,0.00,,0.00,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-12-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co           15.37 US DOLLAR,16.81,,,16.81,,0.00,,0.00,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2013-12-06,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,52.2,,,45.40,,2.27,,4.53,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-12-14,31944d3aedb7a5e7a87c9aa3f8dae825,TELUS MOBILITY PREAUTH,82.55,,,71.80,,3.59,,7.16,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2013-12-24,31944d3aedb7a5e7a87c9aa3f8dae825,CORPORATN/IC 4303401,20,,,20.00,,0.00,,0.00,,,,Licenses,3fd8cb454a9cb1e969a7145c1e554916,,,Credit card statement
