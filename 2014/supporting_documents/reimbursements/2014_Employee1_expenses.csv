@@ -1,0 +1,75 @@
+Date1,AccountNumber2,Payee3,Total,TotalGnucash4,ExpenseGnucash5,Expense,TPSGnucash6,TPS,TVQGnucash7,TVQ,TipsGnucash8,Tips,Currency,Category,CategoryID,Category9,MemoField,Reconciled from
+2014-01-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            0.31 US DOLLAR,0.34,,,0.34,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-01-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            11.54 US DOLLAR,12.63,,,12.63,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-01-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            15.89 US DOLLAR,17.38,,,17.38,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-01-04,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO AIRTIME,140.12,,,121.87,,6.09,,12.16,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-01-20,31944d3aedb7a5e7a87c9aa3f8dae825,GEMSTELECOM,257.46,,,223.92,,11.2,,22.34,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-02-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            11.56 US DOLLAR,13.2,,,13.20,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-02-05,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            16.06 US DOLLAR,18.3,,,18.30,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-02-06,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,64.74,,,56.30,,2.82,,5.62,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-02-20,31944d3aedb7a5e7a87c9aa3f8dae825,GEMSTELECOM,69.04,,,60.05,,3,,5.99,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-02-21,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,45,,,39.14,,1.96,,3.9,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-03-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            14.02 US DOLLAR,15.97,,,15.97,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-03-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            6.16 US DOLLAR,7.04,,,7.04,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-03-06,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,76.23,,,66.30,,3.32,,6.61,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-03-20,31944d3aedb7a5e7a87c9aa3f8dae825,GEMSTELECOM,68.97,,,59.99,,3,,5.98,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-03-23,31944d3aedb7a5e7a87c9aa3f8dae825,LTD OPTIMUM R BATUMI 300.00 GEORGIAN LARI,199.29,,,199.29,,,,,,,,Androids,c75953b26e4343611a770d806bb1b554,,,Credit card statement
+2014-04-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            15.48 US DOLLAR,17.53,,,17.53,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-04-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            6.16 US DOLLAR,6.97,,,6.97,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-04-05,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,129.22,,,112.39,,5.62,,11.21,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-04-20,31944d3aedb7a5e7a87c9aa3f8dae825,CRONOMAGIC.COM MOUNT-ROYAL QC,68.97,,,59.99,,3,,5.98,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-05-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            15.09 US DOLLAR,17.03,,,17.03,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-05-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            6.16 US DOLLAR,6.95,,,6.95,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-05-06,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,38.17,,,33.20,,1.66,,3.31,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-05-20,31944d3aedb7a5e7a87c9aa3f8dae825,GEMSTELECOM,68.97,,,59.99,,3,,5.98,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-06-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            1.50 US DOLLAR,1.68,,,1.68,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-06-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            15.78 US DOLLAR,17.71,,,17.71,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-06-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            6.16 US DOLLAR,6.92,,,6.92,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-06-06,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,68.19,,,59.30,,2.97,,5.92,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-06-20,31944d3aedb7a5e7a87c9aa3f8dae825,CRONOMAGIC.COM MOUNT-ROYAL QC,68.97,,,59.99,,3,,5.98,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-06-24,31944d3aedb7a5e7a87c9aa3f8dae825,AMTRACK.COM 263.00 US DOLLAR,289.92,,,289.92,,,,,,,,Travel,2b90b480916be10e12b085956be5ccc2,,,Credit card statement
+2014-07-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            1.50 US DOLLAR,1.64,,,1.64,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-07-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            14.89 US DOLLAR,16.29,,,16.29,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-07-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            6.17 US DOLLAR,6.75,,,6.75,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-07-05,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,68.19,,,59.30,,2.97,,5.92,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-07-20,31944d3aedb7a5e7a87c9aa3f8dae825,CRONOMAGIC.COM MOUNT-ROYAL QC,68.97,,,59.99,,3,,5.98,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-07-20,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,31.4,,,27.31,,1.37,,2.72,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-07-23,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,15.7,,,13.66,,0.68,,1.36,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-08-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            1.50 US DOLLAR,1.68,,,1.68,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-08-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            6.16 US DOLLAR,6.91,,,6.91,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-08-03,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,112.68,,,98.00,,4.9,,9.78,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-08-04,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            15.42 US DOLLAR,17.3,,,17.30,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-08-19,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,31.4,,,27.31,,1.37,,2.72,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-08-20,31944d3aedb7a5e7a87c9aa3f8dae825,GEMSTELECOM,68.97,,,59.99,,3,,5.98,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-08-29,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,99.18,,,86.27,,4.31,,8.6,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-09-02,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            6.16 US DOLLAR,6.9,,,6.90,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-09-02,31944d3aedb7a5e7a87c9aa3f8dae825,BEST BUY #967,184.98,,,160.89,,8.04,,16.05,,,,Small Electronics,b399fff5b6b10355f27b8687b29ec724,,,Credit card statement
+2014-09-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            1.50 US DOLLAR,1.68,,,1.68,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-09-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            15.40 US DOLLAR,17.25,,,17.25,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-09-19,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,21.95,,,19.10,,0.95,,1.9,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-09-20,31944d3aedb7a5e7a87c9aa3f8dae825,GEMSTELECOM,68.97,,,59.99,,3,,5.98,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-09-27,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,99.23,,,86.30,,4.32,,8.61,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-10-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            1.50 US DOLLAR,1.72,,,1.72,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-10-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            14.90 US DOLLAR,17.22,,,17.22,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-10-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            6.16 US DOLLAR,7.11,,,7.11,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-10-08,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,13.6,,,11.83,,0.59,,1.18,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-10-18,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,13.6,,,11.83,,0.59,,1.18,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-10-20,31944d3aedb7a5e7a87c9aa3f8dae825,GEMSTELECOM,68.97,,,59.99,,3,,5.98,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-10-21,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,13.6,,,11.83,,0.59,,1.18,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-10-24,31944d3aedb7a5e7a87c9aa3f8dae825,BUREAU EN GROS #306,0.65,,,0.56,,0.03,,0.06,,,,Office expenses,af71b129304b6b0bea736cf1cf965702,,,Credit card statement
+2014-10-24,31944d3aedb7a5e7a87c9aa3f8dae825,BUREAU EN GROS #306,28.59,,,24.87,,1.24,,2.48,,,,Office expenses,af71b129304b6b0bea736cf1cf965702,,,Credit card statement
+2014-10-27,31944d3aedb7a5e7a87c9aa3f8dae825,GEMSTELECOM,74.71,,,64.98,,3.25,,6.48,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-10-30,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,99.23,,,86.30,,4.32,,8.61,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-11-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            1.50 US DOLLAR,1.74,,,1.74,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-11-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            15.39 US DOLLAR,17.95,,,17.95,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-11-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            6.16 US DOLLAR,7.15,,,7.15,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,Credit card statement
+2014-11-15,31944d3aedb7a5e7a87c9aa3f8dae825,FLIGHTNETWORK,2639.9,,,2296.07,,114.8,,229.03,,,,Travel,2b90b480916be10e12b085956be5ccc2,,,Credit card statement
+2014-11-20,31944d3aedb7a5e7a87c9aa3f8dae825,CRONOMAGIC.COM MOUNT-ROYAL QC,68.97,,,59.99,,3,,5.98,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-11-21,31944d3aedb7a5e7a87c9aa3f8dae825,CORPORATN/IC 4784231,20,,,17.39,,0.87,,1.74,,,,Licenses,3fd8cb454a9cb1e969a7145c1e554916,,,Credit card statement
+2014-11-27,31944d3aedb7a5e7a87c9aa3f8dae825,REGISTRAIRE DES ENTREP,41.5,,,36.10,,1.8,,3.6,,,,Licenses,3fd8cb454a9cb1e969a7145c1e554916,,,Credit card statement
+2014-11-29,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,99.23,,,86.30,,4.32,,8.61,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,Credit card statement
+2014-12-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            1.50 US DOLLAR,1.74,,,1.74,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,
+2014-12-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            15.39 US DOLLAR,17.95,,,17.95,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,
+2014-12-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services      aws.amazon.co            6.16 US DOLLAR,7.15,,,7.15,,,,,,,,Amazon,5add7dd99382de8f166cb7e89b744062,,,
+2014-12-20,31944d3aedb7a5e7a87c9aa3f8dae825,CRONOMAGIC.COM MOUNT-ROYAL QC,68.97,,,59.99,,3,,5.98,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,
+2014-12-29,31944d3aedb7a5e7a87c9aa3f8dae825,KOODO MOBILE PAC,99.23,,,86.30,,4.32,,8.61,,,,Utilities,49bcd9d8957972e606cc9d8465796402,,,

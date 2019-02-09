@@ -1,0 +1,166 @@
+Date,AccountNumber2,Payee3,Notes,Account Name,Total,Expense,TPS,TVQ,Category,CategoryID,Reconciled from
+2015-01-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,6.16,6.16,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@il
+2015-01-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2015-01-06,31944d3aedb7a5e7a87c9aa3f8dae825,Koodo,6010,Cell Phone,39.5,32.55,2.32,4.63,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-01-16,31944d3aedb7a5e7a87c9aa3f8dae825,Telus,6010,Cell Phone,61.59,50.75,3.62,7.22,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-01-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2015-01-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2015-02-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,6.16,6.16,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@il
+2015-02-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2015-02-06,31944d3aedb7a5e7a87c9aa3f8dae825,Koodo,6010,Cell Phone,39.5,32.55,2.32,4.63,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-02-16,31944d3aedb7a5e7a87c9aa3f8dae825,Telus,6010,Cell Phone,61.59,50.75,3.62,7.22,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-02-20,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6010,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,seedw
+2015-02-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2015-02-22,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6011,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,aub
+2015-02-25,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6012,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,il
+2015-03-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,6.16,6.16,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@il
+2015-03-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2015-03-06,31944d3aedb7a5e7a87c9aa3f8dae825,Koodo,6010,Cell Phone,39.5,32.55,2.32,4.63,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-03-16,31944d3aedb7a5e7a87c9aa3f8dae825,Telus,6010,Cell Phone,61.59,50.75,3.62,7.22,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-03-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2015-04-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,6.16,6.16,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@il
+2015-04-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2015-04-06,31944d3aedb7a5e7a87c9aa3f8dae825,Koodo,6010,Cell Phone,39.5,32.55,2.32,4.63,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-04-16,31944d3aedb7a5e7a87c9aa3f8dae825,Telus,6010,Cell Phone,61.59,50.75,3.62,7.22,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-04-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2015-05-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,6.16,6.16,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@il
+2015-05-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2015-05-06,31944d3aedb7a5e7a87c9aa3f8dae825,Koodo,6010,Cell Phone,39.5,32.55,2.32,4.63,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-05-16,31944d3aedb7a5e7a87c9aa3f8dae825,Telus,6010,Cell Phone,61.59,50.75,3.62,7.22,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-05-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2015-06-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,6.16,6.16,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@il
+2015-06-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2015-06-06,31944d3aedb7a5e7a87c9aa3f8dae825,Koodo,6010,Cell Phone,39.5,32.55,2.32,4.63,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-06-16,31944d3aedb7a5e7a87c9aa3f8dae825,Telus,6010,Cell Phone,61.59,50.75,3.62,7.22,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-06-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2015-07-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,6.16,6.16,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@il
+2015-07-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2015-07-06,31944d3aedb7a5e7a87c9aa3f8dae825,Koodo,6010,Cell Phone,39.5,32.55,2.32,4.63,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-07-16,31944d3aedb7a5e7a87c9aa3f8dae825,Telus,6010,Cell Phone,61.59,50.75,3.62,7.22,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-07-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2015-08-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,6.16,6.16,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@il
+2015-08-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2015-08-06,31944d3aedb7a5e7a87c9aa3f8dae825,Koodo,6010,Cell Phone,39.5,32.55,2.32,4.63,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-08-16,31944d3aedb7a5e7a87c9aa3f8dae825,Telus,6010,Cell Phone,61.59,50.75,3.62,7.22,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-08-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2015-09-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6013,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,fieldl
+2015-09-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6014,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,seedn
+2015-09-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,6.16,6.16,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@il
+2015-09-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2015-09-05,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6015,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,field
+2015-09-06,31944d3aedb7a5e7a87c9aa3f8dae825,Koodo,6010,Cell Phone,39.5,32.55,2.32,4.63,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-09-16,31944d3aedb7a5e7a87c9aa3f8dae825,Telus,6010,Cell Phone,61.59,50.75,3.62,7.22,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-09-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2015-10-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6016,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,sync.com
+2015-10-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6017,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,sync.org
+2015-10-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,6.16,6.16,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@il
+2015-10-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2015-10-06,31944d3aedb7a5e7a87c9aa3f8dae825,Koodo,6010,Cell Phone,39.5,32.55,2.32,4.63,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-10-07,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6018,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,lab.ca
+2015-10-16,31944d3aedb7a5e7a87c9aa3f8dae825,Telus,6010,Cell Phone,61.59,50.75,3.62,7.22,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-10-17,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6019,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,ces
+2015-10-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2015-11-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,6.16,6.16,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@il
+2015-11-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2015-11-03,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6020,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,openl
+2015-11-06,31944d3aedb7a5e7a87c9aa3f8dae825,Koodo,6010,Cell Phone,39.5,32.55,2.32,4.63,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-11-16,31944d3aedb7a5e7a87c9aa3f8dae825,Telus,6010,Cell Phone,61.59,50.75,3.62,7.22,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-11-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2015-12-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6021,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,pho
+2015-12-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,6.16,6.16,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@il
+2015-12-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2015-12-06,31944d3aedb7a5e7a87c9aa3f8dae825,Koodo,6010,Cell Phone,39.5,32.55,2.32,4.63,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-12-16,31944d3aedb7a5e7a87c9aa3f8dae825,Telus,6010,Cell Phone,61.59,50.75,3.62,7.22,Utilities,49bcd9d8957972e606cc9d8465796402,
+2015-12-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2016-01-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,2.56,2.56,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@il
+2016-01-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2016-01-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2016-01-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2016-02-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2016-02-20,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6010,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,seedw
+2016-02-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2016-02-22,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6011,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,aub
+2016-02-25,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6012,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,il
+2016-03-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2016-03-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2016-04-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2016-04-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2016-05-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2016-05-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2016-06-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2016-06-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2016-07-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2016-07-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2016-08-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2016-08-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2016-09-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6013,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,fieldl
+2016-09-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6014,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,seedn
+2016-09-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,25.15,25.15,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2016-09-05,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6015,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,field
+2016-09-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2016-10-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6016,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,sync.com
+2016-10-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6017,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,sync.org
+2016-10-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2016-10-07,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6018,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,lab.ca
+2016-10-17,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6019,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,ces
+2016-10-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2016-11-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2016-11-03,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6020,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,openl
+2016-11-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2016-12-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6021,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,pho
+2016-12-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2016-12-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2017-01-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2017-01-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2017-01-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2017-02-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,15.45,15.45,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2017-02-20,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6010,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,seedw
+2017-02-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2017-02-22,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6011,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,aub
+2017-02-25,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6012,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,il
+2017-03-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,13.88,13.88,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2017-03-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2017-04-03,31944d3aedb7a5e7a87c9aa3f8dae825,Amazon Web Services,6010,Hosting,8.67,8.67,,,Amazon,5add7dd99382de8f166cb7e89b744062,Email Statement apps@fieldl
+2017-04-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2017-05-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2017-06-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2017-07-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2017-08-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2017-09-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6013,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,fieldl
+2017-09-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6014,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,seedn
+2017-09-05,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6015,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,field
+2017-09-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2017-10-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6016,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,sync.com
+2017-10-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6017,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,sync.org
+2017-10-07,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6018,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,lab.ca
+2017-10-17,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6019,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,ces
+2017-10-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2017-11-03,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6020,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,openl
+2017-11-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2017-12-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6021,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,pho
+2017-12-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2018-01-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2018-01-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2018-02-20,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6010,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,seedw
+2018-02-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,6010,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2018-02-22,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6011,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,aub
+2018-02-25,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6012,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,il
+2018-03-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2018-04-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2018-05-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2018-06-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2018-07-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2018-08-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2018-09-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6013,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,fieldl
+2018-09-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6014,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,seedn
+2018-09-05,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6015,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,field
+2018-09-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2018-10-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6016,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,sync.com
+2018-10-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6017,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,sync.org
+2018-10-07,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6018,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,lab.ca
+2018-10-17,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6019,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,ces
+2018-10-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2018-11-03,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6020,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,openl
+2018-11-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
+2018-12-02,31944d3aedb7a5e7a87c9aa3f8dae825,DOMAINSATCOST,6021,Hosting,11.83,10.06,0.59,1.18,Amazon,5add7dd99382de8f166cb7e89b744062,pho
+2018-12-20,31944d3aedb7a5e7a87c9aa3f8dae825,Gemstelecom/CRONOMAGIC,4316,Internet,59.99,51.01,3,5.98,Utilities,49bcd9d8957972e606cc9d8465796402,Email statement
