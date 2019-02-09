@@ -8,7 +8,7 @@ const debug = require('debug')('transaction2json');
 const fs = require('fs');
 const parse = require('csv-parse');
 
-const filename = '2013_Employee1_expenses';
+const filename = '2014_Employee1_expenses';
 const jobs = {};
 const SAMPLE_SIZE = process.env.SAMPLE_SIZE ? parseInt(process.env.SAMPLE_SIZE) : 10;
 const ID_FIELD = process.env.ID_FIELD || 'Transaction_ID';
@@ -16,7 +16,7 @@ const ACCOUNT_NAME_FIELD = process.env.ACCOUNT_NAME_FIELD || 'Full_Account_Name'
 const VALUE_FIELD = process.env.VALUE_FIELD || 'Amount_Num';
 
 jobs.csv = function(next) {
-  const transactionsFile = fs.createReadStream(`./2013/supporting_documents/reimbursements/${filename}.csv`);
+  const transactionsFile = fs.createReadStream(`./2014/supporting_documents/reimbursements/${filename}.csv`);
   const rows = [];
   const parser = parse({
     columns: true,
@@ -102,7 +102,7 @@ jobs.xml = ['csv', function(results, next) {
   </trn:splits>
 </gnc:transaction>`;
   }).join('');
-  fs.appendFile(`2013/supporting_documents/reimbursements/${filename}_${Date.now()}.xml`, xml, function(err, result) {
+  fs.appendFile(`2014/supporting_documents/reimbursements/${filename}_${Date.now()}.xml`, xml, function(err, result) {
     debug('done writing data', err, result);
     next(err, xml);
   });
